@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envisor Logging Webserver</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            width: 99%;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        #terminal {
+            width: 99%;
+            height: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #000;
+        }
+        #controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #serverSelect1, #serverSelect2 {
+            font-size: 12px;
+            padding: 5px;
+            width: 150px;
+        }
+        #status {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .status-icon {
+            font-size: 12px;
+        }
+        .online {
+            color: green;
+        }
+        .offline {
+            color: red;
+        }
+        #openLinkButton {
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebSocket Serial Monitor</h1>
+    
+    <!-- Controls container -->
+    <div id="controls">
+        <!-- Dropdown for selecting the server -->
+        <select id="serverSelect1">
+            <option value="8006" data-url="1CKfrJlCzmKZob8DHjN4ca3Hvdi_R32tm">Envisor_testing_06</option>
+            <option value="8007" data-url="1UP1C5U5crPjxAz7pPL2N9-oNP2--vCXa">Envisor_testing_07</option>
+            <option value="8008" data-url="1727uLleypch9DcZstFlTwCwhb6yHPfag">Envisor_testing_08</option>
+            <option value="8009" data-url="1rDD7kORgLX0ZxDvThdwCju-ox7VzrHuE">Envisor_testing_09</option>
+            <option value="8010" data-url="1VdxV1ybXN8vQSmWYEvC9zzmEYdEsPG3Y">Envisor_testing_10</option>
+            <option value="8011" data-url="1KLecmb7XYQ4zObJ-bQXdbauUS8mxKl9p">Envisor_testing_11</option>
+            <option value="8012" data-url="1JmFJrjgVPgTcWHRd_F9toveEO0D37DLs">Envisor_testing_12</option>
+            <option value="8013" data-url="1WiHZvVdiymDpCtWLwJ3_voyK1EmvOB8b">Envisor_testing_13</option>
+        </select>
+
+        <!-- Additional dropdown -->
+        <select id="serverSelect2">
+            <option value="8000" data-url="1QNxz8PFKt3qvtgH_TT8f54_odAhb2Y3D">Cabinet-1</option>
+            <option value="8001" data-url="1C2TLA-p1DU8ePHOEOTjmvPk-r8GmS5Q3">Cabinet-2</option>
+            <option value="8002" data-url="1n-ffvZk02NeihP-WuJUW7lqB5O61OGrB">Cabinet-3</option>
+            <option value="8003" data-url="19sC_RDWDjcN-tBgcZe0GRNkSTtRdv_Vf">Cabinet-4</option>
+            <option value="8004" data-url="1FWOEeou1Ul8o6zJmespuoyljsLQSXbCU">Cabinet-5</option>
+	    <option value="8005" data-url="1ecBjzAzOfKpZN_378BpGJgQCK8Aymqjv">Cabinet-test</option>
+	    <option value="8014" data-url="17X46IUy_m3NSt84kvEGbRx51CoF94-BE">Cabinet-test1</option>
+            <option value="8017" data-url="1giP9lMbMDFbsfq_Vqhi-wC8lp85O1eCH">Cabinet-6007</option>
+            <option value="8018" data-url="1ehBlswXgfVk4iskY65AVP7oW-AT00oJ7">Cabinet-6008</option>
+            <option value="8019" data-url="18R2MmQ5lp3mECfveS4S2022rdmVrvk-G">Cabinet-6009</option>
+            <option value="8020" data-url="1gCZ_j95Dfe8E4P8P3u0avDJsmN9Q-9bp">Cabinet-6010</option>
+        </select>
+
+        <!-- Open link button -->
+        <button id="openLinkButton">
+            <i class="fa-brands fa-google-drive"></i> Open Drive
+        </button>
+
+        <!-- Status indicator -->
+        <div id="status">
+            <i class="fas fa-circle status-icon offline"></i>
+            <span>Status: Offline</span>
+        </div>
+    </div>
+
+    <div id="terminal"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.min.js"></script>
+    <script>
+        const terminal = new Terminal({convertEol: true});
+        const statusElement = document.getElementById('status');
+        const statusIcon = statusElement.querySelector('.status-icon');
+        const statusText = statusElement.querySelector('span');
+
+        terminal.open(document.getElementById('terminal'));
+        terminal.writeln('WebSocket Serial Monitor initialized.');
+
+        const fitAddon = new FitAddon.FitAddon();
+        terminal.loadAddon(fitAddon);
+        fitAddon.fit();
+
+        window.addEventListener('resize', () => {
+            fitAddon.fit();
+        });
+
+        let socket;
+        let timeout;
+        let lastSelectedOption = null; // Variable to store the last selected option
+
+        function updateStatus(isOnline) {
+            if (isOnline) {
+                statusText.textContent = 'Status: Online';
+                statusIcon.classList.add('online');
+                statusIcon.classList.remove('offline');
+            } else {
+                statusText.textContent = 'Status: Offline';
+                statusIcon.classList.add('offline');
+                statusIcon.classList.remove('online');
+            }
+        }
+
+        function resetTimeout() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                updateStatus(false);
+                terminal.writeln('No messages received for 10 seconds. Status: Offline.');
+            }, 20000);
+        }
+
+        function connectToWebSocket(serverUrl) {
+            if (socket) {
+                socket.close();
+            }
+            socket = new WebSocket(serverUrl);
+
+            socket.onopen = function() {
+                terminal.writeln(`Connected to ${serverUrl}`);
+                updateStatus(false);
+            };
+
+            socket.onmessage = function(event) {
+                terminal.write(event.data + "\n");
+                updateStatus(true);
+                resetTimeout();
+            };
+
+            socket.onclose = function() {
+                terminal.writeln(`Connection to ${serverUrl} closed.`);
+                updateStatus(false);
+            };
+        }
+
+        // Function to handle dropdown changes for both select elements
+        function handleServerChange(event) {
+            lastSelectedOption = event.target.selectedOptions[0]; // Update the last selected option
+            const selectedServer = "ws://13.55.39.26:" + event.target.value;
+            terminal.clear();
+            terminal.writeln(`Switching to ${selectedServer}...`);
+            connectToWebSocket(selectedServer);
+        }
+        // Event listeners for both dropdowns
+        document.getElementById('serverSelect1').addEventListener('change', handleServerChange);
+        document.getElementById('serverSelect2').addEventListener('change', handleServerChange);
+
+        // Open Link Button functionality
+        document.getElementById('openLinkButton').addEventListener('click', function() {
+            if (lastSelectedOption) {
+                const url = "https://drive.google.com/drive/folders/" + lastSelectedOption.getAttribute('data-url');
+                window.open(url, '_blank'); // Open the URL in a new tab
+            } else {
+                alert("Please select an option from the dropdown.");
+            }
+        });
+    </script>
+</body>
+</html>
