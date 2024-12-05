@@ -1,0 +1,1539 @@
+[Fri Nov 22 19:00:15 2024] [0;32mI (18:59:16.120) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:00:15 2024] [0;32mI (18:59:17.136) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1732276757",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:00:15 2024] [0;32mI (18:59:17.638) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:00:24 2024] [0;33mW (18:59:26.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:00:24 2024] [0;32mI (18:59:27.000) CABINET: 2024-11-22 18:59:27[0m
+[Fri Nov 22 19:00:41 2024] [0;32mI (18:59:46.322) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:00:41 2024] [0;32mI (18:59:46.332) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:00:42 2024] [0;32mI (18:59:47.346) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1732276786",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:00:42 2024] [0;32mI (18:59:47.525) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:00:52 2024] [0;33mW (18:59:56.983) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:00:52 2024] [0;33mW (18:59:56.993) CABINET: Into alram task[0m
+[Fri Nov 22 19:00:52 2024] [0;32mI (18:59:56.000) CABINET: 2024-11-22 18:59:56[0m
+[Fri Nov 22 19:01:10 2024] [0;32mI (19:00:15.531) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:01:10 2024] [0;32mI (19:00:15.545) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:01:12 2024] [0;32mI (19:00:16.558) MQTT: Message sent: {
+	"continous_operation":	0.09,
+	"rtc":	"1732276816",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:01:12 2024] [0;32mI (19:00:16.839) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.984) CABINET: Into alram task[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.000) CABINET: 2024-11-22 19:00:25[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.011) CABINET: Turn on : 0[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.018) MQTT: Received timer status:
+	Relay: d01,
+	Timer: 7,
+	Value: 1,
+	Timestamp: 1732276825[0m
+[Fri Nov 22 19:01:21 2024] [0;31mE (19:00:25.017) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.041) MQTT: send timer sync: {"type":"timer","data":[{"id":"d01","i":"7","v":"1","ts":"1732276825","r":"timer"}]}[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.060) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.067) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.081) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.099) NVS: Store successfully state of device[1]: 0[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.107) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFE[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.117) CURRENT_RELAY: status: 11111110 (0xFE)[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.143) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.228) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.238) CABINET_CONTROLLER_LOG: Relay 1 is NOW: OFF [0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.248) MQTT: Received feedback from relay control task: 0, 1[0m
+[Fri Nov 22 19:01:21 2024] [0;31mE (19:00:25.249) Signal sended queue: relay_index: 0, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.258) MQTT: Sync data sent: {"d01":1}[0m
+[Fri Nov 22 19:01:21 2024] [0;32mI (19:00:25.349) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.429) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFE[0m
+[Fri Nov 22 19:01:21 2024] [0;33mW (19:00:25.439) FEEDBACK_RELAY: status: 11111110 (0xFE)[0m
+[Fri Nov 22 19:01:40 2024] [0;32mI (19:00:44.809) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:01:40 2024] [0;32mI (19:00:44.821) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:01:41 2024] [0;32mI (19:00:45.836) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1732276845",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:01:41 2024] [0;32mI (19:00:46.187) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:01:50 2024] [0;33mW (19:00:54.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:01:50 2024] [0;33mW (19:00:54.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:01:50 2024] [0;32mI (19:00:54.000) CABINET: 2024-11-22 19:00:54[0m
+[Fri Nov 22 19:02:10 2024] [0;32mI (19:01:14.047) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:02:11 2024] [0;32mI (19:01:15.068) MQTT: Message sent: {
+	"continous_operation":	0.11,
+	"rtc":	"1732276874",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:02:11 2024] [0;32mI (19:01:16.224) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:02:19 2024] [0;33mW (19:01:23.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:02:19 2024] [0;33mW (19:01:23.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:02:19 2024] [0;32mI (19:01:23.000) CABINET: 2024-11-22 19:01:23[0m
+[Fri Nov 22 19:02:38 2024] [0;32mI (19:01:43.280) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:02:38 2024] [0;32mI (19:01:43.291) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:02:39 2024] [0;32mI (19:01:44.307) MQTT: Message sent: {
+	"continous_operation":	0.12,
+	"rtc":	"1732276904",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:02:48 2024] [0;33mW (19:01:52.982) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:02:48 2024] [0;33mW (19:01:52.993) CABINET: Into alram task[0m
+[Fri Nov 22 19:02:48 2024] [0;32mI (19:01:52.000) CABINET: 2024-11-22 19:01:52[0m
+[Fri Nov 22 19:03:03 2024] [0;32mI (19:02:07.208) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:03:08 2024] [0;32mI (19:02:12.485) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:03:08 2024] [0;32mI (19:02:12.496) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:03:09 2024] [0;32mI (19:02:13.512) MQTT: Message sent: {
+	"continous_operation":	0.12,
+	"rtc":	"1732276933",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:03:09 2024] [0;32mI (19:02:13.630) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:03:17 2024] [0;33mW (19:02:21.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:03:17 2024] [0;33mW (19:02:21.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:03:17 2024] [0;32mI (19:02:21.000) CABINET: 2024-11-22 19:02:21[0m
+[Fri Nov 22 19:03:37 2024] [0;32mI (19:02:41.716) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:03:37 2024] [0;32mI (19:02:41.726) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:03:38 2024] [0;32mI (19:02:42.751) MQTT: Message sent: {
+	"continous_operation":	0.13,
+	"rtc":	"1732276962",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:03:38 2024] [0;32mI (19:02:43.146) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:03:46 2024] [0;33mW (19:02:50.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:03:46 2024] [0;33mW (19:02:50.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:03:46 2024] [0;32mI (19:02:50.000) CABINET: 2024-11-22 19:02:50[0m
+[Fri Nov 22 19:04:06 2024] [0;32mI (19:03:10.971) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:04:06 2024] [0;32mI (19:03:10.982) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:04:07 2024] [0;32mI (19:03:11.996) MQTT: Message sent: {
+	"continous_operation":	0.14,
+	"rtc":	"1732276992",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:04:08 2024] [0;32mI (19:03:12.248) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:04:15 2024] [0;33mW (19:03:19.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:04:15 2024] [0;33mW (19:03:19.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:04:15 2024] [0;32mI (19:03:19.000) CABINET: 2024-11-22 19:03:19[0m
+[Fri Nov 22 19:04:36 2024] [0;32mI (19:03:40.202) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:04:36 2024] [0;32mI (19:03:40.212) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:04:37 2024] [0;32mI (19:03:41.233) MQTT: Message sent: {
+	"continous_operation":	0.15,
+	"rtc":	"1732277021",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:04:37 2024] [0;32mI (19:03:41.324) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:04:44 2024] [0;33mW (19:03:48.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:04:44 2024] [0;33mW (19:03:48.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:04:44 2024] [0;32mI (19:03:48.000) CABINET: 2024-11-22 19:03:48[0m
+[Fri Nov 22 19:05:05 2024] [0;32mI (19:04:09.463) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:05:05 2024] [0;32mI (19:04:09.473) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:05:06 2024] [0;32mI (19:04:10.488) MQTT: Message sent: {
+	"continous_operation":	0.16,
+	"rtc":	"1732277050",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:05:06 2024] [0;32mI (19:04:10.801) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:05:13 2024] [0;33mW (19:04:17.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:05:13 2024] [0;33mW (19:04:17.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:05:13 2024] [0;32mI (19:04:17.000) CABINET: 2024-11-22 19:04:17[0m
+[Fri Nov 22 19:05:34 2024] [0;32mI (19:04:38.686) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:05:34 2024] [0;32mI (19:04:38.695) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:05:35 2024] [0;32mI (19:04:39.715) MQTT: Message sent: {
+	"continous_operation":	0.17,
+	"rtc":	"1732277079",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:05:35 2024] [0;32mI (19:04:39.856) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:05:42 2024] [0;33mW (19:04:46.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:05:42 2024] [0;33mW (19:04:46.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:05:42 2024] [0;32mI (19:04:47.000) CABINET: 2024-11-22 19:04:47[0m
+[Fri Nov 22 19:06:04 2024] [0;32mI (19:05:08.898) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:06:04 2024] [0;32mI (19:05:08.908) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:06:05 2024] [0;32mI (19:05:09.926) MQTT: Message sent: {
+	"continous_operation":	0.17,
+	"rtc":	"1732277109",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:06:05 2024] [0;32mI (19:05:10.121) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:06:12 2024] [0;33mW (19:05:16.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:06:12 2024] [0;33mW (19:05:16.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:06:12 2024] [0;32mI (19:05:16.000) CABINET: 2024-11-22 19:05:16[0m
+[Fri Nov 22 19:06:33 2024] [0;32mI (19:05:38.089) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:06:33 2024] [0;32mI (19:05:38.099) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:06:34 2024] [0;32mI (19:05:39.118) MQTT: Message sent: {
+	"continous_operation":	0.18,
+	"rtc":	"1732277138",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:06:34 2024] [0;32mI (19:05:39.305) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:06:41 2024] [0;33mW (19:05:45.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:06:41 2024] [0;33mW (19:05:45.981) CABINET: Into alram task[0m
+[Fri Nov 22 19:06:41 2024] [0;32mI (19:05:45.000) CABINET: 2024-11-22 19:05:45[0m
+[Fri Nov 22 19:07:02 2024] [0;32mI (19:06:07.313) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:07:02 2024] [0;32mI (19:06:07.324) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:07:03 2024] [0;32mI (19:06:08.344) MQTT: Message sent: {
+	"continous_operation":	0.19,
+	"rtc":	"1732277168",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:07:03 2024] [0;32mI (19:06:08.459) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:07:10 2024] [0;33mW (19:06:14.982) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:07:10 2024] [0;33mW (19:06:14.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:07:10 2024] [0;32mI (19:06:14.000) CABINET: 2024-11-22 19:06:14[0m
+[Fri Nov 22 19:07:32 2024] [0;32mI (19:06:36.546) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:07:32 2024] [0;32mI (19:06:36.555) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:07:33 2024] [0;32mI (19:06:37.577) MQTT: Message sent: {
+	"continous_operation":	0.2,
+	"rtc":	"1732277197",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:07:33 2024] [0;32mI (19:06:37.672) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:07:39 2024] [0;33mW (19:06:43.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:07:39 2024] [0;33mW (19:06:43.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:07:39 2024] [0;32mI (19:06:43.000) CABINET: 2024-11-22 19:06:43[0m
+[Fri Nov 22 19:08:01 2024] [0;32mI (19:07:05.776) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:08:01 2024] [0;32mI (19:07:05.787) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:08:02 2024] [0;32mI (19:07:06.803) MQTT: Message sent: {
+	"continous_operation":	0.21,
+	"rtc":	"1732277226",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:08:02 2024] [0;32mI (19:07:06.923) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:08:08 2024] [0;33mW (19:07:12.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:08:08 2024] [0;33mW (19:07:12.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:08:08 2024] [0;32mI (19:07:12.000) CABINET: 2024-11-22 19:07:12[0m
+[Fri Nov 22 19:08:30 2024] [0;32mI (19:07:34.971) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:08:30 2024] [0;32mI (19:07:34.982) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:08:33 2024] [0;32mI (19:07:36.259) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:08:37 2024] [0;33mW (19:07:41.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:08:37 2024] [0;33mW (19:07:41.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:08:37 2024] [0;32mI (19:07:41.000) CABINET: 2024-11-22 19:07:41[0m
+[Fri Nov 22 19:09:00 2024] [0;32mI (19:08:04.232) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:09:00 2024] [0;32mI (19:08:04.243) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:09:01 2024] [0;32mI (19:08:05.263) MQTT: Message sent: {
+	"continous_operation":	0.22,
+	"rtc":	"1732277285",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:09:01 2024] [0;32mI (19:08:05.378) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:09:06 2024] [0;33mW (19:08:10.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:09:06 2024] [0;33mW (19:08:10.983) CABINET: Into alram task[0m
+[Fri Nov 22 19:09:06 2024] [0;32mI (19:08:10.000) CABINET: 2024-11-22 19:08:10[0m
+[Fri Nov 22 19:09:29 2024] [0;32mI (19:08:33.476) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:09:29 2024] [0;32mI (19:08:33.487) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:09:30 2024] [0;32mI (19:08:34.499) MQTT: Message sent: {
+	"continous_operation":	0.23,
+	"rtc":	"1732277314",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:09:30 2024] [0;32mI (19:08:34.777) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:09:36 2024] [0;33mW (19:08:39.984) CABINET: Into alram task[0m
+[Fri Nov 22 19:09:36 2024] [0;32mI (19:08:39.000) CABINET: 2024-11-22 19:08:39[0m
+[Fri Nov 22 19:09:58 2024] [0;32mI (19:09:02.737) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:09:58 2024] [0;32mI (19:09:02.748) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:09:59 2024] [0;32mI (19:09:03.764) MQTT: Message sent: {
+	"continous_operation":	0.24,
+	"rtc":	"1732277343",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:09:59 2024] [0;32mI (19:09:03.901) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:10:04 2024] [0;33mW (19:09:08.979) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:10:04 2024] [0;33mW (19:09:08.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:10:04 2024] [0;32mI (19:09:08.000) CABINET: 2024-11-22 19:09:08[0m
+[Fri Nov 22 19:10:27 2024] [0;32mI (19:09:31.965) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:10:27 2024] [0;32mI (19:09:31.976) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:10:28 2024] [0;32mI (19:09:32.991) MQTT: Message sent: {
+	"continous_operation":	0.25,
+	"rtc":	"1732277373",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:10:29 2024] [0;32mI (19:09:33.118) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:10:33 2024] [0;33mW (19:09:37.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:10:33 2024] [0;33mW (19:09:37.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:10:33 2024] [0;32mI (19:09:38.000) CABINET: 2024-11-22 19:09:38[0m
+[Fri Nov 22 19:10:57 2024] [0;32mI (19:10:02.225) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:10:57 2024] [0;32mI (19:10:02.235) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:10:58 2024] [0;32mI (19:10:03.258) MQTT: Message sent: {
+	"continous_operation":	0.26,
+	"rtc":	"1732277402",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:10:58 2024] [0;32mI (19:10:03.365) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:11:02 2024] [0;33mW (19:10:07.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:11:02 2024] [0;33mW (19:10:07.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:11:02 2024] [0;32mI (19:10:07.000) CABINET: 2024-11-22 19:10:07[0m
+[Fri Nov 22 19:11:26 2024] [0;32mI (19:10:31.431) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:11:26 2024] [0;32mI (19:10:31.441) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:11:29 2024] [0;32mI (19:10:34.737) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:11:31 2024] [0;33mW (19:10:36.971) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:11:31 2024] [0;33mW (19:10:36.981) CABINET: Into alram task[0m
+[Fri Nov 22 19:11:32 2024] [0;32mI (19:10:36.000) CABINET: 2024-11-22 19:10:36[0m
+[Fri Nov 22 19:11:55 2024] [0;32mI (19:11:00.676) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:11:55 2024] [0;32mI (19:11:00.686) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:11:56 2024] [0;32mI (19:11:01.703) MQTT: Message sent: {
+	"continous_operation":	0.28,
+	"rtc":	"1732277461",
+	"cpu_temp":	0,
+	"rssi":	-60
+}[0m
+[Fri Nov 22 19:11:56 2024] [0;32mI (19:11:01.836) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:12:00 2024] [0;33mW (19:11:05.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:12:01 2024] [0;33mW (19:11:05.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:12:01 2024] [0;32mI (19:11:05.000) CABINET: 2024-11-22 19:11:05[0m
+[Fri Nov 22 19:12:25 2024] [0;32mI (19:11:29.940) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:12:25 2024] [0;32mI (19:11:29.951) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:12:26 2024] [0;32mI (19:11:30.972) MQTT: Message sent: {
+	"continous_operation":	0.28,
+	"rtc":	"1732277490",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:12:26 2024] [0;32mI (19:11:31.051) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:12:30 2024] [0;33mW (19:11:34.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:12:30 2024] [0;33mW (19:11:34.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:12:30 2024] [0;32mI (19:11:34.000) CABINET: 2024-11-22 19:11:34[0m
+[Fri Nov 22 19:12:54 2024] [0;32mI (19:11:59.197) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:12:54 2024] [0;32mI (19:11:59.208) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:12:55 2024] [0;32mI (19:12:00.230) MQTT: Message sent: {
+	"continous_operation":	0.29,
+	"rtc":	"1732277519",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[Fri Nov 22 19:12:55 2024] [0;32mI (19:12:00.396) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:12:59 2024] [0;33mW (19:12:03.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:12:59 2024] [0;33mW (19:12:03.975) CABINET: Into alram task[0m
+[Fri Nov 22 19:12:59 2024] [0;32mI (19:12:03.000) CABINET: 2024-11-22 19:12:03[0m
+[Fri Nov 22 19:13:24 2024] [0;32mI (19:12:28.476) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:13:25 2024] [0;32mI (19:12:29.494) MQTT: Message sent: {
+	"continous_operation":	0.3,
+	"rtc":	"1732277548",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:13:27 2024] [0;32mI (19:12:32.588) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:13:53 2024] [0;32mI (19:12:57.683) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:13:53 2024] [0;32mI (19:12:57.693) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:13:54 2024] [0;32mI (19:12:58.713) MQTT: Message sent: {
+	"continous_operation":	0.31,
+	"rtc":	"1732277578",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:13:54 2024] [0;32mI (19:12:58.810) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:13:57 2024] [0;33mW (19:13:01.979) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:14:22 2024] [0;32mI (19:13:26.942) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:14:22 2024] [0;32mI (19:13:26.953) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:14:23 2024] [0;32mI (19:13:27.963) MQTT: Message sent: {
+	"continous_operation":	0.32,
+	"rtc":	"1732277607",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:14:23 2024] [0;32mI (19:13:28.144) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:14:26 2024] [0;33mW (19:13:30.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:14:26 2024] [0;33mW (19:13:30.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:14:26 2024] [0;32mI (19:13:30.000) CABINET: 2024-11-22 19:13:30[0m
+[Fri Nov 22 19:14:51 2024] [0;32mI (19:13:56.182) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:14:51 2024] [0;32mI (19:13:56.193) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:14:52 2024] [0;32mI (19:13:57.204) MQTT: Message sent: {
+	"continous_operation":	0.33,
+	"rtc":	"1732277636",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:14:52 2024] [0;32mI (19:13:57.343) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:14:55 2024] [0;33mW (19:13:59.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:14:55 2024] [0;33mW (19:13:59.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:14:55 2024] [0;32mI (19:13:59.000) CABINET: 2024-11-22 19:13:59[0m
+[Fri Nov 22 19:15:20 2024] [0;32mI (19:14:25.421) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:15:21 2024] [0;32mI (19:14:25.432) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:15:21 2024] [0;32mI (19:14:26.448) MQTT: Message sent: {
+	"continous_operation":	0.33,
+	"rtc":	"1732277666",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:15:22 2024] [0;32mI (19:14:26.562) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:15:24 2024] [0;33mW (19:14:28.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:15:24 2024] [0;33mW (19:14:28.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:15:24 2024] [0;32mI (19:14:28.000) CABINET: 2024-11-22 19:14:28[0m
+[Fri Nov 22 19:15:50 2024] [0;32mI (19:14:54.646) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:15:50 2024] [0;32mI (19:14:54.657) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:15:51 2024] [0;32mI (19:14:55.680) MQTT: Message sent: {
+	"continous_operation":	0.34,
+	"rtc":	"1732277695",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:15:51 2024] [0;32mI (19:14:55.788) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:15:53 2024] [0;33mW (19:14:57.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:15:53 2024] [0;33mW (19:14:57.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:15:53 2024] [0;32mI (19:14:57.000) CABINET: 2024-11-22 19:14:57[0m
+[Fri Nov 22 19:16:19 2024] [0;32mI (19:15:23.846) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:16:19 2024] [0;32mI (19:15:23.857) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:16:20 2024] [0;32mI (19:15:24.868) MQTT: Message sent: {
+	"continous_operation":	0.35,
+	"rtc":	"1732277724",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:16:21 2024] [0;32mI (19:15:25.753) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:16:22 2024] [0;33mW (19:15:26.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:16:22 2024] [0;33mW (19:15:26.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:16:22 2024] [0;32mI (19:15:26.000) CABINET: 2024-11-22 19:15:26[0m
+[Fri Nov 22 19:16:49 2024] [0;32mI (19:15:53.085) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:16:49 2024] [0;32mI (19:15:53.095) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:16:51 2024] [0;32mI (19:15:54.112) MQTT: Message sent: {
+	"continous_operation":	0.36,
+	"rtc":	"1732277754",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:16:52 2024] [0;33mW (19:15:55.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:16:52 2024] [0;33mW (19:15:55.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:16:52 2024] [0;32mI (19:15:55.000) CABINET: 2024-11-22 19:15:55[0m
+[Fri Nov 22 19:16:54 2024] [0;32mI (19:15:57.782) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:17:20 2024] [0;32mI (19:16:23.325) MQTT: Message sent: {
+	"continous_operation":	0.37,
+	"rtc":	"1732277783",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:17:20 2024] [0;33mW (19:16:24.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:17:20 2024] [0;33mW (19:16:24.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:17:20 2024] [0;32mI (19:16:25.000) CABINET: 2024-11-22 19:16:25[0m
+[Fri Nov 22 19:17:24 2024] [0;32mI (19:16:29.003) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:17:43 2024] [0;32mI (19:16:48.716) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 19:17:44 2024] [0;32mI (19:16:48.723) MQTT: DATA={"method":"command","params":{"cmd":"command/sync time"}}
+[0m
+[Fri Nov 22 19:17:44 2024] [0;32mI (19:16:48.734) MQTT: Extracted requestId: 2963[0m
+[Fri Nov 22 19:17:44 2024] [0;33mW (19:16:48.735) process: command: command[0m
+[Fri Nov 22 19:17:44 2024] [0;33mW (19:16:48.747) process: content_of_params: sync time[0m
+[Fri Nov 22 19:17:44 2024] [0;32mI (19:16:48.749) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2963[0m
+[Fri Nov 22 19:17:44 2024] [0;32mI (19:16:48.753) CABINET: Received command: sync time[0m
+[Fri Nov 22 19:17:44 2024] [0;33mW (19:16:48.763) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 19:17:44 2024] [0;32mI (19:16:49.133) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:17:45 2024] [0;33mW (19:16:50.783) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 22 19:17:47 2024] [0;32mI (19:16:52.523) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:17:47 2024] [0;32mI (19:16:52.533) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:17:49 2024] [0;32mI (19:16:53.545) MQTT: Message sent: {
+	"continous_operation":	0.38,
+	"rtc":	"1732277812",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:17:49 2024] [0;32mI (19:16:54.675) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:17:49 2024] [0;33mW (19:16:54.705) Timestamp: The current date/time from server is: Fri Nov 22 19:16:54 2024[0m
+[Fri Nov 22 19:17:49 2024] [0;32mI (19:16:54.715) Timestamp: System time set successfully[0m
+[Fri Nov 22 19:17:49 2024] [0;33mW (19:16:54.727) CABINET: Sync timestamp first time successfully[0m
+[Fri Nov 22 19:17:50 2024] [0;33mW (19:16:54.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:17:50 2024] [0;33mW (19:16:54.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:17:50 2024] [0;32mI (19:16:54.000) CABINET: 2024-11-22 19:16:54[0m
+[Fri Nov 22 19:18:16 2024] [0;32mI (19:17:21.744) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:18:16 2024] [0;32mI (19:17:21.754) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:18:17 2024] [0;32mI (19:17:22.774) MQTT: Message sent: {
+	"continous_operation":	0.38,
+	"rtc":	"1732277842",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:18:18 2024] [0;32mI (19:17:22.909) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:18:19 2024] [0;33mW (19:17:23.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:18:19 2024] [0;33mW (19:17:23.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:18:19 2024] [0;32mI (19:17:23.000) CABINET: 2024-11-22 19:17:23[0m
+[Fri Nov 22 19:18:46 2024] [0;32mI (19:17:50.978) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:18:46 2024] [0;32mI (19:17:50.995) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:18:47 2024] [0;32mI (19:17:52.009) MQTT: Message sent: {
+	"continous_operation":	0.39,
+	"rtc":	"1732277871",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:18:47 2024] [0;32mI (19:17:52.165) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:18:48 2024] [0;33mW (19:17:52.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:18:48 2024] [0;33mW (19:17:52.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:18:48 2024] [0;32mI (19:17:52.000) CABINET: 2024-11-22 19:17:52[0m
+[Fri Nov 22 19:19:15 2024] [0;32mI (19:18:20.195) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:19:15 2024] [0;32mI (19:18:20.206) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:19:16 2024] [0;32mI (19:18:21.226) MQTT: Message sent: {
+	"continous_operation":	0.4,
+	"rtc":	"1732277900",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:19:16 2024] [0;32mI (19:18:21.337) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:19:17 2024] [0;33mW (19:18:21.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:19:17 2024] [0;33mW (19:18:21.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:19:17 2024] [0;32mI (19:18:21.000) CABINET: 2024-11-22 19:18:21[0m
+[Fri Nov 22 19:19:44 2024] [0;32mI (19:18:49.478) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:19:44 2024] [0;32mI (19:18:49.489) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:19:45 2024] [0;32mI (19:18:50.512) MQTT: Message sent: {
+	"continous_operation":	0.41,
+	"rtc":	"1732277930",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:19:46 2024] [0;32mI (19:18:50.607) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:19:46 2024] [0;33mW (19:18:50.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:19:46 2024] [0;33mW (19:18:50.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:19:46 2024] [0;32mI (19:18:50.000) CABINET: 2024-11-22 19:18:50[0m
+[Fri Nov 22 19:20:14 2024] [0;32mI (19:19:18.739) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:20:14 2024] [0;32mI (19:19:18.750) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:20:15 2024] [0;32mI (19:19:19.771) MQTT: Message sent: {
+	"continous_operation":	0.42,
+	"rtc":	"1732277959",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:20:15 2024] [0;32mI (19:19:19.859) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:20:15 2024] [0;33mW (19:19:19.982) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:20:15 2024] [0;33mW (19:19:19.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:20:15 2024] [0;32mI (19:19:19.000) CABINET: 2024-11-22 19:19:19[0m
+[Fri Nov 22 19:20:43 2024] [0;32mI (19:19:48.000) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:20:43 2024] [0;32mI (19:19:48.011) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:20:44 2024] [0;33mW (19:19:48.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:20:44 2024] [0;33mW (19:19:48.991) CABINET: Into alram task[0m
+[Fri Nov 22 19:20:44 2024] [0;32mI (19:19:48.000) CABINET: 2024-11-22 19:19:48[0m
+[Fri Nov 22 19:20:44 2024] [0;32mI (19:19:48.036) MQTT: Message sent: {
+	"continous_operation":	0.43,
+	"rtc":	"1732277988",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:20:44 2024] [0;32mI (19:19:48.188) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:21:12 2024] [0;32mI (19:20:17.252) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:21:12 2024] [0;32mI (19:20:17.263) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:21:13 2024] [0;33mW (19:20:17.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:21:13 2024] [0;33mW (19:20:17.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:21:13 2024] [0;32mI (19:20:17.000) CABINET: 2024-11-22 19:20:17[0m
+[Fri Nov 22 19:21:16 2024] [0;32mI (19:20:20.396) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:21:42 2024] [0;32mI (19:20:46.514) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:21:42 2024] [0;32mI (19:20:46.525) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:21:42 2024] [0;33mW (19:20:46.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:21:42 2024] [0;33mW (19:20:46.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:21:42 2024] [0;32mI (19:20:46.000) CABINET: 2024-11-22 19:20:46[0m
+[Fri Nov 22 19:21:43 2024] [0;32mI (19:20:46.566) MQTT: Message sent: {
+	"continous_operation":	0.44,
+	"rtc":	"1732278047",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:21:43 2024] [0;32mI (19:20:46.661) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:22:11 2024] [0;32mI (19:21:15.761) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:22:11 2024] [0;32mI (19:21:15.770) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:22:11 2024] [0;33mW (19:21:15.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:22:11 2024] [0;33mW (19:21:15.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:22:11 2024] [0;32mI (19:21:15.000) CABINET: 2024-11-22 19:21:15[0m
+[Fri Nov 22 19:22:12 2024] [0;32mI (19:21:15.813) MQTT: Message sent: {
+	"continous_operation":	0.45,
+	"rtc":	"1732278076",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:22:12 2024] [0;32mI (19:21:15.988) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:22:40 2024] [0;33mW (19:21:44.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:22:40 2024] [0;33mW (19:21:44.991) CABINET: Into alram task[0m
+[Fri Nov 22 19:22:40 2024] [0;32mI (19:21:44.000) CABINET: 2024-11-22 19:21:44[0m
+[Fri Nov 22 19:22:40 2024] [0;32mI (19:21:44.006) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:22:40 2024] [0;32mI (19:21:44.017) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:22:41 2024] [0;32mI (19:21:45.059) MQTT: Message sent: {
+	"continous_operation":	0.46,
+	"rtc":	"1732278105",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:22:41 2024] [0;32mI (19:21:45.196) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:23:09 2024] [0;33mW (19:22:13.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:23:09 2024] [0;33mW (19:22:13.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:23:09 2024] [0;32mI (19:22:13.000) CABINET: 2024-11-22 19:22:13[0m
+[Fri Nov 22 19:23:11 2024] [0;32mI (19:22:13.296) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:23:11 2024] [0;32mI (19:22:14.334) MQTT: Message sent: {
+	"continous_operation":	0.47,
+	"rtc":	"1732278135",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:23:11 2024] [0;32mI (19:22:14.583) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:23:38 2024] [0;33mW (19:22:42.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:23:38 2024] [0;33mW (19:22:42.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:23:38 2024] [0;32mI (19:22:42.000) CABINET: 2024-11-22 19:22:42[0m
+[Fri Nov 22 19:23:39 2024] [0;32mI (19:22:42.497) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:23:39 2024] [0;32mI (19:22:42.507) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:23:40 2024] [0;32mI (19:22:43.545) MQTT: Message sent: {
+	"continous_operation":	0.48,
+	"rtc":	"1732278164",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:24:07 2024] [0;33mW (19:23:11.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:24:07 2024] [0;33mW (19:23:11.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:24:07 2024] [0;32mI (19:23:11.000) CABINET: 2024-11-22 19:23:11[0m
+[Fri Nov 22 19:24:08 2024] [0;32mI (19:23:11.754) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:24:08 2024] [0;32mI (19:23:11.765) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:24:09 2024] [0;32mI (19:23:12.805) MQTT: Message sent: {
+	"continous_operation":	0.49,
+	"rtc":	"1732278193",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:24:09 2024] [0;32mI (19:23:12.891) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:24:36 2024] [0;33mW (19:23:40.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:24:36 2024] [0;33mW (19:23:40.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:24:36 2024] [0;32mI (19:23:41.000) CABINET: 2024-11-22 19:23:41[0m
+[Fri Nov 22 19:24:37 2024] [0;32mI (19:23:41.956) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:24:37 2024] [0;32mI (19:23:41.967) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:24:38 2024] [0;32mI (19:23:43.008) MQTT: Message sent: {
+	"continous_operation":	0.49,
+	"rtc":	"1732278223",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:24:38 2024] [0;32mI (19:23:43.174) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:25:05 2024] [0;33mW (19:24:10.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:25:05 2024] [0;33mW (19:24:10.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:25:05 2024] [0;32mI (19:24:10.000) CABINET: 2024-11-22 19:24:10[0m
+[Fri Nov 22 19:25:07 2024] [0;32mI (19:24:11.201) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:25:07 2024] [0;32mI (19:24:11.212) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:25:08 2024] [0;32mI (19:24:12.249) MQTT: Message sent: {
+	"continous_operation":	0.5,
+	"rtc":	"1732278252",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:25:08 2024] [0;32mI (19:24:12.368) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:25:35 2024] [0;33mW (19:24:39.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:25:35 2024] [0;33mW (19:24:39.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:25:35 2024] [0;32mI (19:24:39.000) CABINET: 2024-11-22 19:24:39[0m
+[Fri Nov 22 19:25:36 2024] [0;32mI (19:24:40.426) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:25:36 2024] [0;32mI (19:24:40.436) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:25:37 2024] [0;32mI (19:24:41.478) MQTT: Message sent: {
+	"continous_operation":	0.51,
+	"rtc":	"1732278281",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:25:37 2024] [0;32mI (19:24:41.572) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:26:04 2024] [0;33mW (19:25:08.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:26:04 2024] [0;33mW (19:25:08.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:26:04 2024] [0;32mI (19:25:08.000) CABINET: 2024-11-22 19:25:08[0m
+[Fri Nov 22 19:26:05 2024] [0;32mI (19:25:09.603) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:26:05 2024] [0;32mI (19:25:09.614) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:26:06 2024] [0;32mI (19:25:10.650) MQTT: Message sent: {
+	"continous_operation":	0.52,
+	"rtc":	"1732278310",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:26:06 2024] [0;32mI (19:25:10.786) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:26:33 2024] [0;33mW (19:25:37.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:26:33 2024] [0;33mW (19:25:37.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:26:33 2024] [0;32mI (19:25:37.000) CABINET: 2024-11-22 19:25:37[0m
+[Fri Nov 22 19:26:35 2024] [0;32mI (19:25:38.845) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:26:35 2024] [0;32mI (19:25:38.855) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:26:36 2024] [0;32mI (19:25:39.900) MQTT: Message sent: {
+	"continous_operation":	0.53,
+	"rtc":	"1732278340",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:26:36 2024] [0;32mI (19:25:40.069) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:27:02 2024] [0;33mW (19:26:06.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:27:02 2024] [0;33mW (19:26:06.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:27:02 2024] [0;32mI (19:26:06.000) CABINET: 2024-11-22 19:26:06[0m
+[Fri Nov 22 19:27:04 2024] [0;32mI (19:26:08.090) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:27:04 2024] [0;32mI (19:26:08.101) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:27:05 2024] [0;32mI (19:26:09.145) MQTT: Message sent: {
+	"continous_operation":	0.54,
+	"rtc":	"1732278369",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:27:05 2024] [0;32mI (19:26:09.302) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:27:31 2024] [0;33mW (19:26:35.982) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:27:31 2024] [0;33mW (19:26:35.992) CABINET: Into alram task[0m
+[Fri Nov 22 19:27:31 2024] [0;32mI (19:26:35.000) CABINET: 2024-11-22 19:26:35[0m
+[Fri Nov 22 19:27:33 2024] [0;32mI (19:26:37.323) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:27:33 2024] [0;32mI (19:26:37.334) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:27:34 2024] [0;32mI (19:26:38.374) MQTT: Message sent: {
+	"continous_operation":	0.54,
+	"rtc":	"1732278398",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:27:34 2024] [0;32mI (19:26:38.494) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:28:00 2024] [0;33mW (19:27:04.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:28:00 2024] [0;33mW (19:27:04.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:28:00 2024] [0;32mI (19:27:04.000) CABINET: 2024-11-22 19:27:04[0m
+[Fri Nov 22 19:28:02 2024] [0;32mI (19:27:06.597) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:28:02 2024] [0;32mI (19:27:06.608) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:28:03 2024] [0;32mI (19:27:07.649) MQTT: Message sent: {
+	"continous_operation":	0.55,
+	"rtc":	"1732278428",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:28:04 2024] [0;32mI (19:27:07.776) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:28:29 2024] [0;33mW (19:27:33.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:28:29 2024] [0;33mW (19:27:33.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:28:29 2024] [0;32mI (19:27:33.000) CABINET: 2024-11-22 19:27:33[0m
+[Fri Nov 22 19:28:32 2024] [0;32mI (19:27:35.827) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:28:32 2024] [0;32mI (19:27:35.837) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:28:33 2024] [0;32mI (19:27:36.880) MQTT: Message sent: {
+	"continous_operation":	0.56,
+	"rtc":	"1732278457",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:28:33 2024] [0;32mI (19:27:37.294) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:28:58 2024] [0;33mW (19:28:02.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:28:58 2024] [0;33mW (19:28:02.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:28:58 2024] [0;32mI (19:28:02.000) CABINET: 2024-11-22 19:28:02[0m
+[Fri Nov 22 19:29:01 2024] [0;32mI (19:28:05.025) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:29:01 2024] [0;32mI (19:28:05.036) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:29:02 2024] [0;32mI (19:28:06.075) MQTT: Message sent: {
+	"continous_operation":	0.57,
+	"rtc":	"1732278486",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:29:02 2024] [0;32mI (19:28:06.173) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:29:29 2024] [0;32mI (19:28:31.000) CABINET: 2024-11-22 19:28:31[0m
+[Fri Nov 22 19:29:32 2024] [0;32mI (19:28:35.299) MQTT: Message sent: {
+	"continous_operation":	0.58,
+	"rtc":	"1732278516",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:29:33 2024] [0;32mI (19:28:36.708) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:29:56 2024] [0;33mW (19:29:00.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:29:56 2024] [0;33mW (19:29:00.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:29:56 2024] [0;32mI (19:29:00.000) CABINET: 2024-11-22 19:29:00[0m
+[Fri Nov 22 19:30:00 2024] [0;32mI (19:29:03.476) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:30:00 2024] [0;32mI (19:29:03.486) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:30:01 2024] [0;32mI (19:29:04.524) MQTT: Message sent: {
+	"continous_operation":	0.59,
+	"rtc":	"1732278545",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:30:01 2024] [0;32mI (19:29:04.671) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:30:25 2024] [0;33mW (19:29:29.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:30:25 2024] [0;33mW (19:29:29.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:30:25 2024] [0;32mI (19:29:30.000) CABINET: 2024-11-22 19:29:30[0m
+[Fri Nov 22 19:30:29 2024] [0;32mI (19:29:33.672) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:30:29 2024] [0;32mI (19:29:33.684) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:30:30 2024] [0;32mI (19:29:34.717) MQTT: Message sent: {
+	"continous_operation":	0.59,
+	"rtc":	"1732278574",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:30:31 2024] [0;32mI (19:29:35.316) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:30:55 2024] [0;33mW (19:29:59.982) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:30:55 2024] [0;33mW (19:29:59.991) CABINET: Into alram task[0m
+[Fri Nov 22 19:30:55 2024] [0;32mI (19:29:59.000) CABINET: 2024-11-22 19:29:59[0m
+[Fri Nov 22 19:30:58 2024] [0;32mI (19:30:02.913) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:30:58 2024] [0;32mI (19:30:02.923) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:30:59 2024] [0;32mI (19:30:03.960) MQTT: Message sent: {
+	"continous_operation":	0.6,
+	"rtc":	"1732278603",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:30:59 2024] [0;32mI (19:30:04.128) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:31:24 2024] [0;33mW (19:30:28.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:31:24 2024] [0;33mW (19:30:28.995) CABINET: Into alram task[0m
+[Fri Nov 22 19:31:24 2024] [0;32mI (19:30:28.000) CABINET: 2024-11-22 19:30:28[0m
+[Fri Nov 22 19:31:28 2024] [0;32mI (19:30:32.117) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:31:28 2024] [0;32mI (19:30:32.128) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:31:29 2024] [0;32mI (19:30:33.162) MQTT: Message sent: {
+	"continous_operation":	0.61,
+	"rtc":	"1732278633",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:31:29 2024] [0;32mI (19:30:33.361) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:31:53 2024] [0;33mW (19:30:57.971) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:31:53 2024] [0;33mW (19:30:57.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:31:53 2024] [0;32mI (19:30:57.000) CABINET: 2024-11-22 19:30:57[0m
+[Fri Nov 22 19:31:57 2024] [0;32mI (19:31:01.316) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:31:57 2024] [0;32mI (19:31:01.327) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:31:58 2024] [0;32mI (19:31:02.360) MQTT: Message sent: {
+	"continous_operation":	0.62,
+	"rtc":	"1732278662",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:31:58 2024] [0;32mI (19:31:02.702) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:32:22 2024] [0;33mW (19:31:26.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:32:22 2024] [0;33mW (19:31:26.981) CABINET: Into alram task[0m
+[Fri Nov 22 19:32:22 2024] [0;32mI (19:31:26.000) CABINET: 2024-11-22 19:31:26[0m
+[Fri Nov 22 19:32:26 2024] [0;32mI (19:31:30.560) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:32:26 2024] [0;32mI (19:31:30.570) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:32:27 2024] [0;32mI (19:31:31.602) MQTT: Message sent: {
+	"continous_operation":	0.63,
+	"rtc":	"1732278691",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:32:27 2024] [0;32mI (19:31:31.680) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:32:51 2024] [0;33mW (19:31:55.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:32:51 2024] [0;33mW (19:31:55.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:32:51 2024] [0;32mI (19:31:55.000) CABINET: 2024-11-22 19:31:55[0m
+[Fri Nov 22 19:32:56 2024] [0;32mI (19:31:59.778) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:32:56 2024] [0;32mI (19:31:59.788) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:32:57 2024] [0;32mI (19:32:00.830) MQTT: Message sent: {
+	"continous_operation":	0.64,
+	"rtc":	"1732278721",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:32:57 2024] [0;32mI (19:32:00.972) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:33:20 2024] [0;33mW (19:32:24.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:33:20 2024] [0;33mW (19:32:24.991) CABINET: Into alram task[0m
+[Fri Nov 22 19:33:20 2024] [0;32mI (19:32:24.000) CABINET: 2024-11-22 19:32:24[0m
+[Fri Nov 22 19:33:25 2024] [0;32mI (19:32:29.023) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:33:25 2024] [0;32mI (19:32:29.034) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:33:26 2024] [0;32mI (19:32:30.072) MQTT: Message sent: {
+	"continous_operation":	0.64,
+	"rtc":	"1732278750",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:33:26 2024] [0;32mI (19:32:30.188) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:33:49 2024] [0;33mW (19:32:53.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:33:49 2024] [0;33mW (19:32:53.983) CABINET: Into alram task[0m
+[Fri Nov 22 19:33:49 2024] [0;32mI (19:32:53.000) CABINET: 2024-11-22 19:32:53[0m
+[Fri Nov 22 19:33:54 2024] [0;32mI (19:32:58.236) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:33:54 2024] [0;32mI (19:32:58.246) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:33:55 2024] [0;32mI (19:32:59.278) MQTT: Message sent: {
+	"continous_operation":	0.65,
+	"rtc":	"1732278779",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:33:55 2024] [0;32mI (19:32:59.360) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:34:18 2024] [0;33mW (19:33:22.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:34:18 2024] [0;33mW (19:33:22.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:34:18 2024] [0;32mI (19:33:22.000) CABINET: 2024-11-22 19:33:22[0m
+[Fri Nov 22 19:34:23 2024] [0;32mI (19:33:27.436) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:34:24 2024] [0;32mI (19:33:27.449) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:34:25 2024] [0;32mI (19:33:28.483) MQTT: Message sent: {
+	"continous_operation":	0.66,
+	"rtc":	"1732278809",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:34:25 2024] [0;32mI (19:33:28.612) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:34:47 2024] [0;33mW (19:33:51.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:34:47 2024] [0;33mW (19:33:51.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:34:47 2024] [0;32mI (19:33:51.000) CABINET: 2024-11-22 19:33:51[0m
+[Fri Nov 22 19:34:53 2024] [0;32mI (19:33:56.653) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:34:53 2024] [0;32mI (19:33:56.664) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:34:54 2024] [0;32mI (19:33:57.705) MQTT: Message sent: {
+	"continous_operation":	0.67,
+	"rtc":	"1732278838",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:34:54 2024] [0;32mI (19:33:57.810) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:35:16 2024] [0;33mW (19:34:20.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:35:16 2024] [0;33mW (19:34:20.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:35:16 2024] [0;32mI (19:34:21.000) CABINET: 2024-11-22 19:34:21[0m
+[Fri Nov 22 19:35:22 2024] [0;32mI (19:34:26.901) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:35:22 2024] [0;32mI (19:34:26.911) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:35:23 2024] [0;32mI (19:34:27.946) MQTT: Message sent: {
+	"continous_operation":	0.68,
+	"rtc":	"1732278867",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:35:23 2024] [0;32mI (19:34:28.031) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:35:45 2024] [0;33mW (19:34:50.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:35:45 2024] [0;33mW (19:34:50.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:35:45 2024] [0;32mI (19:34:50.000) CABINET: 2024-11-22 19:34:50[0m
+[Fri Nov 22 19:35:51 2024] [0;32mI (19:34:56.131) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:35:51 2024] [0;32mI (19:34:56.141) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:35:52 2024] [0;32mI (19:34:57.174) MQTT: Message sent: {
+	"continous_operation":	0.69,
+	"rtc":	"1732278897",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:35:53 2024] [0;32mI (19:34:57.330) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:36:15 2024] [0;33mW (19:35:19.972) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:36:15 2024] [0;33mW (19:35:19.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:36:15 2024] [0;32mI (19:35:19.000) CABINET: 2024-11-22 19:35:19[0m
+[Fri Nov 22 19:36:21 2024] [0;32mI (19:35:25.349) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:36:21 2024] [0;32mI (19:35:25.358) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:36:22 2024] [0;32mI (19:35:26.394) MQTT: Message sent: {
+	"continous_operation":	0.69,
+	"rtc":	"1732278926",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[Fri Nov 22 19:36:22 2024] [0;32mI (19:35:26.512) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:36:44 2024] [0;33mW (19:35:48.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:36:44 2024] [0;33mW (19:35:48.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:36:44 2024] [0;32mI (19:35:48.000) CABINET: 2024-11-22 19:35:48[0m
+[Fri Nov 22 19:36:50 2024] [0;32mI (19:35:54.568) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:36:50 2024] [0;32mI (19:35:54.578) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:36:51 2024] [0;32mI (19:35:55.614) MQTT: Message sent: {
+	"continous_operation":	0.7,
+	"rtc":	"1732278955",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:36:51 2024] [0;32mI (19:35:55.923) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:37:13 2024] [0;33mW (19:36:17.983) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:37:13 2024] [0;33mW (19:36:17.993) CABINET: Into alram task[0m
+[Fri Nov 22 19:37:19 2024] [0;32mI (19:36:23.786) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:37:19 2024] [0;32mI (19:36:23.796) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:37:20 2024] [0;32mI (19:36:24.827) MQTT: Message sent: {
+	"continous_operation":	0.71,
+	"rtc":	"1732278985",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:37:29 2024] [0;32mI (19:36:32.980) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:37:42 2024] [0;33mW (19:36:46.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:37:42 2024] [0;33mW (19:36:46.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:37:42 2024] [0;32mI (19:36:46.000) CABINET: 2024-11-22 19:36:46[0m
+[Fri Nov 22 19:37:49 2024] [0;32mI (19:36:52.969) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:37:49 2024] [0;32mI (19:36:52.979) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:37:50 2024] [0;32mI (19:36:54.020) MQTT: Message sent: {
+	"continous_operation":	0.72,
+	"rtc":	"1732279014",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:37:50 2024] [0;32mI (19:36:54.126) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:38:11 2024] [0;33mW (19:37:15.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:38:11 2024] [0;33mW (19:37:15.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:38:11 2024] [0;32mI (19:37:15.000) CABINET: 2024-11-22 19:37:15[0m
+[Fri Nov 22 19:38:18 2024] [0;32mI (19:37:22.193) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:38:18 2024] [0;32mI (19:37:22.204) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:38:19 2024] [0;32mI (19:37:23.244) MQTT: Message sent: {
+	"continous_operation":	0.73,
+	"rtc":	"1732279043",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:38:19 2024] [0;32mI (19:37:23.389) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:38:40 2024] [0;33mW (19:37:44.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:38:40 2024] [0;33mW (19:37:44.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:38:40 2024] [0;32mI (19:37:44.000) CABINET: 2024-11-22 19:37:44[0m
+[Fri Nov 22 19:38:47 2024] [0;32mI (19:37:51.435) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:38:47 2024] [0;32mI (19:37:51.451) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:38:48 2024] [0;32mI (19:37:52.486) MQTT: Message sent: {
+	"continous_operation":	0.74,
+	"rtc":	"1732279073",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:38:48 2024] [0;32mI (19:37:52.607) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:39:09 2024] [0;33mW (19:38:13.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:39:09 2024] [0;33mW (19:38:13.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:39:09 2024] [0;32mI (19:38:13.000) CABINET: 2024-11-22 19:38:13[0m
+[Fri Nov 22 19:39:17 2024] [0;32mI (19:38:20.710) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:39:17 2024] [0;32mI (19:38:20.721) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:39:18 2024] [0;32mI (19:38:21.751) MQTT: Message sent: {
+	"continous_operation":	0.75,
+	"rtc":	"1732279102",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:39:18 2024] [0;32mI (19:38:21.845) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:39:38 2024] [0;33mW (19:38:42.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:39:38 2024] [0;33mW (19:38:42.991) CABINET: Into alram task[0m
+[Fri Nov 22 19:39:38 2024] [0;32mI (19:38:42.000) CABINET: 2024-11-22 19:38:42[0m
+[Fri Nov 22 19:39:46 2024] [0;32mI (19:38:49.947) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:39:46 2024] [0;32mI (19:38:49.957) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:39:47 2024] [0;32mI (19:38:50.989) MQTT: Message sent: {
+	"continous_operation":	0.75,
+	"rtc":	"1732279131",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:39:47 2024] [0;32mI (19:38:51.147) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:40:07 2024] [0;33mW (19:39:11.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:40:07 2024] [0;33mW (19:39:11.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:40:07 2024] [0;32mI (19:39:12.000) CABINET: 2024-11-22 19:39:12[0m
+[Fri Nov 22 19:40:15 2024] [0;32mI (19:39:20.173) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:40:15 2024] [0;32mI (19:39:20.184) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:40:16 2024] [0;32mI (19:39:21.208) MQTT: Message sent: {
+	"continous_operation":	0.76,
+	"rtc":	"1732279160",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:40:16 2024] [0;32mI (19:39:21.319) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:40:36 2024] [0;33mW (19:39:41.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:40:36 2024] [0;33mW (19:39:41.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:40:36 2024] [0;32mI (19:39:41.000) CABINET: 2024-11-22 19:39:41[0m
+[Fri Nov 22 19:40:44 2024] [0;32mI (19:39:49.422) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:40:45 2024] [0;32mI (19:39:49.433) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:40:46 2024] [0;32mI (19:39:50.463) MQTT: Message sent: {
+	"continous_operation":	0.77,
+	"rtc":	"1732279190",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:40:46 2024] [0;32mI (19:39:50.582) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:41:05 2024] [0;33mW (19:40:10.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:41:05 2024] [0;33mW (19:40:10.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:41:05 2024] [0;32mI (19:40:10.000) CABINET: 2024-11-22 19:40:10[0m
+[Fri Nov 22 19:41:14 2024] [0;32mI (19:40:18.668) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:41:14 2024] [0;32mI (19:40:18.679) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:41:15 2024] [0;32mI (19:40:19.708) MQTT: Message sent: {
+	"continous_operation":	0.78,
+	"rtc":	"1732279219",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:41:15 2024] [0;32mI (19:40:19.812) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:41:34 2024] [0;33mW (19:40:39.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:41:34 2024] [0;33mW (19:40:39.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:41:34 2024] [0;32mI (19:40:39.000) CABINET: 2024-11-22 19:40:39[0m
+[Fri Nov 22 19:41:43 2024] [0;32mI (19:40:47.906) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:41:43 2024] [0;32mI (19:40:47.917) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:41:44 2024] [0;32mI (19:40:48.939) MQTT: Message sent: {
+	"continous_operation":	0.79,
+	"rtc":	"1732279248",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:41:44 2024] [0;32mI (19:40:49.105) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:42:03 2024] [0;33mW (19:41:08.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:42:03 2024] [0;33mW (19:41:08.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:42:04 2024] [0;32mI (19:41:08.000) CABINET: 2024-11-22 19:41:08[0m
+[Fri Nov 22 19:42:12 2024] [0;32mI (19:41:17.143) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:42:12 2024] [0;32mI (19:41:17.154) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:42:13 2024] [0;32mI (19:41:18.178) MQTT: Message sent: {
+	"continous_operation":	0.8,
+	"rtc":	"1732279278",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:42:14 2024] [0;32mI (19:41:18.335) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:42:33 2024] [0;33mW (19:41:37.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:42:33 2024] [0;33mW (19:41:37.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:42:33 2024] [0;32mI (19:41:37.000) CABINET: 2024-11-22 19:41:37[0m
+[Fri Nov 22 19:42:42 2024] [0;32mI (19:41:46.319) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:42:42 2024] [0;32mI (19:41:46.328) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:42:43 2024] [0;32mI (19:41:47.355) MQTT: Message sent: {
+	"continous_operation":	0.8,
+	"rtc":	"1732279307",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:42:43 2024] [0;32mI (19:41:47.547) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:43:13 2024] [0;32mI (19:42:16.573) MQTT: Message sent: {
+	"continous_operation":	0.81,
+	"rtc":	"1732279336",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[Fri Nov 22 19:43:20 2024] [0;31mE (19:42:24.430) mqtt_client: No PING_RESP, disconnected[0m
+[Fri Nov 22 19:43:20 2024] [0;33mW (19:42:24.441) CABINET: Into led task[0m
+[Fri Nov 22 19:43:20 2024] [0;32mI (19:42:24.440) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 19:43:20 2024] [0;33mW (19:42:24.449) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 19:43:20 2024] [0;32mI (19:42:24.458) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 19:43:20 2024] [0;32mI (19:42:24.466) MQTT: Disconnect reason: No error[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:34.539) MQTT: Other event id:7[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:34.753) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 22 19:43:30 2024] [0;33mW (19:42:34.756) CABINET: Finish led task[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:34.859) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:34.973) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.068) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.073) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.083) MQTT: Extracted requestId: 2965[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.098) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2965[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.194) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.215) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.223) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=1-1-100-200-1.2-1-400-500-1.3-1-700-800-1.4-1-1128-1129-1.5-1-1558-1559-1.6-1-1748-1749-1.7-1-1900-2000-1.8-1-2200-2300-1,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=0-2-0-0-0-0-0,d05=0-2-0-0-0-0-0,d06=0-2-0-0-0-0-0,d07=0-2-0-0-0-0-0,d08=0-2-0-0-0-0-0;"}}
+[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.252) MQTT: Extracted requestId: 2966[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.284) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2966[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.351) NVS: Store timer of [1] successfully[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.392) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.392) NVS: Store timer of [2] successfully[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.432) NVS: Store timer of [3] successfully[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.461) NVS: Store timer of [4] successfully[0m
+[Fri Nov 22 19:43:30 2024] [0;32mI (19:42:35.494) NVS: Store timer of [5] successfully[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.533) NVS: Store timer of [6] successfully[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.563) NVS: Store timer of [7] successfully[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.613) NVS: Store timer of [8] successfully[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.905) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.919) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.929) MQTT: Extracted requestId: 2967[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.943) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2967[0m
+[Fri Nov 22 19:43:31 2024] [0;33mW (19:42:35.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:43:31 2024] [0;33mW (19:42:35.979) CABINET: Into alram task[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.000) CABINET: 2024-11-22 19:42:35[0m
+[Fri Nov 22 19:43:31 2024] [0;32mI (19:42:35.113) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:43:40 2024] [0;32mI (19:42:44.749) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:43:40 2024] [0;32mI (19:42:44.759) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:43:41 2024] [0;32mI (19:42:45.789) MQTT: Message sent: {
+	"continous_operation":	0.82,
+	"rtc":	"1732279366",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:43:42 2024] [0;32mI (19:42:45.896) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:44:00 2024] [0;33mW (19:43:04.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:44:00 2024] [0;33mW (19:43:04.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:44:00 2024] [0;32mI (19:43:04.000) CABINET: 2024-11-22 19:43:04[0m
+[Fri Nov 22 19:44:10 2024] [0;32mI (19:43:13.984) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:44:10 2024] [0;32mI (19:43:13.995) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:44:11 2024] [0;32mI (19:43:15.018) MQTT: Message sent: {
+	"continous_operation":	0.83,
+	"rtc":	"1732279395",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:44:11 2024] [0;32mI (19:43:15.100) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:44:29 2024] [0;33mW (19:43:33.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:44:29 2024] [0;33mW (19:43:33.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:44:29 2024] [0;32mI (19:43:33.000) CABINET: 2024-11-22 19:43:33[0m
+[Fri Nov 22 19:44:39 2024] [0;32mI (19:43:43.237) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:44:39 2024] [0;32mI (19:43:43.247) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:44:40 2024] [0;32mI (19:43:44.279) MQTT: Message sent: {
+	"continous_operation":	0.84,
+	"rtc":	"1732279424",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:44:40 2024] [0;32mI (19:43:44.375) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:44:58 2024] [0;33mW (19:44:02.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:44:58 2024] [0;33mW (19:44:02.980) CABINET: Into alram task[0m
+[Fri Nov 22 19:44:58 2024] [0;32mI (19:44:02.000) CABINET: 2024-11-22 19:44:02[0m
+[Fri Nov 22 19:45:08 2024] [0;32mI (19:44:12.485) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:45:08 2024] [0;32mI (19:44:12.496) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:45:09 2024] [0;32mI (19:44:13.523) MQTT: Message sent: {
+	"continous_operation":	0.85,
+	"rtc":	"1732279453",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:45:09 2024] [0;32mI (19:44:13.700) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:45:27 2024] [0;33mW (19:44:31.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:45:27 2024] [0;33mW (19:44:31.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:45:27 2024] [0;32mI (19:44:31.000) CABINET: 2024-11-22 19:44:31[0m
+[Fri Nov 22 19:45:38 2024] [0;32mI (19:44:41.726) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:45:38 2024] [0;32mI (19:44:41.736) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:45:39 2024] [0;32mI (19:44:42.768) MQTT: Message sent: {
+	"continous_operation":	0.85,
+	"rtc":	"1732279483",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:45:39 2024] [0;32mI (19:44:42.899) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:45:56 2024] [0;33mW (19:45:00.979) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:45:56 2024] [0;33mW (19:45:00.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:45:56 2024] [0;32mI (19:45:00.000) CABINET: 2024-11-22 19:45:00[0m
+[Fri Nov 22 19:46:07 2024] [0;32mI (19:45:10.946) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:46:07 2024] [0;32mI (19:45:10.957) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:46:08 2024] [0;32mI (19:45:11.987) MQTT: Message sent: {
+	"continous_operation":	0.86,
+	"rtc":	"1732279512",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:46:08 2024] [0;32mI (19:45:12.100) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:46:25 2024] [0;33mW (19:45:29.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:46:25 2024] [0;33mW (19:45:29.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:46:25 2024] [0;32mI (19:45:29.000) CABINET: 2024-11-22 19:45:29[0m
+[Fri Nov 22 19:46:36 2024] [0;32mI (19:45:40.194) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:46:36 2024] [0;32mI (19:45:40.204) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:46:37 2024] [0;32mI (19:45:41.230) MQTT: Message sent: {
+	"continous_operation":	0.87,
+	"rtc":	"1732279541",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:46:37 2024] [0;32mI (19:45:41.346) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:46:54 2024] [0;33mW (19:45:58.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:46:54 2024] [0;33mW (19:45:58.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:46:54 2024] [0;32mI (19:45:58.000) CABINET: 2024-11-22 19:45:58[0m
+[Fri Nov 22 19:47:05 2024] [0;32mI (19:46:09.446) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:47:05 2024] [0;32mI (19:46:09.456) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:47:06 2024] [0;32mI (19:46:10.487) MQTT: Message sent: {
+	"continous_operation":	0.88,
+	"rtc":	"1732279571",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:47:06 2024] [0;32mI (19:46:10.569) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:47:23 2024] [0;33mW (19:46:27.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:47:23 2024] [0;33mW (19:46:27.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:47:23 2024] [0;32mI (19:46:28.000) CABINET: 2024-11-22 19:46:28[0m
+[Fri Nov 22 19:47:35 2024] [0;32mI (19:46:39.696) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:47:35 2024] [0;32mI (19:46:39.706) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:47:36 2024] [0;32mI (19:46:40.738) MQTT: Message sent: {
+	"continous_operation":	0.89,
+	"rtc":	"1732279600",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:47:36 2024] [0;32mI (19:46:40.898) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:47:52 2024] [0;33mW (19:46:57.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:47:52 2024] [0;33mW (19:46:57.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:47:52 2024] [0;32mI (19:46:57.000) CABINET: 2024-11-22 19:46:57[0m
+[Fri Nov 22 19:48:04 2024] [0;32mI (19:47:08.927) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:48:04 2024] [0;32mI (19:47:08.937) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:48:05 2024] [0;32mI (19:47:09.967) MQTT: Message sent: {
+	"continous_operation":	0.9,
+	"rtc":	"1732279629",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:48:05 2024] [0;32mI (19:47:10.084) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:48:22 2024] [0;33mW (19:47:26.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:48:22 2024] [0;33mW (19:47:26.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:48:22 2024] [0;32mI (19:47:26.000) CABINET: 2024-11-22 19:47:26[0m
+[Fri Nov 22 19:48:33 2024] [0;32mI (19:47:38.175) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:48:33 2024] [0;32mI (19:47:38.189) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:48:34 2024] [0;32mI (19:47:39.217) MQTT: Message sent: {
+	"continous_operation":	0.9,
+	"rtc":	"1732279658",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:48:34 2024] [0;32mI (19:47:39.309) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:48:51 2024] [0;33mW (19:47:55.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:48:51 2024] [0;33mW (19:47:55.984) CABINET: Into alram task[0m
+[Fri Nov 22 19:48:51 2024] [0;32mI (19:47:55.000) CABINET: 2024-11-22 19:47:55[0m
+[Fri Nov 22 19:49:03 2024] [0;32mI (19:48:07.406) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:49:03 2024] [0;32mI (19:48:07.417) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:49:04 2024] [0;32mI (19:48:08.450) MQTT: Message sent: {
+	"continous_operation":	0.91,
+	"rtc":	"1732279688",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:49:04 2024] [0;32mI (19:48:08.617) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:49:20 2024] [0;33mW (19:48:24.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:49:20 2024] [0;33mW (19:48:24.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:49:20 2024] [0;32mI (19:48:24.000) CABINET: 2024-11-22 19:48:24[0m
+[Fri Nov 22 19:49:32 2024] [0;32mI (19:48:36.624) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:49:32 2024] [0;32mI (19:48:36.635) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:49:33 2024] [0;32mI (19:48:37.662) MQTT: Message sent: {
+	"continous_operation":	0.92,
+	"rtc":	"1732279717",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:49:33 2024] [0;32mI (19:48:37.750) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:49:49 2024] [0;33mW (19:48:53.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:49:50 2024] [0;32mI (19:48:53.000) CABINET: 2024-11-22 19:48:53[0m
+[Fri Nov 22 19:50:01 2024] [0;32mI (19:49:05.825) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:50:01 2024] [0;32mI (19:49:05.835) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:50:02 2024] [0;32mI (19:49:06.864) MQTT: Message sent: {
+	"continous_operation":	0.93,
+	"rtc":	"1732279746",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:50:03 2024] [0;32mI (19:49:07.056) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:50:18 2024] [0;33mW (19:49:22.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:50:18 2024] [0;33mW (19:49:22.984) CABINET: Into alram task[0m
+[Fri Nov 22 19:50:18 2024] [0;32mI (19:49:22.000) CABINET: 2024-11-22 19:49:22[0m
+[Fri Nov 22 19:50:31 2024] [0;32mI (19:49:35.034) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:50:31 2024] [0;32mI (19:49:35.045) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:50:32 2024] [0;32mI (19:49:36.073) MQTT: Message sent: {
+	"continous_operation":	0.94,
+	"rtc":	"1732279776",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:50:32 2024] [0;32mI (19:49:36.203) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:50:47 2024] [0;33mW (19:49:51.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:50:47 2024] [0;33mW (19:49:51.982) CABINET: Into alram task[0m
+[Fri Nov 22 19:50:47 2024] [0;32mI (19:49:51.000) CABINET: 2024-11-22 19:49:51[0m
+[Fri Nov 22 19:51:00 2024] [0;32mI (19:50:04.245) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:51:00 2024] [0;32mI (19:50:04.256) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:51:01 2024] [0;32mI (19:50:05.283) MQTT: Message sent: {
+	"continous_operation":	0.95,
+	"rtc":	"1732279805",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:51:01 2024] [0;32mI (19:50:05.450) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:51:16 2024] [0;33mW (19:50:20.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:51:16 2024] [0;33mW (19:50:20.994) CABINET: Into alram task[0m
+[Fri Nov 22 19:51:16 2024] [0;32mI (19:50:20.000) CABINET: 2024-11-22 19:50:20[0m
+[Fri Nov 22 19:51:29 2024] [0;32mI (19:50:33.462) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:51:29 2024] [0;32mI (19:50:33.473) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:51:30 2024] [0;32mI (19:50:34.499) MQTT: Message sent: {
+	"continous_operation":	0.96,
+	"rtc":	"1732279834",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:51:30 2024] [0;32mI (19:50:34.604) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:51:45 2024] [0;33mW (19:50:49.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:51:45 2024] [0;33mW (19:50:49.979) CABINET: Into alram task[0m
+[Fri Nov 22 19:51:45 2024] [0;32mI (19:50:49.000) CABINET: 2024-11-22 19:50:49[0m
+[Fri Nov 22 19:51:59 2024] [0;32mI (19:51:02.686) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:51:59 2024] [0;32mI (19:51:02.697) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:52:00 2024] [0;32mI (19:51:03.729) MQTT: Message sent: {
+	"continous_operation":	0.96,
+	"rtc":	"1732279864",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Fri Nov 22 19:52:00 2024] [0;32mI (19:51:03.820) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:52:14 2024] [0;33mW (19:51:18.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:52:14 2024] [0;33mW (19:51:18.983) CABINET: Into alram task[0m
+[Fri Nov 22 19:52:14 2024] [0;32mI (19:51:18.000) CABINET: 2024-11-22 19:51:18[0m
+[Fri Nov 22 19:52:28 2024] [0;32mI (19:51:31.960) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:52:28 2024] [0;32mI (19:51:31.970) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:52:29 2024] [0;32mI (19:51:32.999) MQTT: Message sent: {
+	"continous_operation":	0.97,
+	"rtc":	"1732279893",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:52:29 2024] [0;32mI (19:51:33.179) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:52:43 2024] [0;33mW (19:51:47.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:52:43 2024] [0;33mW (19:51:47.988) CABINET: Into alram task[0m
+[Fri Nov 22 19:52:43 2024] [0;32mI (19:51:47.000) CABINET: 2024-11-22 19:51:47[0m
+[Fri Nov 22 19:52:57 2024] [0;32mI (19:52:01.201) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:52:57 2024] [0;32mI (19:52:01.212) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:52:58 2024] [0;32mI (19:52:02.239) MQTT: Message sent: {
+	"continous_operation":	0.98,
+	"rtc":	"1732279922",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:52:58 2024] [0;32mI (19:52:02.383) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:53:12 2024] [0;33mW (19:52:16.978) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:53:12 2024] [0;33mW (19:52:16.983) CABINET: Into alram task[0m
+[Fri Nov 22 19:53:12 2024] [0;32mI (19:52:17.000) CABINET: 2024-11-22 19:52:17[0m
+[Fri Nov 22 19:53:26 2024] [0;32mI (19:52:31.440) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:53:26 2024] [0;32mI (19:52:31.451) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:53:27 2024] [0;32mI (19:52:32.484) MQTT: Message sent: {
+	"continous_operation":	0.99,
+	"rtc":	"1732279952",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:53:28 2024] [0;32mI (19:52:32.614) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:53:41 2024] [0;33mW (19:52:46.981) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:53:41 2024] [0;33mW (19:52:46.985) CABINET: Into alram task[0m
+[Fri Nov 22 19:53:42 2024] [0;32mI (19:52:46.000) CABINET: 2024-11-22 19:52:46[0m
+[Fri Nov 22 19:53:56 2024] [0;32mI (19:53:00.691) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:53:56 2024] [0;32mI (19:53:00.701) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:53:57 2024] [0;32mI (19:53:01.725) MQTT: Message sent: {
+	"continous_operation":	1,
+	"rtc":	"1732279981",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:53:57 2024] [0;32mI (19:53:01.811) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:54:10 2024] [0;33mW (19:53:15.983) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:54:10 2024] [0;33mW (19:53:15.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:54:10 2024] [0;32mI (19:53:15.000) CABINET: 2024-11-22 19:53:15[0m
+[Fri Nov 22 19:54:25 2024] [0;32mI (19:53:29.929) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:54:25 2024] [0;32mI (19:53:29.940) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:54:26 2024] [0;32mI (19:53:30.973) MQTT: Message sent: {
+	"continous_operation":	1.01,
+	"rtc":	"1732280010",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:54:26 2024] [0;32mI (19:53:31.132) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:54:40 2024] [0;33mW (19:53:44.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:54:40 2024] [0;33mW (19:53:44.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:54:40 2024] [0;32mI (19:53:44.000) CABINET: 2024-11-22 19:53:44[0m
+[Fri Nov 22 19:54:54 2024] [0;32mI (19:53:59.146) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:54:54 2024] [0;32mI (19:53:59.156) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:54:55 2024] [0;32mI (19:54:00.185) MQTT: Message sent: {
+	"continous_operation":	1.01,
+	"rtc":	"1732280039",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:54:55 2024] [0;32mI (19:54:00.331) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:55:09 2024] [0;33mW (19:54:13.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:55:09 2024] [0;33mW (19:54:13.987) CABINET: Into alram task[0m
+[Fri Nov 22 19:55:09 2024] [0;32mI (19:54:13.000) CABINET: 2024-11-22 19:54:13[0m
+[Fri Nov 22 19:55:24 2024] [0;32mI (19:54:28.356) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:55:24 2024] [0;32mI (19:54:28.366) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:55:25 2024] [0;32mI (19:54:29.396) MQTT: Message sent: {
+	"continous_operation":	1.02,
+	"rtc":	"1732280069",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:55:25 2024] [0;32mI (19:54:29.493) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:55:38 2024] [0;33mW (19:54:42.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:55:38 2024] [0;33mW (19:54:42.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:55:38 2024] [0;32mI (19:54:42.000) CABINET: 2024-11-22 19:54:42[0m
+[Fri Nov 22 19:55:53 2024] [0;32mI (19:54:57.567) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:55:53 2024] [0;32mI (19:54:57.578) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:55:54 2024] [0;32mI (19:54:58.608) MQTT: Message sent: {
+	"continous_operation":	1.03,
+	"rtc":	"1732280098",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:55:54 2024] [0;32mI (19:54:58.781) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:56:07 2024] [0;33mW (19:55:11.977) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:56:07 2024] [0;33mW (19:55:11.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:56:07 2024] [0;32mI (19:55:11.000) CABINET: 2024-11-22 19:55:11[0m
+[Fri Nov 22 19:56:22 2024] [0;32mI (19:55:26.836) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:56:22 2024] [0;32mI (19:55:26.847) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:56:23 2024] [0;32mI (19:55:27.877) MQTT: Message sent: {
+	"continous_operation":	1.04,
+	"rtc":	"1732280127",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:56:23 2024] [0;32mI (19:55:28.033) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:56:31 2024] [0;33mW (19:55:35.750) CABINET: Into sync_timestamp_callback[0m
+[Fri Nov 22 19:56:31 2024] [0;33mW (19:55:35.761) CABINET: Into sync timestamp task[0m
+[Fri Nov 22 19:56:31 2024] [0;33mW (19:55:35.775) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 19:56:33 2024] [0;33mW (19:55:37.796) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 22 19:56:35 2024] [0;33mW (19:55:39.826) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov 22 19:56:36 2024] [0;33mW (19:55:40.974) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:56:36 2024] [0;33mW (19:55:40.979) CABINET: Into alram task[0m
+[Fri Nov 22 19:56:36 2024] [0;32mI (19:55:40.000) CABINET: 2024-11-22 19:55:40[0m
+[Fri Nov 22 19:56:37 2024] [0;33mW (19:55:40.859) Timestamp: Waiting for system time to be set... (3/10)[0m
+[Fri Nov 22 19:56:39 2024] [0;33mW (19:55:42.887) Timestamp: Waiting for system time to be set... (4/10)[0m
+[Fri Nov 22 19:56:41 2024] [0;33mW (19:55:44.917) Timestamp: Waiting for system time to be set... (5/10)[0m
+[Fri Nov 22 19:56:43 2024] [0;33mW (19:55:46.945) Timestamp: Waiting for system time to be set... (6/10)[0m
+[Fri Nov 22 19:56:45 2024] [0;33mW (19:55:48.969) Timestamp: Waiting for system time to be set... (7/10)[0m
+[Fri Nov 22 19:56:47 2024] [0;33mW (19:55:50.992) Timestamp: Waiting for system time to be set... (8/10)[0m
+[Fri Nov 22 19:56:48 2024] [0;33mW (19:55:53.018) Timestamp: Waiting for system time to be set... (9/10)[0m
+[Fri Nov 22 19:56:50 2024] [0;33mW (19:55:55.045) Timestamp: The current date/time in Vietnam is: Fri Nov 22 19:55:55 2024[0m
+[Fri Nov 22 19:56:50 2024] [0;32mI (19:55:55.056) Timestamp: System time set successfully[0m
+[Fri Nov 22 19:56:50 2024] [0;33mW (19:55:55.064) CABINET: The current date/time in DS1307 is: Fri Nov 22 19:55:40 2024[0m
+[Fri Nov 22 19:56:51 2024] [0;33mW (19:55:55.075) CABINET: The current date/time in Vietnam is: Fri Nov 22 19:55:55 2024[0m
+[Fri Nov 22 19:56:51 2024] [0;33mW (19:55:55.084) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 19:56:51 2024] [0;32mI (19:55:56.119) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:56:51 2024] [0;32mI (19:55:56.130) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:56:52 2024] [0;33mW (19:55:57.109) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 22 19:56:52 2024] [0;32mI (19:55:57.167) MQTT: Message sent: {
+	"continous_operation":	1.05,
+	"rtc":	"1732280157",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:56:53 2024] [0;32mI (19:55:57.273) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:56:54 2024] [0;33mW (19:55:59.129) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov 22 19:56:56 2024] [0;33mW (19:56:01.153) Timestamp: Waiting for system time to be set... (3/10)[0m
+[Fri Nov 22 19:56:58 2024] [0;33mW (19:56:03.179) Timestamp: Waiting for system time to be set... (4/10)[0m
+[Fri Nov 22 19:57:00 2024] [0;33mW (19:56:05.209) Timestamp: Waiting for system time to be set... (5/10)[0m
+[Fri Nov 22 19:57:02 2024] [0;33mW (19:56:07.238) Timestamp: Waiting for system time to be set... (6/10)[0m
+[Fri Nov 22 19:57:04 2024] [0;33mW (19:56:09.267) Timestamp: Waiting for system time to be set... (7/10)[0m
+[Fri Nov 22 19:57:05 2024] [0;33mW (19:56:09.980) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:57:05 2024] [0;33mW (19:56:09.990) CABINET: Into alram task[0m
+[Fri Nov 22 19:57:05 2024] [0;32mI (19:56:09.000) CABINET: 2024-11-22 19:56:09[0m
+[Fri Nov 22 19:57:09 2024] [0;33mW (19:56:12.316) Timestamp: Waiting for system time to be set... (9/10)[0m
+[Fri Nov 22 19:57:10 2024] [0;33mW (19:56:14.338) Timestamp: The current date/time from server is: Fri Nov 22 19:56:14 2024[0m
+[Fri Nov 22 19:57:10 2024] [0;32mI (19:56:14.347) Timestamp: System time set successfully[0m
+[Fri Nov 22 19:57:10 2024] [0;33mW (19:56:14.362) CABINET: Write correct time into DS1307 successfully[0m
+[Fri Nov 22 19:57:10 2024] [0;33mW (19:56:14.368) CABINET: Expiry time: 4089787515 [0m
+[Fri Nov 22 19:57:21 2024] [0;32mI (19:56:25.357) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:57:21 2024] [0;32mI (19:56:25.368) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:57:22 2024] [0;32mI (19:56:26.400) MQTT: Message sent: {
+	"continous_operation":	1.06,
+	"rtc":	"1732280185",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:57:22 2024] [0;32mI (19:56:26.555) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:57:34 2024] [0;33mW (19:56:38.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:57:34 2024] [0;33mW (19:56:38.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:57:34 2024] [0;32mI (19:56:37.000) CABINET: 2024-11-22 19:56:37[0m
+[Fri Nov 22 19:57:50 2024] [0;32mI (19:56:53.635) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:57:50 2024] [0;32mI (19:56:53.645) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:57:51 2024] [0;32mI (19:56:54.674) MQTT: Message sent: {
+	"continous_operation":	1.06,
+	"rtc":	"1732280214",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Fri Nov 22 19:57:51 2024] [0;32mI (19:56:54.800) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:58:03 2024] [0;33mW (19:57:06.975) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:58:03 2024] [0;33mW (19:57:06.989) CABINET: Into alram task[0m
+[Fri Nov 22 19:58:03 2024] [0;32mI (19:57:06.000) CABINET: 2024-11-22 19:57:06[0m
+[Fri Nov 22 19:58:19 2024] [0;32mI (19:57:22.856) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:58:19 2024] [0;32mI (19:57:22.866) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:58:20 2024] [0;32mI (19:57:23.895) MQTT: Message sent: {
+	"continous_operation":	1.07,
+	"rtc":	"1732280244",
+	"cpu_temp":	0,
+	"rssi":	-64
+}[0m
+[Fri Nov 22 19:58:20 2024] [0;32mI (19:57:23.978) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:58:32 2024] [0;33mW (19:57:35.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:58:32 2024] [0;33mW (19:57:35.983) CABINET: Into alram task[0m
+[Fri Nov 22 19:58:32 2024] [0;32mI (19:57:35.000) CABINET: 2024-11-22 19:57:35[0m
+[Fri Nov 22 19:58:49 2024] [0;32mI (19:57:52.095) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:58:49 2024] [0;32mI (19:57:52.106) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:58:50 2024] [0;32mI (19:57:53.138) MQTT: Message sent: {
+	"continous_operation":	1.08,
+	"rtc":	"1732280273",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[Fri Nov 22 19:58:50 2024] [0;32mI (19:57:53.284) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:59:01 2024] [0;33mW (19:58:04.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:59:01 2024] [0;33mW (19:58:04.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:59:01 2024] [0;32mI (19:58:05.000) CABINET: 2024-11-22 19:58:05[0m
+[Fri Nov 22 19:59:18 2024] [0;32mI (19:58:22.351) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:59:18 2024] [0;32mI (19:58:22.361) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:59:19 2024] [0;32mI (19:58:23.391) MQTT: Message sent: {
+	"continous_operation":	1.09,
+	"rtc":	"1732280302",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:59:19 2024] [0;32mI (19:58:23.523) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:59:30 2024] [0;33mW (19:58:34.973) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:59:30 2024] [0;33mW (19:58:34.984) CABINET: Into alram task[0m
+[Fri Nov 22 19:59:30 2024] [0;32mI (19:58:34.000) CABINET: 2024-11-22 19:58:34[0m
+[Fri Nov 22 19:59:47 2024] [0;32mI (19:58:51.625) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 19:59:47 2024] [0;32mI (19:58:51.636) Wifi: Wifi is still connected[0m
+[Fri Nov 22 19:59:48 2024] [0;32mI (19:58:52.659) MQTT: Message sent: {
+	"continous_operation":	1.1,
+	"rtc":	"1732280332",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Fri Nov 22 19:59:48 2024] [0;32mI (19:58:52.769) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 19:59:59 2024] [0;33mW (19:59:03.976) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 19:59:59 2024] [0;33mW (19:59:03.986) CABINET: Into alram task[0m
+[Fri Nov 22 19:59:59 2024] [0;32mI (19:59:03.000) CABINET: 2024-11-22 19:59:03[0m
+[Fri Nov 22 20:00:17 2024] [0;32mI (19:59:20.892) Wifi: Checking for wifi status...[0m

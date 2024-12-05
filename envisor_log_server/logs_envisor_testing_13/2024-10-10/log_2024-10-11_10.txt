@@ -1,0 +1,64 @@
+[Fri Oct 11 10:53:24 2024] <ba-add>idx:0 (ifx:0, 94:37:f7:89:76:54), tid:0, ssn:1, winSize:64
+[Fri Oct 11 10:53:24 2024] 
+[Fri Oct 11 10:53:25 2024] [0;32mI (00:00:17.694) MQTT: Other event id:7[0m
+[Fri Oct 11 10:53:26 2024] <ba-add>idx:1 (ifx:0, 94:37:f7:89:76:54), tid:1, ssn:1, winSize:64
+[Fri Oct 11 10:53:26 2024] I (18630) wifi:
+[Fri Oct 11 10:53:26 2024] 
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:17.902) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Oct 11 10:53:26 2024] [0;33mW (00:00:17.905) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:17.912) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-70
+}[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:17.924) MQTT: CPU frequency: 80[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:17.927) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:17.997) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:18.092) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 11 10:53:26 2024] [0;32mI (00:00:18.494) Wifi: Connected to wifi: Tepbac.com[0m
+[Fri Oct 11 10:53:26 2024] [0;33mW (00:00:18.496) Wifi: Wifi initialized[0m
+[Fri Oct 11 10:53:27 2024] [0;31mE (00:00:18.924) i2cdev: Could not write to device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.494) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.498) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.506) wifi_prov_mgr: Provisioning stopped[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.508) wifi_prov_scheme_ble: BTDM memory released[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.508) wifi_prov_scheme_ble: BTDM me
+[Fri Oct 11 10:53:27 2024] I (20250) wifi:
+[Fri Oct 11 10:53:27 2024] Set ps type: 1, coexist: 0
+[Fri Oct 11 10:53:27 2024] 
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.520) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.530) sleep: Code start at 0x42000020, total 965555, data start at 0x3c0f0020, total 318668 Bytes[0m
+[Fri Oct 11 10:53:27 2024] [0;32mI (00:00:19.541) Wifi: Power save mode enabled[0m
+[Fri Oct 11 10:53:27 2024] [0;33mW (00:00:19.546) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Oct 11 10:53:28 2024] [0;31mE (00:00:20.124) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 11 10:53:28 2024] [0;31mE (00:00:20.127) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 11 10:53:28 2024] [0;33mW (00:00:20.132) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 11 10:53:28 2024] [0;32mI (00:00:20.142) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	0
+}[0m
+[Fri Oct 11 10:53:28 2024] [0;32mI (00:00:20.348) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 11 10:53:28 2024] [0;33mW (17:53:28.480) Timestamp: The current date/time in Vietnam is: Fri Oct 11 17:53:28 2024[0m
+[Fri Oct 11 10:53:28 2024] [0;32mI (17:53:28.484) Timestamp: System time set successfully[0m
+[Fri Oct 11 10:53:28 2024] [0;32mI (17:53:28.490) Wifi: Checking for wifi status...[0m
+[Fri Oct 11 10:53:28 2024] [0;32mI (17:53:28.496) Wifi: Wifi is still connected[0m
+[Fri Oct 11 10:53:29 2024] [0;31mE (17:53:29.195) i2cdev: Could not write to device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 11 10:53:29 2024] [0;32mI (17:53:29.198) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 11 10:53:30 2024] [0;31mE (17:53:30.195) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 11 10:53:30 2024] [0;31mE (17:53:30.198) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Oct 11 10:53:30 2024] [0;32mI (17:53:30.203) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 11 10:53:38 2024] [0;33mW (17:53:38.229) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 11 10:53:38 2024] [0;32mI (17:53:38.235) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-73
+}[0m
+[Fri Oct 11 10:53:38 2024] [0;32mI (17:53:38.494) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 11 10:53:48 2024] [0;32mI (17:53:48.410) MQTT: CPU frequency: 80[0m
+[Fri Oct 11 10:53:48 2024] [0;33mW (17:53:48.413) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 11 10:53:48 2024] [0;32mI (17:53:48.420) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-71
+}[0m
+[Fri Oct 11 10:53:48 2024] [0;32mI (17:53:48.489) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 17 02:25:04 2024] [0;32mI (00:01:46.067) HTTPS_OTA: OTA app_main start[0m

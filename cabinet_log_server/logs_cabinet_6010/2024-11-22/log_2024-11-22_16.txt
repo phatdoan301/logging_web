@@ -1,0 +1,76 @@
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.629) Wifi: Logging to UDP server at 13.55.39.26:6010[0m
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.635) MQTT: id=cabinet_0924_35[0m
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.642) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov 22 16:59:06 2024] [0;33mW (09:59:22.648) MQTT: USE WIFI[0m
+[Fri Nov 22 16:59:06 2024] [0;33mW (09:59:22.652) Wifi: WIFI_MODE[0m
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.657) MQTT: Other event id:7[0m
+[Fri Nov 22 16:59:06 2024] [0;33mW (09:59:22.660) Wifi: Wifi initialized[0m
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.669) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 16:59:06 2024] [0;32mI (09:59:22.676) Wifi: Wifi is still connected[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:22.906) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 22 16:59:07 2024] [0;33mW (09:59:22.908) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.002) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 22 16:59:07 2024] I (11665) wifi:
+[Fri Nov 22 16:59:07 2024] 
+[Fri Nov 22 16:59:07 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:5, winSize:64
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.073) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.075) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.086) MQTT: Extracted requestId: 3829[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.100) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/3829[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (09:59:23.171) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:07 2024] [0;33mW (16:59:23.198) Timestamp: The current date/time from server is: Fri Nov 22 16:59:23 2024[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.205) Timestamp: System time set successfully[0m
+[Fri Nov 22 16:59:07 2024] [0;33mW (16:59:23.217) CABINET: Sync timestamp first time successfully[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.651) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.660) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.672) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"16:55:36",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.1.222",
+	"bootnum":	71,
+	"rtc":	"1732269563",
+	"cpu_temp":	0,
+	"rssi":	-37,
+	"rtc_src":	1,
+	"startup_info":	"Software reset"
+}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.675) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.707) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.721) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.730) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.737) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.753) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.758) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.770) MQTT: Received feedback from relay control task: 4, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.778) MQTT: Sync data sent: {"d05":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.793) MQTT: Received feedback from relay control task: 5, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.798) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.809) MQTT: Sync data sent: {"d06":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.816) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.831) MQTT: Received feedback from relay control task: 6, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.837) MQTT: Sync data sent: {"d07":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.849) MQTT: Received feedback from relay control task: 7, 0[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.857) MQTT: Sync data sent: {"d08":0}[0m
+[Fri Nov 22 16:59:07 2024] [0;32mI (16:59:23.860) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:08 2024] [0;32mI (16:59:23.875) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:08 2024] [0;32mI (16:59:23.892) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:08 2024] [0;32mI (16:59:23.926) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:08 2024] [0;32mI (16:59:23.941) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:08 2024] [0;32mI (16:59:23.985) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 16:59:36 2024] [0;32mI (16:59:52.618) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 16:59:36 2024] [0;32mI (16:59:52.628) Wifi: Wifi is still connected[0m
+[Fri Nov 22 16:59:36 2024] [0;33mW (16:59:52.755) CABINET: Into check_alarm_timer[0m
+[Fri Nov 22 16:59:36 2024] [0;33mW (16:59:52.767) CABINET: Into alram task[0m
+[Fri Nov 22 16:59:36 2024] [0;32mI (16:59:51.000) CABINET: 2024-11-22 16:59:51[0m
+[Fri Nov 22 16:59:37 2024] [0;32mI (16:59:51.878) MQTT: Message sent: {
+	"continous_operation":	0.01,
+	"rtc":	"1732269592",
+	"cpu_temp":	0,
+	"rssi":	-41
+}[0m
+[Fri Nov 22 16:59:37 2024] [0;32mI (16:59:52.045) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:00:05 2024] [0;33mW (17:00:20.975) CABINET: Into check_alarm_timer[0m

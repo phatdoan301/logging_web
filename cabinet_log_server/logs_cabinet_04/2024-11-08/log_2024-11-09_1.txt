@@ -1,0 +1,880 @@
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:03.875) MQTT: Wifi connected, starting MQTT task[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:03.881) MQTT: Event group for MQTT created successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:03.894) MQTT: broker_uri=mqtt://35.240.204.122:1883[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:03.900) MQTT: id=cabinet_0924_38[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:03.908) MQTT: Other event id:7[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.258) MQTT: MQTT_EVENT_CONNECTED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.350) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.430) MQTT: MQTT_RECEIVED DATA[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.433) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.436) MQTT: Extracted requestId: 3800[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.443) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/3800[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.555) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.584) MQTT: MQTT_RECEIVED DATA[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.588) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=0-2-0-0-0-0-0,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=1-1-0-30-1.2-1-300-330-1.3-1-600-630-1.4-1-900-930-1.5-1-1200-1230-1.6-1-1500-1530-1.7-1-1800-1830-1.8-1-2114-2130-1,d05=0-2-0-0-0-0-0,d06=0-2-0-0-0-0-0,d07=0-2-0-0-0-0-0,d08=0-2-0-0-0-0-0;"}}
+[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.610) MQTT: Extracted requestId: 3801[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.619) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/3801[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.628) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.632) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.640) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.649) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.656) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.665) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.673) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.681) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.690) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.699) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.707) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.715) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.770) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.919) MQTT: Received feedback from relay control task: 0, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.936) MQTT: Sync data sent: {"d01":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.951) NVS: Store timer of [1] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.954) MQTT: Received feedback from relay control task: 1, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.959) MQTT: Message sent: {
+	"mac":	"E4:FA:C4:4B:9E:54",
+	"firmware_version":	"1.0.2",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Farmext Base IOT 1",
+	"continous_operation":	0,
+	"ip_address":	"192.168.1.184",
+	"bootnum":	61,
+	"rtc":	"1731087064",
+	"cpu_temp":	0,
+	"rssi":	-65,
+	"rtc_src":	1
+}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.968) MQTT: Sync data sent: {"d02":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:04.981) NVS: Store timer of [2] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.005) MQTT: Received feedback from relay control task: 2, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.017) MQTT: Sync data sent: {"d03":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.040) NVS: Store timer of [3] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.041) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.049) MQTT: Received feedback from relay control task: 3, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.062) MQTT: Sync data sent: {"d04":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.076) MQTT: Received feedback from relay control task: 4, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.089) MQTT: Sync data sent: {"d05":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.102) MQTT: Received feedback from relay control task: 5, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.110) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.116) MQTT: Sync data sent: {"d06":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.134) NVS: Store timer of [4] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.135) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.147) MQTT: Received feedback from relay control task: 6, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.151) MQTT: Sync data sent: {"d07":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.220) MQTT: Received feedback from relay control task: 7, 0[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.233) MQTT: Sync data sent: {"d08":0}[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.234) NVS: Store timer of [5] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.241) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.259) NVS: Store timer of [6] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.274) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.287) NVS: Store timer of [7] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.312) NVS: Store timer of [8] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.315) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.345) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.347) NVS: Store timer of [1] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.364) NVS: Store timer of [2] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.376) NVS: Store timer of [3] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.391) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.407) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.433) NVS: Store timer of [4] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.445) NVS: Store timer of [5] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.457) NVS: Store timer of [6] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.489) NVS: Store timer of [7] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.510) NVS: Store timer of [8] successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.720) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.725) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.730) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.740) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.747) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.756) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.764) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.773) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.781) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.789) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.798) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:05.805) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.824) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.828) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.833) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.842) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.852) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.859) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.867) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.876) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.884) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.893) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.901) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:06.909) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.929) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.934) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.939) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.948) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.956) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.964) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.973) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.981) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.990) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:07.999) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:08.007) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:08.014) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.034) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.039) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.044) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.053) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.062) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.070) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.079) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.087) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.095) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.104) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.112) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:09.120) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.139) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.144) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.149) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.157) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.166) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.174) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.183) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.191) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.200) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.208) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.216) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:10.224) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:11.245) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:11.249) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (17:31:12.875) Wifi: Connected to wifi: Farmext Base IOT 1[0m
+[Sat Nov  9 01:07:17 2024] [0;33mW (17:31:12.880) Wifi: Wifi initialized[0m
+[Sat Nov  9 01:07:17 2024] [0;33mW (00:31:12.883) Timestamp: The current date/time in Vietnam is: Sat Nov  9 00:31:12 2024[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (00:31:12.888) Timestamp: System time set successfully[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (00:31:12.894) Wifi: Checking for wifi status...[0m
+[Sat Nov  9 01:07:17 2024] [0;32mI (00:31:12.900) Wifi: Wifi is still connected[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.452) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.457) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.462) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.473) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.479) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.488) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.496) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.505) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.513) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.522) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.530) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:18 2024] [0;32mI (00:31:13.538) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.557) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.561) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.566) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.574) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.583) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.591) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.600) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.609) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.618) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.625) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.634) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:19 2024] [0;32mI (00:31:14.641) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.660) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.665) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.670) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.679) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.687) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.696) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.704) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.712) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.721) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.729) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.738) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:20 2024] [0;32mI (00:31:15.746) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.766) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.769) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.774) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.783) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.791) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.800) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.808) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.817) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.825) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.833) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.842) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:21 2024] [0;32mI (00:31:16.850) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.871) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.877) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.882) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.891) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.899) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.908) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.916) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.924) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.933) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.941) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.950) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:22 2024] [0;32mI (00:31:17.957) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:18.976) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:18.981) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:18.986) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:18.997) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.003) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.012) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.020) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.029) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.037) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.046) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.054) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:23 2024] [0;32mI (00:31:19.062) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.079) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.083) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.088) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.097) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.106) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.114) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.122) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.131) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.139) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.147) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.156) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:24 2024] [0;32mI (00:31:20.164) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.181) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.184) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.189) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.198) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.207) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.217) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.223) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.232) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.240) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.248) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.257) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:25 2024] [0;32mI (00:31:21.265) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.284) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.288) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.293) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.302) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.310) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.319) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.328) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.336) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.344) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.353) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.361) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:26 2024] [0;32mI (00:31:22.369) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.389) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.394) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.399) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.409) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.416) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.425) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.433) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.442) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.450) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.459) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.467) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:27 2024] [0;32mI (00:31:23.475) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.494) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.498) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.503) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.512) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.520) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.528) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.537) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.545) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.554) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.562) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.571) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:28 2024] [0;32mI (00:31:24.578) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.597) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.601) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.606) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.615) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.624) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.632) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.640) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.649) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.657) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.666) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.674) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:29 2024] [0;32mI (00:31:25.682) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.702) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.706) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.711) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.720) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.728) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:30 2024] [0;32mI (00:31:26.737) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.745) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.754) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.762) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.771) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.779) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:26.786) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:27.807) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:31 2024] [0;32mI (00:31:27.809) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.814) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.823) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.832) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.840) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.849) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.857) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.865) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.874) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.882) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:32 2024] [0;32mI (00:31:27.890) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.913) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.919) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.924) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.933) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.941) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.950) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.959) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.967) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.975) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.984) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:28.992) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:33 2024] [0;32mI (00:31:29.000) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.018) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.024) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.029) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.038) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.046) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.055) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.063) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.072) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.080) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.088) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.097) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:34 2024] [0;32mI (00:31:30.105) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.118) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.124) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.129) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.139) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.146) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.154) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.163) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.171) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.180) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.188) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.197) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:35 2024] [0;32mI (00:31:31.204) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.221) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.226) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.231) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.240) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.249) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.257) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.265) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.274) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.282) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.291) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.299) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:36 2024] [0;32mI (00:31:32.307) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.325) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.331) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.335) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.344) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.353) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.361) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.370) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.378) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.387) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.395) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.403) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:37 2024] [0;32mI (00:31:33.411) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.424) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.428) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.433) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.442) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.450) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.459) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.467) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.475) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.485) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.492) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.501) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:38 2024] [0;32mI (00:31:34.508) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.526) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.532) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.537) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.546) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.554) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.563) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.571) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.579) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.589) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.596) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.605) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:39 2024] [0;32mI (00:31:35.612) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.632) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.638) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.642) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.651) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.659) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.668) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.677) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.685) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.694) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.702) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.711) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:40 2024] [0;32mI (00:31:36.718) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.735) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.738) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.743) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.751) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.760) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.768) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.777) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.786) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.794) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.802) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.810) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:41 2024] [0;32mI (00:31:37.818) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.836) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.842) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.847) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.856) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.864) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.872) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.882) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.890) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.898) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.906) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.915) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:42 2024] [0;32mI (00:31:38.922) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.940) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.945) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.950) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.959) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.968) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.976) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.984) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:39.993) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:40.002) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:40.010) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:40.018) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:43 2024] [0;32mI (00:31:40.026) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.046) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.050) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.055) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.064) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.074) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.082) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.089) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.097) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.106) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.114) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.123) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:44 2024] [0;32mI (00:31:41.131) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.151) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.156) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.161) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.170) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.179) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.187) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.195) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:45 2024] [0;32mI (00:31:42.204) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:42.212) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:42.221) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:42.229) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:42.237) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:43.257) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:43.261) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:46 2024] [0;32mI (00:31:43.266) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.275) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.277) Wifi: Checking for wifi status...[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.283) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.288) Wifi: Wifi is still connected[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.297) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.311) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.320) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.329) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.336) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.345) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:47 2024] [0;32mI (00:31:43.352) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.370) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.376) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.381) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.390) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.398) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.406) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.415) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.423) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.432) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.440) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.449) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:48 2024] [0;32mI (00:31:44.456) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.470) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.476) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.481) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.490) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.498) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.506) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.516) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.523) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.531) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.540) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.549) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:49 2024] [0;32mI (00:31:45.556) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.570) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.575) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.580) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.590) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.597) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.606) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.614) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.623) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.632) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.640) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.648) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:50 2024] [0;32mI (00:31:46.656) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.675) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.680) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.685) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.693) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.702) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.710) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.719) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.727) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.735) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.744) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.753) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:51 2024] [0;32mI (00:31:47.760) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.780) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.784) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.790) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.798) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.806) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.815) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.824) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.832) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.840) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.850) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.857) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:52 2024] [0;32mI (00:31:48.865) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.879) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.884) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.889) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.898) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.907) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.915) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.923) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.932) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.940) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.949) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.957) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:53 2024] [0;32mI (00:31:49.965) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:50.982) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:50.986) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:50.991) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:50.999) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.008) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.017) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.025) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.033) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.041) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.050) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.058) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:54 2024] [0;32mI (00:31:51.066) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.087) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.093) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.098) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.107) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.115) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.124) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.132) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.140) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.149) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.157) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.166) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:55 2024] [0;32mI (00:31:52.173) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.192) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.198) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.203) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.212) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.220) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.229) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.237) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.245) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.254) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.262) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.271) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:56 2024] [0;32mI (00:31:53.279) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.297) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.303) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.308) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.316) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.325) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.334) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.342) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.350) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.359) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.367) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.376) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:57 2024] [0;32mI (00:31:54.383) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.402) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.408) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.413) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.422) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.431) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.438) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.447) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.455) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.464) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.472) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.481) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:58 2024] [0;32mI (00:31:55.488) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.504) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.509) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.514) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.523) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.531) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.540) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.548) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.557) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.565) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.574) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.582) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:07:59 2024] [0;32mI (00:31:56.590) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.606) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.611) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.616) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.625) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.633) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:00 2024] [0;32mI (00:31:57.642) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.650) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.659) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.667) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.675) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.684) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:57.692) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.709) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.715) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.720) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.729) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.737) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:01 2024] [0;32mI (00:31:58.746) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.754) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.763) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.771) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.780) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.788) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:02 2024] [0;32mI (00:31:58.796) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.816) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.819) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.824) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.833) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.842) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.850) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.858) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.867) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.875) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.884) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.893) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:03 2024] [0;32mI (00:31:59.900) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.921) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.927) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.932) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.942) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.949) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.958) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.966) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.975) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.983) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:00.992) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:01.000) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:04 2024] [0;32mI (00:32:01.007) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.027) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.032) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.037) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.046) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.054) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.063) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.071) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.080) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.089) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.097) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.105) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:05 2024] [0;32mI (00:32:02.113) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.133) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.139) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.143) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.153) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.160) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.170) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.178) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.186) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.194) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.203) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.211) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:06 2024] [0;32mI (00:32:03.219) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.234) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.239) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.244) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.253) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.261) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.270) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.279) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.287) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.295) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.304) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.312) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:07 2024] [0;32mI (00:32:04.320) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.338) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.340) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.345) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.354) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.364) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.371) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.380) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.389) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.396) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.405) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.413) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.421) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.755) MQTT: Message sent: {
+	"mac":	"E4:FA:C4:4B:9E:54",
+	"firmware_version":	"1.0.2",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Farmext Base IOT 1",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.1.184",
+	"bootnum":	61,
+	"rtc":	"1731087125",
+	"cpu_temp":	0,
+	"rssi":	-64,
+	"rtc_src":	1
+}[0m
+[Sat Nov  9 01:08:08 2024] [0;32mI (00:32:05.906) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.438) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.442) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.447) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.456) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.465) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.473) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.481) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.490) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.498) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.506) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.515) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:09 2024] [0;32mI (00:32:06.523) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.542) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.547) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.552) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.561) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.569) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.578) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.588) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.595) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.604) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.612) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.620) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:10 2024] [0;32mI (00:32:07.628) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.647) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.651) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.656) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.665) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.674) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.682) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.690) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.699) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.709) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.716) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.724) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:11 2024] [0;32mI (00:32:08.732) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.752) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.757) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.762) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.771) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.779) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.788) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.796) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.804) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.814) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.822) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.830) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:12 2024] [0;32mI (00:32:09.838) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.857) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.859) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.864) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.873) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.882) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.890) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.899) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.907) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.915) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.924) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.932) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:13 2024] [0;32mI (00:32:10.940) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.961) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.965) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.971) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.979) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.989) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:11.997) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.005) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.013) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.021) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.030) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.039) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:14 2024] [0;32mI (00:32:12.046) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:15 2024] [0;32mI (00:32:12.901) CABINET: 2024-11-09 00:31:12
+[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.907) CABINET: TIMER OF DEVICE 1[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.909) CABINET: Index of timer: 0 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.911) CABINET: Start timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.913) CABINET: Stop timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.917) CABINET: Mode timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.924) CABINET: TIMER OF DEVICE 2[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.926) CABINET: Index of timer: 0 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.931) CABINET: Start timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.936) CABINET: Stop timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.940) CABINET: Mode timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.947) CABINET: TIMER OF DEVICE 3[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.950) CABINET: Index of timer: 0 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.955) CABINET: Start timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.959) CABINET: Stop timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.964) CABINET: Mode timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.970) CABINET: TIMER OF DEVICE 4[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.973) CABINET: Index of timer: 1 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.978) CABINET: Start timer: 0[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.982) CABINET: Stop timer: 30[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.987) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.992) CABINET: Index of timer: 2 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:12.996) CABINET: Start timer: 300[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.001) CABINET: Stop timer: 330[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.006) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.010) CABINET: Index of timer: 3 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.015) CABINET: Start timer: 600[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.020) CABINET: Stop timer: 630[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.025) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.029) CABINET: Index of timer: 4 [0m
+[Sat Nov  9 01:08:15 2024] [0;33mW (00:32:13.034) CABINET: Start timer: 900[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.039) CABINET: Stop timer: 930[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.043) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.048) CABINET: Index of timer: 5 [0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.053) CABINET: Start timer: 1200[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.058) CABINET: Stop timer: 1230[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.062) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.064) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.067) CABINET: Index of timer: 6 [0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.076) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.080) CABINET: Start timer: 1500[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.089) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.093) CABINET: Stop timer: 1530[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.105) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.110) CABINET: Index of timer: 7 [0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.115) CABINET: Start timer: 1800[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.120) CABINET: Stop timer: 1830[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.124) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.129) CABINET: Index of timer: 8 [0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.134) CABINET: Start timer: 2114[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.139) CABINET: Stop timer: 2130[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.142) CABINET_CONTROLLER_LOG: |   1   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.144) CABINET: Mode timer: 1[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.156) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.159) CABINET: TIMER OF DEVICE 5[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.161) CABINET: Index of timer: 0 [0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.172) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.175) CABINET: Start timer: 0[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.185) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Sat Nov  9 01:08:16 2024] [0;33mW (00:32:13.188) CABINET: Stop timer: 0[0m
+[Sat Nov  9 01:08:16 2024] [0;32mI (00:32:13.205) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Sat Nov  9 05:57:43 2024] [0;32mI (00:01:04.667) Wifi: Logging to UDP server at 13.55.39.26:6003[0m

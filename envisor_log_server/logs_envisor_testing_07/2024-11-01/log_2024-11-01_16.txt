@@ -1,0 +1,1422 @@
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:31.216) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:31.221) Wifi: Provisioning successful[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.604) MQTT: Other event id:7[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.790) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:15:46 2024] [0;33mW (00:01:32.795) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.802) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-50
+}[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.814) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.816) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.894) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:32.996) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.000) MQTT: Extracted requestId: 38[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.006) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/38[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.017) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.099) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:15:46 2024] I (93772) wifi:
+[Fri Nov  1 16:15:46 2024] 
+[Fri Nov  1 16:15:46 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:7, winSize:64
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.224) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:15:46 2024] [0;31mE (00:01:33.226) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.229) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.334) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:15:46 2024] [0;32mI (00:01:33.337) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:15:46 2024] [0;31mE (00:01:33.339) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:15:46 2024] [0;33mW (00:01:33.343) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:15:47 2024] [0;31mE (00:01:33.814) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:15:47 2024] [0;31mE (00:01:33.817) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:33.820) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:15:47 2024] [0;33mW (00:01:33.822) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:33.838) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	0.014
+}[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:33.918) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:15:47 2024] [0;31mE (00:01:34.344) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.346) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.444) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.446) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:15:47 2024] [0;31mE (00:01:34.449) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:15:47 2024] [0;33mW (00:01:34.453) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.648) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.651) MQTT: Extracted requestId: 39[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.657) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/39[0m
+[Fri Nov  1 16:15:47 2024] [0;32mI (00:01:34.738) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:15:48 2024] [0;31mE (00:01:35.454) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.456) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.510) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.514) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.517) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+[0m
+[Fri Nov  1 16:15:48 2024] [0;31mE (00:01:35.544) protocomm_nimble: Error setting advertisement data; rc = 30[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.553) wifi_prov_mgr: Provisioning stopped[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.554) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.556) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.558) Wifi: BLE transport: Disconnected![0m
+[Fri Nov  1 16:15:48 2024] [0;31mE (00:01:35.563) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.569) Wifi: BLE transport: Disconnected![0m
+[Fri Nov  1 16:15:48 2024] [0;33mW (00:01:35.573) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.579) Wifi: Provisioning ended[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.591) wifi_prov_scheme_ble: BTDM memory released[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.591) wifi_prov_scheme_ble: BTDM
+[Fri Nov  1 16:15:48 2024] [0;33mW (00:01:35.599) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:15:48 2024] I (96172) wifi:
+[Fri Nov  1 16:15:48 2024] 
+[Fri Nov  1 16:15:48 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.610) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.620) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:15:48 2024] [0;32mI (00:01:35.631) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:15:48 2024] [0;33mW (00:01:35.636) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:15:49 2024] [0;31mE (00:01:36.361) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:15:49 2024] [0;32mI (00:01:36.364) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:15:49 2024] [0;32mI (00:01:36.465) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:15:49 2024] [0;32mI (00:01:36.469) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:15:49 2024] [0;31mE (00:01:36.471) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:15:49 2024] [0;31mE (00:01:36.475) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:15:50 2024] [0;31mE (00:01:36.485) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:15:51 2024] [0;33mW (00:01:37.485) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:15:51 2024] [0;33mW (16:15:51.767) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:15:51 2024[0m
+[Fri Nov  1 16:15:51 2024] [0;32mI (16:15:51.771) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:15:51 2024] [0;32mI (16:15:51.776) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:15:51 2024] [0;32mI (16:15:51.782) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:15:52 2024] [0;31mE (16:15:52.771) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:15:52 2024] [0;31mE (16:15:52.775) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:15:52 2024] [0;32mI (16:15:52.780) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:16:47 2024] [0;32mI (00:00:04.904) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:16:49 2024] [0;32mI (00:00:06.904) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:16:49 2024] [0;31mE (00:00:06.907) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:16:49 2024] [0;32mI (00:00:06.909) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:16:49 2024] [0;32mI (00:00:07.014) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:16:49 2024] [0;32mI (00:00:07.017) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:16:49 2024] [0;31mE (00:00:07.019) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:16:49 2024] [0;33mW (00:00:07.023) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:16:50 2024] [0;31mE (00:00:08.024) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:16:50 2024] [0;32mI (00:00:08.027) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:16:50 2024] [0;32mI (00:00:08.124) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:16:50 2024] [0;32mI (00:00:08.126) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:16:50 2024] [0;31mE (00:00:08.129) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:16:50 2024] [0;33mW (00:00:08.133) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:24:52 2024] [0;32mI (00:00:03.737) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:24:54 2024] [0;32mI (00:00:05.734) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:24:54 2024] [0;31mE (00:00:05.737) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:24:54 2024] [0;32mI (00:00:05.739) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:24:54 2024] [0;32mI (00:00:05.772) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:24:54 2024] [0;32mI (00:00:05.775) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:24:54 2024] [0;32mI (00:00:05.777) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:24:54 2024] [0;31mE (00:00:05.783) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:24:54 2024] [0;33mW (00:00:05.787) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:24:55 2024] [0;31mE (00:00:06.794) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:24:55 2024] [0;32mI (00:00:06.797) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:24:55 2024] [0;32mI (00:00:06.828) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:24:55 2024] [0;32mI (00:00:06.830) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:24:55 2024] [0;32mI (00:00:06.833) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:24:55 2024] [0;31mE (00:00:06.838) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:24:55 2024] [0;33mW (00:00:06.843) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:24:56 2024] [0;31mE (00:00:07.844) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:24:56 2024] [0;32mI (00:00:07.847) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:24:56 2024] [0;32mI (00:00:07.878) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:24:56 2024] [0;32mI (00:00:07.880) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:24:56 2024] [0;32mI (00:00:07.883) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:24:56 2024] [0;31mE (00:00:07.889) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:24:56 2024] [0;33mW (00:00:07.893) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:24:57 2024] [0;31mE (00:00:08.894) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:24:57 2024] [0;32mI (00:00:08.897) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:24:57 2024] [0;32mI (00:00:08.927) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:24:57 2024] [0;32mI (00:00:08.930) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:24:57 2024] [0;32mI (00:00:08.932) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:24:57 2024] [0;31mE (00:00:08.938) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:24:57 2024] [0;31mE (00:00:08.942) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:24:57 2024] [0;31mE (00:00:08.952) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:25:01 2024] [0;32mI (00:00:12.664) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:25:01 2024] [0;33mW (00:00:12.667) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:25:01 2024] I (13281) wifi:
+[Fri Nov  1 16:25:01 2024] 
+[Fri Nov  1 16:25:01 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:25:01 2024] [0;32mI (00:00:12.673) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:25:01 2024] [0;32mI (00:00:12.680) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:25:01 2024] [0;32mI (00:00:12.691) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:25:01 2024] [0;33mW (00:00:12.696) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:25:48 2024] [0;32mI (00:00:03.727) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:25:50 2024] [0;32mI (00:00:05.724) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:25:50 2024] [0;31mE (00:00:05.727) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:25:50 2024] [0;32mI (00:00:05.729) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:25:50 2024] [0;32mI (00:00:05.762) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:25:50 2024] [0;32mI (00:00:05.765) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:25:50 2024] [0;32mI (00:00:05.768) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:25:50 2024] [0;31mE (00:00:05.773) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:25:50 2024] [0;33mW (00:00:05.777) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:25:51 2024] [0;31mE (00:00:06.784) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:25:51 2024] [0;32mI (00:00:06.787) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:25:51 2024] [0;32mI (00:00:06.817) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:25:51 2024] [0;32mI (00:00:06.820) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:25:51 2024] [0;32mI (00:00:06.822) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:25:51 2024] [0;31mE (00:00:06.828) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:25:51 2024] [0;33mW (00:00:06.832) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:25:52 2024] [0;31mE (00:00:07.834) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:25:52 2024] [0;32mI (00:00:07.837) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:25:52 2024] [0;32mI (00:00:07.868) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:25:52 2024] [0;32mI (00:00:07.870) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:25:52 2024] [0;32mI (00:00:07.872) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:25:52 2024] [0;31mE (00:00:07.878) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:25:52 2024] [0;33mW (00:00:07.883) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:25:53 2024] [0;31mE (00:00:08.884) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:25:53 2024] [0;32mI (00:00:08.887) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:25:53 2024] [0;32mI (00:00:08.919) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:25:53 2024] [0;32mI (00:00:08.921) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:25:53 2024] [0;32mI (00:00:08.924) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:25:53 2024] [0;31mE (00:00:08.929) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:25:53 2024] [0;31mE (00:00:08.934) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:25:53 2024] [0;31mE (00:00:08.944) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:25:57 2024] [0;32mI (00:00:12.614) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:25:57 2024] [0;33mW (00:00:12.617) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:25:57 2024] I (13230) wifi:
+[Fri Nov  1 16:25:57 2024] 
+[Fri Nov  1 16:25:57 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:25:57 2024] [0;32mI (00:00:12.623) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:25:57 2024] [0;32mI (00:00:12.630) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:25:57 2024] [0;32mI (00:00:12.641) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:25:57 2024] [0;33mW (00:00:12.646) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:25:59 2024] [0;33mW (00:00:14.691) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:26:01 2024] [0;33mW (00:00:16.714) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov  1 16:26:02 2024] [0;33mW (16:26:02.026) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:26:02 2024[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.030) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.036) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.041) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.518) MQTT: Other event id:7[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.735) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:26:02 2024] [0;33mW (16:26:02.738) MAIN: Finish led task[0m
+[Fri Nov  1 16:26:02 2024] [0;33mW (16:26:02.742) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.748) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-46
+}[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.758) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:26:02 2024] I (18410) wifi:
+[Fri Nov  1 16:26:02 2024] 
+[Fri Nov  1 16:26:02 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:4, winSize:64
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.809) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.867) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.905) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.908) MQTT: Extracted requestId: 42[0m
+[Fri Nov  1 16:26:02 2024] [0;32mI (16:26:02.913) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/42[0m
+[Fri Nov  1 16:26:03 2024] [0;31mE (16:26:03.029) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:26:03 2024] [0;31mE (16:26:03.032) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:26:03 2024] [0;32mI (16:26:03.037) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:26:03 2024] [0;32mI (16:26:03.042) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:26:03 2024] [0;32mI (16:26:03.046) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:04 2024] [0;32mI (16:26:03.948) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:26:04 2024] [0;31mE (16:26:04.048) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:26:04 2024] [0;31mE (16:26:04.052) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:26:04 2024] [0;32mI (16:26:04.055) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:26:04 2024] [0;33mW (16:26:04.059) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:26:04 2024] [0;32mI (16:26:04.072) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.81
+}[0m
+[Fri Nov  1 16:26:04 2024] [0;32mI (16:26:04.133) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:41 2024] [0;32mI (00:00:06.176) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:26:43 2024] [0;32mI (00:00:08.174) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:26:43 2024] [0;31mE (00:00:08.176) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:26:43 2024] [0;32mI (00:00:08.179) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:26:43 2024] [0;32mI (00:00:08.212) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:26:43 2024] [0;32mI (00:00:08.214) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:26:43 2024] [0;32mI (00:00:08.217) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:26:43 2024] [0;31mE (00:00:08.222) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:26:43 2024] [0;33mW (00:00:08.227) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:26:44 2024] [0;31mE (00:00:09.234) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:26:44 2024] [0;32mI (00:00:09.236) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:26:44 2024] [0;32mI (00:00:09.268) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:26:44 2024] [0;32mI (00:00:09.270) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:26:44 2024] [0;32mI (00:00:09.272) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:26:44 2024] [0;31mE (00:00:09.278) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:26:44 2024] [0;33mW (00:00:09.282) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:26:45 2024] [0;31mE (00:00:10.284) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:26:45 2024] [0;32mI (00:00:10.286) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:26:45 2024] [0;32mI (00:00:10.318) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:26:45 2024] [0;32mI (00:00:10.320) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:26:45 2024] [0;32mI (00:00:10.323) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:26:45 2024] [0;31mE (00:00:10.328) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:26:45 2024] [0;33mW (00:00:10.333) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:26:46 2024] [0;31mE (00:00:11.334) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:26:46 2024] [0;32mI (00:00:11.336) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:26:46 2024] [0;32mI (00:00:11.367) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:26:46 2024] [0;32mI (00:00:11.370) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:26:46 2024] [0;32mI (00:00:11.372) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:26:46 2024] [0;31mE (00:00:11.378) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:26:46 2024] [0;31mE (00:00:11.382) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:26:46 2024] [0;31mE (00:00:11.392) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:26:47 2024] [0;32mI (00:00:12.654) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:26:47 2024] [0;33mW (00:00:12.656) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:26:47 2024] I (13270) wifi:
+[Fri Nov  1 16:26:47 2024] 
+[Fri Nov  1 16:26:47 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:26:47 2024] [0;32mI (00:00:12.662) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:26:47 2024] [0;32mI (00:00:12.670) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:26:47 2024] [0;32mI (00:00:12.681) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:26:47 2024] [0;33mW (00:00:12.686) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:26:49 2024] [0;33mW (00:00:14.694) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:26:51 2024] I (16920) wifi:
+[Fri Nov  1 16:26:51 2024] 
+[Fri Nov  1 16:26:51 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:2, winSize:64
+[Fri Nov  1 16:26:51 2024] [0;33mW (16:26:51.499) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:26:51 2024[0m
+[Fri Nov  1 16:26:51 2024] [0;32mI (16:26:51.502) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:26:51 2024] [0;32mI (16:26:51.508) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:26:51 2024] [0;32mI (16:26:51.514) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:26:52 2024] [0;31mE (16:26:52.498) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:26:52 2024] [0;31mE (16:26:52.501) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:26:52 2024] [0;32mI (16:26:52.507) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:26:52 2024] [0;32mI (16:26:52.688) MQTT: Other event id:7[0m
+[Fri Nov  1 16:26:52 2024] [0;32mI (16:26:52.906) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:26:52 2024] [0;33mW (16:26:52.909) MAIN: Finish led task[0m
+[Fri Nov  1 16:26:52 2024] [0;33mW (16:26:52.912) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:26:52 2024] [0;32mI (16:26:52.918) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-51
+}[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.928) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.931) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.971) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.979) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.982) MQTT: Extracted requestId: 44[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:52.986) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/44[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.030) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.112) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.624) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.627) MQTT: Extracted requestId: 45[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.633) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/45[0m
+[Fri Nov  1 16:26:53 2024] [0;32mI (16:26:53.727) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:54 2024] [0;31mE (16:26:53.928) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:26:54 2024] [0;31mE (16:26:53.931) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:26:54 2024] [0;32mI (16:26:53.934) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:26:54 2024] [0;33mW (16:26:53.936) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:26:54 2024] [0;32mI (16:26:53.952) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.862
+}[0m
+[Fri Nov  1 16:26:54 2024] [0;32mI (16:26:54.036) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:26:56 2024] [0;32mI (16:26:56.568) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:27:04 2024] [0;33mW (16:27:03.949) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:27:04 2024] [0;32mI (16:27:03.956) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Fri Nov  1 16:27:04 2024] [0;32mI (16:27:04.069) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:27:14 2024] [0;32mI (16:27:13.948) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:27:14 2024] [0;33mW (16:27:13.952) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:27:14 2024] [0;32mI (16:27:13.958) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Fri Nov  1 16:27:14 2024] [0;32mI (16:27:14.105) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:30:29 2024] [0;32mI (00:00:03.707) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:30:30 2024] [0;32mI (00:00:05.704) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:30:31 2024] [0;31mE (00:00:05.707) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:30:31 2024] [0;32mI (00:00:05.709) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:30:31 2024] [0;32mI (00:00:05.743) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:30:31 2024] [0;32mI (00:00:05.746) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:30:31 2024] [0;32mI (00:00:05.749) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:30:31 2024] [0;31mE (00:00:05.753) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:30:31 2024] [0;33mW (00:00:05.758) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:30:32 2024] [0;31mE (00:00:06.764) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:30:32 2024] [0;32mI (00:00:06.767) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:30:32 2024] [0;32mI (00:00:06.798) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:30:32 2024] [0;32mI (00:00:06.801) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:30:32 2024] [0;32mI (00:00:06.804) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:30:32 2024] [0;31mE (00:00:06.809) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:30:32 2024] [0;33mW (00:00:06.814) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:30:33 2024] [0;31mE (00:00:07.814) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:30:33 2024] [0;32mI (00:00:07.816) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:30:33 2024] [0;32mI (00:00:07.848) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:30:33 2024] [0;32mI (00:00:07.850) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:30:33 2024] [0;32mI (00:00:07.853) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:30:33 2024] [0;31mE (00:00:07.858) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:30:33 2024] [0;33mW (00:00:07.863) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:30:34 2024] [0;31mE (00:00:08.864) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:30:34 2024] [0;32mI (00:00:08.866) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:30:34 2024] [0;32mI (00:00:08.898) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:30:34 2024] [0;32mI (00:00:08.901) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:30:34 2024] [0;32mI (00:00:08.903) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:30:34 2024] [0;31mE (00:00:08.909) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:30:34 2024] [0;31mE (00:00:08.913) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:30:34 2024] [0;31mE (00:00:08.923) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:30:37 2024] [0;32mI (00:00:12.614) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:30:37 2024] [0;33mW (00:00:12.617) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:30:37 2024] I (13231) wifi:
+[Fri Nov  1 16:30:37 2024] 
+[Fri Nov  1 16:30:37 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:30:37 2024] [0;32mI (00:00:12.623) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:30:37 2024] [0;32mI (00:00:12.630) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:30:37 2024] [0;32mI (00:00:12.641) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:30:37 2024] [0;33mW (00:00:12.646) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:30:39 2024] [0;33mW (00:00:14.661) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:30:42 2024] [0;33mW (00:00:16.693) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov  1 16:30:42 2024] I (17621) wifi:
+[Fri Nov  1 16:30:42 2024] 
+[Fri Nov  1 16:30:42 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Fri Nov  1 16:30:42 2024] [0;33mW (16:30:42.304) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:30:42 2024[0m
+[Fri Nov  1 16:30:42 2024] [0;32mI (16:30:42.308) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:30:42 2024] [0;32mI (16:30:42.314) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:30:42 2024] [0;32mI (16:30:42.319) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:30:42 2024] [0;32mI (16:30:42.791) MQTT: Other event id:7[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.010) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:30:43 2024] [0;33mW (16:30:43.012) MAIN: Finish led task[0m
+[Fri Nov  1 16:30:43 2024] [0;33mW (16:30:43.016) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.022) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.031) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.077) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.216) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.223) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.225) MQTT: Extracted requestId: 48[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.231) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/48[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.300) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:30:43 2024] [0;31mE (16:30:43.302) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:30:43 2024] [0;31mE (16:30:43.305) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.313) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:30:43 2024] [0;32mI (16:30:43.318) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:30:44 2024] [0;32mI (16:30:44.201) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:30:44 2024] [0;31mE (16:30:44.321) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:30:44 2024] [0;31mE (16:30:44.325) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:30:44 2024] [0;32mI (16:30:44.328) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:30:44 2024] [0;33mW (16:30:44.332) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:30:44 2024] [0;32mI (16:30:44.345) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.693
+}[0m
+[Fri Nov  1 16:30:44 2024] [0;32mI (16:30:44.441) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:30:55 2024] [0;33mW (16:30:54.965) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:30:55 2024] [0;32mI (16:30:54.972) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Fri Nov  1 16:30:55 2024] [0;32mI (16:30:55.094) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:31:05 2024] [0;32mI (16:31:05.403) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:31:05 2024] [0;33mW (16:31:05.407) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:31:05 2024] [0;32mI (16:31:05.413) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-51
+}[0m
+[Fri Nov  1 16:31:05 2024] [0;32mI (16:31:05.544) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:31:12 2024] [0;32mI (00:00:03.697) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:31:14 2024] [0;32mI (00:00:05.694) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:31:14 2024] [0;31mE (00:00:05.697) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:14 2024] [0;32mI (00:00:05.699) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:14 2024] [0;32mI (00:00:05.733) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:31:14 2024] [0;32mI (00:00:05.735) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:31:14 2024] [0;32mI (00:00:05.738) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:31:14 2024] [0;31mE (00:00:05.743) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:14 2024] [0;33mW (00:00:05.748) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:31:15 2024] [0;31mE (00:00:06.754) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:15 2024] [0;32mI (00:00:06.757) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:15 2024] [0;32mI (00:00:06.788) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:31:15 2024] [0;32mI (00:00:06.791) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:31:15 2024] [0;32mI (00:00:06.794) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:31:15 2024] [0;31mE (00:00:06.799) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:15 2024] [0;33mW (00:00:06.804) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:31:16 2024] [0;31mE (00:00:07.804) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:16 2024] [0;32mI (00:00:07.806) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:16 2024] [0;32mI (00:00:07.837) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:31:16 2024] [0;32mI (00:00:07.840) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:31:16 2024] [0;32mI (00:00:07.842) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:31:16 2024] [0;31mE (00:00:07.848) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:16 2024] [0;33mW (00:00:07.852) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:31:17 2024] [0;31mE (00:00:08.854) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:17 2024] [0;32mI (00:00:08.856) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:17 2024] [0;32mI (00:00:08.888) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:31:17 2024] [0;32mI (00:00:08.890) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:31:17 2024] [0;32mI (00:00:08.893) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:31:17 2024] [0;31mE (00:00:08.898) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:17 2024] [0;31mE (00:00:08.903) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:31:17 2024] [0;31mE (00:00:08.913) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:31:21 2024] [0;32mI (00:00:12.624) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:31:21 2024] [0;33mW (00:00:12.627) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:31:21 2024] I (13240) wifi:
+[Fri Nov  1 16:31:21 2024] 
+[Fri Nov  1 16:31:21 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:31:21 2024] [0;32mI (00:00:12.633) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:31:21 2024] [0;32mI (00:00:12.640) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:31:21 2024] [0;32mI (00:00:12.651) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:31:21 2024] [0;33mW (00:00:12.656) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:31:45 2024] [0;32mI (00:00:03.687) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:31:47 2024] [0;32mI (00:00:05.684) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:31:47 2024] [0;31mE (00:00:05.687) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:47 2024] [0;32mI (00:00:05.689) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:47 2024] [0;32mI (00:00:05.794) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:31:47 2024] [0;32mI (00:00:05.797) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:31:47 2024] [0;31mE (00:00:05.800) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:47 2024] [0;33mW (00:00:05.803) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:31:48 2024] [0;31mE (00:00:06.804) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:48 2024] [0;32mI (00:00:06.807) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:48 2024] [0;32mI (00:00:06.904) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:31:48 2024] [0;32mI (00:00:06.906) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:31:48 2024] [0;31mE (00:00:06.908) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:48 2024] [0;33mW (00:00:06.913) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:31:49 2024] [0;31mE (00:00:07.914) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:49 2024] [0;32mI (00:00:07.917) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:49 2024] [0;32mI (00:00:08.014) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:31:49 2024] [0;32mI (00:00:08.017) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:31:49 2024] [0;31mE (00:00:08.019) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:49 2024] [0;33mW (00:00:08.023) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:31:50 2024] [0;31mE (00:00:09.024) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:31:50 2024] [0;32mI (00:00:09.027) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:31:50 2024] [0;32mI (00:00:09.124) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:31:50 2024] [0;32mI (00:00:09.127) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:31:50 2024] [0;31mE (00:00:09.130) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:31:50 2024] [0;31mE (00:00:09.133) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:31:50 2024] [0;31mE (00:00:09.143) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:31:54 2024] [0;32mI (00:00:12.614) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:31:54 2024] I (13230) wifi:
+[Fri Nov  1 16:31:54 2024] 
+[Fri Nov  1 16:31:54 2024] [0;33mW (00:00:12.617) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:31:54 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:31:54 2024] [0;32mI (00:00:12.623) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:31:54 2024] [0;32mI (00:00:12.630) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:31:54 2024] [0;32mI (00:00:12.641) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:31:54 2024] [0;33mW (00:00:12.646) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:31:56 2024] [0;33mW (00:00:14.677) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:31:57 2024] I (16060) wifi:
+[Fri Nov  1 16:31:57 2024] 
+[Fri Nov  1 16:31:57 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[Fri Nov  1 16:31:57 2024] [0;33mW (16:31:57.134) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:31:57 2024[0m
+[Fri Nov  1 16:31:57 2024] [0;32mI (16:31:57.138) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:31:57 2024] [0;32mI (16:31:57.144) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:31:57 2024] [0;32mI (16:31:57.150) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:31:58 2024] [0;31mE (16:31:58.133) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:31:58 2024] [0;31mE (16:31:58.137) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:31:58 2024] [0;32mI (16:31:58.142) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.186) MQTT: Other event id:7[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.408) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:31:59 2024] [0;33mW (16:31:59.410) MAIN: Finish led task[0m
+[Fri Nov  1 16:31:59 2024] [0;33mW (16:31:59.414) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.421) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-59
+}[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.424) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.427) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.486) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.606) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.615) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.618) MQTT: Extracted requestId: 50[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.623) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/50[0m
+[Fri Nov  1 16:31:59 2024] [0;32mI (16:31:59.711) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:32:00 2024] [0;31mE (16:32:00.425) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:32:00 2024] [0;31mE (16:32:00.428) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:32:00 2024] [0;32mI (16:32:00.431) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:32:00 2024] [0;33mW (16:32:00.434) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:32:00 2024] [0;32mI (16:32:00.449) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.792
+}[0m
+[Fri Nov  1 16:32:00 2024] [0;32mI (16:32:00.630) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:32:00 2024] [0;32mI (16:32:00.818) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:35:42 2024] [0;32mI (00:00:03.717) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:35:44 2024] [0;32mI (00:00:05.714) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:35:44 2024] [0;31mE (00:00:05.717) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:35:44 2024] [0;32mI (00:00:05.719) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:35:44 2024] [0;32mI (00:00:05.752) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:35:44 2024] [0;32mI (00:00:05.755) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:35:44 2024] [0;32mI (00:00:05.758) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:35:44 2024] [0;31mE (00:00:05.762) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:35:44 2024] [0;33mW (00:00:05.767) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:35:45 2024] [0;31mE (00:00:06.774) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:35:45 2024] [0;32mI (00:00:06.777) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:35:45 2024] [0;32mI (00:00:06.809) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:35:45 2024] [0;32mI (00:00:06.812) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:35:45 2024] [0;32mI (00:00:06.814) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:35:45 2024] [0;31mE (00:00:06.820) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:35:45 2024] [0;33mW (00:00:06.824) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:35:46 2024] [0;31mE (00:00:07.824) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:35:46 2024] [0;32mI (00:00:07.827) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:35:46 2024] [0;32mI (00:00:07.858) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:35:46 2024] [0;32mI (00:00:07.861) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:35:46 2024] [0;32mI (00:00:07.864) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:35:46 2024] [0;31mE (00:00:07.869) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:35:46 2024] [0;33mW (00:00:07.873) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:35:47 2024] [0;31mE (00:00:08.874) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:35:47 2024] [0;32mI (00:00:08.877) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:35:47 2024] [0;32mI (00:00:08.908) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:35:47 2024] [0;32mI (00:00:08.910) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:35:47 2024] [0;32mI (00:00:08.913) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:35:47 2024] [0;31mE (00:00:08.918) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:35:47 2024] [0;31mE (00:00:08.923) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:35:47 2024] [0;31mE (00:00:08.933) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:35:51 2024] [0;32mI (00:00:12.604) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:35:51 2024] [0;33mW (00:00:12.607) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:35:51 2024] I (13220) wifi:
+[Fri Nov  1 16:35:51 2024] 
+[Fri Nov  1 16:35:51 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:35:51 2024] [0;32mI (00:00:12.613) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:35:51 2024] [0;32mI (00:00:12.620) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:35:51 2024] [0;32mI (00:00:12.631) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:35:51 2024] [0;33mW (00:00:12.636) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:35:53 2024] [0;33mW (00:00:14.652) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:35:55 2024] [0;33mW (00:00:16.659) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (00:00:17.546) MQTT: Other event id:7[0m
+[Fri Nov  1 16:35:56 2024] I (18180) wifi:
+[Fri Nov  1 16:35:56 2024] 
+[Fri Nov  1 16:35:56 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Fri Nov  1 16:35:56 2024] [0;33mW (16:35:56.183) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:35:56 2024[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.186) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.191) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.196) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.253) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:35:56 2024] [0;33mW (16:35:56.255) MAIN: Finish led task[0m
+[Fri Nov  1 16:35:56 2024] [0;33mW (16:35:56.259) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.265) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.273) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.323) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.460) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.483) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.485) MQTT: Extracted requestId: 53[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.491) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/53[0m
+[Fri Nov  1 16:35:56 2024] [0;32mI (16:35:56.671) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:35:57 2024] [0;31mE (16:35:57.183) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:35:57 2024] [0;31mE (16:35:57.186) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:35:57 2024] [0;32mI (16:35:57.191) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:35:57 2024] [0;32mI (16:35:57.197) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:35:57 2024] [0;32mI (16:35:57.533) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:35:58 2024] [0;31mE (16:35:58.203) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:35:58 2024] [0;31mE (16:35:58.206) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:35:58 2024] [0;32mI (16:35:58.209) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:35:58 2024] [0;33mW (16:35:58.211) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:35:58 2024] [0;32mI (16:35:58.227) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.765
+}[0m
+[Fri Nov  1 16:35:58 2024] [0;32mI (16:35:58.304) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:36:42 2024] [0;32mI (00:00:06.187) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:36:44 2024] [0;32mI (00:00:08.184) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:36:44 2024] [0;31mE (00:00:08.186) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:36:44 2024] [0;32mI (00:00:08.189) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:36:44 2024] [0;32mI (00:00:08.294) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:36:44 2024] [0;32mI (00:00:08.297) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:36:44 2024] [0;31mE (00:00:08.299) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:36:44 2024] [0;33mW (00:00:08.303) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:36:45 2024] [0;31mE (00:00:09.304) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:36:45 2024] [0;32mI (00:00:09.306) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:36:45 2024] [0;32mI (00:00:09.404) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:36:45 2024] [0;32mI (00:00:09.407) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:36:45 2024] [0;31mE (00:00:09.410) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:36:45 2024] [0;33mW (00:00:09.414) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:36:46 2024] [0;31mE (00:00:10.414) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:36:46 2024] [0;32mI (00:00:10.416) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:36:46 2024] [0;32mI (00:00:10.514) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:36:46 2024] [0;32mI (00:00:10.517) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:36:46 2024] [0;31mE (00:00:10.519) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:36:46 2024] [0;33mW (00:00:10.523) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:36:47 2024] [0;31mE (00:00:11.524) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:36:47 2024] [0;32mI (00:00:11.526) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:36:47 2024] [0;32mI (00:00:11.624) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:36:47 2024] [0;32mI (00:00:11.627) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:36:47 2024] [0;31mE (00:00:11.630) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:36:47 2024] [0;31mE (00:00:11.634) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:36:47 2024] [0;31mE (00:00:11.643) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:36:48 2024] [0;32mI (00:00:12.664) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:36:48 2024] [0;33mW (00:00:12.666) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:36:48 2024] I (13281) wifi:
+[Fri Nov  1 16:36:48 2024] 
+[Fri Nov  1 16:36:48 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:36:48 2024] [0;32mI (00:00:12.672) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:36:48 2024] [0;32mI (00:00:12.680) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:36:48 2024] [0;32mI (00:00:12.691) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:36:48 2024] [0;33mW (00:00:12.696) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:36:49 2024] I (14191) wifi:
+[Fri Nov  1 16:36:49 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[Fri Nov  1 16:36:49 2024] 
+[Fri Nov  1 16:36:49 2024] [0;33mW (16:36:49.584) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:36:49 2024[0m
+[Fri Nov  1 16:36:49 2024] [0;32mI (16:36:49.587) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:36:49 2024] [0;32mI (16:36:49.593) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:36:49 2024] [0;32mI (16:36:49.599) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:36:50 2024] [0;31mE (16:36:50.583) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:36:50 2024] [0;31mE (16:36:50.586) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:36:50 2024] [0;32mI (16:36:50.591) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.503) MQTT: Other event id:7[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.696) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:36:53 2024] [0;33mW (16:36:53.699) MAIN: Finish led task[0m
+[Fri Nov  1 16:36:53 2024] [0;33mW (16:36:53.702) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.709) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-57
+}[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.713) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.716) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.765) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.902) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.913) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.916) MQTT: Extracted requestId: 56[0m
+[Fri Nov  1 16:36:53 2024] [0;32mI (16:36:53.922) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/56[0m
+[Fri Nov  1 16:36:54 2024] [0;32mI (16:36:54.005) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:36:54 2024] [0;31mE (16:36:54.713) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:36:54 2024] [0;31mE (16:36:54.716) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:36:54 2024] [0;32mI (16:36:54.719) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:36:54 2024] [0;33mW (16:36:54.722) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:36:54 2024] [0;32mI (16:36:54.737) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.794
+}[0m
+[Fri Nov  1 16:36:54 2024] [0;32mI (16:36:54.825) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:36:57 2024] [0;32mI (16:36:57.633) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:37:04 2024] [0;33mW (16:37:04.734) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:37:04 2024] [0;32mI (16:37:04.741) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-44
+}[0m
+[Fri Nov  1 16:37:04 2024] [0;32mI (16:37:04.860) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:39:15 2024] [0;32mI (00:00:03.707) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:39:16 2024] I (4981) wifi:
+[Fri Nov  1 16:39:16 2024] 
+[Fri Nov  1 16:39:16 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Fri Nov  1 16:39:17 2024] [0;32mI (00:00:05.704) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:39:17 2024] [0;31mE (00:00:05.707) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:17 2024] [0;32mI (00:00:05.709) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:17 2024] [0;32mI (00:00:05.814) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:17 2024] [0;32mI (00:00:05.817) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:17 2024] [0;31mE (00:00:05.820) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:17 2024] [0;33mW (00:00:05.823) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:39:18 2024] [0;31mE (00:00:06.824) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:18 2024] [0;32mI (00:00:06.827) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:18 2024] [0;32mI (00:00:06.924) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:18 2024] [0;32mI (00:00:06.927) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:18 2024] [0;31mE (00:00:06.930) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:18 2024] [0;33mW (00:00:06.933) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:39:19 2024] [0;31mE (00:00:07.934) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:19 2024] [0;32mI (00:00:07.937) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:20 2024] [0;32mI (00:00:08.034) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:20 2024] [0;32mI (00:00:08.037) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:20 2024] [0;31mE (00:00:08.040) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:20 2024] [0;33mW (00:00:08.043) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:39:21 2024] [0;31mE (00:00:09.044) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:21 2024] [0;32mI (00:00:09.047) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:21 2024] [0;32mI (00:00:09.144) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:21 2024] [0;32mI (00:00:09.147) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:21 2024] [0;31mE (00:00:09.149) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:21 2024] [0;31mE (00:00:09.153) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:39:21 2024] [0;31mE (00:00:09.163) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:39:28 2024] [0;32mI (00:00:03.687) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:39:30 2024] [0;32mI (00:00:05.684) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:39:30 2024] [0;31mE (00:00:05.687) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:30 2024] [0;32mI (00:00:05.689) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:30 2024] [0;32mI (00:00:05.794) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:30 2024] [0;32mI (00:00:05.797) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:30 2024] [0;31mE (00:00:05.800) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:30 2024] [0;33mW (00:00:05.803) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:39:31 2024] [0;31mE (00:00:06.804) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:31 2024] [0;32mI (00:00:06.807) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:32 2024] [0;32mI (00:00:06.904) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:32 2024] [0;32mI (00:00:06.907) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:32 2024] [0;31mE (00:00:06.910) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:32 2024] [0;33mW (00:00:06.913) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:39:33 2024] [0;31mE (00:00:07.914) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:33 2024] [0;32mI (00:00:07.917) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:33 2024] [0;32mI (00:00:08.014) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:33 2024] [0;32mI (00:00:08.017) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:33 2024] [0;31mE (00:00:08.020) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:33 2024] [0;33mW (00:00:08.023) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:39:34 2024] [0;31mE (00:00:09.024) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:39:34 2024] [0;32mI (00:00:09.027) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:39:34 2024] [0;32mI (00:00:09.124) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:39:34 2024] [0;32mI (00:00:09.127) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:39:34 2024] [0;31mE (00:00:09.129) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:39:34 2024] [0;31mE (00:00:09.134) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:39:34 2024] [0;31mE (00:00:09.144) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:39:37 2024] [0;32mI (00:00:12.624) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:39:37 2024] [0;33mW (00:00:12.627) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:39:37 2024] I (13240) wifi:
+[Fri Nov  1 16:39:37 2024] 
+[Fri Nov  1 16:39:37 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:39:37 2024] [0;32mI (00:00:12.633) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:39:37 2024] [0;32mI (00:00:12.640) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:39:37 2024] [0;32mI (00:00:12.651) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:39:37 2024] [0;33mW (00:00:12.656) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:40:49 2024] [0;32mI (00:00:03.697) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:40:51 2024] [0;32mI (00:00:05.694) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:40:51 2024] [0;31mE (00:00:05.697) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:40:51 2024] [0;32mI (00:00:05.699) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:40:51 2024] [0;32mI (00:00:05.804) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:40:51 2024] [0;32mI (00:00:05.807) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:40:51 2024] [0;31mE (00:00:05.810) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:40:51 2024] [0;33mW (00:00:05.813) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:40:52 2024] [0;31mE (00:00:06.814) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:40:52 2024] [0;32mI (00:00:06.817) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:40:52 2024] [0;32mI (00:00:06.914) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:40:52 2024] [0;32mI (00:00:06.917) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:40:52 2024] [0;31mE (00:00:06.920) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:40:52 2024] [0;33mW (00:00:06.923) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:40:53 2024] [0;31mE (00:00:07.924) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:40:53 2024] [0;32mI (00:00:07.927) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:40:53 2024] [0;32mI (00:00:08.024) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:40:53 2024] [0;32mI (00:00:08.026) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:40:53 2024] [0;31mE (00:00:08.028) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:40:53 2024] [0;33mW (00:00:08.033) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:40:54 2024] [0;31mE (00:00:09.034) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:40:54 2024] [0;32mI (00:00:09.037) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:40:54 2024] [0;32mI (00:00:09.134) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:40:54 2024] [0;32mI (00:00:09.137) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:40:54 2024] [0;31mE (00:00:09.140) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:40:54 2024] [0;31mE (00:00:09.143) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:40:54 2024] [0;31mE (00:00:09.153) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:40:58 2024] [0;32mI (00:00:12.634) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:40:58 2024] [0;33mW (00:00:12.637) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:40:58 2024] I (13251) wifi:
+[Fri Nov  1 16:40:58 2024] 
+[Fri Nov  1 16:40:58 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:40:58 2024] [0;32mI (00:00:12.643) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:40:58 2024] [0;32mI (00:00:12.650) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:40:58 2024] [0;32mI (00:00:12.661) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:40:58 2024] [0;33mW (00:00:12.666) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:41:00 2024] [0;33mW (00:00:14.703) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:41:02 2024] [0;33mW (00:00:16.747) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (00:00:17.600) MQTT: Other event id:7[0m
+[Fri Nov  1 16:41:03 2024] I (18281) wifi:
+[Fri Nov  1 16:41:03 2024] 
+[Fri Nov  1 16:41:03 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[Fri Nov  1 16:41:03 2024] [0;33mW (16:41:03.265) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:41:03 2024[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.269) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.276) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.281) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.305) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:41:03 2024] [0;33mW (16:41:03.308) MAIN: Finish led task[0m
+[Fri Nov  1 16:41:03 2024] [0;33mW (16:41:03.312) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.318) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-48
+}[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.323) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.373) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.463) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.488) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.491) MQTT: Extracted requestId: 59[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.496) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/59[0m
+[Fri Nov  1 16:41:03 2024] [0;32mI (16:41:03.668) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:04 2024] [0;31mE (16:41:04.263) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:41:04 2024] [0;31mE (16:41:04.267) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:41:04 2024] [0;32mI (16:41:04.272) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:41:04 2024] [0;32mI (16:41:04.277) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:41:04 2024] [0;32mI (16:41:04.743) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:41:05 2024] [0;31mE (16:41:05.283) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:41:05 2024] [0;31mE (16:41:05.287) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:41:05 2024] [0;32mI (16:41:05.290) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:41:05 2024] [0;33mW (16:41:05.294) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:05 2024] [0;32mI (16:41:05.308) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.804
+}[0m
+[Fri Nov  1 16:41:05 2024] [0;32mI (16:41:05.408) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:15 2024] [0;33mW (16:41:15.638) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:15 2024] [0;32mI (16:41:15.645) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-50
+}[0m
+[Fri Nov  1 16:41:15 2024] [0;32mI (16:41:15.754) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:26 2024] [0;32mI (16:41:26.135) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:41:26 2024] [0;33mW (16:41:26.139) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:26 2024] [0;32mI (16:41:26.144) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-48
+}[0m
+[Fri Nov  1 16:41:26 2024] [0;32mI (16:41:26.304) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:34 2024] [0;32mI (16:41:34.451) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:41:34 2024] [0;32mI (16:41:34.454) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:41:36 2024] [0;32mI (16:41:36.571) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:41:36 2024] [0;33mW (16:41:36.575) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:36 2024] [0;32mI (16:41:36.580) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-48
+}[0m
+[Fri Nov  1 16:41:36 2024] [0;32mI (16:41:36.753) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:47 2024] [0;32mI (16:41:47.219) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:41:47 2024] [0;33mW (16:41:47.223) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:47 2024] [0;32mI (16:41:47.230) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-45
+}[0m
+[Fri Nov  1 16:41:47 2024] [0;32mI (16:41:47.404) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:41:57 2024] [0;32mI (16:41:57.593) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:41:57 2024] [0;33mW (16:41:57.597) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:41:57 2024] [0;32mI (16:41:57.603) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-47
+}[0m
+[Fri Nov  1 16:41:57 2024] [0;32mI (16:41:57.748) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:42:06 2024] [0;32mI (16:42:06.006) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:42:06 2024] [0;32mI (16:42:06.009) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:42:08 2024] [0;32mI (16:42:08.137) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:42:08 2024] [0;33mW (16:42:08.140) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:42:08 2024] [0;32mI (16:42:08.147) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-47
+}[0m
+[Fri Nov  1 16:42:08 2024] [0;32mI (16:42:08.297) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:42:18 2024] [0;32mI (16:42:18.686) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:42:18 2024] [0;33mW (16:42:18.689) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:42:18 2024] [0;32mI (16:42:18.695) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-49
+}[0m
+[Fri Nov  1 16:42:18 2024] [0;32mI (16:42:18.705) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:42:18 2024] [0;32mI (16:42:18.708) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:42:18 2024] [0;32mI (16:42:18.761) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:42:19 2024] [0;31mE (16:42:19.706) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:42:19 2024] [0;31mE (16:42:19.709) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:42:19 2024] [0;32mI (16:42:19.712) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:42:19 2024] [0;33mW (16:42:19.715) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:42:19 2024] [0;32mI (16:42:19.730) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.654
+}[0m
+[Fri Nov  1 16:42:19 2024] [0;32mI (16:42:19.870) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:42:30 2024] [0;33mW (16:42:30.100) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:42:30 2024] [0;32mI (16:42:30.108) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-44
+}[0m
+[Fri Nov  1 16:42:30 2024] [0;32mI (16:42:30.214) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:43:55 2024] [0;32mI (00:00:06.176) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:43:57 2024] [0;32mI (00:00:08.174) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:43:57 2024] [0;31mE (00:00:08.176) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:43:57 2024] [0;32mI (00:00:08.179) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:43:57 2024] [0;32mI (00:00:08.212) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:43:57 2024] [0;32mI (00:00:08.214) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:43:57 2024] [0;32mI (00:00:08.217) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:43:57 2024] [0;31mE (00:00:08.223) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:43:57 2024] [0;33mW (00:00:08.227) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:43:58 2024] [0;31mE (00:00:09.234) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:43:58 2024] [0;32mI (00:00:09.236) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:43:58 2024] [0;32mI (00:00:09.268) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:43:58 2024] [0;32mI (00:00:09.270) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:43:58 2024] [0;32mI (00:00:09.273) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:43:58 2024] [0;31mE (00:00:09.278) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:43:58 2024] [0;33mW (00:00:09.283) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:43:59 2024] [0;31mE (00:00:10.284) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:43:59 2024] [0;32mI (00:00:10.286) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:43:59 2024] [0;32mI (00:00:10.318) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:43:59 2024] [0;32mI (00:00:10.321) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:43:59 2024] [0;32mI (00:00:10.323) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:43:59 2024] [0;31mE (00:00:10.329) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:43:59 2024] [0;33mW (00:00:10.333) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:44:00 2024] [0;31mE (00:00:11.334) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:44:00 2024] [0;32mI (00:00:11.336) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:44:00 2024] [0;32mI (00:00:11.368) CLEAN200: pass UART DATA event[0m
+[Fri Nov  1 16:44:00 2024] [0;32mI (00:00:11.370) CLEAN200: Length of Received response from sensor: 2 
+[0m
+[Fri Nov  1 16:44:00 2024] [0;32mI (00:00:11.372) CLEAN200: Received data from sensor: 0x24 0x06 [0m
+[Fri Nov  1 16:44:00 2024] [0;31mE (00:00:11.378) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:44:00 2024] [0;31mE (00:00:11.382) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:44:00 2024] [0;31mE (00:00:11.392) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:44:01 2024] [0;32mI (00:00:12.654) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:44:01 2024] [0;33mW (00:00:12.656) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:44:01 2024] I (13271) wifi:
+[Fri Nov  1 16:44:01 2024] 
+[Fri Nov  1 16:44:01 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:44:01 2024] [0;32mI (00:00:12.662) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:44:01 2024] [0;32mI (00:00:12.670) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:44:01 2024] [0;32mI (00:00:12.680) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:44:01 2024] [0;33mW (00:00:12.685) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:44:03 2024] [0;33mW (00:00:14.694) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:44:05 2024] I (16661) wifi:
+[Fri Nov  1 16:44:05 2024] 
+[Fri Nov  1 16:44:05 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[Fri Nov  1 16:44:05 2024] [0;33mW (16:44:05.086) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:44:05 2024[0m
+[Fri Nov  1 16:44:05 2024] [0;32mI (16:44:05.090) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:44:05 2024] [0;32mI (16:44:05.096) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:44:05 2024] [0;32mI (16:44:05.101) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:44:06 2024] [0;31mE (16:44:06.091) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:44:06 2024] [0;31mE (16:44:06.095) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.100) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.541) MQTT: Other event id:7[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.756) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:44:06 2024] [0;33mW (16:44:06.758) MAIN: Finish led task[0m
+[Fri Nov  1 16:44:06 2024] [0;33mW (16:44:06.762) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.768) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-58
+}[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.771) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.775) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:44:06 2024] [0;32mI (16:44:06.823) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:06.962) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:06.969) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:06.971) MQTT: Extracted requestId: 62[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:06.977) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/62[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:07.064) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:44:07 2024] [0;31mE (16:44:07.781) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:44:07 2024] [0;31mE (16:44:07.784) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:07.788) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:44:07 2024] [0;33mW (16:44:07.790) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:07.805) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.828
+}[0m
+[Fri Nov  1 16:44:07 2024] [0;32mI (16:44:07.887) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:44:10 2024] [0;32mI (16:44:10.421) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:44:17 2024] [0;33mW (16:44:17.802) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:44:17 2024] [0;32mI (16:44:17.808) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-54
+}[0m
+[Fri Nov  1 16:44:17 2024] [0;32mI (16:44:17.918) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:44:27 2024] [0;32mI (16:44:27.801) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:44:27 2024] [0;33mW (16:44:27.805) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:44:27 2024] [0;32mI (16:44:27.811) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-61
+}[0m
+[Fri Nov  1 16:44:28 2024] [0;32mI (16:44:27.953) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:44:35 2024] [0;32mI (16:44:35.101) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:44:35 2024] [0;32mI (16:44:35.104) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:44:37 2024] [0;32mI (16:44:37.811) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:44:37 2024] [0;33mW (16:44:37.815) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:44:37 2024] [0;32mI (16:44:37.821) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-51
+}[0m
+[Fri Nov  1 16:44:38 2024] [0;32mI (16:44:37.988) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:00 2024] [0;32mI (00:00:03.717) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:56:02 2024] [0;32mI (00:00:05.714) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:56:02 2024] [0;31mE (00:00:05.716) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:02 2024] [0;32mI (00:00:05.719) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:02 2024] [0;32mI (00:00:05.824) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:02 2024] [0;32mI (00:00:05.827) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:02 2024] [0;31mE (00:00:05.829) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:02 2024] [0;33mW (00:00:05.833) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:56:03 2024] [0;31mE (00:00:06.834) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:03 2024] [0;32mI (00:00:06.836) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:03 2024] [0;32mI (00:00:06.934) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:03 2024] [0;32mI (00:00:06.937) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:03 2024] [0;31mE (00:00:06.939) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:03 2024] [0;33mW (00:00:06.944) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:56:04 2024] [0;31mE (00:00:07.944) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:04 2024] [0;32mI (00:00:07.947) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:04 2024] [0;32mI (00:00:08.044) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:04 2024] [0;32mI (00:00:08.047) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:04 2024] [0;31mE (00:00:08.050) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:04 2024] [0;33mW (00:00:08.053) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:56:05 2024] [0;31mE (00:00:09.054) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:05 2024] [0;32mI (00:00:09.057) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:05 2024] [0;32mI (00:00:09.154) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:05 2024] [0;32mI (00:00:09.157) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:05 2024] [0;31mE (00:00:09.160) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:05 2024] [0;31mE (00:00:09.163) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:56:05 2024] [0;31mE (00:00:09.173) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:56:09 2024] [0;32mI (00:00:12.624) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:56:09 2024] [0;33mW (00:00:12.627) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:56:09 2024] I (13241) wifi:
+[Fri Nov  1 16:56:09 2024] 
+[Fri Nov  1 16:56:09 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:56:09 2024] [0;32mI (00:00:12.633) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:56:09 2024] [0;32mI (00:00:12.640) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:56:09 2024] [0;32mI (00:00:12.651) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:56:09 2024] [0;33mW (00:00:12.656) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:56:11 2024] [0;33mW (00:00:14.675) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:56:11 2024] I (15881) wifi:
+[Fri Nov  1 16:56:11 2024] 
+[Fri Nov  1 16:56:11 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Fri Nov  1 16:56:11 2024] [0;33mW (16:56:11.837) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:56:11 2024[0m
+[Fri Nov  1 16:56:11 2024] [0;32mI (16:56:11.841) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:56:11 2024] [0;32mI (16:56:11.847) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:56:11 2024] [0;32mI (16:56:11.852) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:56:12 2024] [0;31mE (16:56:12.840) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:56:12 2024] [0;31mE (16:56:12.844) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:56:12 2024] [0;32mI (16:56:12.849) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.083) MQTT: Other event id:7[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.322) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:56:14 2024] [0;33mW (16:56:14.325) MAIN: Finish led task[0m
+[Fri Nov  1 16:56:14 2024] [0;33mW (16:56:14.328) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.335) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-48
+}[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.343) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.346) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.387) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.528) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.552) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.554) MQTT: Extracted requestId: 64[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.560) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/64[0m
+[Fri Nov  1 16:56:14 2024] [0;32mI (16:56:14.733) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:15 2024] [0;31mE (16:56:15.343) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:56:15 2024] [0;31mE (16:56:15.347) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:56:15 2024] [0;32mI (16:56:15.350) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:56:15 2024] [0;33mW (16:56:15.353) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:56:15 2024] [0;32mI (16:56:15.368) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.81
+}[0m
+[Fri Nov  1 16:56:15 2024] [0;32mI (16:56:15.449) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:15 2024] [0;32mI (16:56:15.770) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:56:16 2024] [0;32mI (16:56:16.265) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:56:16 2024] [0;32mI (16:56:16.268) MQTT: Extracted requestId: 65[0m
+[Fri Nov  1 16:56:16 2024] [0;32mI (16:56:16.275) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/65[0m
+[Fri Nov  1 16:56:16 2024] [0;32mI (16:56:16.371) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:43 2024] [0;32mI (00:00:03.697) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:56:45 2024] [0;32mI (00:00:05.694) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:56:45 2024] [0;31mE (00:00:05.697) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:45 2024] [0;32mI (00:00:05.699) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:45 2024] [0;32mI (00:00:05.804) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:45 2024] [0;32mI (00:00:05.807) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:45 2024] [0;31mE (00:00:05.810) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:45 2024] [0;33mW (00:00:05.813) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:56:46 2024] [0;31mE (00:00:06.814) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:46 2024] [0;32mI (00:00:06.817) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:46 2024] [0;32mI (00:00:06.914) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:46 2024] [0;32mI (00:00:06.917) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:46 2024] [0;31mE (00:00:06.919) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:46 2024] [0;33mW (00:00:06.923) CLEAN200: Write data failed, retrying (2/3)...[0m
+[Fri Nov  1 16:56:47 2024] [0;31mE (00:00:07.924) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:47 2024] [0;32mI (00:00:07.927) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:47 2024] [0;32mI (00:00:08.024) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:47 2024] [0;32mI (00:00:08.027) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:47 2024] [0;31mE (00:00:08.030) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:47 2024] [0;33mW (00:00:08.033) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:56:48 2024] [0;31mE (00:00:09.034) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:56:48 2024] [0;32mI (00:00:09.037) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:56:49 2024] [0;32mI (00:00:09.134) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:56:49 2024] [0;32mI (00:00:09.136) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:56:49 2024] [0;31mE (00:00:09.138) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:56:49 2024] [0;31mE (00:00:09.143) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:56:49 2024] [0;31mE (00:00:09.153) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:56:52 2024] [0;32mI (00:00:12.624) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:56:52 2024] [0;33mW (00:00:12.627) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:56:52 2024] I (13241) wifi:
+[Fri Nov  1 16:56:52 2024] 
+[Fri Nov  1 16:56:52 2024] Set ps type: 1, coexist: 0
+[Fri Nov  1 16:56:52 2024] [0;32mI (00:00:12.633) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:56:52 2024] [0;32mI (00:00:12.640) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:56:52 2024] [0;32mI (00:00:12.651) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:56:52 2024] [0;33mW (00:00:12.656) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:56:54 2024] [0;33mW (00:00:14.667) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:56:55 2024] I (16121) wifi:
+[Fri Nov  1 16:56:55 2024] 
+[Fri Nov  1 16:56:55 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[Fri Nov  1 16:56:55 2024] [0;33mW (16:56:55.334) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:56:55 2024[0m
+[Fri Nov  1 16:56:55 2024] [0;32mI (16:56:55.338) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:56:55 2024] [0;32mI (16:56:55.344) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:56:55 2024] [0;32mI (16:56:55.350) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:56:56 2024] [0;31mE (16:56:56.339) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:56:56 2024] [0;31mE (16:56:56.343) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:56:56 2024] [0;32mI (16:56:56.348) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.361) MQTT: Other event id:7[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.642) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  1 16:56:57 2024] [0;33mW (16:56:57.645) MAIN: Finish led task[0m
+[Fri Nov  1 16:56:57 2024] [0;33mW (16:56:57.649) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.654) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-51
+}[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.663) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.665) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.714) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.774) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.817) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.820) MQTT: Extracted requestId: 67[0m
+[Fri Nov  1 16:56:57 2024] [0;32mI (16:56:57.825) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/67[0m
+[Fri Nov  1 16:56:58 2024] [0;32mI (16:56:57.948) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:58 2024] [0;31mE (16:56:58.663) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:56:58 2024] [0;31mE (16:56:58.666) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:56:58 2024] [0;32mI (16:56:58.669) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:56:58 2024] [0;33mW (16:56:58.672) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:56:58 2024] [0;32mI (16:56:58.687) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.785
+}[0m
+[Fri Nov  1 16:56:58 2024] [0;32mI (16:56:58.765) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:56:59 2024] [0;32mI (16:56:59.000) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:57:09 2024] [0;33mW (16:57:09.099) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:57:09 2024] [0;32mI (16:57:09.106) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-53
+}[0m
+[Fri Nov  1 16:57:09 2024] [0;32mI (16:57:09.311) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:34 2024] [0;32mI (00:00:06.177) CLEANER: clean 200 is running[0m
+[Fri Nov  1 16:57:36 2024] [0;32mI (00:00:08.174) CLEANER: revoooo: 1[0m
+[Fri Nov  1 16:57:36 2024] [0;32mI (00:00:08.284) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:57:36 2024] [0;32mI (00:00:08.286) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:57:36 2024] [0;31mE (00:00:08.289) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:57:36 2024] [0;33mW (00:00:08.293) CLEAN200: Write data failed, retrying (1/3)...[0m
+[Fri Nov  1 16:57:37 2024] [0;31mE (00:00:09.294) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:57:37 2024] [0;32mI (00:00:09.296) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:57:38 2024] [0;32mI (00:00:09.394) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:57:38 2024] [0;32mI (00:00:09.397) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:57:39 2024] [0;32mI (00:00:10.504) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:57:39 2024] [0;32mI (00:00:10.507) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:57:39 2024] [0;31mE (00:00:10.509) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:57:39 2024] [0;33mW (00:00:10.513) CLEAN200: Write data failed, retrying (3/3)...[0m
+[Fri Nov  1 16:57:40 2024] [0;31mE (00:00:11.514) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  1 16:57:40 2024] [0;32mI (00:00:11.516) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  1 16:57:40 2024] [0;32mI (00:00:11.614) CLEAN200: Length of Received response from sensor: 0 
+[0m
+[Fri Nov  1 16:57:40 2024] [0;32mI (00:00:11.617) CLEAN200: Received data from sensor: [0m
+[Fri Nov  1 16:57:40 2024] [0;31mE (00:00:11.619) CLEAN200: Error reading
+[0m
+[Fri Nov  1 16:57:40 2024] [0;31mE (00:00:11.623) CLEAN200: Write data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  1 16:57:40 2024] [0;31mE (00:00:11.633) CLEAN200: set auto revolution failure[0m
+[Fri Nov  1 16:57:41 2024] [0;32mI (00:00:12.664) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Fri Nov  1 16:57:41 2024] [0;33mW (00:00:12.666) Wifi: Wifi initialized[0m
+[Fri Nov  1 16:57:41 2024] [0;32mI (00:00:12.672) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  1 16:57:41 2024] [0;32mI (00:00:12.680) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Fri Nov  1 16:57:41 2024] [0;32mI (00:00:12.690) Wifi: Power save mode enabled[0m
+[Fri Nov  1 16:57:41 2024] [0;33mW (00:00:12.695) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  1 16:57:43 2024] [0;33mW (00:00:14.704) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  1 16:57:44 2024] [0;33mW (16:57:44.106) Timestamp: The current date/time in Vietnam is: Fri Nov  1 16:57:44 2024[0m
+[Fri Nov  1 16:57:44 2024] [0;32mI (16:57:44.110) Timestamp: System time set successfully[0m
+[Fri Nov  1 16:57:44 2024] [0;32mI (16:57:44.116) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:57:44 2024] [0;32mI (16:57:44.121) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:57:45 2024] [0;31mE (16:57:45.106) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:57:45 2024] [0;31mE (16:57:45.109) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  1 16:57:45 2024] [0;32mI (16:57:45.114) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:57:46 2024] [0;32mI (16:57:46.066) MQTT: Other event id:7[0m
+[Fri Nov  1 16:57:46 2024] [0;32mI (16:57:46.285) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:57:46 2024] [0;32mI (16:57:46.288) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  1 16:57:47 2024] [0;31mE (16:57:47.286) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  1 16:57:47 2024] [0;31mE (16:57:47.289) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  1 16:57:47 2024] [0;32mI (16:57:47.292) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  1 16:57:47 2024] [0;33mW (16:57:47.295) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:57:47 2024] [0;32mI (16:57:47.309) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.753
+}[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.333) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.341) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.344) MQTT: Extracted requestId: 69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.348) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.404) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.412) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.420) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.423) MQTT: Extracted requestId: 69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.428) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.442) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.444) MQTT: Extracted requestId: 69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.452) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/69[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.465) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.516) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:49 2024] [0;32mI (16:57:49.638) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:50 2024] [0;32mI (16:57:50.048) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  1 16:57:50 2024] [0;32mI (16:57:50.051) MQTT: Extracted requestId: 70[0m
+[Fri Nov  1 16:57:50 2024] [0;32mI (16:57:50.057) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/70[0m
+[Fri Nov  1 16:57:50 2024] [0;32mI (16:57:50.154) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:57:50 2024] [0;32mI (16:57:50.185) CLEANER: clean 200 is finished[0m
+[Fri Nov  1 16:57:57 2024] [0;33mW (16:57:57.306) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:57:57 2024] [0;32mI (16:57:57.313) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-53
+}[0m
+[Fri Nov  1 16:57:57 2024] [0;32mI (16:57:57.422) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:58:07 2024] [0;32mI (16:58:07.315) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:58:07 2024] [0;33mW (16:58:07.319) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:58:07 2024] [0;32mI (16:58:07.327) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Fri Nov  1 16:58:07 2024] [0;32mI (16:58:07.456) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 16:58:14 2024] [0;32mI (16:58:14.125) Wifi: Checking for wifi status...[0m
+[Fri Nov  1 16:58:14 2024] [0;32mI (16:58:14.128) Wifi: Wifi is still connected[0m
+[Fri Nov  1 16:58:17 2024] [0;32mI (16:58:17.325) MQTT: CPU frequency: 80[0m
+[Fri Nov  1 16:58:17 2024] [0;33mW (16:58:17.329) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  1 16:58:17 2024] [0;32mI (16:58:17.336) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-51
+}[0m
+[Fri Nov  1 16:58:17 2024] [0;32mI (16:58:17.492) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  1 17:00:55 2024] [0;32mI (00:00:03.687) CLEANER: clean 200 is running[0m

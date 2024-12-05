@@ -1,0 +1,393 @@
+[Tue Oct  8 06:40:26 2024] [0;32mI (5949) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (5949) Wifi: Wifi initialized[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (5949) MQTT: Wifi connected, starting MQTT task[0m
+[Tue Oct  8 06:40:26 2024] [0;33mW (5949) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (5949) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (5959) MQTT: Other event id:7[0m
+[Tue Oct  8 06:40:26 2024] I (6019) wifi:
+[Tue Oct  8 06:40:26 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Tue Oct  8 06:40:26 2024] 
+[Tue Oct  8 06:40:26 2024] [0;32mI (6959) CPU_TEMP: : 38.70 °C
+[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7179) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7179) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	254,
+	"rtc":	6,
+	"cpu_temp":	38.7,
+	"rssi":	-62,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7529) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7529) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7539) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7539) MQTT: Extracted requestId: 1489[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7539) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/1489[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7549) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:40:26 2024] [0;32mI (7599) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:40:26 2024] [0;33mW (7959) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Tue Oct  8 06:41:04 2024] [0;32mI (39459) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 06:41:05 2024] [0;32mI (41329) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71329) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71329) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71329) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71329) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71339) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71339) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71349) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:41:36 2024] [0;32mI (71379) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:41:36 2024] [0;33mW (71379) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:41:41 2024] [0;32mI (76379) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106379) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106379) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106379) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106379) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106389) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106389) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106399) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:11 2024] [0;32mI (106409) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:42:11 2024] [0;33mW (106409) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:42:16 2024] [0;32mI (111419) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141419) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141419) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141419) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141419) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141429) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141429) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141439) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:42:46 2024] [0;32mI (141449) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:42:50 2024] [0;33mW (141449) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:42:51 2024] [0;32mI (146459) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:43:21 2024] [0;32mI (176459) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:43:21 2024] [0;32mI (176459) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:43:21 2024] [0;32mI (176459) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:43:21 2024] [0;32mI (176459) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:43:21 2024] [0;32mI (176469) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:43:25 2024] [0;32mI (176469) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:43:25 2024] [0;32mI (176479) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:43:25 2024] [0;32mI (176489) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:43:25 2024] [0;33mW (176489) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:43:26 2024] [0;32mI (181499) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211499) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211499) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211499) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211499) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211509) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211509) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211519) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:00 2024] [0;32mI (211529) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:44:00 2024] [0;33mW (211529) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:44:01 2024] [0;32mI (216539) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246539) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246539) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246539) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246539) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246549) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246549) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246559) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:44:31 2024] [0;32mI (246569) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:44:31 2024] [0;33mW (246569) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:44:36 2024] [0;32mI (251579) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281579) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281579) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281579) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281579) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281589) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281589) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281599) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:06 2024] [0;32mI (281609) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:45:06 2024] [0;33mW (281609) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:45:11 2024] [0;32mI (286619) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316619) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316619) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316619) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316619) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316629) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316629) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316639) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:45:41 2024] [0;32mI (316649) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:45:41 2024] [0;33mW (316649) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:45:46 2024] [0;32mI (321659) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351659) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351659) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351659) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351659) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351669) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351679) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351679) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:16 2024] [0;32mI (351689) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:46:21 2024] [0;33mW (351689) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:46:21 2024] [0;32mI (356699) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386699) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386699) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386699) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386699) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386709) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:51 2024] [0;32mI (386709) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:56 2024] [0;32mI (386719) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:46:56 2024] [0;32mI (386729) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:46:56 2024] [0;33mW (386729) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:46:56 2024] [0;32mI (391739) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:47:26 2024] [0;32mI (421739) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:47:26 2024] [0;32mI (421739) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421739) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421739) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421749) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421749) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421759) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (421769) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:47:31 2024] [0;33mW (421769) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:47:31 2024] [0;32mI (426779) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456779) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456779) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456779) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456779) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456789) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456789) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456799) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (456809) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:48:06 2024] [0;33mW (456809) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:48:06 2024] [0;32mI (461819) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491819) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491819) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491819) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491819) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491829) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491829) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491839) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:48:36 2024] [0;32mI (491849) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:48:36 2024] [0;33mW (491849) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:48:41 2024] [0;32mI (496859) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526859) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526859) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526859) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526859) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526869) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526869) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526879) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:11 2024] [0;32mI (526889) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:49:11 2024] [0;33mW (526889) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:49:16 2024] [0;32mI (531899) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561899) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561899) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561899) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561899) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561909) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561909) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561919) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:49:46 2024] [0;32mI (561929) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:49:46 2024] [0;33mW (561929) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:49:51 2024] [0;32mI (566939) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596939) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596939) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596939) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596939) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596949) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596949) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:50:21 2024] [0;32mI (596959) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:50:26 2024] [0;32mI (596969) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:50:26 2024] [0;33mW (596969) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:50:26 2024] [0;32mI (601979) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:50:56 2024] [0;32mI (631979) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:50:56 2024] [0;32mI (631979) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:50:56 2024] [0;32mI (631979) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:50:56 2024] [0;32mI (631979) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:01 2024] [0;32mI (631989) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:01 2024] [0;32mI (631989) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:01 2024] [0;32mI (631999) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:01 2024] [0;32mI (632009) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:51:01 2024] [0;33mW (632009) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:51:01 2024] [0;32mI (637019) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667019) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667019) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667019) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667019) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667029) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667029) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667039) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (667049) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:51:36 2024] [0;33mW (667049) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:51:36 2024] [0;32mI (672059) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702059) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702059) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702059) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702059) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702069) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702069) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702079) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:06 2024] [0;32mI (702089) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:52:06 2024] [0;33mW (702089) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:52:11 2024] [0;32mI (707099) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737099) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737099) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737099) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737099) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737109) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737109) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737119) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:52:41 2024] [0;32mI (737129) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:52:41 2024] [0;33mW (737129) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:52:46 2024] [0;32mI (742139) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772139) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772139) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772139) Wifi: SSID: Aruba_Wifi, password: 123456789, length: 10[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772139) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772149) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772149) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772159) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 06:53:16 2024] [0;32mI (772169) Wifi: Ready to connect to ssid: Aruba_Wifi    password: 123456789[0m
+[Tue Oct  8 06:53:16 2024] [0;33mW (772169) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 06:53:21 2024] [0;32mI (777179) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Tue Oct  8 06:54:09 2024] [0;32mI (1979) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 06:54:13 2024] [0;32mI (5909) Wifi: Wifi initialized[0m
+[Tue Oct  8 06:54:13 2024] [0;33mW (5909) Time: Wif: Time is not set yet. Initializing  nd starting SNTP.[0m
+[Tue Oct  8 06:54:13 2024] [0;33mW (5909) Time: Wif: Time is not set yet. Initializing
+[Tue Oct  8 06:54:13 2024] [0;32mI (5919) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 06:54:13 2024] [0;32mI (5919) MQTT: Other event id:7[0m
+[Tue Oct  8 06:54:13 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Tue Oct  8 06:54:13 2024] I (5989) wifi:
+[Tue Oct  8 06:54:13 2024] 
+[Tue Oct  8 06:54:14 2024] [0;32mI (6069) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6129) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6259) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6259) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6259) MQTT: Extracted requestId: 1496[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6269) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/1496[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6329) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6379) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6389) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=1-1-0-204-1.2-1-214-605-1.3-1-615-909-1.4-1-919-1157-1.5-1-1207-1550-1.6-1-1600-1955-1.8-1-1933-2124-1.7-1-2005-2229-1,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=0-2-0-0-0-0-0;"}}
+[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6399) MQTT: Extracted requestId: 1497[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6409) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/1497[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6559) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6919) CPU_TEMP: : 39.70 °C
+[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6949) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	6,
+	"cpu_temp":	39.7,
+	"rssi":	-53,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:54:14 2024] [0;32mI (6999) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:54:15 2024] [0;33mW (7789) Timestamp: The current date/time in Vietnam is: Tue Oct  8 13:54:15 2024[0m
+[Tue Oct  8 06:54:15 2024] [0;32mI (7799) Timestamp: System time set successfully[0m
+[Tue Oct  8 06:54:15 2024] [0;32mI (7799) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:54:15 2024] [0;32mI (7809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:54:45 2024] [0;32mI (37809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:54:45 2024] [0;32mI (37809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:55:14 2024] [0;32mI (66989) CPU_TEMP: : 38.70 °C
+[0m
+[Tue Oct  8 06:55:14 2024] [0;32mI (66989) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	"1728370514",
+	"cpu_temp":	38.7,
+	"rssi":	-58,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:55:15 2024] [0;32mI (67089) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:55:15 2024] [0;32mI (67809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:55:15 2024] [0;32mI (67809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:55:45 2024] [0;32mI (97809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:55:45 2024] [0;32mI (97809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:56:14 2024] [0;32mI (127009) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 06:56:14 2024] [0;32mI (127009) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0.04,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	"1728370574",
+	"cpu_temp":	36.7,
+	"rssi":	-57,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:56:14 2024] [0;32mI (127059) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:56:15 2024] [0;32mI (127809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:56:15 2024] [0;32mI (127809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:56:45 2024] [0;32mI (157809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:56:45 2024] [0;32mI (157809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:57:14 2024] [0;32mI (187029) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 06:57:14 2024] [0;32mI (187029) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0.05,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	"1728370634",
+	"cpu_temp":	36.7,
+	"rssi":	-51,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:57:15 2024] [0;32mI (187089) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:57:15 2024] [0;32mI (187809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:57:15 2024] [0;32mI (187809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:57:45 2024] [0;32mI (217809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:57:45 2024] [0;32mI (217809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:58:14 2024] [0;32mI (247059) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 06:58:14 2024] [0;32mI (247059) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0.07,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	"1728370694",
+	"cpu_temp":	36.7,
+	"rssi":	-54,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:58:15 2024] [0;32mI (247119) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:58:15 2024] [0;32mI (247809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:58:15 2024] [0;32mI (247809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:58:45 2024] [0;32mI (277809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:58:45 2024] [0;32mI (277809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:59:14 2024] [0;32mI (307079) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 06:59:14 2024] [0;32mI (307079) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0.09,
+	"ip_address":	"192.168.1.63",
+	"bootnum":	1,
+	"rtc":	"1728370754",
+	"cpu_temp":	36.7,
+	"rssi":	-53,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 06:59:15 2024] [0;32mI (307139) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 06:59:15 2024] [0;32mI (307809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:59:15 2024] [0;32mI (307809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 06:59:45 2024] [0;32mI (337809) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 06:59:45 2024] [0;32mI (337809) Wifi: Wifi is still connected[0m
+[Tue Oct  8 07:00:15 2024] [0;32mI (367109) CPU_TEMP: : 36.70 °C
+[0m

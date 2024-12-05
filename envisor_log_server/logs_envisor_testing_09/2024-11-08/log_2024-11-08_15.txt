@@ -1,0 +1,1855 @@
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.704) CLEANER: revoooo: 1[0m
+[Fri Nov  8 15:32:56 2024] [0;31mE (00:01:36.706) CLEAN200: Current device is CLEAN200[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.709) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.748) CLEAN200: pass UART DATA event[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.751) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.753) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.761) CLEAN200: Write data successfully!
+[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.768) CLEAN200: Write data chemins successfully[0m
+[Fri Nov  8 15:32:56 2024] [0;32mI (00:01:36.773) CLEAN200: set [1] auto revolution successful[0m
+[Fri Nov  8 15:33:02 2024] I (104254) wifi:
+[Fri Nov  8 15:33:02 2024] <ba-add>idx:0 (ifx:0, 10:5d:dc:6b:0f:98), tid:0, ssn:1, winSize:64
+[Fri Nov  8 15:33:02 2024] 
+[Fri Nov  8 15:33:02 2024] [0;32mI (00:01:43.614) Wifi: Connected to wifi: Tepbac.com[0m
+[Fri Nov  8 15:33:02 2024] [0;33mW (00:01:43.616) Wifi: Wifi initialized[0m
+[Fri Nov  8 15:33:02 2024] I (104334) wifi:
+[Fri Nov  8 15:33:02 2024] Set ps type: 1, coexist: 1
+[Fri Nov  8 15:33:02 2024] 
+[Fri Nov  8 15:33:02 2024] [0;32mI (00:01:43.621) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Fri Nov  8 15:33:02 2024] [0;31mE (00:01:43.630) sleep: sleep_cpu_configure(785): Failed to enable CPU power down during light sleep.[0m
+[Fri Nov  8 15:33:02 2024] [0;32mI (00:01:43.639) Wifi: Power save mode enabled[0m
+[Fri Nov  8 15:33:02 2024] [0;33mW (00:01:43.645) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov  8 15:33:04 2024] [0;33mW (00:01:45.644) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov  8 15:33:05 2024] [0;32mI (00:01:46.774) CLEANER: clean 200 is finished[0m
+[Fri Nov  8 15:33:06 2024] [0;33mW (00:01:47.644) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov  8 15:33:06 2024] [0;32mI (00:01:47.674) MQTT: Other event id:7[0m
+[Fri Nov  8 15:33:07 2024] [0;33mW (15:33:06.864) Timestamp: The current date/time in Vietnam is: Fri Nov  8 15:33:06 2024[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:06.867) Timestamp: System time set successfully[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:06.873) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:06.879) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:33:07 2024] I (108854) wifi:
+[Fri Nov  8 15:33:07 2024] <ba-add>idx:1 (ifx:0, 10:5d:dc:6b:0f:98), tid:1, ssn:1, winSize:64
+[Fri Nov  8 15:33:07 2024] 
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.076) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov  8 15:33:07 2024] [0;33mW (15:33:07.080) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.087) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-80
+}[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.095) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.341) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.349) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.351) MQTT: Extracted requestId: 971[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.356) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/971[0m
+[Fri Nov  8 15:33:07 2024] [0;32mI (15:33:07.544) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:08 2024] [0;31mE (15:33:07.866) i2cdev: Could not read from dev
+[Fri Nov  8 15:33:08 2024] [0;31mE (15:33:07.866) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:33:08 2024] [0;31mE (15:33:07.871) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Fri Nov  8 15:33:08 2024] [0;32mI (15:33:07.879) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:33:08 2024] [0;32mI (15:33:07.885) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:33:14 2024] [0;32mI (15:33:14.415) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:19 2024] [0;33mW (15:33:18.905) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:19 2024] [0;32mI (15:33:18.913) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:33:19 2024] [0;32mI (15:33:19.036) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:29 2024] [0;32mI (15:33:28.915) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:33:29 2024] [0;33mW (15:33:28.918) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:29 2024] [0;32mI (15:33:28.924) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:33:29 2024] [0;32mI (15:33:29.072) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:37 2024] [0;32mI (15:33:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:33:37 2024] [0;32mI (15:33:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:33:39 2024] [0;32mI (15:33:38.925) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:33:39 2024] [0;33mW (15:33:38.928) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:39 2024] [0;32mI (15:33:38.934) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:33:39 2024] [0;32mI (15:33:39.129) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:49 2024] [0;32mI (15:33:48.935) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:33:49 2024] [0;33mW (15:33:48.938) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:49 2024] [0;32mI (15:33:48.944) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:33:49 2024] [0;32mI (15:33:49.130) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:33:59 2024] [0;32mI (15:33:58.945) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:33:59 2024] [0;33mW (15:33:58.948) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:33:59 2024] [0;32mI (15:33:58.955) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:33:59 2024] [0;32mI (15:33:59.186) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:07 2024] [0;32mI (15:34:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:34:07 2024] [0;32mI (15:34:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:34:09 2024] [0;32mI (15:34:08.955) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:34:09 2024] [0;33mW (15:34:08.958) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:09 2024] [0;32mI (15:34:08.964) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:34:09 2024] [0;32mI (15:34:09.106) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:19 2024] [0;32mI (15:34:18.965) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:34:19 2024] [0;33mW (15:34:18.968) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:19 2024] [0;32mI (15:34:18.974) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:34:19 2024] [0;32mI (15:34:18.985) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:34:19 2024] [0;32mI (15:34:18.987) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:34:19 2024] [0;32mI (15:34:19.137) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:20 2024] [0;31mE (15:34:19.985) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:34:20 2024] [0;31mE (15:34:19.988) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:34:20 2024] [0;32mI (15:34:19.991) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:34:20 2024] [0;33mW (15:34:19.994) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:20 2024] [0;32mI (15:34:20.009) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.482
+}[0m
+[Fri Nov  8 15:34:20 2024] [0;32mI (15:34:20.146) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:30 2024] [0;33mW (15:34:30.005) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:30 2024] [0;32mI (15:34:30.012) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:34:30 2024] [0;32mI (15:34:30.085) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:37 2024] [0;32mI (15:34:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:34:37 2024] [0;32mI (15:34:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:34:40 2024] [0;32mI (15:34:40.015) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:34:40 2024] [0;33mW (15:34:40.018) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:40 2024] [0;32mI (15:34:40.024) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:34:40 2024] [0;32mI (15:34:40.219) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:34:50 2024] [0;32mI (15:34:50.025) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:34:50 2024] [0;33mW (15:34:50.028) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:34:50 2024] [0;32mI (15:34:50.034) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:34:50 2024] [0;32mI (15:34:50.152) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:00 2024] [0;32mI (15:35:00.035) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:00 2024] [0;33mW (15:35:00.038) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:00 2024] [0;32mI (15:35:00.044) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:35:00 2024] [0;32mI (15:35:00.196) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:06 2024] [0;32mI (15:35:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:35:07 2024] [0;32mI (15:35:06.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:35:10 2024] [0;32mI (15:35:10.045) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:10 2024] [0;33mW (15:35:10.048) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:10 2024] [0;32mI (15:35:10.056) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:35:10 2024] [0;32mI (15:35:10.220) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:20 2024] [0;32mI (15:35:20.055) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:20 2024] [0;33mW (15:35:20.058) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:20 2024] [0;32mI (15:35:20.065) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:35:20 2024] [0;32mI (15:35:20.270) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:30 2024] [0;32mI (15:35:30.065) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:30 2024] [0;33mW (15:35:30.068) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:30 2024] [0;32mI (15:35:30.074) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:35:30 2024] [0;32mI (15:35:30.085) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:30 2024] [0;32mI (15:35:30.087) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:35:30 2024] [0;32mI (15:35:30.323) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:31 2024] [0;31mE (15:35:31.085) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:35:31 2024] [0;31mE (15:35:31.087) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:35:31 2024] [0;32mI (15:35:31.091) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:35:31 2024] [0;33mW (15:35:31.093) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:31 2024] [0;32mI (15:35:31.109) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.482
+}[0m
+[Fri Nov  8 15:35:31 2024] [0;32mI (15:35:31.213) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:37 2024] [0;32mI (15:35:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:35:37 2024] [0;32mI (15:35:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:35:41 2024] [0;33mW (15:35:41.105) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:41 2024] [0;32mI (15:35:41.112) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:35:41 2024] [0;32mI (15:35:41.255) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:35:51 2024] [0;32mI (15:35:51.105) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:35:51 2024] [0;33mW (15:35:51.108) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:35:51 2024] [0;32mI (15:35:51.115) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:35:51 2024] [0;32mI (15:35:51.181) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:01 2024] [0;32mI (15:36:01.115) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:01 2024] [0;33mW (15:36:01.118) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:01 2024] [0;32mI (15:36:01.125) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-45
+}[0m
+[Fri Nov  8 15:36:01 2024] [0;32mI (15:36:01.218) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:07 2024] [0;32mI (15:36:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:36:07 2024] [0;32mI (15:36:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:36:11 2024] [0;32mI (15:36:11.125) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:11 2024] [0;33mW (15:36:11.128) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:11 2024] [0;32mI (15:36:11.134) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:36:11 2024] [0;32mI (15:36:11.252) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:21 2024] [0;32mI (15:36:21.135) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:21 2024] [0;33mW (15:36:21.138) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:21 2024] [0;32mI (15:36:21.144) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:36:21 2024] [0;32mI (15:36:21.287) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:21 2024] [0;32mI (15:36:21.765) SENSORS_TASK: turn on ph[0m
+[Fri Nov  8 15:36:21 2024] [0;32mI (15:36:21.767) SENSORS_TASK: Delay 1s[0m
+[Fri Nov  8 15:36:22 2024] [0;33mW (15:36:22.265) SENSORS_TASK: Into sensors task![0m
+[Fri Nov  8 15:36:31 2024] [0;32mI (15:36:31.145) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:31 2024] [0;33mW (15:36:31.148) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:31 2024] [0;32mI (15:36:31.155) MQTT: Message sent: {
+	"uptime":	0.09,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:36:31 2024] [0;32mI (15:36:31.222) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:32 2024] [0;31mE (15:36:32.765) DS510: Current device is DS510[0m
+[Fri Nov  8 15:36:32 2024] [0;32mI (15:36:32.767) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:36:32 2024] [0;32mI (15:36:32.865) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:36:32 2024] [0;32mI (15:36:32.867) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:36:32 2024] [0;31mE (15:36:32.870) DS510: Error reading
+[0m
+[Fri Nov  8 15:36:32 2024] [0;33mW (15:36:32.873) DS510: Read data failed, retrying (1/3)...[0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:32.975) DS510: Current device is DS510[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:32.977) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.075) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.078) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:33.080) DS510: Error reading
+[0m
+[Fri Nov  8 15:36:33 2024] [0;33mW (15:36:33.083) DS510: Read data failed, retrying (2/3)...[0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:33.185) DS510: Current device is DS510[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.187) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.285) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.287) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:33.289) DS510: Error reading
+[0m
+[Fri Nov  8 15:36:33 2024] [0;33mW (15:36:33.293) DS510: Read data failed, retrying (3/3)...[0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:33.395) DS510: Current device is DS510[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.397) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.495) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:36:33 2024] [0;32mI (15:36:33.497) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:36:33 2024] [0;31mE (15:36:33.499) DS510: Error reading
+[0m
+[Fri Nov  8 15:36:34 2024] [0;31mE (15:36:33.503) DS510: Read data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  8 15:36:34 2024] [0;31mE (15:36:33.513) DS510: Failed to read pH measurement[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.518) CPU_TEMP: : 41.50 °C
+[0m
+[Fri Nov  8 15:36:34 2024] [0;31mE (15:36:33.522) DS380: Current device is DS380[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.528) DS380: SEND data to sensor: 0x07 0x03 0x20 0x00 0x00 0x06 0xCE 0x6E
+[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.609) DS380: pass UART DATA event[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.611) DS380: Length of Received response from sensor: 17
+[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.614) DS380: Received data from sensor: 0x07 0x03 0x0C 0x1D 0xB2 0xF0 0x41 0x90 0x21 0x82 0x3F 0xF3 0x11 0xF2 0x40 0x48 0x2C [0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.625) DS380: CRC check passed[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:33.630) DS380: --> Dissolved oxygen: 7.56 mg/L, Percentage: 101.66 %, Temperature_RDO: 30.1 °C 
+[0m
+[Fri Nov  8 15:36:34 2024] [0;33mW (15:36:34.395) MQTT: Publish successfully key:10
+[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:34.397) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:34 2024] [0;33mW (15:36:34.401) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:34.410) MQTT: Message sent: {
+	"internet":	"Tepbac.com",
+	"mac":	"10:5D:DC:6B:0F:98",
+	"ip_address":	"192.168.3.251",
+	"bootnum":	222,
+	"firmware_version":	"1.5.6"
+}[0m
+[Fri Nov  8 15:36:34 2024] [0;32mI (15:36:34.503) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:36 2024] [0;32mI (15:36:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:36:36 2024] [0;32mI (15:36:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:36:41 2024] [0;32mI (15:36:41.155) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:41 2024] [0;33mW (15:36:41.158) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:41 2024] [0;32mI (15:36:41.164) MQTT: Message sent: {
+	"uptime":	0.09,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:36:41 2024] [0;32mI (15:36:41.175) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:36:41 2024] [0;32mI (15:36:41.177) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:36:41 2024] [0;32mI (15:36:41.258) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:42 2024] [0;31mE (15:36:42.175) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:36:42 2024] [0;31mE (15:36:42.179) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:36:42 2024] [0;32mI (15:36:42.181) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:36:42 2024] [0;33mW (15:36:42.183) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:42 2024] [0;32mI (15:36:42.199) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.462
+}[0m
+[Fri Nov  8 15:36:42 2024] [0;32mI (15:36:42.280) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:36:52 2024] [0;33mW (15:36:52.195) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:36:52 2024] [0;32mI (15:36:52.201) MQTT: Message sent: {
+	"uptime":	0.09,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:36:52 2024] [0;32mI (15:36:52.317) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:02 2024] [0;32mI (15:37:02.195) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:02 2024] [0;33mW (15:37:02.198) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:02 2024] [0;32mI (15:37:02.204) MQTT: Message sent: {
+	"uptime":	0.1,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:37:02 2024] [0;32mI (15:37:02.352) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:06 2024] [0;32mI (15:37:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:37:06 2024] [0;32mI (15:37:06.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:37:12 2024] [0;32mI (15:37:12.205) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:12 2024] [0;33mW (15:37:12.208) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:12 2024] [0;32mI (15:37:12.215) MQTT: Message sent: {
+	"uptime":	0.1,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:37:12 2024] [0;32mI (15:37:12.394) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:22 2024] [0;32mI (15:37:22.215) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:22 2024] [0;33mW (15:37:22.218) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:22 2024] [0;32mI (15:37:22.225) MQTT: Message sent: {
+	"uptime":	0.1,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:37:22 2024] [0;32mI (15:37:22.320) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:32 2024] [0;32mI (15:37:32.225) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:32 2024] [0;33mW (15:37:32.228) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:32 2024] [0;32mI (15:37:32.234) MQTT: Message sent: {
+	"uptime":	0.1,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:37:32 2024] [0;32mI (15:37:32.561) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:36 2024] [0;32mI (15:37:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:37:36 2024] [0;32mI (15:37:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:37:42 2024] [0;32mI (15:37:42.235) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:42 2024] [0;33mW (15:37:42.238) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:42 2024] [0;32mI (15:37:42.244) MQTT: Message sent: {
+	"uptime":	0.11,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:37:42 2024] [0;32mI (15:37:42.389) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:52 2024] [0;32mI (15:37:52.245) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:52 2024] [0;33mW (15:37:52.248) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:52 2024] [0;32mI (15:37:52.254) MQTT: Message sent: {
+	"uptime":	0.11,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:37:52 2024] [0;32mI (15:37:52.265) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:37:52 2024] [0;32mI (15:37:52.267) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:37:52 2024] [0;32mI (15:37:52.337) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:37:53 2024] [0;31mE (15:37:53.265) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:37:53 2024] [0;31mE (15:37:53.268) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:37:53 2024] [0;32mI (15:37:53.271) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:37:53 2024] [0;33mW (15:37:53.273) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:37:53 2024] [0;32mI (15:37:53.290) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.47
+}[0m
+[Fri Nov  8 15:37:53 2024] [0;32mI (15:37:53.450) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:03 2024] [0;33mW (15:38:03.285) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:03 2024] [0;32mI (15:38:03.292) MQTT: Message sent: {
+	"uptime":	0.11,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:38:03 2024] [0;32mI (15:38:03.394) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:06 2024] [0;32mI (15:38:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:38:06 2024] [0;32mI (15:38:06.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:38:13 2024] [0;32mI (15:38:13.295) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:38:13 2024] [0;33mW (15:38:13.298) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:13 2024] [0;32mI (15:38:13.304) MQTT: Message sent: {
+	"uptime":	0.12,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:38:13 2024] [0;32mI (15:38:13.425) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:23 2024] [0;32mI (15:38:23.305) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:38:23 2024] [0;33mW (15:38:23.308) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:23 2024] [0;32mI (15:38:23.314) MQTT: Message sent: {
+	"uptime":	0.12,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:38:23 2024] [0;32mI (15:38:23.455) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:33 2024] [0;32mI (15:38:33.315) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:38:33 2024] [0;33mW (15:38:33.318) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:33 2024] [0;32mI (15:38:33.325) MQTT: Message sent: {
+	"uptime":	0.12,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:38:33 2024] [0;32mI (15:38:33.496) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:36 2024] [0;32mI (15:38:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:38:36 2024] [0;32mI (15:38:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:38:43 2024] [0;32mI (15:38:43.325) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:38:43 2024] [0;33mW (15:38:43.329) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:43 2024] [0;32mI (15:38:43.335) MQTT: Message sent: {
+	"uptime":	0.12,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:38:43 2024] [0;32mI (15:38:43.422) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:38:53 2024] [0;32mI (15:38:53.335) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:38:53 2024] [0;33mW (15:38:53.338) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:38:53 2024] [0;32mI (15:38:53.344) MQTT: Message sent: {
+	"uptime":	0.13,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:38:53 2024] [0;32mI (15:38:53.456) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:03 2024] [0;32mI (15:39:03.345) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:03 2024] [0;33mW (15:39:03.348) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:03 2024] [0;32mI (15:39:03.354) MQTT: Message sent: {
+	"uptime":	0.13,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:39:03 2024] [0;32mI (15:39:03.365) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:03 2024] [0;32mI (15:39:03.367) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:39:03 2024] [0;32mI (15:39:03.509) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:04 2024] [0;31mE (15:39:04.365) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:39:04 2024] [0;31mE (15:39:04.367) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:39:04 2024] [0;32mI (15:39:04.371) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:39:04 2024] [0;33mW (15:39:04.373) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:04 2024] [0;32mI (15:39:04.388) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.482
+}[0m
+[Fri Nov  8 15:39:04 2024] [0;32mI (15:39:04.515) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:06 2024] [0;32mI (15:39:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:39:06 2024] [0;32mI (15:39:06.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:39:14 2024] [0;33mW (15:39:14.386) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:14 2024] [0;32mI (15:39:14.393) MQTT: Message sent: {
+	"uptime":	0.13,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:39:14 2024] [0;32mI (15:39:14.551) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:24 2024] [0;32mI (15:39:24.395) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:24 2024] [0;33mW (15:39:24.398) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:24 2024] [0;32mI (15:39:24.405) MQTT: Message sent: {
+	"uptime":	0.13,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:39:24 2024] [0;32mI (15:39:24.491) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:34 2024] [0;32mI (15:39:34.405) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:34 2024] [0;33mW (15:39:34.408) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:34 2024] [0;32mI (15:39:34.416) MQTT: Message sent: {
+	"uptime":	0.14,
+	"rssi":	-44
+}[0m
+[Fri Nov  8 15:39:34 2024] [0;32mI (15:39:34.522) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:36 2024] [0;32mI (15:39:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:39:36 2024] [0;32mI (15:39:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:39:44 2024] [0;32mI (15:39:44.415) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:44 2024] [0;33mW (15:39:44.418) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:44 2024] [0;32mI (15:39:44.424) MQTT: Message sent: {
+	"uptime":	0.14,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:39:44 2024] [0;32mI (15:39:44.563) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:39:54 2024] [0;32mI (15:39:54.425) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:39:54 2024] [0;33mW (15:39:54.428) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:39:54 2024] [0;32mI (15:39:54.434) MQTT: Message sent: {
+	"uptime":	0.14,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:39:54 2024] [0;32mI (15:39:54.616) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:04 2024] [0;32mI (15:40:04.435) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:04 2024] [0;33mW (15:40:04.438) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:04 2024] [0;32mI (15:40:04.444) MQTT: Message sent: {
+	"uptime":	0.15,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:40:04 2024] [0;32mI (15:40:04.534) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:06 2024] [0;32mI (15:40:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:40:06 2024] [0;32mI (15:40:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:40:14 2024] [0;32mI (15:40:14.445) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:14 2024] [0;33mW (15:40:14.448) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:14 2024] [0;32mI (15:40:14.455) MQTT: Message sent: {
+	"uptime":	0.15,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:40:14 2024] [0;32mI (15:40:14.465) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:14 2024] [0;32mI (15:40:14.467) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:40:14 2024] [0;32mI (15:40:14.559) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:15 2024] [0;31mE (15:40:15.465) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:40:15 2024] [0;31mE (15:40:15.467) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:40:15 2024] [0;32mI (15:40:15.471) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:40:15 2024] [0;33mW (15:40:15.473) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:15 2024] [0;32mI (15:40:15.490) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.484
+}[0m
+[Fri Nov  8 15:40:15 2024] [0;32mI (15:40:15.589) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:25 2024] [0;33mW (15:40:25.485) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:25 2024] [0;32mI (15:40:25.491) MQTT: Message sent: {
+	"uptime":	0.15,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:40:25 2024] [0;32mI (15:40:25.621) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:35 2024] [0;32mI (15:40:35.485) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:35 2024] [0;33mW (15:40:35.488) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:35 2024] [0;32mI (15:40:35.495) MQTT: Message sent: {
+	"uptime":	0.15,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:40:35 2024] [0;32mI (15:40:35.779) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:36 2024] [0;32mI (15:40:36.876) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:40:36 2024] [0;32mI (15:40:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:40:45 2024] [0;32mI (15:40:45.495) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:45 2024] [0;33mW (15:40:45.498) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:45 2024] [0;32mI (15:40:45.506) MQTT: Message sent: {
+	"uptime":	0.16,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:40:45 2024] [0;32mI (15:40:45.588) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:40:55 2024] [0;32mI (15:40:55.505) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:40:55 2024] [0;33mW (15:40:55.508) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:40:55 2024] [0;32mI (15:40:55.515) MQTT: Message sent: {
+	"uptime":	0.16,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:40:55 2024] [0;32mI (15:40:55.642) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:05 2024] [0;32mI (15:41:05.515) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:05 2024] [0;33mW (15:41:05.518) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:05 2024] [0;32mI (15:41:05.524) MQTT: Message sent: {
+	"uptime":	0.16,
+	"rssi":	-44
+}[0m
+[Fri Nov  8 15:41:05 2024] [0;32mI (15:41:05.658) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:06 2024] [0;32mI (15:41:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:41:06 2024] [0;32mI (15:41:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:41:15 2024] [0;32mI (15:41:15.525) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:15 2024] [0;33mW (15:41:15.529) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:15 2024] [0;32mI (15:41:15.536) MQTT: Message sent: {
+	"uptime":	0.17,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:41:15 2024] [0;32mI (15:41:15.707) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:21 2024] [0;32mI (15:41:21.765) SENSORS_TASK: turn on ph[0m
+[Fri Nov  8 15:41:21 2024] [0;32mI (15:41:21.767) SENSORS_TASK: Delay 1s[0m
+[Fri Nov  8 15:41:22 2024] [0;33mW (15:41:22.265) SENSORS_TASK: Into sensors task![0m
+[Fri Nov  8 15:41:25 2024] [0;32mI (15:41:25.535) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:25 2024] [0;33mW (15:41:25.538) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:25 2024] [0;32mI (15:41:25.545) MQTT: Message sent: {
+	"uptime":	0.17,
+	"rssi":	-45
+}[0m
+[Fri Nov  8 15:41:25 2024] [0;32mI (15:41:25.555) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:25 2024] [0;32mI (15:41:25.557) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:41:25 2024] [0;32mI (15:41:25.627) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:26 2024] [0;31mE (15:41:26.555) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:41:26 2024] [0;31mE (15:41:26.558) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:41:26 2024] [0;32mI (15:41:26.561) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:41:26 2024] [0;33mW (15:41:26.564) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:26 2024] [0;32mI (15:41:26.579) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.375
+}[0m
+[Fri Nov  8 15:41:26 2024] [0;32mI (15:41:26.665) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:32 2024] [0;31mE (15:41:32.765) DS510: Current device is DS510[0m
+[Fri Nov  8 15:41:32 2024] [0;32mI (15:41:32.767) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:41:32 2024] [0;32mI (15:41:32.865) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:41:32 2024] [0;32mI (15:41:32.867) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:41:32 2024] [0;31mE (15:41:32.869) DS510: Error reading
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:32.873) DS510: Read data failed, retrying (1/3)...[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:32.975) DS510: Current device is DS510[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:32.977) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.075) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.077) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.079) DS510: Error reading
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.083) DS510: Read data failed, retrying (2/3)...[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.185) DS510: Current device is DS510[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.187) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.285) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.287) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.289) DS510: Error reading
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.293) DS510: Read data failed, retrying (3/3)...[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.395) DS510: Current device is DS510[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.397) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.495) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.497) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.499) DS510: Error reading
+[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.503) DS510: Read data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.512) DS510: Failed to read pH measurement[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.518) CPU_TEMP: : 41.50 °C
+[0m
+[Fri Nov  8 15:41:33 2024] [0;31mE (15:41:33.522) DS380: Current device is DS380[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.528) DS380: SEND data to sensor: 0x07 0x03 0x20 0x00 0x00 0x06 0xCE 0x6E
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.609) DS380: pass UART DATA event[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.611) DS380: Length of Received response from sensor: 17
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.614) DS380: Received data from sensor: 0x07 0x03 0x0C 0xCD 0xB8 0xF0 0x41 0x2B 0xF7 0x79 0x3F 0xB4 0x8B 0xE8 0x40 0x7C 0x30 [0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.625) DS380: CRC check passed[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.630) DS380: --> Dissolved oxygen: 7.27 mg/L, Percentage: 97.64 %, Temperature_RDO: 30.1 °C 
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.640) DS380: Read data desun successfully![0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.646) DS380: Measurement read successfully[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.652) MQTT: Receive data from queue successfully[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.658) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.665) NVS: Don't have any storage data[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.675) MQTT: Message sent: {
+	"do":	7.27,
+	"rtd":	30.1,
+	"rtd_box":	41.5,
+	"pdo":	97.64,
+	"timestamp":	1731055293
+}[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.683) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.689) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.695) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.696) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.755) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.758) CLEANER: Don't need clean[0m
+[Fri Nov  8 15:41:33 2024] [0;33mW (15:41:33.826) MQTT: Publish successfully key:10
+[0m
+[Fri Nov  8 15:41:33 2024] [0;32mI (15:41:33.828) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:36 2024] [0;33mW (15:41:36.576) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:36 2024] [0;32mI (15:41:36.583) MQTT: Message sent: {
+	"uptime":	0.17,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:41:36 2024] [0;32mI (15:41:36.687) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:36 2024] [0;32mI (15:41:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:41:36 2024] [0;32mI (15:41:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:41:46 2024] [0;32mI (15:41:46.585) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:46 2024] [0;33mW (15:41:46.588) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:46 2024] [0;32mI (15:41:46.594) MQTT: Message sent: {
+	"uptime":	0.17,
+	"rssi":	-44
+}[0m
+[Fri Nov  8 15:41:46 2024] [0;32mI (15:41:46.720) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:41:56 2024] [0;32mI (15:41:56.595) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:41:56 2024] [0;33mW (15:41:56.598) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:41:56 2024] [0;32mI (15:41:56.604) MQTT: Message sent: {
+	"uptime":	0.18,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:41:56 2024] [0;32mI (15:41:56.781) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:06 2024] [0;32mI (15:42:06.605) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:06 2024] [0;33mW (15:42:06.608) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:06 2024] [0;32mI (15:42:06.614) MQTT: Message sent: {
+	"uptime":	0.18,
+	"rssi":	-45
+}[0m
+[Fri Nov  8 15:42:06 2024] [0;32mI (15:42:06.688) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:06 2024] [0;32mI (15:42:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:42:06 2024] [0;32mI (15:42:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:42:16 2024] [0;32mI (15:42:16.615) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:16 2024] [0;33mW (15:42:16.618) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:16 2024] [0;32mI (15:42:16.625) MQTT: Message sent: {
+	"uptime":	0.18,
+	"rssi":	-45
+}[0m
+[Fri Nov  8 15:42:16 2024] [0;32mI (15:42:16.730) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:26 2024] [0;32mI (15:42:26.625) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:26 2024] [0;32mI (15:42:26.634) MQTT: Message sent: {
+	"uptime":	0.19,
+	"rssi":	-44
+}[0m
+[Fri Nov  8 15:42:26 2024] [0;33mW (15:42:26.628) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:26 2024] [0;32mI (15:42:26.760) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.635) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:36 2024] [0;33mW (15:42:36.638) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.644) MQTT: Message sent: {
+	"uptime":	0.19,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.655) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.657) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.797) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.876) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:42:36 2024] [0;32mI (15:42:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:42:37 2024] [0;31mE (15:42:37.655) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:42:37 2024] [0;31mE (15:42:37.658) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:42:37 2024] [0;32mI (15:42:37.661) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:42:37 2024] [0;33mW (15:42:37.668) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:37 2024] [0;32mI (15:42:37.679) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.482
+}[0m
+[Fri Nov  8 15:42:37 2024] [0;32mI (15:42:37.828) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:47 2024] [0;33mW (15:42:47.676) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:47 2024] [0;32mI (15:42:47.683) MQTT: Message sent: {
+	"uptime":	0.19,
+	"rssi":	-55
+}[0m
+[Fri Nov  8 15:42:47 2024] [0;32mI (15:42:47.760) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:42:57 2024] [0;32mI (15:42:57.685) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:42:57 2024] [0;33mW (15:42:57.688) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:42:57 2024] [0;32mI (15:42:57.694) MQTT: Message sent: {
+	"uptime":	0.19,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:42:57 2024] [0;32mI (15:42:57.789) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:06 2024] [0;32mI (15:43:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:43:06 2024] [0;32mI (15:43:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:43:07 2024] [0;32mI (15:43:07.695) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:07 2024] [0;33mW (15:43:07.698) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:07 2024] [0;32mI (15:43:07.704) MQTT: Message sent: {
+	"uptime":	0.2,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:43:07 2024] [0;32mI (15:43:07.822) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:17 2024] [0;32mI (15:43:17.705) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:17 2024] [0;33mW (15:43:17.708) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:17 2024] [0;32mI (15:43:17.714) MQTT: Message sent: {
+	"uptime":	0.2,
+	"rssi":	-56
+}[0m
+[Fri Nov  8 15:43:17 2024] [0;32mI (15:43:17.866) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:27 2024] [0;32mI (15:43:27.715) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:27 2024] [0;33mW (15:43:27.718) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:27 2024] [0;32mI (15:43:27.725) MQTT: Message sent: {
+	"uptime":	0.2,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:43:27 2024] [0;32mI (15:43:27.892) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:37 2024] [0;32mI (15:43:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:43:37 2024] [0;32mI (15:43:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:43:37 2024] [0;32mI (15:43:37.725) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:37 2024] [0;33mW (15:43:37.728) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:37 2024] [0;32mI (15:43:37.734) MQTT: Message sent: {
+	"uptime":	0.21,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:43:37 2024] [0;32mI (15:43:37.827) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:47 2024] [0;32mI (15:43:47.735) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:47 2024] [0;33mW (15:43:47.738) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:47 2024] [0;32mI (15:43:47.744) MQTT: Message sent: {
+	"uptime":	0.21,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:43:47 2024] [0;32mI (15:43:47.755) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:43:47 2024] [0;32mI (15:43:47.757) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:43:47 2024] [0;32mI (15:43:47.861) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:48 2024] [0;31mE (15:43:48.755) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:43:48 2024] [0;31mE (15:43:48.758) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:43:48 2024] [0;32mI (15:43:48.761) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:43:48 2024] [0;33mW (15:43:48.763) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:48 2024] [0;32mI (15:43:48.779) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.48
+}[0m
+[Fri Nov  8 15:43:48 2024] [0;32mI (15:43:48.887) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:43:58 2024] [0;33mW (15:43:58.776) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:43:58 2024] [0;32mI (15:43:58.782) MQTT: Message sent: {
+	"uptime":	0.21,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:43:59 2024] [0;32mI (15:43:58.922) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:06 2024] [0;32mI (15:44:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:44:06 2024] [0;32mI (15:44:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:44:08 2024] [0;32mI (15:44:08.775) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:08 2024] [0;33mW (15:44:08.778) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:08 2024] [0;32mI (15:44:08.784) MQTT: Message sent: {
+	"uptime":	0.21,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:44:08 2024] [0;32mI (15:44:08.854) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:18 2024] [0;32mI (15:44:18.785) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:18 2024] [0;33mW (15:44:18.788) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:18 2024] [0;32mI (15:44:18.794) MQTT: Message sent: {
+	"uptime":	0.22,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:44:18 2024] [0;32mI (15:44:18.889) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:28 2024] [0;32mI (15:44:28.795) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:28 2024] [0;33mW (15:44:28.798) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:28 2024] [0;32mI (15:44:28.804) MQTT: Message sent: {
+	"uptime":	0.22,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:44:29 2024] [0;32mI (15:44:28.926) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:36 2024] [0;32mI (15:44:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:44:36 2024] [0;32mI (15:44:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:44:38 2024] [0;32mI (15:44:38.805) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:38 2024] [0;33mW (15:44:38.808) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:38 2024] [0;32mI (15:44:38.814) MQTT: Message sent: {
+	"uptime":	0.22,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:44:39 2024] [0;32mI (15:44:38.970) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:48 2024] [0;32mI (15:44:48.815) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:48 2024] [0;33mW (15:44:48.818) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:48 2024] [0;32mI (15:44:48.824) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:44:49 2024] [0;32mI (15:44:49.031) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:58 2024] [0;32mI (15:44:58.825) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:58 2024] [0;33mW (15:44:58.828) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:58 2024] [0;32mI (15:44:58.834) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:44:58 2024] [0;32mI (15:44:58.845) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:44:58 2024] [0;32mI (15:44:58.847) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:44:59 2024] [0;32mI (15:44:58.930) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:44:59 2024] [0;31mE (15:44:59.845) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:44:59 2024] [0;31mE (15:44:59.848) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:44:59 2024] [0;32mI (15:44:59.851) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:44:59 2024] [0;33mW (15:44:59.854) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:44:59 2024] [0;32mI (15:44:59.869) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.464
+}[0m
+[Fri Nov  8 15:45:00 2024] [0;32mI (15:44:59.953) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:45:07 2024] [0;32mI (15:45:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:45:07 2024] [0;32mI (15:45:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:45:09 2024] [0;33mW (15:45:09.865) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:45:09 2024] [0;32mI (15:45:09.871) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:45:10 2024] [0;32mI (15:45:09.989) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:45:20 2024] [0;32mI (15:45:19.865) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:45:20 2024] [0;33mW (15:45:19.868) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:45:20 2024] [0;32mI (15:45:19.874) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:45:20 2024] [0;32mI (15:45:20.025) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:45:29 2024] [0;32mI (15:45:29.875) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:45:29 2024] [0;33mW (15:45:29.878) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:45:29 2024] [0;32mI (15:45:29.884) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:45:30 2024] [0;32mI (15:45:29.957) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:45:37 2024] [0;32mI (15:45:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:45:37 2024] [0;32mI (15:45:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:45:39 2024] [0;32mI (15:45:39.885) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:45:39 2024] [0;33mW (15:45:39.888) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:45:40 2024] [0;32mI (15:45:39.895) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:45:40 2024] [0;32mI (15:45:39.991) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:45:50 2024] [0;32mI (15:45:49.895) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:45:50 2024] [0;33mW (15:45:49.898) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:45:50 2024] [0;32mI (15:45:49.904) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:45:50 2024] [0;32mI (15:45:50.027) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:00 2024] [0;32mI (15:45:59.905) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:00 2024] [0;33mW (15:45:59.908) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:00 2024] [0;32mI (15:45:59.914) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:46:00 2024] [0;32mI (15:46:00.061) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:07 2024] [0;32mI (15:46:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:46:07 2024] [0;32mI (15:46:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:46:10 2024] [0;32mI (15:46:09.915) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:10 2024] [0;33mW (15:46:09.918) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:10 2024] [0;32mI (15:46:09.924) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:46:10 2024] [0;32mI (15:46:09.935) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:10 2024] [0;32mI (15:46:09.938) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:46:10 2024] [0;32mI (15:46:09.995) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:11 2024] [0;31mE (15:46:10.935) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:46:11 2024] [0;31mE (15:46:10.938) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:46:11 2024] [0;32mI (15:46:10.941) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:46:11 2024] [0;33mW (15:46:10.943) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:11 2024] [0;32mI (15:46:10.960) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.462
+}[0m
+[Fri Nov  8 15:46:11 2024] [0;32mI (15:46:11.121) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:21 2024] [0;33mW (15:46:20.955) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:21 2024] [0;32mI (15:46:20.962) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:46:21 2024] [0;32mI (15:46:21.054) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:21 2024] [0;32mI (15:46:21.765) SENSORS_TASK: turn on ph[0m
+[Fri Nov  8 15:46:21 2024] [0;32mI (15:46:21.768) SENSORS_TASK: Delay 1s[0m
+[Fri Nov  8 15:46:22 2024] [0;33mW (15:46:22.265) SENSORS_TASK: Into sensors task![0m
+[Fri Nov  8 15:46:31 2024] [0;32mI (15:46:30.965) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:31 2024] [0;33mW (15:46:30.968) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:31 2024] [0;32mI (15:46:30.974) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:46:31 2024] [0;32mI (15:46:31.091) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:32 2024] [0;31mE (15:46:32.765) DS510: Current device is DS510[0m
+[Fri Nov  8 15:46:32 2024] [0;32mI (15:46:32.767) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:46:32 2024] [0;32mI (15:46:32.865) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:32.867) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:32.871) DS510: Error reading
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:32.873) DS510: Read data failed, retrying (1/3)...[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:32.975) DS510: Current device is DS510[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:32.978) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.075) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.078) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.081) DS510: Error reading
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.083) DS510: Read data failed, retrying (2/3)...[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.185) DS510: Current device is DS510[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.187) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.285) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.287) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.289) DS510: Error reading
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.293) DS510: Read data failed, retrying (3/3)...[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.395) DS510: Current device is DS510[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.397) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.495) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.497) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.499) DS510: Error reading
+[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.503) DS510: Read data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.512) DS510: Failed to read pH measurement[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.518) CPU_TEMP: : 41.50 °C
+[0m
+[Fri Nov  8 15:46:33 2024] [0;31mE (15:46:33.522) DS380: Current device is DS380[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.528) DS380: SEND data to sensor: 0x07 0x03 0x20 0x00 0x00 0x06 0xCE 0x6E
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.609) DS380: pass UART DATA event[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.611) DS380: Length of Received response from sensor: 17
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.614) DS380: Received data from sensor: 0x07 0x03 0x0C 0x9D 0xB6 0xF7 0x41 0xD3 0xC1 0x75 0x3F 0x28 0x26 0xE1 0x40 0xD8 0x0E [0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.625) DS380: CRC check passed[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.630) DS380: --> Dissolved oxygen: 7.04 mg/L, Percentage: 96.00 %, Temperature_RDO: 31.0 °C 
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.640) DS380: Read data desun successfully![0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.646) DS380: Measurement read successfully[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.652) MQTT: Receive data from queue successfully[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.658) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.665) NVS: Don't have any storage data[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.675) MQTT: Message sent: {
+	"do":	7.04,
+	"rtd":	31,
+	"rtd_box":	41.5,
+	"pdo":	96,
+	"timestamp":	1731055593
+}[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.682) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.689) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.695) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.696) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.754) MQTT: Publish successfully key:10
+[0m
+[Fri Nov  8 15:46:33 2024] [0;32mI (15:46:33.756) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.759) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Nov  8 15:46:33 2024] [0;33mW (15:46:33.763) CLEANER: Don't need clean[0m
+[Fri Nov  8 15:46:37 2024] [0;32mI (15:46:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:46:37 2024] [0;32mI (15:46:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:46:41 2024] [0;32mI (15:46:40.975) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:41 2024] [0;33mW (15:46:40.978) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:41 2024] [0;32mI (15:46:40.984) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:46:41 2024] [0;32mI (15:46:41.124) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:46:51 2024] [0;32mI (15:46:50.985) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:46:51 2024] [0;33mW (15:46:50.988) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:46:51 2024] [0;32mI (15:46:50.994) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:46:51 2024] [0;32mI (15:46:51.163) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:01 2024] [0;32mI (15:47:00.995) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:01 2024] [0;33mW (15:47:00.998) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:01 2024] [0;32mI (15:47:01.005) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:47:01 2024] [0;32mI (15:47:01.093) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:07 2024] [0;32mI (15:47:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:47:07 2024] [0;32mI (15:47:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:47:11 2024] [0;32mI (15:47:11.005) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:11 2024] [0;33mW (15:47:11.008) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:11 2024] [0;32mI (15:47:11.014) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:47:11 2024] [0;32mI (15:47:11.128) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:21 2024] [0;32mI (15:47:21.015) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:21 2024] [0;33mW (15:47:21.018) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:21 2024] [0;32mI (15:47:21.024) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:47:21 2024] [0;32mI (15:47:21.035) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:21 2024] [0;32mI (15:47:21.037) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:47:21 2024] [0;32mI (15:47:21.174) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:22 2024] [0;31mE (15:47:22.035) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:47:22 2024] [0;31mE (15:47:22.038) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:47:22 2024] [0;32mI (15:47:22.041) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:47:22 2024] [0;33mW (15:47:22.043) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:22 2024] [0;32mI (15:47:22.058) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.482
+}[0m
+[Fri Nov  8 15:47:22 2024] [0;32mI (15:47:22.210) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:32 2024] [0;33mW (15:47:32.055) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:32 2024] [0;32mI (15:47:32.062) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:47:32 2024] [0;32mI (15:47:32.223) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:37 2024] [0;32mI (15:47:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:47:37 2024] [0;32mI (15:47:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:47:42 2024] [0;32mI (15:47:42.065) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:42 2024] [0;33mW (15:47:42.068) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:42 2024] [0;32mI (15:47:42.074) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:47:42 2024] [0;32mI (15:47:42.157) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:47:52 2024] [0;32mI (15:47:52.075) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:47:52 2024] [0;33mW (15:47:52.078) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:47:52 2024] [0;32mI (15:47:52.086) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:47:52 2024] [0;32mI (15:47:52.191) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:02 2024] [0;32mI (15:48:02.085) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:02 2024] [0;33mW (15:48:02.088) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:02 2024] [0;32mI (15:48:02.094) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:48:02 2024] [0;32mI (15:48:02.228) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:07 2024] [0;32mI (15:48:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:48:07 2024] [0;32mI (15:48:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:48:12 2024] [0;32mI (15:48:12.095) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:12 2024] [0;33mW (15:48:12.098) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:12 2024] [0;32mI (15:48:12.105) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:48:12 2024] [0;32mI (15:48:12.271) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:22 2024] [0;32mI (15:48:22.105) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:22 2024] [0;33mW (15:48:22.108) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:22 2024] [0;32mI (15:48:22.115) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:48:22 2024] [0;32mI (15:48:22.195) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:32 2024] [0;32mI (15:48:32.115) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:32 2024] [0;33mW (15:48:32.118) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:32 2024] [0;32mI (15:48:32.126) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:48:32 2024] [0;32mI (15:48:32.135) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:32 2024] [0;32mI (15:48:32.137) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:48:32 2024] [0;32mI (15:48:32.230) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:33 2024] [0;31mE (15:48:33.135) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:48:33 2024] [0;31mE (15:48:33.138) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:48:33 2024] [0;32mI (15:48:33.141) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:48:33 2024] [0;33mW (15:48:33.143) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:33 2024] [0;32mI (15:48:33.159) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.476
+}[0m
+[Fri Nov  8 15:48:33 2024] [0;32mI (15:48:33.254) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:37 2024] [0;32mI (15:48:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:48:37 2024] [0;32mI (15:48:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:48:43 2024] [0;33mW (15:48:43.155) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:43 2024] [0;32mI (15:48:43.161) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:48:43 2024] [0;32mI (15:48:43.297) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:48:53 2024] [0;32mI (15:48:53.155) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:48:53 2024] [0;33mW (15:48:53.158) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:48:53 2024] [0;32mI (15:48:53.164) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:48:53 2024] [0;32mI (15:48:53.325) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:03 2024] [0;32mI (15:49:03.165) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:03 2024] [0;33mW (15:49:03.168) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:03 2024] [0;32mI (15:49:03.174) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:49:03 2024] [0;32mI (15:49:03.259) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:06 2024] [0;32mI (15:49:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:49:06 2024] [0;32mI (15:49:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:49:13 2024] [0;32mI (15:49:13.175) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:13 2024] [0;33mW (15:49:13.178) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:13 2024] [0;32mI (15:49:13.184) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:49:13 2024] [0;32mI (15:49:13.294) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:23 2024] [0;32mI (15:49:23.185) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:23 2024] [0;33mW (15:49:23.188) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:23 2024] [0;32mI (15:49:23.194) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:49:23 2024] [0;32mI (15:49:23.329) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:33 2024] [0;32mI (15:49:33.195) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:33 2024] [0;33mW (15:49:33.198) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:33 2024] [0;32mI (15:49:33.205) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:49:33 2024] [0;32mI (15:49:33.364) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:36 2024] [0;32mI (15:49:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:49:36 2024] [0;32mI (15:49:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:49:43 2024] [0;32mI (15:49:43.205) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:43 2024] [0;33mW (15:49:43.208) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:43 2024] [0;32mI (15:49:43.214) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:49:43 2024] [0;32mI (15:49:43.225) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:49:43 2024] [0;32mI (15:49:43.227) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:49:43 2024] [0;32mI (15:49:43.297) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:44 2024] [0;31mE (15:49:44.225) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:49:44 2024] [0;31mE (15:49:44.228) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:49:44 2024] [0;32mI (15:49:44.231) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:49:44 2024] [0;33mW (15:49:44.239) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:44 2024] [0;32mI (15:49:44.249) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.489
+}[0m
+[Fri Nov  8 15:49:44 2024] [0;32mI (15:49:44.321) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:49:54 2024] [0;33mW (15:49:54.245) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:49:54 2024] [0;32mI (15:49:54.254) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:49:54 2024] [0;32mI (15:49:54.357) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:04 2024] [0;32mI (15:50:04.255) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:04 2024] [0;33mW (15:50:04.258) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:04 2024] [0;32mI (15:50:04.264) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:50:04 2024] [0;32mI (15:50:04.392) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:06 2024] [0;32mI (15:50:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:50:06 2024] [0;32mI (15:50:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:50:14 2024] [0;32mI (15:50:14.265) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:14 2024] [0;33mW (15:50:14.269) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:14 2024] [0;32mI (15:50:14.274) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:50:14 2024] [0;32mI (15:50:14.427) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:24 2024] [0;32mI (15:50:24.275) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:24 2024] [0;33mW (15:50:24.278) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:24 2024] [0;32mI (15:50:24.284) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:50:24 2024] [0;32mI (15:50:24.360) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:34 2024] [0;32mI (15:50:34.285) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:34 2024] [0;33mW (15:50:34.290) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:34 2024] [0;32mI (15:50:34.297) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:50:34 2024] [0;32mI (15:50:34.396) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:36 2024] [0;32mI (15:50:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:50:36 2024] [0;32mI (15:50:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:50:44 2024] [0;32mI (15:50:44.295) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:44 2024] [0;33mW (15:50:44.298) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:44 2024] [0;32mI (15:50:44.304) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:50:44 2024] [0;32mI (15:50:44.431) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:54 2024] [0;32mI (15:50:54.305) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:54 2024] [0;33mW (15:50:54.309) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:54 2024] [0;32mI (15:50:54.315) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:50:54 2024] [0;32mI (15:50:54.325) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:50:54 2024] [0;32mI (15:50:54.327) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:50:54 2024] [0;32mI (15:50:54.466) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:50:55 2024] [0;31mE (15:50:55.325) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:50:55 2024] [0;31mE (15:50:55.328) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:50:55 2024] [0;32mI (15:50:55.331) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:50:55 2024] [0;33mW (15:50:55.333) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:50:55 2024] [0;32mI (15:50:55.349) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.476
+}[0m
+[Fri Nov  8 15:50:55 2024] [0;32mI (15:50:55.492) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:05 2024] [0;33mW (15:51:05.345) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:05 2024] [0;32mI (15:51:05.353) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:51:05 2024] [0;32mI (15:51:05.424) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:06 2024] [0;32mI (15:51:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:51:06 2024] [0;32mI (15:51:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:51:15 2024] [0;32mI (15:51:15.355) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:15 2024] [0;33mW (15:51:15.359) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:15 2024] [0;32mI (15:51:15.366) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:51:15 2024] [0;32mI (15:51:15.460) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:21 2024] [0;32mI (15:51:21.765) SENSORS_TASK: turn on ph[0m
+[Fri Nov  8 15:51:21 2024] [0;32mI (15:51:21.767) SENSORS_TASK: Delay 1s[0m
+[Fri Nov  8 15:51:22 2024] [0;33mW (15:51:22.265) SENSORS_TASK: Into sensors task![0m
+[Fri Nov  8 15:51:25 2024] [0;32mI (15:51:25.365) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:25 2024] [0;33mW (15:51:25.368) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:25 2024] [0;32mI (15:51:25.374) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-47
+}[0m
+[Fri Nov  8 15:51:25 2024] [0;32mI (15:51:25.496) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:32 2024] [0;31mE (15:51:32.765) DS510: Current device is DS510[0m
+[Fri Nov  8 15:51:32 2024] [0;32mI (15:51:32.767) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:51:32 2024] [0;32mI (15:51:32.865) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:51:32 2024] [0;32mI (15:51:32.868) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:51:32 2024] [0;31mE (15:51:32.870) DS510: Error reading
+[0m
+[Fri Nov  8 15:51:32 2024] [0;33mW (15:51:32.873) DS510: Read data failed, retrying (1/3)...[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:32.975) DS510: Current device is DS510[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:32.977) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.075) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.078) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.081) DS510: Error reading
+[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.084) DS510: Read data failed, retrying (2/3)...[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.185) DS510: Current device is DS510[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.187) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.285) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.288) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.290) DS510: Error reading
+[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.293) DS510: Read data failed, retrying (3/3)...[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.395) DS510: Current device is DS510[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.397) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.495) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.497) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.500) DS510: Error reading
+[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.503) DS510: Read data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.512) DS510: Failed to read pH measurement[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.518) CPU_TEMP: : 41.50 °C
+[0m
+[Fri Nov  8 15:51:33 2024] [0;31mE (15:51:33.522) DS380: Current device is DS380[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.528) DS380: SEND data to sensor: 0x07 0x03 0x20 0x00 0x00 0x06 0xCE 0x6E
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.609) DS380: pass UART DATA event[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.611) DS380: Length of Received response from sensor: 17
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.615) DS380: Received data from sensor: 0x07 0x03 0x0C 0x0D 0x8F 0xF8 0x41 0xE5 0xAA 0x72 0x3F 0x3C 0xFE 0xDD 0x40 0x36 0xA7 [0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.625) DS380: CRC check passed[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.630) DS380: --> Dissolved oxygen: 6.94 mg/L, Percentage: 94.79 %, Temperature_RDO: 31.1 °C 
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.640) DS380: Read data desun successfully![0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.646) DS380: Measurement read successfully[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.652) MQTT: Receive data from queue successfully[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.659) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.665) NVS: Don't have any storage data[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.675) MQTT: Message sent: {
+	"do":	6.94,
+	"rtd":	31.1,
+	"rtd_box":	41.5,
+	"pdo":	94.79,
+	"timestamp":	1731055893
+}[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.683) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.689) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.695) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.697) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.755) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.757) CLEANER: Don't need clean[0m
+[Fri Nov  8 15:51:33 2024] [0;33mW (15:51:33.797) MQTT: Publish successfully key:10
+[0m
+[Fri Nov  8 15:51:33 2024] [0;32mI (15:51:33.798) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:35 2024] [0;32mI (15:51:35.375) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:35 2024] [0;33mW (15:51:35.378) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:35 2024] [0;32mI (15:51:35.384) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-56
+}[0m
+[Fri Nov  8 15:51:35 2024] [0;32mI (15:51:35.531) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:36 2024] [0;32mI (15:51:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:51:36 2024] [0;32mI (15:51:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:51:45 2024] [0;32mI (15:51:45.385) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:45 2024] [0;33mW (15:51:45.389) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:45 2024] [0;32mI (15:51:45.394) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:51:45 2024] [0;32mI (15:51:45.463) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:51:55 2024] [0;32mI (15:51:55.395) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:51:55 2024] [0;33mW (15:51:55.398) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:51:55 2024] [0;32mI (15:51:55.404) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:51:55 2024] [0;32mI (15:51:55.504) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:05 2024] [0;32mI (15:52:05.405) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:05 2024] [0;33mW (15:52:05.408) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:05 2024] [0;32mI (15:52:05.414) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-55
+}[0m
+[Fri Nov  8 15:52:05 2024] [0;32mI (15:52:05.426) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:05 2024] [0;32mI (15:52:05.429) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:52:05 2024] [0;32mI (15:52:05.533) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:06 2024] [0;31mE (15:52:06.425) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:52:06 2024] [0;31mE (15:52:06.428) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:52:06 2024] [0;32mI (15:52:06.431) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:52:06 2024] [0;33mW (15:52:06.433) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:06 2024] [0;32mI (15:52:06.450) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.476
+}[0m
+[Fri Nov  8 15:52:06 2024] [0;32mI (15:52:06.558) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:06 2024] [0;32mI (15:52:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:52:06 2024] [0;32mI (15:52:06.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:52:16 2024] [0;33mW (15:52:16.445) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:16 2024] [0;32mI (15:52:16.451) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:52:16 2024] [0;32mI (15:52:16.723) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:26 2024] [0;32mI (15:52:26.445) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:26 2024] [0;33mW (15:52:26.449) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:26 2024] [0;32mI (15:52:26.454) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:52:26 2024] [0;32mI (15:52:26.525) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:36 2024] [0;32mI (15:52:36.455) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:36 2024] [0;33mW (15:52:36.458) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:36 2024] [0;32mI (15:52:36.465) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:52:36 2024] [0;32mI (15:52:36.561) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:36 2024] [0;32mI (15:52:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:52:36 2024] [0;32mI (15:52:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:52:46 2024] [0;32mI (15:52:46.465) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:46 2024] [0;33mW (15:52:46.468) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:46 2024] [0;32mI (15:52:46.474) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:52:46 2024] [0;32mI (15:52:46.599) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:52:56 2024] [0;32mI (15:52:56.475) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:52:56 2024] [0;33mW (15:52:56.478) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:52:56 2024] [0;32mI (15:52:56.484) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-56
+}[0m
+[Fri Nov  8 15:52:56 2024] [0;32mI (15:52:56.634) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:06 2024] [0;32mI (15:53:06.485) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:06 2024] [0;33mW (15:53:06.488) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:06 2024] [0;32mI (15:53:06.494) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:53:06 2024] [0;32mI (15:53:06.565) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:06 2024] [0;32mI (15:53:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:53:06 2024] [0;32mI (15:53:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:53:16 2024] [0;32mI (15:53:16.495) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:16 2024] [0;33mW (15:53:16.498) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:16 2024] [0;32mI (15:53:16.504) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:53:16 2024] [0;32mI (15:53:16.515) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:16 2024] [0;32mI (15:53:16.517) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:53:16 2024] [0;32mI (15:53:16.606) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:17 2024] [0;31mE (15:53:17.515) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:53:17 2024] [0;31mE (15:53:17.519) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:53:17 2024] [0;32mI (15:53:17.521) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:53:17 2024] [0;33mW (15:53:17.529) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:17 2024] [0;32mI (15:53:17.539) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.456
+}[0m
+[Fri Nov  8 15:53:17 2024] [0;32mI (15:53:17.625) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:27 2024] [0;33mW (15:53:27.535) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:27 2024] [0;32mI (15:53:27.542) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:53:27 2024] [0;32mI (15:53:27.659) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:36 2024] [0;32mI (15:53:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:53:36 2024] [0;32mI (15:53:36.878) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:53:37 2024] [0;32mI (15:53:37.535) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:37 2024] [0;33mW (15:53:37.538) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:37 2024] [0;32mI (15:53:37.544) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-54
+}[0m
+[Fri Nov  8 15:53:37 2024] [0;32mI (15:53:37.696) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:47 2024] [0;32mI (15:53:47.545) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:47 2024] [0;33mW (15:53:47.548) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:47 2024] [0;32mI (15:53:47.554) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:53:47 2024] [0;32mI (15:53:47.628) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:53:57 2024] [0;32mI (15:53:57.555) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:53:57 2024] [0;33mW (15:53:57.558) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:53:57 2024] [0;32mI (15:53:57.565) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:53:57 2024] [0;32mI (15:53:57.665) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:06 2024] [0;32mI (15:54:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:54:06 2024] [0;32mI (15:54:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:54:07 2024] [0;32mI (15:54:07.565) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:07 2024] [0;33mW (15:54:07.568) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:07 2024] [0;32mI (15:54:07.574) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-54
+}[0m
+[Fri Nov  8 15:54:07 2024] [0;32mI (15:54:07.700) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:17 2024] [0;32mI (15:54:17.575) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:17 2024] [0;33mW (15:54:17.578) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:17 2024] [0;32mI (15:54:17.584) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:54:17 2024] [0;32mI (15:54:17.736) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:27 2024] [0;32mI (15:54:27.585) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:27 2024] [0;33mW (15:54:27.588) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:27 2024] [0;32mI (15:54:27.594) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:54:27 2024] [0;32mI (15:54:27.605) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:27 2024] [0;32mI (15:54:27.607) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:54:27 2024] [0;32mI (15:54:27.769) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:28 2024] [0;31mE (15:54:28.605) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:54:28 2024] [0;31mE (15:54:28.608) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:54:28 2024] [0;32mI (15:54:28.611) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:54:28 2024] [0;33mW (15:54:28.614) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:28 2024] [0;32mI (15:54:28.630) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.456
+}[0m
+[Fri Nov  8 15:54:28 2024] [0;32mI (15:54:28.795) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:36 2024] [0;32mI (15:54:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:54:36 2024] [0;32mI (15:54:36.879) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:54:38 2024] [0;33mW (15:54:38.625) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:38 2024] [0;32mI (15:54:38.633) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:54:38 2024] [0;32mI (15:54:38.727) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:48 2024] [0;32mI (15:54:48.635) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:48 2024] [0;33mW (15:54:48.638) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:48 2024] [0;32mI (15:54:48.644) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:54:48 2024] [0;32mI (15:54:48.761) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:54:58 2024] [0;32mI (15:54:58.645) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:54:58 2024] [0;33mW (15:54:58.648) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:54:58 2024] [0;32mI (15:54:58.654) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:54:58 2024] [0;32mI (15:54:58.809) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:06 2024] [0;32mI (15:55:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:55:06 2024] [0;32mI (15:55:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:55:08 2024] [0;32mI (15:55:08.655) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:08 2024] [0;33mW (15:55:08.658) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:08 2024] [0;32mI (15:55:08.664) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:55:08 2024] [0;32mI (15:55:08.732) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:18 2024] [0;32mI (15:55:18.665) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:18 2024] [0;33mW (15:55:18.668) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:18 2024] [0;32mI (15:55:18.675) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:55:18 2024] [0;32mI (15:55:18.768) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:28 2024] [0;32mI (15:55:28.675) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:28 2024] [0;33mW (15:55:28.678) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:28 2024] [0;32mI (15:55:28.684) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:55:28 2024] [0;32mI (15:55:28.802) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:37 2024] [0;32mI (15:55:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:55:37 2024] [0;32mI (15:55:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:55:38 2024] [0;32mI (15:55:38.685) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:38 2024] [0;33mW (15:55:38.688) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:38 2024] [0;32mI (15:55:38.694) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:55:38 2024] [0;32mI (15:55:38.705) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:38 2024] [0;32mI (15:55:38.707) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:55:38 2024] [0;32mI (15:55:38.837) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:39 2024] [0;31mE (15:55:39.705) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:55:39 2024] [0;31mE (15:55:39.708) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:55:39 2024] [0;32mI (15:55:39.711) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:55:39 2024] [0;33mW (15:55:39.713) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:39 2024] [0;32mI (15:55:39.728) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.47
+}[0m
+[Fri Nov  8 15:55:39 2024] [0;32mI (15:55:39.860) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:49 2024] [0;33mW (15:55:49.725) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:49 2024] [0;32mI (15:55:49.732) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:55:49 2024] [0;32mI (15:55:49.895) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:55:59 2024] [0;32mI (15:55:59.725) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:55:59 2024] [0;33mW (15:55:59.728) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:55:59 2024] [0;32mI (15:55:59.735) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:55:59 2024] [0;32mI (15:55:59.829) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:06 2024] [0;32mI (15:56:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:56:06 2024] [0;32mI (15:56:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:56:09 2024] [0;32mI (15:56:09.735) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:09 2024] [0;33mW (15:56:09.738) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:09 2024] [0;32mI (15:56:09.744) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:56:09 2024] [0;32mI (15:56:09.866) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:19 2024] [0;32mI (15:56:19.745) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:19 2024] [0;33mW (15:56:19.748) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:19 2024] [0;32mI (15:56:19.754) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:56:20 2024] [0;32mI (15:56:19.900) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:21 2024] [0;32mI (15:56:21.765) SENSORS_TASK: turn on ph[0m
+[Fri Nov  8 15:56:21 2024] [0;32mI (15:56:21.767) SENSORS_TASK: Delay 1s[0m
+[Fri Nov  8 15:56:22 2024] [0;33mW (15:56:22.265) SENSORS_TASK: Into sensors task![0m
+[Fri Nov  8 15:56:29 2024] [0;32mI (15:56:29.755) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:29 2024] [0;33mW (15:56:29.759) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:29 2024] [0;32mI (15:56:29.765) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:56:29 2024] [0;32mI (15:56:29.838) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:32 2024] [0;31mE (15:56:32.765) DS510: Current device is DS510[0m
+[Fri Nov  8 15:56:32 2024] [0;32mI (15:56:32.767) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:32.865) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:32.867) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:32.869) DS510: Error reading
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:32.873) DS510: Read data failed, retrying (1/3)...[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:32.975) DS510: Current device is DS510[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:32.977) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.075) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.077) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.079) DS510: Error reading
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.083) DS510: Read data failed, retrying (2/3)...[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.185) DS510: Current device is DS510[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.187) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.285) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.287) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.289) DS510: Error reading
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.293) DS510: Read data failed, retrying (3/3)...[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.395) DS510: Current device is DS510[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.397) DS510: SEND data to sensor: 0x01 0x03 0x06 0x00 0x00 0x02 0xC4 0x83
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.495) DS510: Length of Received response from sensor: 0
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.497) DS510: Received data from sensor: [0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.499) DS510: Error reading
+[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.503) DS510: Read data failed after 3 attempts, check device address and connection[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.513) DS510: Failed to read pH measurement[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.518) CPU_TEMP: : 41.50 °C
+[0m
+[Fri Nov  8 15:56:33 2024] [0;31mE (15:56:33.522) DS380: Current device is DS380[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.528) DS380: SEND data to sensor: 0x07 0x03 0x20 0x00 0x00 0x06 0xCE 0x6E
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.609) DS380: pass UART DATA event[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.611) DS380: Length of Received response from sensor: 17
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.614) DS380: Received data from sensor: 0x07 0x03 0x0C 0x4D 0x88 0xF8 0x41 0xCD 0x9E 0x71 0x3F 0xFB 0x08 0xDD 0x40 0x86 0xE4 [0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.625) DS380: CRC check passed[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.629) DS380: --> Dissolved oxygen: 6.91 mg/L, Percentage: 94.38 %, Temperature_RDO: 31.1 °C 
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.639) DS380: Read data desun successfully![0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.645) DS380: Measurement read successfully[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.651) MQTT: Receive data from queue successfully[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.658) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.664) NVS: Don't have any storage data[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.674) MQTT: Message sent: {
+	"do":	6.91,
+	"rtd":	31.1,
+	"rtd_box":	41.5,
+	"pdo":	94.38,
+	"timestamp":	1731056193
+}[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.682) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.689) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.695) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.695) ADJUST_TASK: Into adjust task!
+[0m
+ GER[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.745) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Nov  8 15:56:33 2024] [0;33mW (15:56:33.747) CLEANER: Don't need clean[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.827) MQTT: CPU ish successfully key:10
+[0m
+[Fri Nov  8 15:56:33 2024] [0;32mI (15:56:33.827) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:36 2024] [0;32mI (15:56:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:56:36 2024] [0;32mI (15:56:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:56:39 2024] [0;32mI (15:56:39.765) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:39 2024] [0;33mW (15:56:39.769) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:39 2024] [0;32mI (15:56:39.776) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:56:39 2024] [0;32mI (15:56:39.869) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:49 2024] [0;32mI (15:56:49.775) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:49 2024] [0;33mW (15:56:49.778) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:49 2024] [0;32mI (15:56:49.784) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-44
+}[0m
+[Fri Nov  8 15:56:49 2024] [0;32mI (15:56:49.795) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:56:49 2024] [0;32mI (15:56:49.798) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:56:50 2024] [0;32mI (15:56:49.903) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:56:50 2024] [0;31mE (15:56:50.795) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:56:50 2024] [0;31mE (15:56:50.797) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:56:50 2024] [0;32mI (15:56:50.801) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:56:50 2024] [0;33mW (15:56:50.803) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:56:50 2024] [0;32mI (15:56:50.820) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.478
+}[0m
+[Fri Nov  8 15:56:51 2024] [0;32mI (15:56:50.928) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:00 2024] [0;33mW (15:57:00.815) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:00 2024] [0;32mI (15:57:00.821) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-53
+}[0m
+[Fri Nov  8 15:57:01 2024] [0;32mI (15:57:00.962) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:07 2024] [0;32mI (15:57:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:57:07 2024] [0;32mI (15:57:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:57:10 2024] [0;32mI (15:57:10.815) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:57:10 2024] [0;33mW (15:57:10.818) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:10 2024] [0;32mI (15:57:10.825) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-55
+}[0m
+[Fri Nov  8 15:57:11 2024] [0;32mI (15:57:10.928) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:20 2024] [0;32mI (15:57:20.825) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:57:20 2024] [0;33mW (15:57:20.828) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:21 2024] [0;32mI (15:57:20.836) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:57:21 2024] [0;32mI (15:57:21.034) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:30 2024] [0;32mI (15:57:30.835) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:57:30 2024] [0;33mW (15:57:30.838) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:30 2024] [0;32mI (15:57:30.844) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-46
+}[0m
+[Fri Nov  8 15:57:31 2024] [0;32mI (15:57:31.001) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:36 2024] [0;32mI (15:57:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:57:36 2024] [0;32mI (15:57:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:57:40 2024] [0;32mI (15:57:40.845) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:57:40 2024] [0;33mW (15:57:40.848) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:40 2024] [0;32mI (15:57:40.854) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:57:41 2024] [0;32mI (15:57:41.004) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:57:50 2024] [0;32mI (15:57:50.855) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:57:51 2024] [0;33mW (15:57:50.858) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:57:51 2024] [0;32mI (15:57:50.864) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:57:51 2024] [0;32mI (15:57:51.139) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:00 2024] [0;32mI (15:58:00.865) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:00 2024] [0;33mW (15:58:00.868) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:00 2024] [0;32mI (15:58:00.874) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:58:00 2024] [0;32mI (15:58:00.885) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:00 2024] [0;32mI (15:58:00.888) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:58:01 2024] [0;32mI (15:58:00.977) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:02 2024] [0;31mE (15:58:01.886) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:58:02 2024] [0;31mE (15:58:01.889) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:58:02 2024] [0;32mI (15:58:01.892) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:58:02 2024] [0;33mW (15:58:01.895) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:02 2024] [0;32mI (15:58:01.911) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.442
+}[0m
+[Fri Nov  8 15:58:02 2024] [0;32mI (15:58:01.994) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:07 2024] [0;32mI (15:58:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:58:07 2024] [0;32mI (15:58:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:58:12 2024] [0;33mW (15:58:11.905) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:12 2024] [0;32mI (15:58:11.911) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-54
+}[0m
+[Fri Nov  8 15:58:12 2024] [0;32mI (15:58:12.036) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:22 2024] [0;32mI (15:58:21.905) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:22 2024] [0;33mW (15:58:21.908) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:22 2024] [0;32mI (15:58:21.914) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:58:22 2024] [0;32mI (15:58:22.064) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:32 2024] [0;32mI (15:58:31.915) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:32 2024] [0;33mW (15:58:31.919) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:32 2024] [0;32mI (15:58:31.925) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-52
+}[0m
+[Fri Nov  8 15:58:32 2024] [0;32mI (15:58:32.029) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:37 2024] [0;32mI (15:58:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:58:37 2024] [0;32mI (15:58:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:58:42 2024] [0;32mI (15:58:41.925) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:42 2024] [0;33mW (15:58:41.929) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:42 2024] [0;32mI (15:58:41.934) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:58:42 2024] [0;32mI (15:58:42.039) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:58:52 2024] [0;32mI (15:58:51.935) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:58:52 2024] [0;33mW (15:58:51.938) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:58:52 2024] [0;32mI (15:58:51.944) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-51
+}[0m
+[Fri Nov  8 15:58:52 2024] [0;32mI (15:58:52.068) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:02 2024] [0;32mI (15:59:01.945) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:02 2024] [0;33mW (15:59:01.948) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:02 2024] [0;32mI (15:59:01.954) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:59:02 2024] [0;32mI (15:59:02.107) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:07 2024] [0;32mI (15:59:06.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:59:07 2024] [0;32mI (15:59:06.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:59:12 2024] [0;32mI (15:59:11.955) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:12 2024] [0;33mW (15:59:11.958) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:12 2024] [0;32mI (15:59:11.965) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:59:12 2024] [0;32mI (15:59:11.975) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:12 2024] [0;32mI (15:59:11.977) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Nov  8 15:59:12 2024] [0;32mI (15:59:12.037) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:13 2024] [0;31mE (15:59:12.975) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Nov  8 15:59:13 2024] [0;31mE (15:59:12.978) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Nov  8 15:59:13 2024] [0;32mI (15:59:12.981) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Nov  8 15:59:13 2024] [0;33mW (15:59:12.983) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:13 2024] [0;32mI (15:59:12.999) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.442
+}[0m
+[Fri Nov  8 15:59:13 2024] [0;32mI (15:59:13.164) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:23 2024] [0;33mW (15:59:22.997) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:23 2024] [0;32mI (15:59:23.004) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-48
+}[0m
+[Fri Nov  8 15:59:23 2024] [0;32mI (15:59:23.097) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:33 2024] [0;32mI (15:59:33.005) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:33 2024] [0;33mW (15:59:33.008) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:33 2024] [0;32mI (15:59:33.014) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:59:33 2024] [0;32mI (15:59:33.137) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:37 2024] [0;32mI (15:59:36.875) Wifi: Checking for wifi status...[0m
+[Fri Nov  8 15:59:37 2024] [0;32mI (15:59:36.877) Wifi: Wifi is still connected[0m
+[Fri Nov  8 15:59:43 2024] [0;32mI (15:59:43.015) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:43 2024] [0;33mW (15:59:43.018) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:43 2024] [0;32mI (15:59:43.024) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-49
+}[0m
+[Fri Nov  8 15:59:43 2024] [0;32mI (15:59:43.175) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 15:59:53 2024] [0;32mI (15:59:53.025) MQTT: CPU frequency: 80[0m
+[Fri Nov  8 15:59:53 2024] [0;33mW (15:59:53.028) MQTT: Broker connected , ready publish............[0m
+[Fri Nov  8 15:59:53 2024] [0;32mI (15:59:53.035) MQTT: Message sent: {
+	"uptime":	0.48,
+	"rssi":	-50
+}[0m
+[Fri Nov  8 15:59:53 2024] [0;32mI (15:59:53.202) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov  8 16:00:03 2024] [0;32mI (16:00:03.035) MQTT: CPU frequency: 80[0m

@@ -1,0 +1,1812 @@
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.004) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.045) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.047) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.050) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xB3 0x0C 0xF1 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x60 0x07 0xC0 [0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.063) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.069) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.35 mg/L, Percentage: 60.80 %, Temperature_RDO: 33.1 °C[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.080) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.087) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.093) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.099) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.106) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.115) MQTT: Message sent: {
+	"do":	4.35,
+	"ph":	4.55,
+	"rtd":	33.1,
+	"rtd_box":	40.3,
+	"pdo":	60.8,
+	"timestamp":	1729832404
+}[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:04.125) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.131) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.137) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.138) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.183) MQTT: Publish successfully k
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.183) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.197) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:04.199) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:05.613) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:06 2024] [0;33mW (12:00:05.616) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:05.622) MQTT: Message sent: {
+	"uptime":	0.22,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:00:06 2024] [0;32mI (12:00:05.711) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:15 2024] [0;32mI (12:00:15.978) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:15 2024] [0;33mW (12:00:15.982) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:15 2024] [0;32mI (12:00:15.988) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:00:16 2024] [0;32mI (12:00:16.142) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:22 2024] [0;32mI (12:00:22.676) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:00:22 2024] [0;32mI (12:00:22.679) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:00:26 2024] [0;32mI (12:00:26.359) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:26 2024] [0;33mW (12:00:26.363) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:26 2024] [0;32mI (12:00:26.370) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:00:26 2024] [0;32mI (12:00:26.379) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:26 2024] [0;32mI (12:00:26.382) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:00:26 2024] [0;32mI (12:00:26.481) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:27 2024] [0;31mE (12:00:27.380) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:00:27 2024] [0;31mE (12:00:27.383) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:00:27 2024] [0;32mI (12:00:27.386) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:00:27 2024] [0;33mW (12:00:27.395) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:27 2024] [0;32mI (12:00:27.405) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.089
+}[0m
+[Fri Oct 25 12:00:27 2024] [0;32mI (12:00:27.711) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:37 2024] [0;33mW (12:00:37.630) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:37 2024] [0;32mI (12:00:37.637) MQTT: Message sent: {
+	"uptime":	0.23,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:00:37 2024] [0;32mI (12:00:37.845) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:44 2024] [0;32mI (12:00:44.316) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:00:44 2024] [0;32mI (12:00:44.318) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:00:44 2024] [0;33mW (12:00:44.320) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:00:47 2024] [0;32mI (12:00:47.884) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:47 2024] [0;33mW (12:00:47.888) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:47 2024] [0;32mI (12:00:47.894) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:00:47 2024] [0;32mI (12:00:47.990) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.402) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.405) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:00:53 2024] [0;31mE (12:00:53.545) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.547) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.588) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.590) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.593) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x82 0x57 0x61 [0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.604) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.610) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.00, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.620) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.627) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:00:53 2024] [0;32mI (12:00:53.633) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:00:58 2024] [0;32mI (12:00:58.137) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:00:58 2024] [0;33mW (12:00:58.140) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:00:58 2024] [0;32mI (12:00:58.146) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-62
+}[0m
+[Fri Oct 25 12:00:58 2024] [0;32mI (12:00:58.445) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:03 2024] [0;31mE (12:01:04.089) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:01:03 2024] [0;32mI (12:01:04.091) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.132) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.135) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.137) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xBB 0x0C 0xEE 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x6A 0x21 0x97 [0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.151) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.156) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.43 mg/L, Percentage: 61.80 %, Temperature_RDO: 33.1 °C[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.167) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.174) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.180) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.187) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.193) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.203) MQTT: Message sent: {
+	"do":	4.43,
+	"ph":	4.55,
+	"rtd":	33.1,
+	"rtd_box":	40.3,
+	"pdo":	61.8,
+	"timestamp":	1729832464
+}[0m
+[Fri Oct 25 12:01:04 2024] [0;32mI (12:01:04.212) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.219) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.225) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.226) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.274) MQTT: Publish successfully k
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.274) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.284) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:01:04 2024] [0;33mW (12:01:04.287) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:01:08 2024] [0;32mI (12:01:08.704) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:01:08 2024] [0;33mW (12:01:08.708) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:08 2024] [0;32mI (12:01:08.715) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-62
+}[0m
+[Fri Oct 25 12:01:08 2024] [0;32mI (12:01:08.878) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:19 2024] [0;32mI (12:01:19.162) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:01:19 2024] [0;33mW (12:01:19.166) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:19 2024] [0;32mI (12:01:19.172) MQTT: Message sent: {
+	"uptime":	0.24,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:01:19 2024] [0;32mI (12:01:19.327) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:24 2024] [0;32mI (12:01:24.645) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:01:24 2024] [0;32mI (12:01:24.648) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:01:29 2024] [0;32mI (12:01:29.413) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:01:29 2024] [0;33mW (12:01:29.416) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:29 2024] [0;32mI (12:01:29.423) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:01:29 2024] [0;32mI (12:01:29.575) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:39 2024] [0;32mI (12:01:39.876) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:01:39 2024] [0;33mW (12:01:39.879) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:39 2024] [0;32mI (12:01:39.885) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:01:39 2024] [0;32mI (12:01:39.893) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:01:39 2024] [0;32mI (12:01:39.895) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:01:39 2024] [0;32mI (12:01:39.954) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:40 2024] [0;31mE (12:01:40.893) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:01:40 2024] [0;31mE (12:01:40.896) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:01:40 2024] [0;32mI (12:01:40.899) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:01:40 2024] [0;33mW (12:01:40.908) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:40 2024] [0;32mI (12:01:40.919) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.077
+}[0m
+[Fri Oct 25 12:01:40 2024] [0;32mI (12:01:40.994) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:44 2024] [0;32mI (12:01:44.404) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:01:44 2024] [0;32mI (12:01:44.406) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:01:44 2024] [0;33mW (12:01:44.408) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:01:51 2024] [0;33mW (12:01:51.168) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:01:51 2024] [0;32mI (12:01:51.175) MQTT: Message sent: {
+	"uptime":	0.25,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:01:51 2024] [0;32mI (12:01:51.286) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:01:53 2024] [0;31mE (12:01:53.651) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.653) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.694) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.696) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.699) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC8 0x05 0x7F 0xA6 0xE3 [0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.710) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.716) LMSPH_DI_DEVICE: --> pH: 4.56, pH.mV: 140.70, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.726) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.733) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:01:53 2024] [0;32mI (12:01:53.739) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:01:55 2024] [0;32mI (12:01:55.603) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:01:55 2024] [0;32mI (12:01:55.605) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:02:01 2024] [0;32mI (12:02:01.527) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:01 2024] [0;33mW (12:02:01.531) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:01 2024] [0;32mI (12:02:01.537) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:02:01 2024] [0;32mI (12:02:01.628) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:03 2024] [0;31mE (12:02:04.116) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:02:03 2024] [0;32mI (12:02:04.118) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.159) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.161) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.164) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xC1 0x0C 0xEB 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x72 0x95 0xD4 [0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.177) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.183) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.49 mg/L, Percentage: 62.60 %, Temperature_RDO: 33.1 °C[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.194) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.201) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.207) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.214) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.220) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.229) MQTT: Message sent: {
+	"do":	4.49,
+	"ph":	4.56,
+	"rtd":	33.1,
+	"rtd_box":	40.3,
+	"pdo":	62.6,
+	"timestamp":	1729832524
+}[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.239) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.245) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.251) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.252) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.312) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.315) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:02:04 2024] [0;33mW (12:02:04.315) CLEANER: Don't need clean[0m
+ 7
+[0m
+[Fri Oct 25 12:02:04 2024] [0;32mI (12:02:04.315) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:11 2024] [0;32mI (12:02:11.887) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:11 2024] [0;33mW (12:02:11.891) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:11 2024] [0;32mI (12:02:11.897) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:02:11 2024] [0;32mI (12:02:12.082) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:22 2024] [0;32mI (12:02:22.156) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:22 2024] [0;33mW (12:02:22.159) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:22 2024] [0;32mI (12:02:22.165) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:02:22 2024] [0;32mI (12:02:22.243) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:26 2024] [0;32mI (12:02:26.617) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:02:26 2024] [0;32mI (12:02:26.620) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:02:32 2024] [0;32mI (12:02:32.501) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:32 2024] [0;33mW (12:02:32.504) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:32 2024] [0;32mI (12:02:32.510) MQTT: Message sent: {
+	"uptime":	0.26,
+	"rssi":	-54
+}[0m
+[Fri Oct 25 12:02:32 2024] [0;32mI (12:02:32.604) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:42 2024] [0;32mI (12:02:42.858) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:42 2024] [0;33mW (12:02:42.862) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:42 2024] [0;32mI (12:02:42.868) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:02:42 2024] [0;32mI (12:02:42.974) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:44 2024] [0;32mI (12:02:44.495) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:02:44 2024] [0;32mI (12:02:44.497) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:02:44 2024] [0;33mW (12:02:44.498) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.182) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:53 2024] [0;33mW (12:02:53.186) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.194) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-54
+}[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.202) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.204) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.262) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:53 2024] [0;31mE (12:02:53.787) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.789) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.831) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.833) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.836) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC8 0x05 0x80 0xE6 0xA3 [0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.847) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.853) LMSPH_DI_DEVICE: --> pH: 4.56, pH.mV: 140.80, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.863) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.870) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:02:53 2024] [0;32mI (12:02:53.876) CPU_TEMP: : 41.30 °C
+[0m
+[Fri Oct 25 12:02:54 2024] [0;31mE (12:02:54.202) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:02:54 2024] [0;31mE (12:02:54.205) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:02:54 2024] [0;32mI (12:02:54.209) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:02:54 2024] [0;33mW (12:02:54.213) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:02:54 2024] [0;32mI (12:02:54.227) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.089
+}[0m
+[Fri Oct 25 12:02:54 2024] [0;32mI (12:02:54.379) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:02:57 2024] [0;32mI (12:02:57.551) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:02:57 2024] [0;32mI (12:02:57.553) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:03:04 2024] [0;31mE (12:03:04.175) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.178) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.285) LMSDO_18_DEVICE: Length of Received response from sensor: 0
+[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.288) LMSDO_18_DEVICE: Received data from sensor: [0m
+[Fri Oct 25 12:03:04 2024] [0;31mE (12:03:04.291) LMSDO_18_DEVICE: Error reading
+[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.296) LMSDO_18_DEVICE: Read data failed, retrying (1/3)...[0m
+[Fri Oct 25 12:03:04 2024] [0;31mE (12:03:04.405) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.407) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.449) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.451) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.453) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA1 0x0C 0xE5 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x45 0x66 0x63 [0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.467) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.472) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.17 mg/L, Percentage: 58.10 %, Temperature_RDO: 33.0 °C[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.484) LMSDO_18_DEVICE: Read data luminsens successfully[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.490) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.496) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.503) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.510) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.510) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.519) MQTT: Message sent: {
+	"do":	4.17,
+	"ph":	4.56,
+	"rtd":	33,
+	"rtd_box":	41.3,
+	"pdo":	58.1,
+	"timestamp":	1729832584
+}[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.522) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.538) MQTT: Message sent: {
+	"uptime":	0.27,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.542) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.555) ADJUST_TASK: Into adjust task!
+[0m
+ GER[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.555) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.602) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.604) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.611) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:03:04 2024] [0;33mW (12:03:04.614) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:03:04 2024] [0;32mI (12:03:04.721) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:14 2024] [0;32mI (12:03:14.881) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:14 2024] [0;33mW (12:03:14.884) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:14 2024] [0;32mI (12:03:14.890) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-52
+}[0m
+[Fri Oct 25 12:03:14 2024] [0;32mI (12:03:15.065) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:25 2024] [0;32mI (12:03:25.270) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:25 2024] [0;33mW (12:03:25.274) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:25 2024] [0;32mI (12:03:25.280) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-52
+}[0m
+[Fri Oct 25 12:03:25 2024] [0;32mI (12:03:25.362) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:28 2024] [0;32mI (12:03:28.574) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:03:28 2024] [0;32mI (12:03:28.578) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:03:35 2024] [0;32mI (12:03:35.636) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:35 2024] [0;33mW (12:03:35.639) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:35 2024] [0;32mI (12:03:35.647) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-52
+}[0m
+[Fri Oct 25 12:03:35 2024] [0;32mI (12:03:35.856) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:44 2024] [0;32mI (12:03:44.582) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:03:44 2024] [0;32mI (12:03:44.584) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:03:44 2024] [0;33mW (12:03:44.586) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:03:45 2024] [0;32mI (12:03:46.152) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:46 2024] [0;33mW (12:03:46.156) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:46 2024] [0;32mI (12:03:46.162) MQTT: Message sent: {
+	"uptime":	0.28,
+	"rssi":	-54
+}[0m
+[Fri Oct 25 12:03:46 2024] [0;32mI (12:03:46.235) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:53 2024] [0;31mE (12:03:53.806) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.808) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.850) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.852) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.855) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x83 0x96 0xA1 [0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.866) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.871) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.10, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.881) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.888) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:03:53 2024] [0;32mI (12:03:53.895) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:03:56 2024] [0;32mI (12:03:56.403) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:03:56 2024] [0;33mW (12:03:56.407) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:03:56 2024] [0;32mI (12:03:56.414) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:03:56 2024] [0;32mI (12:03:56.549) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:03:59 2024] [0;32mI (12:03:59.606) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:03:59 2024] [0;32mI (12:03:59.609) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:04:03 2024] [0;31mE (12:04:04.137) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:04:03 2024] [0;32mI (12:04:04.139) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.179) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.181) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.184) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xAD 0x0C 0xE5 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x56 0x18 0xFE [0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.198) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.203) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.29 mg/L, Percentage: 59.80 %, Temperature_RDO: 33.0 °C[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.214) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.221) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.227) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.234) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.240) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.250) MQTT: Message sent: {
+	"do":	4.29,
+	"ph":	4.55,
+	"rtd":	33,
+	"rtd_box":	40.3,
+	"pdo":	59.8,
+	"timestamp":	1729832644
+}[0m
+[Fri Oct 25 12:04:04 2024] [0;32mI (12:04:04.259) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.266) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.271) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.271) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.332) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.334) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.349) MQTT: Publish successfully k
+[Fri Oct 25 12:04:04 2024] [0;33mW (12:04:04.349) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:04:06 2024] [0;32mI (12:04:06.637) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:06 2024] [0;33mW (12:04:06.641) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:06 2024] [0;32mI (12:04:06.647) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:04:06 2024] [0;32mI (12:04:06.657) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:06 2024] [0;32mI (12:04:06.660) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:04:06 2024] [0;32mI (12:04:06.721) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:07 2024] [0;31mE (12:04:07.657) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:04:07 2024] [0;31mE (12:04:07.661) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:04:07 2024] [0;32mI (12:04:07.664) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:04:07 2024] [0;33mW (12:04:07.668) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:07 2024] [0;32mI (12:04:07.682) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.089
+}[0m
+[Fri Oct 25 12:04:07 2024] [0;32mI (12:04:07.818) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:17 2024] [0;33mW (12:04:18.051) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:17 2024] [0;32mI (12:04:18.057) MQTT: Message sent: {
+	"uptime":	0.29,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:04:17 2024] [0;32mI (12:04:18.157) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:28 2024] [0;32mI (12:04:28.417) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:28 2024] [0;33mW (12:04:28.421) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:28 2024] [0;32mI (12:04:28.427) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:04:29 2024] [0;32mI (12:04:29.685) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:30 2024] [0;32mI (12:04:30.537) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:04:30 2024] [0;32mI (12:04:30.539) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:04:38 2024] [0;32mI (12:04:38.662) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:38 2024] [0;33mW (12:04:38.666) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:38 2024] [0;32mI (12:04:38.672) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:04:38 2024] [0;32mI (12:04:38.950) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:44 2024] [0;32mI (12:04:44.672) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:04:44 2024] [0;32mI (12:04:44.674) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:04:44 2024] [0;33mW (12:04:44.676) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:04:49 2024] [0;32mI (12:04:49.190) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:49 2024] [0;33mW (12:04:49.194) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:49 2024] [0;32mI (12:04:49.200) MQTT: Message sent: {
+	"uptime":	0.3,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:04:49 2024] [0;32mI (12:04:49.401) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:04:53 2024] [0;31mE (12:04:54.100) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:04:53 2024] [0;32mI (12:04:54.103) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.144) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.146) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.149) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x84 0xD7 0x63 [0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.160) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.166) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.20, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.176) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.183) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:04:54 2024] [0;32mI (12:04:54.189) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:04:59 2024] [0;32mI (12:04:59.476) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:04:59 2024] [0;33mW (12:04:59.479) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:04:59 2024] [0;32mI (12:04:59.485) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:04:59 2024] [0;32mI (12:04:59.744) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:01 2024] [0;32mI (12:05:01.578) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:05:01 2024] [0;32mI (12:05:01.580) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:05:04 2024] [0;31mE (12:05:04.427) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.429) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.470) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.472) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.475) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA7 0x0C 0xE8 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x4E 0x61 0xBC [0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.489) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.494) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.23 mg/L, Percentage: 59.00 %, Temperature_RDO: 33.0 °C[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.505) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.512) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.518) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.525) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.531) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.541) MQTT: Message sent: {
+	"do":	4.23,
+	"ph":	4.55,
+	"rtd":	33,
+	"rtd_box":	40.3,
+	"pdo":	59,
+	"timestamp":	1729832704
+}[0m
+[Fri Oct 25 12:05:04 2024] [0;32mI (12:05:04.550) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.556) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.562) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.564) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.622) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.624) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.689) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:05:04 2024] [0;33mW (12:05:04.689) MQTT: Publish successfully k
+[Fri Oct 25 12:05:09 2024] [0;32mI (12:05:09.728) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:05:09 2024] [0;33mW (12:05:09.732) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:09 2024] [0;32mI (12:05:09.738) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-56
+}[0m
+[Fri Oct 25 12:05:09 2024] [0;32mI (12:05:09.885) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:20 2024] [0;32mI (12:05:20.189) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:05:20 2024] [0;33mW (12:05:20.193) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:20 2024] [0;32mI (12:05:20.198) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:05:20 2024] [0;32mI (12:05:20.209) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:05:20 2024] [0;32mI (12:05:20.211) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:05:20 2024] [0;32mI (12:05:20.334) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:21 2024] [0;31mE (12:05:21.209) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:05:21 2024] [0;31mE (12:05:21.212) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:05:21 2024] [0;32mI (12:05:21.215) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:05:21 2024] [0;33mW (12:05:21.219) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:21 2024] [0;32mI (12:05:21.234) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.081
+}[0m
+[Fri Oct 25 12:05:21 2024] [0;32mI (12:05:21.357) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:31 2024] [0;33mW (12:05:31.687) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:31 2024] [0;32mI (12:05:31.693) MQTT: Message sent: {
+	"uptime":	0.31,
+	"rssi":	-52
+}[0m
+[Fri Oct 25 12:05:31 2024] [0;32mI (12:05:31.808) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:32 2024] [0;32mI (12:05:32.712) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:05:32 2024] [0;32mI (12:05:32.714) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:05:41 2024] [0;32mI (12:05:42.045) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:05:41 2024] [0;33mW (12:05:42.049) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:41 2024] [0;32mI (12:05:42.055) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:05:41 2024] [0;32mI (12:05:42.149) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:44 2024] [0;32mI (12:05:44.761) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:05:44 2024] [0;32mI (12:05:44.763) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:05:44 2024] [0;33mW (12:05:44.765) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:05:52 2024] [0;32mI (12:05:52.517) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:05:52 2024] [0;33mW (12:05:52.521) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:05:52 2024] [0;32mI (12:05:52.527) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-58
+}[0m
+[Fri Oct 25 12:05:52 2024] [0;32mI (12:05:52.701) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:05:53 2024] [0;31mE (12:05:54.086) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.088) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.130) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.133) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.135) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x81 0x17 0x60 [0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.146) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.152) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 140.90, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.162) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.169) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:05:53 2024] [0;32mI (12:05:54.175) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:06:02 2024] [0;32mI (12:06:02.771) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:06:02 2024] [0;33mW (12:06:02.775) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:02 2024] [0;32mI (12:06:02.781) MQTT: Message sent: {
+	"uptime":	0.32,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:06:02 2024] [0;32mI (12:06:02.947) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:03 2024] [0;32mI (12:06:03.745) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:06:03 2024] [0;32mI (12:06:03.748) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:06:04 2024] [0;31mE (12:06:04.426) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.428) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.470) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.472) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.475) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xB3 0x0C 0xE8 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x5F 0xE0 0x40 [0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.488) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.493) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.35 mg/L, Percentage: 60.70 %, Temperature_RDO: 33.0 °C[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.505) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.511) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.517) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.524) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.531) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.540) MQTT: Message sent: {
+	"do":	4.35,
+	"ph":	4.55,
+	"rtd":	33,
+	"rtd_box":	40.3,
+	"pdo":	60.7,
+	"timestamp":	1729832764
+}[0m
+[Fri Oct 25 12:06:04 2024] [0;32mI (12:06:04.549) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.556) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.561) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.563) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.610) MQTT: Publish successfully k
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.610) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.621) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:06:04 2024] [0;33mW (12:06:04.624) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:06:12 2024] [0;32mI (12:06:13.016) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:06:12 2024] [0;33mW (12:06:13.019) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:12 2024] [0;32mI (12:06:13.026) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-57
+}[0m
+[Fri Oct 25 12:06:12 2024] [0;32mI (12:06:13.095) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:23 2024] [0;32mI (12:06:23.489) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:06:23 2024] [0;33mW (12:06:23.493) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:23 2024] [0;32mI (12:06:23.500) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-61
+}[0m
+[Fri Oct 25 12:06:23 2024] [0;32mI (12:06:23.635) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:33 2024] [0;32mI (12:06:33.878) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:06:33 2024] [0;33mW (12:06:33.882) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:33 2024] [0;32mI (12:06:33.887) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:06:33 2024] [0;32mI (12:06:33.898) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:06:33 2024] [0;32mI (12:06:33.900) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:06:33 2024] [0;32mI (12:06:33.955) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:34 2024] [0;32mI (12:06:34.788) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:06:34 2024] [0;32mI (12:06:34.791) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:06:34 2024] [0;31mE (12:06:34.898) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:06:34 2024] [0;31mE (12:06:34.902) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:06:34 2024] [0;32mI (12:06:34.905) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:06:34 2024] [0;33mW (12:06:34.913) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:34 2024] [0;32mI (12:06:34.923) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.081
+}[0m
+[Fri Oct 25 12:06:34 2024] [0;32mI (12:06:35.106) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:44 2024] [0;32mI (12:06:44.849) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:06:44 2024] [0;32mI (12:06:44.851) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:06:44 2024] [0;33mW (12:06:44.853) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:06:44 2024] [0;33mW (12:06:45.145) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:44 2024] [0;32mI (12:06:45.152) MQTT: Message sent: {
+	"uptime":	0.33,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:06:45 2024] [0;32mI (12:06:45.218) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:06:54 2024] [0;31mE (12:06:54.300) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.302) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.344) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.346) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.349) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x84 0xD7 0x63 [0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.360) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.366) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.20, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.375) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.383) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:06:54 2024] [0;32mI (12:06:54.389) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:06:55 2024] [0;32mI (12:06:55.683) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:06:55 2024] [0;33mW (12:06:55.687) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:06:55 2024] [0;32mI (12:06:55.694) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-58
+}[0m
+[Fri Oct 25 12:06:55 2024] [0;32mI (12:06:55.859) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:04 2024] [0;31mE (12:07:04.827) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.829) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.896) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.898) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.901) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA6 0x0C 0xEB 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x4D 0x31 0xB1 [0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.915) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.920) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.22 mg/L, Percentage: 58.90 %, Temperature_RDO: 33.1 °C[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.931) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.938) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.944) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:04.951) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:04.957) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.967) MQTT: Message sent: {
+	"do":	4.22,
+	"ph":	4.55,
+	"rtd":	33.1,
+	"rtd_box":	40.3,
+	"pdo":	58.9,
+	"timestamp":	1729832824
+}[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:04.976) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:04.983) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:04.988) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:04.990) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:05.042) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:07:04 2024] [0;33mW (12:07:05.045) CLEANER: start clean task[0m
+[Fri Oct 25 12:07:04 2024] [0;32mI (12:07:05.048) CLEANER: clean 200 is running[0m
+[Fri Oct 25 12:07:05 2024] [0;33mW (12:07:05.220) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:07:05 2024] [0;33mW (12:07:05.220) MQTT: Publish successfully k
+[Fri Oct 25 12:07:05 2024] [0;32mI (12:07:05.918) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:07:05 2024] [0;32mI (12:07:05.921) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:07:05 2024] [0;32mI (12:07:06.069) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:05 2024] [0;33mW (12:07:06.073) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:05 2024] [0;32mI (12:07:06.079) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:07:06 2024] [0;32mI (12:07:06.245) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:15 2024] [0;33mW (12:07:15.395) CLEANER: finished clean task[0m
+[Fri Oct 25 12:07:16 2024] [0;32mI (12:07:16.430) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:16 2024] [0;33mW (12:07:16.434) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:16 2024] [0;32mI (12:07:16.441) MQTT: Message sent: {
+	"uptime":	0.34,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:07:16 2024] [0;32mI (12:07:16.511) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:26 2024] [0;32mI (12:07:26.821) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:26 2024] [0;33mW (12:07:26.824) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:26 2024] [0;32mI (12:07:26.830) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:07:26 2024] [0;32mI (12:07:26.910) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:36 2024] [0;32mI (12:07:37.052) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:07:36 2024] [0;32mI (12:07:37.055) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:07:37 2024] [0;32mI (12:07:37.237) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:37 2024] [0;33mW (12:07:37.240) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:37 2024] [0;32mI (12:07:37.246) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:07:37 2024] [0;32mI (12:07:37.385) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:44 2024] [0;32mI (12:07:44.940) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:07:44 2024] [0;32mI (12:07:44.942) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:07:44 2024] [0;33mW (12:07:44.944) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:07:47 2024] [0;32mI (12:07:47.594) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:47 2024] [0;33mW (12:07:47.598) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:47 2024] [0;32mI (12:07:47.603) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-53
+}[0m
+[Fri Oct 25 12:07:47 2024] [0;32mI (12:07:47.611) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:07:47 2024] [0;32mI (12:07:47.613) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:07:47 2024] [0;32mI (12:07:47.727) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:48 2024] [0;31mE (12:07:48.611) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:07:48 2024] [0;31mE (12:07:48.615) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:07:48 2024] [0;32mI (12:07:48.618) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:07:48 2024] [0;33mW (12:07:48.621) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:48 2024] [0;32mI (12:07:48.637) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.058
+}[0m
+[Fri Oct 25 12:07:48 2024] [0;32mI (12:07:48.748) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:07:54 2024] [0;31mE (12:07:54.238) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.240) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.282) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.284) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.287) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3C 0x01 0xC7 0x05 0x83 0x96 0xA1 [0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.298) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.304) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.10, Temperature: 31.60 °C 
+[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.313) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.321) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:07:54 2024] [0;32mI (12:07:54.327) CPU_TEMP: : 39.30 °C
+[0m
+[Fri Oct 25 12:07:58 2024] [0;33mW (12:07:59.135) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:07:58 2024] [0;32mI (12:07:59.142) MQTT: Message sent: {
+	"uptime":	0.35,
+	"rssi":	-56
+}[0m
+[Fri Oct 25 12:07:59 2024] [0;32mI (12:07:59.301) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:04 2024] [0;31mE (12:08:04.822) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.824) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.865) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.867) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.870) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xB8 0x0C 0xF1 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x66 0xA2 0xE6 [0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.884) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.889) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.40 mg/L, Percentage: 61.40 %, Temperature_RDO: 33.1 °C[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.900) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.907) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.913) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:04.920) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:04.927) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.936) MQTT: Message sent: {
+	"do":	4.4,
+	"ph":	4.55,
+	"rtd":	33.1,
+	"rtd_box":	39.3,
+	"pdo":	61.4,
+	"timestamp":	1729832884
+}[0m
+[Fri Oct 25 12:08:04 2024] [0;32mI (12:08:04.945) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:04.952) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:04.957) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:04.959) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:05.010) MQTT: Publish successfully k
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:05.010) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:05.017) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:08:04 2024] [0;33mW (12:08:05.019) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:08:07 2024] [0;32mI (12:08:08.189) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:08:07 2024] [0;32mI (12:08:08.192) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:08:09 2024] [0;32mI (12:08:09.474) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:08:09 2024] [0;33mW (12:08:09.478) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:09 2024] [0;32mI (12:08:09.484) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-55
+}[0m
+[Fri Oct 25 12:08:09 2024] [0;32mI (12:08:09.748) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:19 2024] [0;32mI (12:08:19.715) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:08:19 2024] [0;33mW (12:08:19.719) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:19 2024] [0;32mI (12:08:19.726) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:08:19 2024] [0;32mI (12:08:19.890) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:29 2024] [0;32mI (12:08:29.979) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:08:29 2024] [0;33mW (12:08:29.983) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:29 2024] [0;32mI (12:08:29.989) MQTT: Message sent: {
+	"uptime":	0.36,
+	"rssi":	-61
+}[0m
+[Fri Oct 25 12:08:30 2024] [0;32mI (12:08:30.344) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:38 2024] [0;32mI (12:08:38.927) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:08:38 2024] [0;32mI (12:08:38.929) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:08:39 2024] [0;32mI (12:08:40.227) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:08:40 2024] [0;33mW (12:08:40.231) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:40 2024] [0;32mI (12:08:40.238) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:08:40 2024] [0;32mI (12:08:40.378) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:44 2024] [0;32mI (12:08:45.032) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:08:44 2024] [0;32mI (12:08:45.034) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:08:44 2024] [0;33mW (12:08:45.036) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:08:50 2024] [0;32mI (12:08:50.502) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:08:50 2024] [0;33mW (12:08:50.505) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:08:50 2024] [0;32mI (12:08:50.513) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:08:50 2024] [0;32mI (12:08:50.651) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:08:54 2024] [0;31mE (12:08:54.371) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.373) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.414) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.416) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.419) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3D 0x01 0xC7 0x05 0x81 0x2A 0xA0 [0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.430) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.436) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 140.90, Temperature: 31.70 °C 
+[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.446) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.453) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:08:54 2024] [0;32mI (12:08:54.459) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:09:00 2024] [0;32mI (12:09:00.846) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:00 2024] [0;33mW (12:09:00.849) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:00 2024] [0;32mI (12:09:00.857) MQTT: Message sent: {
+	"uptime":	0.37,
+	"rssi":	-61
+}[0m
+[Fri Oct 25 12:09:00 2024] [0;32mI (12:09:00.866) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:00 2024] [0;32mI (12:09:00.868) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:09:00 2024] [0;32mI (12:09:00.926) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:01 2024] [0;31mE (12:09:01.866) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:09:01 2024] [0;31mE (12:09:01.870) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:09:01 2024] [0;32mI (12:09:01.873) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:09:01 2024] [0;33mW (12:09:01.877) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:01 2024] [0;32mI (12:09:01.892) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.053
+}[0m
+[Fri Oct 25 12:09:01 2024] [0;32mI (12:09:01.985) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:04 2024] [0;31mE (12:09:04.704) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.707) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.748) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.750) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.752) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA7 0x0C 0xF3 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x4F 0x1E 0x8C [0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.766) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.772) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.23 mg/L, Percentage: 59.10 %, Temperature_RDO: 33.2 °C[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.783) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.789) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.795) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.802) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.809) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.818) MQTT: Message sent: {
+	"do":	4.23,
+	"ph":	4.55,
+	"rtd":	33.2,
+	"rtd_box":	40.3,
+	"pdo":	59.1,
+	"timestamp":	1729832944
+}[0m
+[Fri Oct 25 12:09:04 2024] [0;32mI (12:09:04.827) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.834) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.840) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.841) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.885) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.885) MQTT: Publish successfully k
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.899) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:09:04 2024] [0;33mW (12:09:04.902) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:09:09 2024] [0;32mI (12:09:09.747) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:09:09 2024] [0;32mI (12:09:09.750) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:09:11 2024] [0;33mW (12:09:12.146) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:11 2024] [0;32mI (12:09:12.153) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-61
+}[0m
+[Fri Oct 25 12:09:12 2024] [0;32mI (12:09:12.332) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:22 2024] [0;32mI (12:09:22.506) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:22 2024] [0;33mW (12:09:22.510) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:22 2024] [0;32mI (12:09:22.516) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:09:22 2024] [0;32mI (12:09:22.677) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:32 2024] [0;32mI (12:09:32.873) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:32 2024] [0;33mW (12:09:32.878) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:32 2024] [0;32mI (12:09:32.884) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-64
+}[0m
+[Fri Oct 25 12:09:32 2024] [0;32mI (12:09:33.021) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:40 2024] [0;32mI (12:09:40.792) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:09:40 2024] [0;32mI (12:09:40.794) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:09:42 2024] [0;32mI (12:09:43.222) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:42 2024] [0;33mW (12:09:43.226) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:42 2024] [0;32mI (12:09:43.233) MQTT: Message sent: {
+	"uptime":	0.38,
+	"rssi":	-68
+}[0m
+[Fri Oct 25 12:09:43 2024] [0;32mI (12:09:43.368) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:44 2024] [0;32mI (12:09:45.128) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:09:44 2024] [0;32mI (12:09:45.130) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:09:44 2024] [0;33mW (12:09:45.132) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:09:53 2024] [0;32mI (12:09:53.569) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:09:53 2024] [0;33mW (12:09:53.573) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:09:53 2024] [0;32mI (12:09:53.578) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-66
+}[0m
+[Fri Oct 25 12:09:53 2024] [0;32mI (12:09:53.715) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:09:54 2024] [0;31mE (12:09:54.453) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.456) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.497) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.499) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.501) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3D 0x01 0xC7 0x05 0x82 0x6A 0xA1 [0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.513) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.518) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.00, Temperature: 31.70 °C 
+[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.528) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.535) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:09:54 2024] [0;32mI (12:09:54.541) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:10:03 2024] [0;32mI (12:10:04.002) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:03 2024] [0;33mW (12:10:04.005) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:03 2024] [0;32mI (12:10:04.012) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-65
+}[0m
+[Fri Oct 25 12:10:03 2024] [0;32mI (12:10:04.162) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:04 2024] [0;31mE (12:10:04.984) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:04.986) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.027) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.029) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.032) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xB8 0x0C 0xF9 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x67 0x04 0xE6 [0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.045) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.051) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.40 mg/L, Percentage: 61.50 %, Temperature_RDO: 33.2 °C[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.062) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.069) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.075) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.082) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.088) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.089) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:10:04 2024] [0;32mI (12:10:05.098) MQTT: Message sent: {
+	"do":	4.4,
+	"ph":	4.55,
+	"rtd":	33.2,
+	"rtd_box":	40.3,
+	"pdo":	61.5,
+	"timestamp":	1729833005
+}[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.113) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.119) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.121) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.167) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.167) MQTT: Publish successfully k
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.179) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:10:04 2024] [0;33mW (12:10:05.182) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:10:11 2024] [0;32mI (12:10:11.826) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:10:11 2024] [0;32mI (12:10:11.829) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:10:14 2024] [0;32mI (12:10:14.286) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:14 2024] [0;33mW (12:10:14.289) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:14 2024] [0;32mI (12:10:14.298) MQTT: Message sent: {
+	"uptime":	0.39,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:10:14 2024] [0;32mI (12:10:14.306) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:14 2024] [0;32mI (12:10:14.308) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:10:14 2024] [0;32mI (12:10:14.365) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:15 2024] [0;31mE (12:10:15.306) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:10:15 2024] [0;31mE (12:10:15.310) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:10:15 2024] [0;32mI (12:10:15.313) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:10:15 2024] [0;33mW (12:10:15.322) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:15 2024] [0;32mI (12:10:15.332) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.085
+}[0m
+[Fri Oct 25 12:10:15 2024] [0;32mI (12:10:15.425) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:25 2024] [0;33mW (12:10:25.587) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:25 2024] [0;32mI (12:10:25.594) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-62
+}[0m
+[Fri Oct 25 12:10:25 2024] [0;32mI (12:10:25.779) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:35 2024] [0;32mI (12:10:35.847) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:35 2024] [0;33mW (12:10:35.851) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:35 2024] [0;32mI (12:10:35.857) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:10:35 2024] [0;32mI (12:10:36.015) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:42 2024] [0;32mI (12:10:42.637) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:10:42 2024] [0;32mI (12:10:42.640) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:10:44 2024] [0;32mI (12:10:45.228) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:10:44 2024] [0;32mI (12:10:45.230) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:10:44 2024] [0;33mW (12:10:45.232) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:10:45 2024] [0;32mI (12:10:46.168) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:45 2024] [0;33mW (12:10:46.171) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:45 2024] [0;32mI (12:10:46.177) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-61
+}[0m
+[Fri Oct 25 12:10:46 2024] [0;32mI (12:10:46.361) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:10:54 2024] [0;31mE (12:10:54.555) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.557) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.598) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.600) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.603) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3D 0x01 0xC7 0x05 0x85 0x2B 0x63 [0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.614) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.620) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.30, Temperature: 31.70 °C 
+[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.630) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.637) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:10:54 2024] [0;32mI (12:10:54.643) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:10:56 2024] [0;32mI (12:10:56.534) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:10:56 2024] [0;33mW (12:10:56.538) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:10:56 2024] [0;32mI (12:10:56.545) MQTT: Message sent: {
+	"uptime":	0.4,
+	"rssi":	-60
+}[0m
+[Fri Oct 25 12:10:56 2024] [0;32mI (12:10:56.614) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:04 2024] [0;31mE (12:11:05.179) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:11:04 2024] [0;32mI (12:11:05.181) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.289) LMSDO_18_DEVICE: Length of Received response from sensor: 0
+[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.291) LMSDO_18_DEVICE: Received data from sensor: [0m
+[Fri Oct 25 12:11:05 2024] [0;31mE (12:11:05.294) LMSDO_18_DEVICE: Error reading
+[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.299) LMSDO_18_DEVICE: Read data failed, retrying (1/3)...[0m
+[Fri Oct 25 12:11:05 2024] [0;31mE (12:11:05.409) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.411) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.452) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.454) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.457) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA7 0x0C 0xFF 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x50 0x0A 0x44 [0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.471) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.476) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.23 mg/L, Percentage: 59.20 %, Temperature_RDO: 33.3 °C[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.487) LMSDO_18_DEVICE: Read data luminsens successfully[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.494) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.500) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.507) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.513) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.523) MQTT: Message sent: {
+	"do":	4.23,
+	"ph":	4.55,
+	"rtd":	33.3,
+	"rtd_box":	40.3,
+	"pdo":	59.2,
+	"timestamp":	1729833065
+}[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.532) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.538) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.544) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.546) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.604) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.607) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:11:05 2024] [0;33mW (12:11:05.614) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:11:05 2024] [0;32mI (12:11:05.615) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:06 2024] [0;32mI (12:11:07.094) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:06 2024] [0;33mW (12:11:07.098) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:06 2024] [0;32mI (12:11:07.104) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-63
+}[0m
+[Fri Oct 25 12:11:06 2024] [0;32mI (12:11:07.258) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:13 2024] [0;32mI (12:11:13.780) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:11:13 2024] [0;32mI (12:11:13.782) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:11:17 2024] [0;32mI (12:11:17.353) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:11:17 2024] [0;33mW (12:11:17.357) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:17 2024] [0;32mI (12:11:17.363) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-59
+}[0m
+[Fri Oct 25 12:11:17 2024] [0;32mI (12:11:17.500) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:27 2024] [0;32mI (12:11:27.704) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:27 2024] [0;33mW (12:11:27.708) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:27 2024] [0;32mI (12:11:27.713) MQTT: Message sent: {
+	"uptime":	0.41,
+	"rssi":	-48
+}[0m
+[Fri Oct 25 12:11:27 2024] [0;32mI (12:11:27.724) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:27 2024] [0;32mI (12:11:27.727) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:11:27 2024] [0;32mI (12:11:27.778) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:28 2024] [0;31mE (12:11:28.724) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:11:28 2024] [0;31mE (12:11:28.728) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:11:28 2024] [0;32mI (12:11:28.731) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:11:28 2024] [0;33mW (12:11:28.735) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:28 2024] [0;32mI (12:11:28.750) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.075
+}[0m
+[Fri Oct 25 12:11:28 2024] [0;32mI (12:11:28.873) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:38 2024] [0;33mW (12:11:39.189) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:38 2024] [0;32mI (12:11:39.196) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:11:39 2024] [0;32mI (12:11:39.316) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:44 2024] [0;32mI (12:11:44.912) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:11:44 2024] [0;32mI (12:11:44.915) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:11:45 2024] [0;32mI (12:11:45.321) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:11:45 2024] [0;32mI (12:11:45.323) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:11:45 2024] [0;33mW (12:11:45.325) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:11:49 2024] [0;32mI (12:11:49.582) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:49 2024] [0;33mW (12:11:49.586) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:49 2024] [0;32mI (12:11:49.591) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:11:49 2024] [0;32mI (12:11:49.765) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:11:54 2024] [0;31mE (12:11:54.653) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.655) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.696) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.698) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.701) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3D 0x01 0xC7 0x05 0x83 0xAB 0x61 [0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.712) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.718) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.10, Temperature: 31.70 °C 
+[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.728) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.735) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:11:54 2024] [0;32mI (12:11:54.741) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:11:59 2024] [0;32mI (12:12:00.023) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:11:59 2024] [0;33mW (12:12:00.027) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:11:59 2024] [0;32mI (12:12:00.034) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:11:59 2024] [0;32mI (12:12:00.105) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:04 2024] [0;31mE (12:12:05.205) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.207) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.248) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.251) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.253) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA9 0x0D 0x05 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x54 0x14 0x0E [0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.267) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:12:04 2024] [0;32mI (12:12:05.272) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.25 mg/L, Percentage: 59.60 %, Temperature_RDO: 33.3 °C[0m
+[Fri Oct 25 12:12:05 2024] [0;32mI (12:12:05.283) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:12:05 2024] [0;32mI (12:12:05.290) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:12:05 2024] [0;32mI (12:12:05.296) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.303) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.310) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:12:05 2024] [0;32mI (12:12:05.319) MQTT: Message sent: {
+	"do":	4.25,
+	"ph":	4.55,
+	"rtd":	33.3,
+	"rtd_box":	40.3,
+	"pdo":	59.6,
+	"timestamp":	1729833125
+}[0m
+[Fri Oct 25 12:12:05 2024] [0;32mI (12:12:05.328) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.335) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.341) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.342) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.391) MQTT: Publish successfully k
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.391) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.400) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:12:05 2024] [0;33mW (12:12:05.403) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:12:10 2024] [0;32mI (12:12:10.554) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:12:10 2024] [0;33mW (12:12:10.558) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:10 2024] [0;32mI (12:12:10.564) MQTT: Message sent: {
+	"uptime":	0.42,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:12:10 2024] [0;32mI (12:12:10.904) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:15 2024] [0;32mI (12:12:16.227) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:12:15 2024] [0;32mI (12:12:16.230) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:12:20 2024] [0;32mI (12:12:20.952) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:12:20 2024] [0;33mW (12:12:20.956) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:20 2024] [0;32mI (12:12:20.962) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:12:20 2024] [0;32mI (12:12:21.105) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:31 2024] [0;32mI (12:12:31.286) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:12:31 2024] [0;33mW (12:12:31.289) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:31 2024] [0;32mI (12:12:31.296) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:12:31 2024] [0;32mI (12:12:31.451) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:41 2024] [0;32mI (12:12:41.556) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:12:41 2024] [0;33mW (12:12:41.559) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:41 2024] [0;32mI (12:12:41.566) MQTT: Message sent: {
+	"uptime":	0.43,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:12:41 2024] [0;32mI (12:12:41.571) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:12:41 2024] [0;32mI (12:12:41.573) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:12:41 2024] [0;32mI (12:12:41.695) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:42 2024] [0;31mE (12:12:42.571) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:12:42 2024] [0;31mE (12:12:42.574) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:12:42 2024] [0;32mI (12:12:42.577) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:12:42 2024] [0;33mW (12:12:42.582) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:42 2024] [0;32mI (12:12:42.596) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.075
+}[0m
+[Fri Oct 25 12:12:42 2024] [0;32mI (12:12:42.716) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:45 2024] [0;32mI (12:12:45.422) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:12:45 2024] [0;32mI (12:12:45.424) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:12:45 2024] [0;33mW (12:12:45.426) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:12:46 2024] [0;32mI (12:12:47.095) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:12:46 2024] [0;32mI (12:12:47.098) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:12:52 2024] [0;33mW (12:12:52.951) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:12:52 2024] [0;32mI (12:12:52.957) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:12:52 2024] [0;32mI (12:12:53.068) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:12:54 2024] [0;31mE (12:12:54.756) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.758) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.799) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.802) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.804) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3D 0x01 0xC7 0x05 0x86 0x6B 0x62 [0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.815) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.821) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.40, Temperature: 31.70 °C 
+[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.831) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.838) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:12:54 2024] [0;32mI (12:12:54.844) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:13:02 2024] [0;32mI (12:13:03.226) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:02 2024] [0;33mW (12:13:03.229) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:02 2024] [0;32mI (12:13:03.236) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:13:03 2024] [0;32mI (12:13:03.408) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:04 2024] [0;31mE (12:13:05.105) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.107) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.148) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.150) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.153) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA6 0x0D 0x0D 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x50 0x42 0x19 [0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.166) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.172) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.22 mg/L, Percentage: 59.20 %, Temperature_RDO: 33.4 °C[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.183) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.190) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.196) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:13:04 2024] [0;33mW (12:13:05.203) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:04 2024] [0;33mW (12:13:05.209) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.218) MQTT: Message sent: {
+	"do":	4.22,
+	"ph":	4.55,
+	"rtd":	33.4,
+	"rtd_box":	40.3,
+	"pdo":	59.2,
+	"timestamp":	1729833185
+}[0m
+[Fri Oct 25 12:13:04 2024] [0;32mI (12:13:05.228) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:13:04 2024] [0;33mW (12:13:05.234) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:13:04 2024] [0;33mW (12:13:05.240) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:13:04 2024] [0;33mW (12:13:05.241) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:13:05 2024] [0;33mW (12:13:05.290) MQTT: Publish successfully k
+[Fri Oct 25 12:13:05 2024] [0;33mW (12:13:05.290) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:13:05 2024] [0;33mW (12:13:05.299) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:13:05 2024] [0;33mW (12:13:05.302) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:13:13 2024] [0;32mI (12:13:13.660) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:13 2024] [0;33mW (12:13:13.664) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:13 2024] [0;32mI (12:13:13.670) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:13:13 2024] [0;32mI (12:13:13.855) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:17 2024] [0;32mI (12:13:18.117) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:13:17 2024] [0;32mI (12:13:18.120) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:13:23 2024] [0;32mI (12:13:23.908) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:23 2024] [0;33mW (12:13:23.913) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:23 2024] [0;32mI (12:13:23.918) MQTT: Message sent: {
+	"uptime":	0.44,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:13:23 2024] [0;32mI (12:13:24.098) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:34 2024] [0;32mI (12:13:34.278) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:13:34 2024] [0;33mW (12:13:34.282) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:34 2024] [0;32mI (12:13:34.288) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:13:34 2024] [0;32mI (12:13:34.441) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:44 2024] [0;32mI (12:13:44.533) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:44 2024] [0;33mW (12:13:44.536) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:44 2024] [0;32mI (12:13:44.542) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:13:44 2024] [0;32mI (12:13:44.618) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:45 2024] [0;32mI (12:13:45.525) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:13:45 2024] [0;32mI (12:13:45.527) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:13:45 2024] [0;33mW (12:13:45.529) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:13:48 2024] [0;32mI (12:13:49.045) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:13:48 2024] [0;32mI (12:13:49.047) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:13:54 2024] [0;31mE (12:13:54.801) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.804) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.844) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.847) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.849) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3E 0x01 0xC7 0x05 0x87 0xEE 0xA2 [0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.860) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.865) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.866) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.50, Temperature: 31.80 °C 
+[0m
+[Fri Oct 25 12:13:54 2024] [0;33mW (12:13:54.874) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.881) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.895) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.900) MQTT: Message sent: {
+	"uptime":	0.45,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.901) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.915) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.917) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:13:54 2024] [0;32mI (12:13:54.970) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:13:55 2024] [0;31mE (12:13:55.915) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:13:55 2024] [0;31mE (12:13:55.918) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:13:55 2024] [0;32mI (12:13:55.921) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:13:55 2024] [0;33mW (12:13:55.925) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:13:55 2024] [0;32mI (12:13:55.940) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.058
+}[0m
+[Fri Oct 25 12:13:55 2024] [0;32mI (12:13:56.054) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:04 2024] [0;31mE (12:14:05.156) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.158) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.199) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.201) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.204) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA8 0x0D 0x13 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x54 0xF6 0x92 [0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.218) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.223) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.24 mg/L, Percentage: 59.60 %, Temperature_RDO: 33.5 °C[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.234) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.241) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.247) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:14:04 2024] [0;33mW (12:14:05.254) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:04 2024] [0;33mW (12:14:05.260) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.270) MQTT: Message sent: {
+	"do":	4.24,
+	"ph":	4.55,
+	"rtd":	33.5,
+	"rtd_box":	40.3,
+	"pdo":	59.6,
+	"timestamp":	1729833245
+}[0m
+[Fri Oct 25 12:14:04 2024] [0;32mI (12:14:05.279) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:14:04 2024] [0;33mW (12:14:05.286) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:14:04 2024] [0;33mW (12:14:05.291) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:14:04 2024] [0;33mW (12:14:05.293) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:14:05 2024] [0;33mW (12:14:05.338) MQTT: Publish successfully k
+[Fri Oct 25 12:14:05 2024] [0;33mW (12:14:05.338) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:14:05 2024] [0;33mW (12:14:05.352) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:14:05 2024] [0;33mW (12:14:05.355) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:14:05 2024] [0;33mW (12:14:06.223) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:05 2024] [0;32mI (12:14:06.229) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:14:06 2024] [0;32mI (12:14:06.403) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:16 2024] [0;32mI (12:14:16.688) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:14:16 2024] [0;33mW (12:14:16.692) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:16 2024] [0;32mI (12:14:16.698) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:14:16 2024] [0;32mI (12:14:16.848) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:19 2024] [0;32mI (12:14:19.974) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:14:19 2024] [0;32mI (12:14:19.978) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:14:26 2024] [0;32mI (12:14:26.925) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:14:26 2024] [0;33mW (12:14:26.929) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:26 2024] [0;32mI (12:14:26.936) MQTT: Message sent: {
+	"uptime":	0.46,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:14:26 2024] [0;32mI (12:14:27.092) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:36 2024] [0;32mI (12:14:37.166) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:14:36 2024] [0;33mW (12:14:37.169) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:36 2024] [0;32mI (12:14:37.175) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:14:36 2024] [0;32mI (12:14:37.248) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:45 2024] [0;32mI (12:14:45.621) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:14:45 2024] [0;32mI (12:14:45.623) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:14:45 2024] [0;33mW (12:14:45.625) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:14:47 2024] [0;32mI (12:14:47.539) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:14:47 2024] [0;33mW (12:14:47.542) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:47 2024] [0;32mI (12:14:47.549) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:14:47 2024] [0;32mI (12:14:47.620) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:14:50 2024] [0;32mI (12:14:50.821) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:14:50 2024] [0;32mI (12:14:50.824) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:14:54 2024] [0;31mE (12:14:54.861) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.864) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.905) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.907) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.909) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3E 0x01 0xC7 0x05 0x87 0xEE 0xA2 [0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.921) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.926) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.50, Temperature: 31.80 °C 
+[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.936) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.943) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:14:54 2024] [0;32mI (12:14:54.950) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:14:57 2024] [0;32mI (12:14:57.794) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:14:57 2024] [0;33mW (12:14:57.798) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:14:57 2024] [0;32mI (12:14:57.805) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:14:57 2024] [0;32mI (12:14:57.926) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:04 2024] [0;31mE (12:15:05.182) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:15:04 2024] [0;32mI (12:15:05.184) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:15:04 2024] [0;32mI (12:15:05.225) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:15:04 2024] [0;32mI (12:15:05.227) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:15:04 2024] [0;32mI (12:15:05.230) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xB5 0x0D 0x10 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x65 0x4C 0xDA [0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.243) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.249) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.37 mg/L, Percentage: 61.30 %, Temperature_RDO: 33.4 °C[0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.260) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.267) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.273) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.280) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.286) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.296) MQTT: Message sent: {
+	"do":	4.37,
+	"ph":	4.55,
+	"rtd":	33.4,
+	"rtd_box":	40.3,
+	"pdo":	61.3,
+	"timestamp":	1729833305
+}[0m
+[Fri Oct 25 12:15:05 2024] [0;32mI (12:15:05.305) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.311) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.317) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.318) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.377) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.379) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.421) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:15:05 2024] [0;33mW (12:15:05.421) MQTT: CPU frequency: 80[0m
+ y:7
+[0m
+[Fri Oct 25 12:15:07 2024] [0;32mI (12:15:08.036) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:15:07 2024] [0;33mW (12:15:08.039) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:07 2024] [0;32mI (12:15:08.046) MQTT: Message sent: {
+	"uptime":	0.47,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:15:07 2024] [0;32mI (12:15:08.056) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:15:07 2024] [0;32mI (12:15:08.058) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:15:07 2024] [0;32mI (12:15:08.162) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:08 2024] [0;31mE (12:15:09.056) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:15:08 2024] [0;31mE (12:15:09.059) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:15:08 2024] [0;32mI (12:15:09.062) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:15:08 2024] [0;33mW (12:15:09.071) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:08 2024] [0;32mI (12:15:09.082) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.081
+}[0m
+[Fri Oct 25 12:15:08 2024] [0;32mI (12:15:09.288) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:19 2024] [0;33mW (12:15:19.448) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:19 2024] [0;32mI (12:15:19.454) MQTT: Message sent: {
+	"uptime":	0.48,
+	"rssi":	-48
+}[0m
+[Fri Oct 25 12:15:19 2024] [0;32mI (12:15:19.633) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:21 2024] [0;32mI (12:15:21.629) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:15:21 2024] [0;32mI (12:15:21.631) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:15:29 2024] [0;32mI (12:15:29.795) MQTT: CPU frequency: 10[0m
+[Fri Oct 25 12:15:29 2024] [0;33mW (12:15:29.798) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:29 2024] [0;32mI (12:15:29.805) MQTT: Message sent: {
+	"uptime":	0.48,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:15:29 2024] [0;32mI (12:15:29.981) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:39 2024] [0;32mI (12:15:40.062) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:15:39 2024] [0;33mW (12:15:40.066) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:39 2024] [0;32mI (12:15:40.072) MQTT: Message sent: {
+	"uptime":	0.48,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:15:39 2024] [0;32mI (12:15:40.224) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:45 2024] [0;32mI (12:15:45.713) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:15:45 2024] [0;32mI (12:15:45.715) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:15:45 2024] [0;33mW (12:15:45.716) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:15:50 2024] [0;32mI (12:15:50.444) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:15:50 2024] [0;33mW (12:15:50.447) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:15:50 2024] [0;32mI (12:15:50.454) MQTT: Message sent: {
+	"uptime":	0.49,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:15:50 2024] [0;32mI (12:15:50.671) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:15:52 2024] [0;32mI (12:15:52.696) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:15:52 2024] [0;32mI (12:15:52.699) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:15:54 2024] [0;31mE (12:15:55.211) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.214) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.255) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.257) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.260) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3E 0x01 0xC7 0x05 0x88 0xAE 0xA6 [0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.271) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.277) LMSPH_DI_DEVICE: --> pH: 4.55, pH.mV: 141.60, Temperature: 31.80 °C 
+[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.287) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.294) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:15:54 2024] [0;32mI (12:15:55.300) CPU_TEMP: : 40.30 °C
+[0m
+[Fri Oct 25 12:16:00 2024] [0;32mI (12:16:00.898) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:00 2024] [0;33mW (12:16:00.901) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:00 2024] [0;32mI (12:16:00.909) MQTT: Message sent: {
+	"uptime":	0.49,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:16:00 2024] [0;32mI (12:16:01.017) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:16:05 2024] [0;31mE (12:16:05.652) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.654) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.694) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.696) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.699) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xA0 0x0D 0x13 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x49 0x1C 0xFB [0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.713) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.718) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.16 mg/L, Percentage: 58.50 %, Temperature_RDO: 33.5 °C[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.729) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.736) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.742) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.749) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.755) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.765) MQTT: Message sent: {
+	"do":	4.16,
+	"ph":	4.55,
+	"rtd":	33.5,
+	"rtd_box":	40.3,
+	"pdo":	58.5,
+	"timestamp":	1729833365
+}[0m
+[Fri Oct 25 12:16:05 2024] [0;32mI (12:16:05.774) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.781) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.786) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.788) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.846) ADJUST_TASK: Finished adjust task!
+[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.849) CLEANER: Don't need clean[0m
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.869) MQTT: Publish successfully k
+[Fri Oct 25 12:16:05 2024] [0;33mW (12:16:05.869) MQTT: Publish successfully key:7
+[0m
+[Fri Oct 25 12:16:11 2024] [0;32mI (12:16:11.221) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:11 2024] [0;33mW (12:16:11.225) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:11 2024] [0;32mI (12:16:11.232) MQTT: Message sent: {
+	"uptime":	0.49,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:16:21 2024] [0;32mI (12:16:21.674) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:21 2024] [0;33mW (12:16:21.677) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:21 2024] [0;32mI (12:16:21.683) MQTT: Message sent: {
+	"uptime":	0.49,
+	"rssi":	-49
+}[0m
+[Fri Oct 25 12:16:21 2024] [0;32mI (12:16:21.690) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:21 2024] [0;32mI (12:16:21.693) I2C_PERIPH: Waiting for reading BH1750[0m
+[Fri Oct 25 12:16:22 2024] [0;31mE (12:16:22.690) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Fri Oct 25 12:16:22 2024] [0;31mE (12:16:22.693) I2C_PERIPH: Failed to read from BH1750[0m
+[Fri Oct 25 12:16:22 2024] [0;32mI (12:16:22.697) I2C_PERIPH: Waiting for i2c bit[0m
+[Fri Oct 25 12:16:22 2024] [0;33mW (12:16:22.701) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:22 2024] [0;32mI (12:16:22.715) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	4.081
+}[0m
+[Fri Oct 25 12:16:22 2024] [0;32mI (12:16:22.798) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:16:22 2024] [0;32mI (12:16:23.034) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:16:23 2024] [0;32mI (12:16:23.800) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:16:23 2024] [0;32mI (12:16:23.803) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:16:32 2024] [0;33mW (12:16:33.177) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:32 2024] [0;32mI (12:16:33.183) MQTT: Message sent: {
+	"uptime":	0.5,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:16:33 2024] [0;32mI (12:16:33.397) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:16:43 2024] [0;32mI (12:16:43.437) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:43 2024] [0;33mW (12:16:43.440) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:43 2024] [0;32mI (12:16:43.446) MQTT: Message sent: {
+	"uptime":	0.5,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:16:44 2024] [0;32mI (12:16:44.791) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:16:45 2024] [0;32mI (12:16:45.797) SENSORS_TASK: turn on ph[0m
+[Fri Oct 25 12:16:45 2024] [0;32mI (12:16:45.799) SENSORS_TASK: Delay 4s[0m
+[Fri Oct 25 12:16:45 2024] [0;33mW (12:16:45.801) SENSORS_TASK: Into sensors task![0m
+[Fri Oct 25 12:16:53 2024] [0;32mI (12:16:53.733) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:16:53 2024] [0;33mW (12:16:53.737) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:16:53 2024] [0;32mI (12:16:53.742) MQTT: Message sent: {
+	"uptime":	0.5,
+	"rssi":	-50
+}[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:54.767) Wifi: Checking for wifi status...[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:54.770) Wifi: Wifi is still connected[0m
+[Fri Oct 25 12:16:54 2024] [0;31mE (12:16:55.061) LMSPH_DI_DEVICE: Current device is LMSPH_DI[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.064) LMSPH_DI_DEVICE: SEND data to sensor: 0x02 0x03 0x00 0x00 0x00 0x03 0x05 0xF8
+[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.105) LMSPH_DI_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.107) LMSPH_DI_DEVICE: Length of Received response from sensor: 11
+[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.110) LMSPH_DI_DEVICE: Received data from sensor: 0x02 0x03 0x06 0x01 0x3E 0x01 0xC6 0x05 0x89 0x3E 0xA6 [0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.121) LMSPH_DI_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.127) LMSPH_DI_DEVICE: --> pH: 4.54, pH.mV: 141.70, Temperature: 31.80 °C 
+[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.137) LMSPH_DI_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.144) LMS_PH_DI: Measurement read successfully[0m
+[Fri Oct 25 12:16:54 2024] [0;32mI (12:16:55.150) CPU_TEMP: : 43.30 °C
+[0m
+[Fri Oct 25 12:16:56 2024] [0;32mI (12:16:56.676) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:17:03 2024] [0;32mI (12:17:03.935) MQTT: CPU frequency: 80[0m
+[Fri Oct 25 12:17:03 2024] [0;33mW (12:17:03.938) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:17:03 2024] [0;32mI (12:17:03.944) MQTT: Message sent: {
+	"uptime":	0.51,
+	"rssi":	-51
+}[0m
+[Fri Oct 25 12:17:05 2024] [0;31mE (12:17:05.356) LMSDO_18_DEVICE: Current device is LMSDO_18[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.358) LMSDO_18_DEVICE: SEND data to sensor: 0x01 0x03 0x00 0x01 0x00 0x06 0x94 0x08
+[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.399) LMSDO_18_DEVICE: pass UART DATA event[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.401) LMSDO_18_DEVICE: Length of Received response from sensor: 17
+[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.404) LMSDO_18_DEVICE: Received data from sensor: 0x01 0x03 0x0C 0x01 0xAB 0x0D 0x1C 0x02 0xF8 0x00 0x00 0x00 0x00 0x02 0x59 0x79 0xE3 [0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.418) LMSDO_18_DEVICE: CRC check passed[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.423) LMSDO_18_DEVICE: --> Dissolved oxygen: 4.27 mg/L, Percentage: 60.10 %, Temperature_RDO: 33.6 °C[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.434) LMSDO_18_DEVICE: Read data luminsens successfully![0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.441) LMSDO18: Measurement read successfully[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.447) MQTT: Receive data from queue successfully[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.454) MQTT: Broker connected , ready publish............[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.460) NVS: Don't have any storage data[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.470) MQTT: Message sent: {
+	"do":	4.27,
+	"ph":	4.54,
+	"rtd":	33.6,
+	"rtd_box":	43.3,
+	"pdo":	60.1,
+	"timestamp":	1729833425
+}[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.479) SENSORS_TASK: Send data to queue successfully[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.486) SENSORS_TASK: Finished sensors task!
+[0m
+[Fri Oct 25 12:17:05 2024] [0;32mI (12:17:05.488) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.491) SENSORS_TASK: DATA SUCCESS EVENT TRIGGER[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.493) ADJUST_TASK: Into adjust task!
+[0m
+[Fri Oct 25 12:17:05 2024] [0;33mW (12:17:05.551) ADJUST_TASK: Finished adjust task!
+[0m
+[Sat Oct 26 16:29:22 2024] [0;32mI (16:29:47.697) MQTT: MQTT_EVENT_PUBLISHED[0m

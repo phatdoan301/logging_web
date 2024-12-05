@@ -1,0 +1,743 @@
+[Fri Nov 22 17:28:09 2024] [0;33mW (00:00:51.990) MQTT: USE WIFI[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:51.994) Wifi: Connected to wifi: Tepbac.com[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:52.035) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:52.041) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:28:09 2024] I (53522) wifi:
+[Fri Nov 22 17:28:09 2024] 
+[Fri Nov 22 17:28:09 2024] <ba-add>idx:0 (ifx:0, 94:37:f7:89:76:54), tid:1, ssn:1, winSize:64
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.015) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.025) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.033) MQTT: Message sent: {
+	"mac":	"94:37:F7:89:76:54",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"10:23:45",
+	"internet":	"Tepbac.com",
+	"continous_operation":	0.01,
+	"ip_address":	"192.168.3.128",
+	"bootnum":	28,
+	"rtc":	"1732296487",
+	"cpu_temp":	0,
+	"rssi":	-48,
+	"rtc_src":	1,
+	"startup_info":	"Normal power on"
+}[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.034) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.052) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.076) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.188) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.203) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.213) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.223) MQTT: Extracted requestId: 110[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.235) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/110[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.292) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.311) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.332) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.391) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.411) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.423) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=2-1-1127-1128-1,d02=0-2-0-0-0-0-0,d03=1-1-1540-1620-1,d04=1-1-1540-0-1;"}}
+[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.436) MQTT: Extracted requestId: 111[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.453) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/111[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.460) NVS: Store timer of [1] successfully[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.479) NVS: Store timer of [2] successfully[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.497) NVS: Store timer of [3] successfully[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.546) NVS: Store timer of [4] successfully[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:53.601) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:09 2024] [0;33mW (00:00:53.926) Timestamp: Waiting for system time to be set... (5/10)[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:54.015) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:54.028) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:54.037) MQTT: Extracted requestId: 112[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:54.054) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/112[0m
+[Fri Nov 22 17:28:09 2024] [0;32mI (00:00:54.225) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:28:10 2024] [0;33mW (00:00:55.952) Timestamp: Waiting for system time to be set... (6/10)[0m
+[Fri Nov 22 17:28:12 2024] [0;33mW (00:00:57.976) Timestamp: Waiting for system time to be set... (7/10)[0m
+[Fri Nov 22 17:28:14 2024] <ba-add>idx:1 (ifx:0, 94:37:f7:89:76:54), tid:0, ssn:0, winSize:64
+[Fri Nov 22 17:28:14 2024] I (60392) wifi:
+[Fri Nov 22 17:28:14 2024] 
+[Fri Nov 22 17:28:14 2024] [0;33mW (00:01:00.001) Timestamp: Waiting for system time to be set... (8/10)[0m
+[Fri Nov 22 17:28:16 2024] [0;33mW (00:01:02.022) Timestamp: Waiting for system time to be set... (9/10)[0m
+[Fri Nov 22 17:28:18 2024] [0;33mW (07:01:04.045) Timestamp: The current date/time in Vietnam is: Thu Jan  1 07:01:04 1970[0m
+[Fri Nov 22 17:28:18 2024] [0;31mE (07:01:04.053) Timestamp: SNTP initialization failed. Please check your internet connection or try again later.[0m
+[Fri Nov 22 17:28:18 2024] [0;31mE (07:01:04.063) CABINET: Failed to sync time from server, use ds1307 time now[0m
+[Fri Nov 22 17:28:36 2024] [0;32mI (07:01:22.246) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:28:36 2024] [0;32mI (07:01:22.256) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:28:37 2024] [0;32mI (07:01:23.272) MQTT: Message sent: {
+	"continous_operation":	0.02,
+	"rtc":	"1732271316",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Fri Nov 22 17:28:37 2024] [0;32mI (07:01:23.459) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.079) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.084) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.093) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.103) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.113) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:29:01 2024] [0;32mI (07:01:48.125) CABINET: 2024-11-22 17:29:00[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.137) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.143) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.153) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.163) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.176) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.189) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.203) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.213) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.223) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.233) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:29:01 2024] [0;32mI (07:01:48.243) CABINET: 2024-11-22 17:29:00[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.256) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.263) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.273) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.283) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.293) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:29:01 2024] [0;32mI (07:01:48.303) CABINET: 2024-11-22 17:29:00[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.314) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.323) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.334) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:29:01 2024] [0;33mW (07:01:48.343) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:29:05 2024] [0;32mI (07:01:52.454) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:29:05 2024] [0;32mI (07:01:52.464) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:29:06 2024] [0;32mI (07:01:53.484) MQTT: Message sent: {
+	"continous_operation":	0.03,
+	"rtc":	"1732271345",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Fri Nov 22 17:29:06 2024] [0;32mI (07:01:53.572) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:29:21 2024] [0;33mW (07:02:08.680) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 17:29:23 2024] [0;33mW (17:29:23.372) Timestamp: The current date/time in Vietnam is: Fri Nov 22 17:29:23 2024[0m
+[Fri Nov 22 17:29:23 2024] [0;32mI (17:29:23.381) Timestamp: System time set successfully[0m
+[Fri Nov 22 17:29:23 2024] [0;33mW (17:29:23.392) CABINET: The current date/time in DS1307 is: Fri Nov 22 17:29:22 2024[0m
+[Fri Nov 22 17:29:23 2024] [0;33mW (17:29:23.402) CABINET: The current date/time in Vietnam is: Fri Nov 22 17:29:23 2024[0m
+[Fri Nov 22 17:29:23 2024] [0;32mI (17:29:23.411) CABINET: Time difference is not exceeded, skip sync[0m
+[Fri Nov 22 17:29:35 2024] [0;32mI (17:29:35.537) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:29:35 2024] [0;32mI (17:29:35.547) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:29:36 2024] [0;32mI (17:29:36.562) MQTT: Message sent: {
+	"continous_operation":	0.04,
+	"rtc":	"1732271375",
+	"cpu_temp":	0,
+	"rssi":	-49
+}[0m
+[Fri Nov 22 17:29:36 2024] [0;32mI (17:29:36.701) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:01.953) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:01.963) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:01.973) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:01.983) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:01.994) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:30:01 2024] [0;32mI (17:30:02.003) CABINET: 2024-11-22 17:30:00[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.017) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.023) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.033) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.044) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.055) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.068) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.074) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.084) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.094) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.107) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:30:01 2024] [0;32mI (17:30:02.114) CABINET: 2024-11-22 17:30:00[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.128) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.134) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.145) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.159) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.167) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:30:01 2024] [0;32mI (17:30:02.175) CABINET: 2024-11-22 17:30:00[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.186) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.195) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.205) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:30:01 2024] [0;33mW (17:30:02.216) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:30:04 2024] [0;32mI (17:30:05.760) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:30:04 2024] [0;32mI (17:30:05.770) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:30:05 2024] [0;32mI (17:30:06.788) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1732271404",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Fri Nov 22 17:30:05 2024] [0;32mI (17:30:06.902) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:30:34 2024] [0;32mI (17:30:35.941) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:30:34 2024] [0;32mI (17:30:35.951) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:30:35 2024] [0;32mI (17:30:36.969) MQTT: Message sent: {
+	"continous_operation":	0.06,
+	"rtc":	"1732271434",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Fri Nov 22 17:30:35 2024] [0;32mI (17:30:37.150) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:03.949) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:03.962) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:03.972) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:03.982) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:03.993) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:31:01 2024] [0;32mI (17:31:04.002) CABINET: 2024-11-22 17:31:00[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.016) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.022) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.032) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.042) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.052) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.066) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.073) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.083) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.093) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.103) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:31:01 2024] [0;32mI (17:31:04.113) CABINET: 2024-11-22 17:31:00[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.128) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.133) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.143) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.153) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.163) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:31:01 2024] [0;32mI (17:31:04.173) CABINET: 2024-11-22 17:31:00[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.184) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.194) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.204) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:31:01 2024] [0;33mW (17:31:04.215) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:31:03 2024] [0;32mI (17:31:06.162) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:31:03 2024] [0;32mI (17:31:06.173) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:31:04 2024] [0;32mI (17:31:07.192) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1732271463",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Fri Nov 22 17:31:04 2024] [0;32mI (17:31:07.344) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:31:32 2024] [0;32mI (17:31:36.391) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:31:32 2024] [0;32mI (17:31:36.401) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:31:33 2024] [0;32mI (17:31:37.417) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1732271493",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Fri Nov 22 17:31:34 2024] [0;32mI (17:31:37.560) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:05.951) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:05.959) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:05.970) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:05.979) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:05.989) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:32:01 2024] [0;32mI (17:32:05.999) CABINET: 2024-11-22 17:32:00[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.013) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.020) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.030) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.040) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.050) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.064) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.070) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.080) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.090) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.100) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:32:01 2024] [0;32mI (17:32:06.110) CABINET: 2024-11-22 17:32:00[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.124) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.134) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.141) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.150) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:32:01 2024] [0;33mW (17:32:06.161) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:32:02 2024] [0;32mI (17:32:06.170) CABINET: 2024-11-22 17:32:00[0m
+[Fri Nov 22 17:32:02 2024] [0;33mW (17:32:06.185) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 22 17:32:02 2024] [0;33mW (17:32:06.191) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:32:02 2024] [0;33mW (17:32:06.201) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:32:02 2024] [0;33mW (17:32:06.211) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:32:02 2024] [0;32mI (17:32:06.582) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:32:02 2024] [0;32mI (17:32:06.592) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:32:03 2024] [0;32mI (17:32:07.616) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1732271522",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Fri Nov 22 17:32:03 2024] [0;32mI (17:32:07.931) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.017) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.021) MQTT: DATA={"method":"command","params":{"cmd":"ota https://github.com/thong1a/OTA/raw/main/Cabinet_project.bin"}}
+[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.033) MQTT: Extracted requestId: 113[0m
+[Fri Nov 22 17:32:11 2024] [0;33mW (17:32:16.040) process: OTA COMMAND: https://github.com/thong1a/OTA/raw/main/Cabinet_project.bin[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.048) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/113[0m
+[Fri Nov 22 17:32:11 2024] [0;33mW (17:32:16.068) HTTPS_OTA: into OTA MODE[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.081) HTTPS_OTA: Starting  OTA:[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.091) HTTPS_OTA: OTA started[0m
+[Fri Nov 22 17:32:11 2024] [0;32mI (17:32:16.229) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:32:13 2024] [0;32mI (17:32:18.215) esp-x509-crt-bundle: Certificate validated[0m
+[Fri Nov 22 17:32:16 2024] [0;32mI (17:32:20.979) esp-x509-crt-bundle: Certificate validated[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.638) esp_https_ota: Starting OTA...[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.638) HTTPS_OTA: Connected to server[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.652) esp_https_ota: Writing to partition subtype 17 at offset 0x1a0000[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.663) HTTPS_OTA: Reading Image Description[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.670) HTTPS_OTA: Running firmware version: v3.2-20-gcc27121-dirty[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.681) HTTPS_OTA: New firmware version: v3.2-21-g241766e[0m
+[Fri Nov 22 17:32:18 2024] [0;32mI (17:32:22.692) HTTPS_OTA: Verifying chip id of new image: 0[0m
+[Fri Nov 22 17:32:18 2024] [0;33mW (17:32:22.765) HTTPS_OTA: Image bytes read: 1024[0m
+[Fri Nov 22 17:32:18 2024] [0;33mW (17:32:22.783) HTTPS_OTA: Image bytes read: 2048[0m
+[Fri Nov 22 17:32:18 2024] [0;33mW (17:32:22.802) HTTPS_OTA: Image bytes read: 3072[0m
+[Fri Nov 22 17:32:18 2024] [0;33mW (17:32:22.817) HTTPS_OTA: Image bytes read: 4096[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.235) HTTPS_OTA: Image bytes read: 5120[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.255) HTTPS_OTA: Image bytes read: 6144[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.271) HTTPS_OTA: Image bytes read: 7168[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.286) HTTPS_OTA: Image bytes read: 8192[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.475) HTTPS_OTA: Image bytes read: 9216[0m
+[Fri Nov 22 17:32:19 2024] [0;33mW (17:32:24.497) HTTPS_OTA: Image bytes read: 10240[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.512) HTTPS_OTA: Image bytes read: 11264[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.527) HTTPS_OTA: Image bytes read: 12288[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.885) HTTPS_OTA: Image bytes read: 13312[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.906) HTTPS_OTA: Image bytes read: 14336[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.925) HTTPS_OTA: Image bytes read: 15360[0m
+[Fri Nov 22 17:32:20 2024] [0;33mW (17:32:24.936) HTTPS_OTA: Image bytes read: 16384[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.201) HTTPS_OTA: Image bytes read: 17408[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.213) HTTPS_OTA: Image bytes read: 18432[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.243) HTTPS_OTA: Image bytes read: 20480[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.231) HTTPS_OTA: Image bytes read: 19456[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.333) HTTPS_OTA: Image bytes read: 21504[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.344) HTTPS_OTA: Image bytes read: 22528[0m
+[Fri Nov 22 17:32:22 2024] [0;33mW (17:32:27.362) HTTPS_OTA: Image bytes read: 23552[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.373) HTTPS_OTA: Image bytes read: 24576[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.462) HTTPS_OTA: Image bytes read: 25600[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.474) HTTPS_OTA: Image bytes read: 26624[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.492) HTTPS_OTA: Image bytes read: 27648[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.504) HTTPS_OTA: Image bytes read: 28672[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.592) HTTPS_OTA: Image bytes read: 29696[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.604) HTTPS_OTA: Image bytes read: 30720[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.623) HTTPS_OTA: Image bytes read: 31744[0m
+[Fri Nov 22 17:32:23 2024] [0;33mW (17:32:27.636) HTTPS_OTA: Image bytes read: 32768[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.771) HTTPS_OTA: Image bytes read: 33792[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.782) HTTPS_OTA: Image bytes read: 34816[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.800) HTTPS_OTA: Image bytes read: 35840[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.813) HTTPS_OTA: Image bytes read: 36864[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.900) HTTPS_OTA: Image bytes read: 37888[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.912) HTTPS_OTA: Image bytes read: 38912[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.930) HTTPS_OTA: Image bytes read: 39936[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:28.941) HTTPS_OTA: Image bytes read: 40960[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.030) HTTPS_OTA: Image bytes read: 41984[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.042) HTTPS_OTA: Image bytes read: 43008[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.060) HTTPS_OTA: Image bytes read: 44032[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.072) HTTPS_OTA: Image bytes read: 45056[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.160) HTTPS_OTA: Image bytes read: 46080[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.176) HTTPS_OTA: Image bytes read: 47104[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.192) HTTPS_OTA: Image bytes read: 48128[0m
+[Fri Nov 22 17:32:24 2024] [0;33mW (17:32:29.201) HTTPS_OTA: Image bytes read: 49152[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.045) HTTPS_OTA: Image bytes read: 50176[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.061) HTTPS_OTA: Image bytes read: 51200[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.076) HTTPS_OTA: Image bytes read: 52224[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.086) HTTPS_OTA: Image bytes read: 53248[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.176) HTTPS_OTA: Image bytes read: 54272[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.187) HTTPS_OTA: Image bytes read: 55296[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.205) HTTPS_OTA: Image bytes read: 56320[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.217) HTTPS_OTA: Image bytes read: 57344[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.307) HTTPS_OTA: Image bytes read: 58368[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.318) HTTPS_OTA: Image bytes read: 59392[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.336) HTTPS_OTA: Image bytes read: 60416[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.349) HTTPS_OTA: Image bytes read: 61440[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.437) HTTPS_OTA: Image bytes read: 62464[0m
+[Fri Nov 22 17:32:26 2024] [0;33mW (17:32:31.448) HTTPS_OTA: Image bytes read: 63488[0m
+[Fri Nov 22 17:32:31 2024] [0;31mE (17:32:36.522) transport_base: esp_tls_conn_read error, errno=No more processes[0m
+[Fri Nov 22 17:32:31 2024] [0;33mW (17:32:36.533) HTTP_CLIENT: esp_transport_read returned:0 and errno:11 [0m
+[Fri Nov 22 17:32:31 2024] [0;31mE (17:32:36.543) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:31 2024] [0;33mW (17:32:36.552) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:32:31 2024] [0;32mI (17:32:36.744) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:32:31 2024] [0;32mI (17:32:36.754) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:32:36 2024] [0;31mE (17:32:41.613) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:36 2024] [0;33mW (17:32:41.621) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:32:41 2024] [0;31mE (17:32:46.671) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:41 2024] [0;33mW (17:32:46.681) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:32:46 2024] [0;31mE (17:32:51.747) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:46 2024] [0;33mW (17:32:51.756) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:32:51 2024] [0;31mE (17:32:56.811) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:51 2024] [0;33mW (17:32:56.822) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.121) transport_base: tcp_write error, errno=No more processes[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.132) mqtt_client: Writing failed: errno=11[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.142) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.151) MQTT: Connection accepted[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.161) MQTT: TCP transport error[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.172) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.182) MQTT: Error sock: 11
+[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.192) mqtt_client: Error sending ping[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.202) mqtt_client: Can't send ping, disconnected[0m
+[Fri Nov 22 17:32:52 2024] [0;32mI (17:32:58.213) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:32:52 2024] [0;33mW (17:32:58.215) CABINET: Into led task[0m
+[Fri Nov 22 17:32:52 2024] [0;33mW (17:32:58.222) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 17:32:52 2024] [0;32mI (17:32:58.233) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.241) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:32:52 2024] [0;31mE (17:32:58.251) MQTT: Error sock: 11
+[0m
+[Fri Nov 22 17:32:52 2024] [0;32mI (17:32:58.261) MQTT: Disconnect reason: TCP Transport layer error[0m
+[Fri Nov 22 17:32:56 2024] [0;31mE (17:33:01.876) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:32:56 2024] [0;33mW (17:33:01.887) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:01 2024] [0;31mE (17:33:06.931) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.942) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.947) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.954) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.961) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.972) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:33:01 2024] [0;32mI (17:33:06.973) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:06.981) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:33:01 2024] [0;32mI (17:33:06.982) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:33:01 2024] [0;32mI (17:33:06.991) CABINET: 2024-11-22 17:33:00[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.005) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.011) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.035) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.021) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.041) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.055) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.061) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.072) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.081) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.091) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:33:01 2024] [0;32mI (17:33:07.101) CABINET: 2024-11-22 17:33:00[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.115) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.121) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.132) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.142) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.151) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:33:01 2024] [0;32mI (17:33:07.161) CABINET: 2024-11-22 17:33:00[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.173) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.184) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.192) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:33:01 2024] [0;33mW (17:33:07.202) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:33:02 2024] [0;32mI (17:33:08.326) MQTT: Other event id:7[0m
+[Fri Nov 22 17:33:06 2024] [0;31mE (17:33:11.996) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:06 2024] [0;33mW (17:33:12.006) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:11 2024] [0;31mE (17:33:17.043) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:11 2024] [0;33mW (17:33:17.053) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.401) esp-tls: [sock=55] select() timeout[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.413) transport_base: Failed to open a new connection: 32774[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.422) mqtt_client: Error transport connect[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.432) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.452) MQTT: TCP transport error[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.462) MQTT: Last esp error code: 0x8006, ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.441) MQTT: Connection accepted[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.472) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.485) MQTT: Error sock: 0
+[0m
+[Fri Nov 22 17:33:12 2024] [0;32mI (17:33:18.496) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:33:12 2024] [0;33mW (17:33:18.502) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 17:33:12 2024] [0;32mI (17:33:18.512) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.522) MQTT: Last esp error code: 0x8006, ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.533) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:33:12 2024] [0;31mE (17:33:18.542) MQTT: Error sock: 0
+[0m
+[Fri Nov 22 17:33:12 2024] [0;32mI (17:33:18.552) MQTT: Disconnect reason: TCP Transport layer error[0m
+[Fri Nov 22 17:33:16 2024] [0;31mE (17:33:22.111) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:16 2024] [0;33mW (17:33:22.122) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:20 2024] [0;31mE (17:33:27.181) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:20 2024] [0;33mW (17:33:27.194) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:22 2024] [0;32mI (17:33:28.643) MQTT: Other event id:7[0m
+[Fri Nov 22 17:33:25 2024] [0;31mE (17:33:32.251) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:25 2024] [0;33mW (17:33:32.264) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:30 2024] [0;32mI (17:33:37.193) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:33:30 2024] [0;32mI (17:33:37.204) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:33:30 2024] [0;31mE (17:33:37.314) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:30 2024] [0;33mW (17:33:37.326) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.737) esp-tls: [sock=55] select() timeout[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.749) transport_base: Failed to open a new connection: 32774[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.759) mqtt_client: Error transport connect[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.768) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.778) MQTT: Connection accepted[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.788) MQTT: TCP transport error[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.798) MQTT: Last esp error code: 0x8006, ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.809) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.818) MQTT: Error sock: 0
+[0m
+[Fri Nov 22 17:33:32 2024] [0;32mI (17:33:38.828) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:33:32 2024] [0;33mW (17:33:38.838) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 17:33:32 2024] [0;32mI (17:33:38.848) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.859) MQTT: Last esp error code: 0x8006, ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.870) MQTT: Error tls: 0
+[0m
+[Fri Nov 22 17:33:32 2024] [0;31mE (17:33:38.879) MQTT: Error sock: 0
+[0m
+[Fri Nov 22 17:33:32 2024] [0;32mI (17:33:38.889) MQTT: Disconnect reason: TCP Transport layer error[0m
+[Fri Nov 22 17:33:35 2024] [0;31mE (17:33:42.381) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:35 2024] [0;33mW (17:33:42.392) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:40 2024] [0;31mE (17:33:47.459) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:40 2024] [0;33mW (17:33:47.469) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:33:42 2024] [0;32mI (17:33:48.978) MQTT: Other event id:7[0m
+[Fri Nov 22 17:33:45 2024] [0;31mE (17:33:52.521) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:33:45 2024] [0;33mW (17:33:52.532) HTTPS_OTA: Image bytes read: 65536[0m
+[Fri Nov 22 17:35:30 2024] [0;32mI (00:00:56.137) Wifi: Logging to UDP server at 13.55.39.26:6009[0m
+[Fri Nov 22 17:35:30 2024] [0;32mI (00:00:56.142) MQTT: Other event id:7[0m
+[Fri Nov 22 17:35:30 2024] [0;32mI (00:00:56.147) Wifi: Connected to wifi: Tepbac.com[0m
+[Fri Nov 22 17:35:31 2024] [0;33mW (00:00:56.158) Wifi: WIFI_MODE[0m
+[Fri Nov 22 17:35:31 2024] [0;33mW (00:00:56.164) Wifi: Wifi initialized[0m
+[Fri Nov 22 17:35:31 2024] [0;32mI (00:00:56.173) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:35:32 2024] [0;32mI (00:00:56.183) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:35:33 2024] [0;33mW (00:00:58.032) Timestamp: Waiting for system time to be set... (7/10)[0m
+[Fri Nov 22 17:35:33 2024] I (58523) wifi:
+[Fri Nov 22 17:35:33 2024] <ba-add>idx:1 (ifx:0, 10:5d:dc:6b:0f:a8), tid:1, ssn:1, winSize:64
+[Fri Nov 22 17:35:33 2024] 
+[Fri Nov 22 17:35:33 2024] [0;32mI (00:00:59.233) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 22 17:35:33 2024] [0;32mI (00:00:59.243) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.252) MQTT: Message sent: {
+	"mac":	"10:5D:DC:6B:0F:A8",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"10:23:45",
+	"internet":	"Tepbac.com",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.3.128",
+	"bootnum":	29,
+	"rtc":	"1732296930",
+	"cpu_temp":	0,
+	"rssi":	-67,
+	"rtc_src":	1,
+	"startup_info":	"Normal power on"
+}[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.253) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.291) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.302) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.315) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.323) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.336) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 22 17:35:34 2024] [0;32mI (00:00:59.343) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.355) MQTT: Received feedback from relay control task: 4, 0[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.363) MQTT: Sync data sent: {"d05":0}[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.376) MQTT: Received feedback from relay control task: 5, 0[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.383) MQTT: Sync data sent: {"d06":0}[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.395) MQTT: Received feedback from relay control task: 6, 0[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.403) MQTT: Sync data sent: {"d07":0}[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.415) MQTT: Received feedback from relay control task: 7, 0[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.425) MQTT: Sync data sent: {"d08":0}[0m
+[Fri Nov 22 17:35:35 2024] [0;32mI (00:00:59.988) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 22 17:35:36 2024] [0;32mI (00:01:00.002) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:35:36 2024] [0;32mI (00:01:00.013) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:35:36 2024] [0;32mI (00:01:00.023) MQTT: Extracted requestId: 115[0m
+[Fri Nov 22 17:35:36 2024] [0;32mI (00:01:00.035) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/115[0m
+[Fri Nov 22 17:35:36 2024] [0;33mW (00:01:00.044) Timestamp: Waiting for system time to be set... (8/10)[0m
+[Fri Nov 22 17:35:36 2024] [0;32mI (00:01:01.129) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:35:38 2024] [0;32mI (00:01:01.218) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:35:38 2024] [0;32mI (00:01:01.229) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:35:41 2024] [0;32mI (00:01:02.953) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/116[0m
+[Fri Nov 22 17:35:41 2024] [0;32mI (00:01:02.959) NVS: Store timer of [1] successfully[0m
+[Fri Nov 22 17:35:44 2024] <ba-del>idx:0, tid:0
+[Fri Nov 22 17:35:44 2024] 
+[Fri Nov 22 17:35:45 2024] I (64153) wifi:
+[Fri Nov 22 17:35:45 2024] 
+[Fri Nov 22 17:35:50 2024] [0;32mI (07:01:15.443) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:35:50 2024] [0;32mI (07:01:15.453) MQTT: Extracted requestId: 117[0m
+[Fri Nov 22 17:36:00 2024] [0;32mI (07:01:26.291) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:36:00 2024] [0;32mI (07:01:26.302) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:36:01 2024] [0;33mW (07:01:27.109) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:36:01 2024] [0;33mW (07:01:27.113) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:36:01 2024] [0;33mW (07:01:27.123) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:36:02 2024] [0;33mW (07:01:27.135) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:36:02 2024] [0;33mW (07:01:27.143) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:36:02 2024] [0;32mI (07:01:27.153) CABINET: 2024-11-22 17:36:00[0m
+[Fri Nov 22 17:36:02 2024] [0;33mW (07:01:27.173) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:36:02 2024] [0;33mW (07:01:27.183) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.193) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.203) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.217) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.223) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.233) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.243) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:36:03 2024] [0;33mW (07:01:27.253) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:36:04 2024] [0;33mW (07:01:27.277) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:36:04 2024] [0;33mW (07:01:27.283) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:36:04 2024] [0;33mW (07:01:27.294) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:36:04 2024] [0;33mW (07:01:27.304) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:36:04 2024] [0;32mI (07:01:27.323) CABINET: 2024-11-22 17:36:00[0m
+[Fri Nov 22 17:36:05 2024] [0;33mW (07:01:27.346) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 22 17:36:05 2024] [0;33mW (07:01:27.353) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 22 17:36:05 2024] [0;33mW (07:01:27.363) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 22 17:36:05 2024] [0;31mE (07:01:29.296) mqtt_client: No PING_RESP, disconnected[0m
+[Fri Nov 22 17:36:06 2024] [0;33mW (07:01:29.306) CABINET: Into led task[0m
+[Fri Nov 22 17:36:06 2024] [0;33mW (07:01:29.313) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 17:36:06 2024] [0;32mI (07:01:29.323) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:36:06 2024] [0;32mI (07:01:29.333) MQTT: Disconnect reason: No error[0m
+[Fri Nov 22 17:36:06 2024] [0;32mI (07:01:29.399) MQTT: Message sent: {
+	"continous_operation":	0.02,
+	"rtc":	"1732271762",
+	"cpu_temp":	0,
+	"rssi":	-69
+}[0m
+[Fri Nov 22 17:36:14 2024] [0;32mI (07:01:40.903) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 22 17:36:14 2024] [0;33mW (07:01:40.905) CABINET: Finish led task[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.633) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.654) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.667) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.673) MQTT: Extracted requestId: 119[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.685) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/119[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:41.879) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:15 2024] [0;32mI (07:01:42.155) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.174) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.197) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.204) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=2-1-1127-1128-1,d02=0-2-0-0-0-0-0,d03=1-1-1540-1620-1,d04=1-1-1540-0-1;"}}
+[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.218) MQTT: Extracted requestId: 120[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.242) NVS: Store timer of [1] successfully[0m
+ /response/120[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.242) NVS: Store timer of [1] successfully[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.266) NVS: Store timer of [2] successfully[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.281) NVS: Store timer of [3] successfully[0m
+[Fri Nov 22 17:36:16 2024] [0;32mI (07:01:42.324) NVS: Store timer of [4] successfully[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.660) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.772) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.777) MQTT: DATA={"method":"command","params":{"cmd":"ota https://github.com/thong1a/OTA/raw/main/Cabinet_project.bin"}}
+[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.789) MQTT: Extracted requestId: 121[0m
+[Fri Nov 22 17:36:17 2024] [0;33mW (07:01:42.796) process: OTA COMMAND: https://github.com/thong1a/OTA/raw/main/Cabinet_project.bin[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.803) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/121[0m
+[Fri Nov 22 17:36:17 2024] [0;33mW (07:01:42.811) HTTPS_OTA: into OTA MODE[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.823) HTTPS_OTA: Starting  OTA:[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:42.829) HTTPS_OTA: OTA started[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:43.087) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:43.099) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:43.110) MQTT: Extracted requestId: 122[0m
+[Fri Nov 22 17:36:17 2024] [0;32mI (07:01:43.123) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/122[0m
+[Fri Nov 22 17:36:20 2024] [0;32mI (07:01:46.403) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:20 2024] [0;32mI (07:01:46.609) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:36:21 2024] [0;32mI (07:01:48.054) esp-x509-crt-bundle: Certificate validated[0m
+[Fri Nov 22 17:36:26 2024] [0;32mI (07:01:52.731) esp-x509-crt-bundle: Certificate validated[0m
+[Fri Nov 22 17:36:29 2024] [0;32mI (07:01:55.304) esp_https_ota: Starting OTA...[0m
+[Fri Nov 22 17:36:29 2024] [0;32mI (07:01:55.304) HTTPS_OTA: Connected to server[0m
+[Fri Nov 22 17:36:31 2024] [0;32mI (07:01:55.342) HTTPS_OTA: New firmware version: v3.2-21-g241766e[0m
+[Fri Nov 22 17:36:32 2024] [0;32mI (07:01:55.351) HTTPS_OTA: Verifying chip id of new image: 0[0m
+[Fri Nov 22 17:36:32 2024] [0;33mW (07:01:55.425) HTTPS_OTA: Image bytes read: 1024[0m
+[Fri Nov 22 17:36:32 2024] [0;33mW (07:01:55.712) HTTPS_OTA: Image bytes read: 2048[0m
+[Fri Nov 22 17:36:32 2024] [0;33mW (07:01:56.039) HTTPS_OTA: Image bytes read: 3072[0m
+[Fri Nov 22 17:36:32 2024] [0;33mW (07:01:56.048) HTTPS_OTA: Image bytes read: 4096[0m
+[Fri Nov 22 17:36:32 2024] [0;32mI (07:01:56.422) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:36:32 2024] [0;32mI (07:01:56.433) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:36:34 2024] [0;31mE (07:02:01.063) transport_base: esp_tls_conn_read error, errno=No more processes[0m
+[Fri Nov 22 17:36:34 2024] [0;33mW (07:02:01.073) HTTP_CLIENT: esp_transport_read returned:0 and errno:11 [0m
+[Fri Nov 22 17:36:34 2024] [0;33mW (07:02:01.153) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:39 2024] [0;31mE (07:02:06.193) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:36:39 2024] [0;33mW (07:02:06.203) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:41 2024] [0;33mW (07:02:08.678) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 22 17:36:44 2024] [0;33mW (07:02:10.698) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 22 17:36:44 2024] [0;31mE (07:02:11.264) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:36:44 2024] [0;33mW (07:02:11.275) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:45 2024] [0;33mW (07:02:12.722) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov 22 17:36:47 2024] [0;33mW (17:36:46.921) Timestamp: The current date/time in Vietnam is: Fri Nov 22 17:36:46 2024[0m
+[Fri Nov 22 17:36:47 2024] [0;32mI (17:36:46.930) Timestamp: System time set successfully[0m
+[Fri Nov 22 17:36:47 2024] [0;33mW (17:36:46.941) CABINET: The current date/time in DS1307 is: Fri Nov 22 17:36:45 2024[0m
+[Fri Nov 22 17:36:47 2024] [0;33mW (17:36:46.950) CABINET: The current date/time in Vietnam is: Fri Nov 22 17:36:46 2024[0m
+[Fri Nov 22 17:36:47 2024] [0;32mI (17:36:46.960) CABINET: Time difference is not exceeded, skip sync[0m
+[Fri Nov 22 17:36:49 2024] [0;31mE (17:36:49.303) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:36:49 2024] [0;33mW (17:36:49.313) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:54 2024] [0;31mE (17:36:54.373) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:36:54 2024] [0;33mW (17:36:54.384) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:59 2024] [0;31mE (17:36:59.437) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:36:59 2024] [0;33mW (17:36:59.447) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:36:59 2024] [0;32mI (17:36:59.597) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:36:59 2024] [0;32mI (17:36:59.608) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:37:01 2024] [0;33mW (17:37:02.089) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.093) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.103) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.113) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.123) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:37:02 2024] [0;32mI (17:37:02.133) CABINET: 2024-11-22 17:37:00[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.147) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.153) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.163) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.173) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.183) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.197) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.204) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.213) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.223) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.233) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:37:02 2024] [0;32mI (17:37:02.243) CABINET: 2024-11-22 17:37:00[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.257) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.264) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:37:02 2024] [0;33mW (17:37:02.274) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:37:03 2024] [0;32mI (17:37:02.304) CABINET: 2024-11-22 17:37:00[0m
+[Fri Nov 22 17:37:04 2024] [0;31mE (17:37:04.494) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:04 2024] [0;33mW (17:37:04.505) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:09 2024] [0;33mW (17:37:09.570) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:14 2024] [0;31mE (17:37:14.620) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:14 2024] [0;33mW (17:37:14.630) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:19 2024] [0;31mE (17:37:19.681) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:19 2024] [0;33mW (17:37:19.692) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:24 2024] [0;31mE (17:37:24.734) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:24 2024] [0;33mW (17:37:24.745) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:28 2024] [0;31mE (17:37:29.797) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:28 2024] [0;32mI (17:37:29.802) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:37:28 2024] [0;33mW (17:37:29.807) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:28 2024] [0;32mI (17:37:29.811) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:37:33 2024] [0;31mE (17:37:34.855) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:33 2024] [0;33mW (17:37:34.869) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:38 2024] [0;31mE (17:37:39.919) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:38 2024] [0;33mW (17:37:39.929) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:43 2024] [0;31mE (17:37:44.989) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:43 2024] [0;33mW (17:37:45.000) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:46 2024] [0;31mE (17:37:47.694) CABINET_CONTROLLER_LOG: OTA RUNNING[0m
+[Fri Nov 22 17:37:46 2024] [0;31mE (17:37:48.134) CABINET_CONTROLLER_LOG: OTA RUNNING[0m
+[Fri Nov 22 17:37:47 2024] [0;31mE (17:37:48.434) CABINET_CONTROLLER_LOG: OTA RUNNING[0m
+[Fri Nov 22 17:37:47 2024] [0;31mE (17:37:48.674) CABINET_CONTROLLER_LOG: OTA RUNNING[0m
+[Fri Nov 22 17:37:48 2024] [0;31mE (17:37:49.184) CABINET_CONTROLLER_LOG: OTA RUNNING[0m
+[Fri Nov 22 17:37:49 2024] [0;33mW (17:37:50.055) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:53 2024] [0;31mE (17:37:55.094) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:53 2024] [0;33mW (17:37:55.106) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:37:58 2024] [0;32mI (17:38:00.003) Wifi: Checking for wifi status...[0m
+[Fri Nov 22 17:37:58 2024] [0;32mI (17:38:00.013) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:37:58 2024] [0;31mE (17:38:00.163) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:37:58 2024] [0;33mW (17:38:00.174) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:38:01 2024] [0;33mW (17:38:03.098) CABINET: Index of timer: 2 [0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.118) CABINET: Stop timer: 1128[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.128) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:38:02 2024] [0;32mI (17:38:03.138) CABINET: 2024-11-22 17:38:00[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.156) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.169) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.179) CABINET: Start timer: 0[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.188) CABINET: Stop timer: 0[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.198) CABINET: Mode timer: 0[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.213) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 22 17:38:02 2024] [0;33mW (17:38:03.219) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:03.229) CABINET: Start timer: 1540[0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:03.239) CABINET: Stop timer: 1620[0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:03.249) CABINET: Mode timer: 1[0m
+[Fri Nov 22 17:38:03 2024] [0;32mI (17:38:03.259) CABINET: 2024-11-22 17:38:00[0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:03.274) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:03.279) CABINET: Index of timer: 1 [0m
+[Fri Nov 22 17:38:03 2024] [0;31mE (17:38:05.214) esp_https_ota: ESP_ERR_HTTP_EAGAIN invoked: Call timed out before data was ready[0m
+[Fri Nov 22 17:38:03 2024] [0;33mW (17:38:05.227) HTTPS_OTA: Image bytes read: 4113[0m
+[Fri Nov 22 17:38:29 2024] [0;31mE (17:38:29.361) esp_https_ota: data read -1, errno 0[0m
+[Fri Nov 22 17:38:29 2024] [0;31mE (17:38:29.371) HTTPS_OTA: Complete data was not received.[0m
+[Fri Nov 22 17:38:32 2024] [0;32mI (17:38:34.414) HTTPS_OTA: Starting  OTA:[0m
+[Fri Nov 22 17:38:34 2024] [0;31mE (17:38:34.486) HTTPS_OTA: Something went wrong. Retrying after 5 seconds[0m
+[Fri Nov 22 17:38:34 2024] [0;32mI (17:38:34.497) HTTPS_OTA: Waiting for wifi connected.....[0m
+[Fri Nov 22 17:38:35 2024] [0;32mI (17:38:34.604) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 22 17:38:39 2024] [0;31mE (17:38:39.577) HTTPS_OTA: ESP HTTPS OTA Begin failed[0m
+[Fri Nov 22 17:38:44 2024] [0;32mI (17:38:44.684) HTTPS_OTA: OTA abort[0m
+[Fri Nov 22 17:38:45 2024] [0;32mI (17:38:44.702) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1732271921",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 22 17:38:46 2024] [0;31mE (17:38:46.387) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 22 17:38:46 2024] [0;32mI (17:38:46.578) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 22 17:38:48 2024] [0;32mI (17:38:47.632) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 22 17:38:56 2024] [0;31mE (17:38:58.439) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:38:58 2024] [0;32mI (17:38:58.500) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:39:02 2024] [0;33mW (17:39:04.106) CABINET: Start timer: 1127[0m
+[Fri Nov 22 17:39:05 2024] [0;33mW (17:39:04.156) CABINET: Index of timer: 0 [0m
+[Fri Nov 22 17:39:07 2024] [0;33mW (17:39:08.598) transport_base: Poll timeout or error, errno=Not enough space, fd=-1, timeout_ms=10000[0m
+[Fri Nov 22 17:39:09 2024] [0;32mI (17:39:08.638) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Fri Nov 22 17:39:12 2024] [0;32mI (17:39:14.813) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1732271951",
+	"cpu_temp":	0,
+	"rssi":	-71
+}[0m
+[Fri Nov 22 17:39:26 2024] [0;31mE (17:39:28.804) esp-tls: [sock=55] select() timeout[0m
+[Fri Nov 22 17:39:27 2024] [0;31mE (17:39:28.819) transport_base: Failed to open a new connection: 32774[0m
+[Fri Nov 22 17:39:27 2024] [0;31mE (17:39:28.835) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:39:28 2024] [0;31mE (17:39:28.854) MQTT: TCP transport error[0m
+[Fri Nov 22 17:39:30 2024] [0;33mW (17:39:28.904) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Fri Nov 22 17:39:31 2024] [0;32mI (17:39:30.384) Wifi: Wifi is still connected[0m
+[Fri Nov 22 17:39:36 2024] [0;32mI (17:39:39.004) MQTT: Other event id:7[0m
+[Fri Nov 22 17:39:46 2024] [0;31mE (17:39:49.076) transport_base: Failed to open a new connection: 32774[0m
+[Fri Nov 22 17:39:46 2024] [0;31mE (17:39:49.085) mqtt_client: Error transport connect[0m
+[Fri Nov 22 17:39:46 2024] [0;31mE (17:39:49.095) MQTT: MQTT_EVENT_ERROR[0m
+[Fri Nov 22 17:39:46 2024] [0;31mE (17:39:49.104) MQTT: Connection accepted[0m
+[Fri Nov 22 17:39:47 2024] [0;31mE (17:39:49.124) MQTT: Last esp error code: 0x8006, ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT[0m
+[Fri Nov 22 18:23:35 2024] [0;32mI (00:00:10.148) Wifi: Logging to UDP server at 13.55.39.26:6009[0m

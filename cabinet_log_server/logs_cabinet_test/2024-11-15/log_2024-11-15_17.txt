@@ -1,0 +1,97 @@
+[Fri Nov 15 17:30:23 2024] [0;32mI (00:00:23.187) MQTT: Other event id:7[0m
+[Fri Nov 15 17:30:23 2024] [0;32mI (00:00:23.326) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 15 17:30:23 2024] [0;32mI (00:00:23.387) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.564) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.567) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.569) MQTT: Extracted requestId: 90[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.576) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/90[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.660) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.709) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.711) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=0-2-0-0-0-0-0;"}}
+[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.714) MQTT: Extracted requestId: 91[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.722) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/91[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:23.799) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.185) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.190) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.196) MQTT: Message sent: {
+	"mac":	"F0:04:FD:3F:C4:D5",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	0,
+	"continous_operation":	0.01,
+	"ip_address":	"0.0.0.0",
+	"bootnum":	12,
+	"rtc":	24,
+	"cpu_temp":	0,
+	"rssi":	59,
+	"rtc_src":	1
+}[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.198) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.200) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.235) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.245) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.253) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.257) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.264) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.270) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.273) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.280) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.284) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.291) MQTT: Received feedback from relay control task: 4, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.294) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.301) MQTT: Sync data sent: {"d05":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.306) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.320) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.320) MQTT: Received feedback from relay control task: 5, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.330) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.331) MQTT: Sync data sent: {"d06":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.340) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.361) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.361) MQTT: Received feedback from relay control task: 6, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.371) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.372) MQTT: Sync data sent: {"d07":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.381) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.402) MQTT: Received feedback from relay control task: 7, 0[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.402) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;32mI (00:00:24.412) MQTT: Sync data sent: {"d08":0}[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.413) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.432) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.443) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.453) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.454) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.463) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:24 2024] [0;33mW (00:00:24.473) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.484) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.494) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.495) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.504) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.514) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.516) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.525) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.535) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.545) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.547) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.548) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.555) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.567) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.576) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.578) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.586) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.596) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.606) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.617) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.627) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;33mW (00:00:24.629) uart_terminal: Rx Break[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.834) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.933) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.940) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.948) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.956) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.964) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.972) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.979) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:25 2024] [0;32mI (00:00:24.987) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 17:30:39 2024] [0;31mE (00:00:38.472) CABINET: Failed to sync time from server, use ds1307 time now[0m
+[Fri Nov 15 19:04:56 2024] [0;32mI (00:00:38.427) MQTT: Other event id:7[0m

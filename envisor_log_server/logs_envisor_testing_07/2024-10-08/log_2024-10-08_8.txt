@@ -1,0 +1,1165 @@
+[Tue Oct  8 08:04:38 2024] [0;32mI (56779) wifi_prov_mgr: STA Got IP[0m
+[Tue Oct  8 08:04:38 2024] [0;32mI (56779) Wifi: Provisioning successful[0m
+[Tue Oct  8 08:04:39 2024] [0;32mI (62579) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Tue Oct  8 08:04:39 2024] [0;32mI (62579) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Tue Oct  8 08:04:39 2024] [0;32mI (62589) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+[0m
+[Tue Oct  8 08:05:09 2024] [0;31mE (62659) protocomm_nimble: Error setting advertisement data; rc = 30[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (62659) wifi_prov_mgr: Provisioning stopped[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (62669) Wifi: BLE transport: Disconnected![0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (62669) Wifi: Provisioning ended[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92669) Wifi: Waiting for provisioning to complete...[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92669) Wifi: Configurations loaded successfully[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92669) Wifi: SSID: dtp, password: 123456789, length: 3[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92669) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92679) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92679) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 08:05:09 2024] [0;32mI (92689) Wifi: SSID: , password: , length: 0[0m
+[Tue Oct  8 08:05:10 2024] [0;32mI (92719) Wifi: Ready to connect to ssid: dtp    password: 123456789[0m
+[Tue Oct  8 08:05:10 2024] [0;33mW (92719) Wifi: Connecting to new wifi..............[0m
+[Tue Oct  8 08:05:15 2024] [0;32mI (97729) Wifi: Connected to wifi: dtp[0m
+[Tue Oct  8 08:05:15 2024] [0;32mI (97729) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:05:15 2024] [0;33mW (97729) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct  8 08:05:15 2024] [0;33mW (97729) Timestamp: Time is not set yet. Initializing
+[Tue Oct  8 08:05:15 2024] [0;32mI (97739) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:05:15 2024] [0;32mI (97739) MQTT: Other event id:7[0m
+[Tue Oct  8 08:05:15 2024] [0;32mI (98009) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:05:15 2024] [0;32mI (98109) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:05:16 2024] [0;32mI (98739) CPU_TEMP: : 46.70 °C
+[0m
+[Tue Oct  8 08:05:16 2024] [0;32mI (98739) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.03,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	7,
+	"rtc":	98,
+	"cpu_temp":	46.7,
+	"rssi":	-26,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:05:16 2024] [0;32mI (99039) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:05:17 2024] [0;33mW (99729) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100269) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100269) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100269) MQTT: Extracted requestId: 384[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100279) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/384[0m
+[Tue Oct  8 08:05:17 2024] [0;33mW (100359) Timestamp: The current date/time in Vietnam is: Tue Oct  8 15:05:17 2024[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100359) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100369) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100369) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:05:17 2024] [0;32mI (100379) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:05:18 2024] [0;32mI (101079) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:05:18 2024] [0;32mI (101079) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:05:18 2024] [0;32mI (101089) MQTT: Extracted requestId: 385[0m
+[Tue Oct  8 08:05:18 2024] [0;32mI (101089) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/385[0m
+[Tue Oct  8 08:05:18 2024] [0;32mI (101289) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:05:19 2024] [0;32mI (102519) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:05:19 2024] [0;32mI (102519) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:05:19 2024] [0;32mI (102519) MQTT: Extracted requestId: 386[0m
+[Tue Oct  8 08:05:19 2024] [0;32mI (102529) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/386[0m
+[Tue Oct  8 08:05:19 2024] [0;32mI (102619) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:05:47 2024] [0;32mI (130379) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:05:47 2024] [0;32mI (130379) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:06:16 2024] [0;32mI (158759) CPU_TEMP: : 48.70 °C
+[0m
+[Tue Oct  8 08:06:16 2024] [0;32mI (158759) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.04,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	7,
+	"rtc":	"1728374775",
+	"cpu_temp":	48.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:06:16 2024] [0;32mI (159049) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:06:17 2024] [0;32mI (160379) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:06:17 2024] [0;32mI (160379) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:07:11 2024] [0;32mI (1979) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (5839) Wifi: Connected to wifi: dtp[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (5839) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:07:15 2024] [0;33mW (5839) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct  8 08:07:15 2024] [0;33mW (5839) Timestamp: Time is not set yet. Initializing
+[Tue Oct  8 08:07:15 2024] [0;32mI (5849) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (5849) MQTT: Other event id:7[0m
+[Tue Oct  8 08:07:15 2024] [0;33mW (6259) Timestamp: The current date/time in Vietnam is: Tue Oct  8 15:07:15 2024[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (6259) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (6269) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (6269) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (6349) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:07:15 2024] [0;32mI (6459) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:07:16 2024] [0;32mI (6849) CPU_TEMP: : 40.70 °C
+[0m
+[Tue Oct  8 08:07:16 2024] [0;32mI (6849) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	9,
+	"rtc":	"1728374835",
+	"cpu_temp":	40.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:07:16 2024] [0;32mI (7179) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:20 2024] [0;32mI (11479) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:20 2024] [0;32mI (11479) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:07:20 2024] [0;32mI (11479) MQTT: Extracted requestId: 389[0m
+[Tue Oct  8 08:07:20 2024] [0;32mI (11489) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/389[0m
+[Tue Oct  8 08:07:21 2024] [0;32mI (11789) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:21 2024] [0;32mI (11799) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:21 2024] [0;32mI (11799) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=3-1-0-0-0.5-1-500-700-0.1-1-1355-1356-1,d02=1-2-500-600-1-23_10_18-23_10_19.2-2-700-1000-0-23_10_23-23_10_24.6-1-0-0-1,d03=0-2-0-0-0-0-0,d04=3-1-1714-1716-1;"}}
+[0m
+[Tue Oct  8 08:07:23 2024] [0;32mI (1904) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5834) Wifi: Connected to wifi: dtp[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5834) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5834) MQTT: Wifi connected, starting MQTT task[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5834) Time: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5834) Time: Event group for MQTT created successfully[0m
+ ct  8 15:07:26 2024[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5844) MQTT: Other event id:7[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5844) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5854) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (5864) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:07:27 2024] [0;32mI (6584) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6844) CPU_TEMP: : 40.70 °C
+[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6844) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	10,
+	"rtc":	"1728374847",
+	"cpu_temp":	40.7,
+	"rssi":	-36,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6894) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6894) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6904) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6904) MQTT: Extracted requestId: 391[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (6904) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/391[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (7194) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:28 2024] [0;32mI (7294) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:34 2024] [0;32mI (13034) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:34 2024] [0;32mI (13044) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:07:34 2024] [0;32mI (13044) MQTT: Extracted requestId: 392[0m
+[Tue Oct  8 08:07:34 2024] [0;32mI (13054) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/392[0m
+[Tue Oct  8 08:07:34 2024] [0;32mI (13344) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:35 2024] [0;32mI (13964) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:35 2024] [0;32mI (13964) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:07:35 2024] [0;32mI (13974) MQTT: Extracted requestId: 393[0m
+[Tue Oct  8 08:07:35 2024] [0;32mI (13974) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/393[0m
+[Tue Oct  8 08:07:35 2024] [0;32mI (14264) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:36 2024] [0;32mI (15494) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:07:36 2024] [0;32mI (15494) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:07:36 2024] [0;32mI (15494) MQTT: Extracted requestId: 394[0m
+[Tue Oct  8 08:07:36 2024] [0;32mI (15504) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/394[0m
+[Tue Oct  8 08:07:37 2024] [0;32mI (15804) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:07:57 2024] [0;32mI (35864) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:07:57 2024] [0;32mI (35864) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:08:27 2024] [0;32mI (65864) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:08:27 2024] [0;32mI (65864) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:08:28 2024] [0;32mI (66864) CPU_TEMP: : 37.70 °C
+[0m
+[Tue Oct  8 08:08:28 2024] [0;32mI (66864) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	10,
+	"rtc":	"1728374907",
+	"cpu_temp":	37.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:08:28 2024] [0;32mI (67414) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:09:01 2024] [0;32mI (2059) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 08:09:03 2024] [0;32mI (5929) Wifi: Connected to wifi: dtp[0m
+[Tue Oct  8 08:09:03 2024] [0;33mW (5929) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:09:03 2024] [0;33mW (5929) Time: Wif: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct  8 08:09:03 2024] [0;33mW (5929) Time: Wif: Time is not set yet. Initializing
+[Tue Oct  8 08:09:03 2024] [0;32mI (5939) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:09:03 2024] [0;32mI (5939) MQTT: Other event id:7[0m
+[Tue Oct  8 08:09:03 2024] [0;32mI (6549) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6859) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6939) CPU_TEMP: : 39.70 °C
+[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6939) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	6,
+	"cpu_temp":	39.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6949) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6969) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6969) MQTT: Extracted requestId: 395[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (6979) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/395[0m
+[Tue Oct  8 08:09:04 2024] [0;32mI (7049) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7769) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7779) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7779) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7779) MQTT: Extracted requestId: 396[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7789) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/396[0m
+[Tue Oct  8 08:09:05 2024] [0;33mW (7929) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (7969) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:09:05 2024] [0;33mW (8379) Timestamp: The current date/time in Vietnam is: Tue Oct  8 15:09:05 2024[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (8379) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (8389) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:09:05 2024] [0;32mI (8389) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:09:06 2024] [0;32mI (8689) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:09:06 2024] [0;32mI (8689) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:09:06 2024] [0;32mI (8699) MQTT: Extracted requestId: 397[0m
+[Tue Oct  8 08:09:06 2024] [0;32mI (8699) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/397[0m
+[Tue Oct  8 08:09:06 2024] [0;32mI (8999) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:09:35 2024] [0;32mI (38399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:09:35 2024] [0;32mI (38399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:10:04 2024] [0;32mI (66959) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 08:10:04 2024] [0;32mI (66959) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375003",
+	"cpu_temp":	36.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:10:04 2024] [0;32mI (67369) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:10:05 2024] [0;32mI (68399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:10:05 2024] [0;32mI (68399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:10:35 2024] [0;32mI (98399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:10:35 2024] [0;32mI (98399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:11:04 2024] [0;32mI (126979) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:11:04 2024] [0;32mI (126979) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.04,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375063",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:11:04 2024] [0;32mI (127069) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:11:05 2024] [0;32mI (128399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:11:05 2024] [0;32mI (128399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:11:35 2024] [0;32mI (158399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:11:35 2024] [0;32mI (158399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:12:04 2024] [0;32mI (186999) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:12:04 2024] [0;32mI (186999) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.05,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375123",
+	"cpu_temp":	35.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:12:04 2024] [0;32mI (187179) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:12:05 2024] [0;32mI (188399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:12:05 2024] [0;32mI (188399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:12:35 2024] [0;32mI (218399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:12:35 2024] [0;32mI (218399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:13:04 2024] [0;32mI (247019) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:13:04 2024] [0;32mI (247019) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.07,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375183",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:13:04 2024] [0;32mI (247399) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:13:05 2024] [0;32mI (248399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:13:05 2024] [0;32mI (248399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:13:35 2024] [0;32mI (278399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:13:35 2024] [0;32mI (278399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:14:04 2024] [0;32mI (307039) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:14:04 2024] [0;32mI (307039) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.09,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375244",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:14:04 2024] [0;32mI (307309) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:14:05 2024] [0;32mI (308399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:14:05 2024] [0;32mI (308399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:14:35 2024] [0;32mI (338399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:14:35 2024] [0;32mI (338399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:15:04 2024] [0;32mI (367059) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:15:04 2024] [0;32mI (367059) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.1,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375304",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:15:04 2024] [0;32mI (367529) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:15:05 2024] [0;32mI (368399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:15:05 2024] [0;32mI (368399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:15:35 2024] [0;32mI (398399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:15:35 2024] [0;32mI (398399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:16:04 2024] [0;32mI (427079) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:16:04 2024] [0;32mI (427079) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.12,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	12,
+	"rtc":	"1728375364",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:16:04 2024] [0;32mI (427219) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:16:05 2024] [0;32mI (428399) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:16:05 2024] [0;32mI (428399) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:23:37 2024] [0;32mI (127169) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 08:23:37 2024] [0;32mI (127179) wifi_prov_mgr: STA Got IP[0m
+[Tue Oct  8 08:23:37 2024] [0;32mI (127179) Wifi: Provisioning successful[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138619) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138619) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138619) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+[0m
+[Tue Oct  8 08:23:48 2024] [0;31mE (138639) protocomm_nimble: Error setting advertisement data; rc = 30[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138639) wifi_prov_mgr: Provisioning stopped[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138649) Wifi: BLE transport: Disconnected![0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138649) Wifi: Provisioning ended[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138649) wifi_prov_scheme_ble: BTDM memory released[0m
+[Tue Oct  8 08:23:48 2024] [0;33mW (138659) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:23:48 2024] [0;33mW (138659) Time: Wif: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct  8 08:23:48 2024] [0;33mW (138659) Time: Wif: Time is not set yet. Initializing
+[Tue Oct  8 08:23:48 2024] [0;32mI (138679) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:23:48 2024] [0;32mI (138679) MQTT: Other event id:7[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139329) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:23:49 2024] <ba-add>idx:0 (ifx:0, 16:85:7f:7b:a5:16), tid:0, ssn:6, winSize:64
+[Tue Oct  8 08:23:49 2024] [0;32mI (139639) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:23:49 2024] [0;33mW (139649) Timestamp: The current date/time in Vietnam is: Tue Oct  8 15:23:49 2024[0m
+[Tue Oct  8 08:23:49 2024] I (139629) wifi:
+[Tue Oct  8 08:23:49 2024] [0;32mI (139649) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:23:49 2024] 
+[Tue Oct  8 08:23:49 2024] [0;32mI (139649) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139659) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139659) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139669) MQTT: Extracted requestId: 402[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139679) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139679) CPU_TEMP: : 44.70 °C
+[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139689) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/402[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139699) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.04,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	2,
+	"rtc":	"1728375829",
+	"cpu_temp":	44.7,
+	"rssi":	-27,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:23:49 2024] <ba-add>idx:1 (ifx:0, 16:85:7f:7b:a5:16), tid:1, ssn:5, winSize:64
+[Tue Oct  8 08:23:49 2024] I (139739) wifi:
+[Tue Oct  8 08:23:49 2024] 
+[Tue Oct  8 08:23:49 2024] [0;32mI (139949) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139949) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:23:49 2024] [0;32mI (139949) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=3-1-0-0-0.5-1-500-700-0.1-1-1355-1356-1,d02=1-2-500-600-1-23_10_18-23_10_19.2-2-700-1000-0-23_10_23-23_10_24.6-1-0-0-1,d03=0-2-0-0-0-0-0,d04=3-1-1714-1716-1;"}}
+[0m
+[Tue Oct  8 08:23:53 2024] [0;32mI (2744) Wifi: Logging to UDP server at 13.55.39.26:5007[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6044) Wifi: Connected to wifi: dtp[0m
+[Tue Oct  8 08:23:56 2024] [0;33mW (6044) Wifi: Wifi initialized[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6044) MQTT: Wifi connected, starting MQTT task[0m
+[Tue Oct  8 08:23:56 2024] [0;33mW (6044) Timestamp: The current date/time in Vietnam is: Tue Oct  8 15:23:55 2024[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6044) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6054) Timestamp: System time set successfully[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6054) MQTT: Other event id:7[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6064) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:23:56 2024] [0;32mI (6584) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (6894) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (6904) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (6904) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (6904) MQTT: Extracted requestId: 404[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (6914) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/404[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7054) CPU_TEMP: : 43.70 °C
+[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7054) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728375836",
+	"cpu_temp":	43.7,
+	"rssi":	-27,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7104) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7514) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7814) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7814) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7824) MQTT: Extracted requestId: 405[0m
+[Tue Oct  8 08:23:57 2024] [0;32mI (7824) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/405[0m
+[Tue Oct  8 08:23:58 2024] [0;32mI (8134) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:24:26 2024] [0;32mI (36074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:24:26 2024] [0;32mI (36074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:24:56 2024] [0;32mI (66074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:24:56 2024] [0;32mI (66074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:24:57 2024] [0;32mI (67074) CPU_TEMP: : 37.70 °C
+[0m
+[Tue Oct  8 08:24:57 2024] [0;32mI (67074) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.02,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728375896",
+	"cpu_temp":	37.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:24:57 2024] [0;32mI (67424) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:25:26 2024] [0;32mI (96074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:25:26 2024] [0;32mI (96074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:25:56 2024] [0;32mI (126074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:25:56 2024] [0;32mI (126074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:25:57 2024] [0;32mI (127094) CPU_TEMP: : 36.70 °C
+[0m
+[Tue Oct  8 08:25:57 2024] [0;32mI (127094) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.04,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728375956",
+	"cpu_temp":	36.7,
+	"rssi":	-27,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:25:57 2024] [0;32mI (127324) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:26:26 2024] [0;32mI (156074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:26:26 2024] [0;32mI (156074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:26:56 2024] [0;32mI (186074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:26:56 2024] [0;32mI (186074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:26:57 2024] [0;32mI (187114) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:26:57 2024] [0;32mI (187114) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.05,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376016",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:26:57 2024] [0;32mI (187544) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:27:26 2024] [0;32mI (216074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:27:26 2024] [0;32mI (216074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:27:56 2024] [0;32mI (246074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:27:56 2024] [0;32mI (246074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:27:57 2024] [0;32mI (247134) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:27:57 2024] [0;32mI (247134) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.07,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376076",
+	"cpu_temp":	35.7,
+	"rssi":	-38,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:27:57 2024] [0;32mI (247454) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:28:26 2024] [0;32mI (276074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:28:26 2024] [0;32mI (276074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:28:56 2024] [0;32mI (306074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:28:56 2024] [0;32mI (306074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:28:57 2024] [0;32mI (307154) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:28:57 2024] [0;32mI (307154) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.09,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376136",
+	"cpu_temp":	35.7,
+	"rssi":	-32,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:28:57 2024] [0;32mI (307364) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:29:26 2024] [0;32mI (336074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:29:26 2024] [0;32mI (336074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:29:56 2024] [0;32mI (366074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:29:56 2024] [0;32mI (366074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:29:57 2024] [0;32mI (367174) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:29:57 2024] [0;32mI (367174) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.1,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376196",
+	"cpu_temp":	35.7,
+	"rssi":	-42,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:29:57 2024] [0;32mI (367584) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:30:26 2024] [0;32mI (396074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:30:26 2024] [0;32mI (396074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:30:56 2024] [0;32mI (426074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:30:56 2024] [0;32mI (426074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:30:57 2024] [0;32mI (427194) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:30:57 2024] [0;32mI (427194) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.12,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376256",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:30:57 2024] [0;32mI (427484) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:31:26 2024] [0;32mI (456074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:31:26 2024] [0;32mI (456074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:31:56 2024] [0;32mI (486074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:31:56 2024] [0;32mI (486074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:31:57 2024] [0;32mI (487214) CPU_TEMP: : 37.70 °C
+[0m
+[Tue Oct  8 08:31:57 2024] [0;32mI (487214) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.14,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376316",
+	"cpu_temp":	37.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:31:57 2024] [0;32mI (487384) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:32:26 2024] [0;32mI (516074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:32:26 2024] [0;32mI (516074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:32:56 2024] [0;32mI (546074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:32:56 2024] [0;32mI (546074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:32:57 2024] [0;32mI (547234) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:32:57 2024] [0;32mI (547234) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.15,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376376",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:32:57 2024] [0;32mI (547604) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:33:26 2024] [0;32mI (576074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:33:26 2024] [0;32mI (576074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:33:56 2024] [0;32mI (606074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:33:56 2024] [0;32mI (606074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:33:57 2024] [0;32mI (607254) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:33:57 2024] [0;32mI (607254) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.17,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376436",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:33:57 2024] [0;32mI (607414) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:34:26 2024] [0;32mI (636074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:34:26 2024] [0;32mI (636074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:34:56 2024] [0;32mI (666074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:34:56 2024] [0;32mI (666074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:34:57 2024] [0;32mI (667274) CPU_TEMP: : 34.70 °C
+[0m
+[Tue Oct  8 08:34:57 2024] [0;32mI (667274) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.19,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376496",
+	"cpu_temp":	34.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:34:57 2024] [0;32mI (667424) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:35:26 2024] [0;32mI (696074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:35:26 2024] [0;32mI (696074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:35:56 2024] [0;32mI (726074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:35:56 2024] [0;32mI (726074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:35:57 2024] [0;32mI (727294) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:35:57 2024] [0;32mI (727294) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.2,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376556",
+	"cpu_temp":	35.7,
+	"rssi":	-27,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:35:57 2024] [0;32mI (727654) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:36:26 2024] [0;32mI (756074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:36:26 2024] [0;32mI (756074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:36:56 2024] [0;32mI (786074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:36:56 2024] [0;32mI (786074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:36:57 2024] [0;32mI (787314) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:36:57 2024] [0;32mI (787314) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.22,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376616",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:36:57 2024] [0;32mI (787444) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:37:26 2024] [0;32mI (816074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:37:26 2024] [0;32mI (816074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:37:56 2024] [0;32mI (846074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:37:56 2024] [0;32mI (846074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:37:57 2024] [0;32mI (847334) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:37:57 2024] [0;32mI (847334) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.24,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376676",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:37:57 2024] [0;32mI (847774) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:38:26 2024] [0;32mI (876074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:38:26 2024] [0;32mI (876074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:38:56 2024] [0;32mI (906074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:38:56 2024] [0;32mI (906074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:38:57 2024] [0;32mI (907354) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:38:57 2024] [0;32mI (907354) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.25,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376736",
+	"cpu_temp":	35.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:38:57 2024] [0;32mI (907674) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:39:26 2024] [0;32mI (936074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:39:26 2024] [0;32mI (936074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:39:56 2024] [0;32mI (966074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:39:56 2024] [0;32mI (966074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:39:57 2024] [0;32mI (967374) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:39:57 2024] [0;32mI (967374) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.27,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376796",
+	"cpu_temp":	35.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:39:57 2024] [0;32mI (967584) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:40:56 2024] [0;32mI (1026074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:40:56 2024] [0;32mI (1026074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:40:57 2024] [0;32mI (1027394) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:40:57 2024] [0;32mI (1027394) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.29,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376856",
+	"cpu_temp":	35.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:40:57 2024] [0;32mI (1027804) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:41:26 2024] [0;32mI (1056074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:41:26 2024] [0;32mI (1056074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:41:56 2024] [0;32mI (1086074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:41:56 2024] [0;32mI (1086074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:41:57 2024] [0;32mI (1087414) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:41:57 2024] [0;32mI (1087414) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.3,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376916",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:41:57 2024] [0;32mI (1087714) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:42:26 2024] [0;32mI (1116074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:42:26 2024] [0;32mI (1116074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:42:56 2024] [0;32mI (1146074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:42:56 2024] [0;32mI (1146074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:42:57 2024] [0;32mI (1147434) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:42:57 2024] [0;32mI (1147434) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.32,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728376976",
+	"cpu_temp":	35.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:42:57 2024] [0;32mI (1147924) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:43:26 2024] [0;32mI (1176074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:43:26 2024] [0;32mI (1176074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:43:56 2024] [0;32mI (1206074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:43:56 2024] [0;32mI (1206074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:43:57 2024] [0;32mI (1207454) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:43:57 2024] [0;32mI (1207454) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.34,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377036",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:43:57 2024] [0;32mI (1207834) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:44:26 2024] [0;32mI (1236074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:44:26 2024] [0;32mI (1236074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:44:56 2024] [0;32mI (1266074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:44:56 2024] [0;32mI (1266074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:44:57 2024] [0;32mI (1267474) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:44:57 2024] [0;32mI (1267474) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.35,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377096",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:44:57 2024] [0;32mI (1267744) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:45:26 2024] [0;32mI (1296074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:45:56 2024] [0;32mI (1326074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:45:56 2024] [0;32mI (1326074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:45:58 2024] [0;32mI (1328574) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:46:26 2024] [0;32mI (1356074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:46:56 2024] [0;32mI (1386074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:46:56 2024] [0;32mI (1386074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:46:57 2024] [0;32mI (1387514) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:46:57 2024] [0;32mI (1387514) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.39,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377216",
+	"cpu_temp":	35.7,
+	"rssi":	-39,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:46:57 2024] [0;32mI (1387874) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:47:26 2024] [0;32mI (1416074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:47:26 2024] [0;32mI (1416074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:47:56 2024] [0;32mI (1446074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:47:56 2024] [0;32mI (1446074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:47:57 2024] [0;32mI (1447534) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:47:57 2024] [0;32mI (1447534) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.4,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377276",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:47:57 2024] [0;32mI (1447774) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:48:26 2024] [0;32mI (1476074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:48:26 2024] [0;32mI (1476074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:48:56 2024] [0;32mI (1506074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:48:56 2024] [0;32mI (1506074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:48:57 2024] [0;32mI (1507554) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:48:57 2024] [0;32mI (1507554) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.42,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377336",
+	"cpu_temp":	35.7,
+	"rssi":	-41,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:48:57 2024] [0;32mI (1507994) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:49:26 2024] [0;32mI (1536074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:49:26 2024] [0;32mI (1536074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:49:56 2024] [0;32mI (1566074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:49:56 2024] [0;32mI (1566074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:49:57 2024] [0;32mI (1567574) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:49:57 2024] [0;32mI (1567574) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.44,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377396",
+	"cpu_temp":	35.7,
+	"rssi":	-42,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:49:57 2024] [0;32mI (1567904) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:50:26 2024] [0;32mI (1596074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:50:26 2024] [0;32mI (1596074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:50:56 2024] [0;32mI (1626074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:50:56 2024] [0;32mI (1626074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:50:57 2024] [0;32mI (1627594) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:50:57 2024] [0;32mI (1627594) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.45,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377456",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:50:57 2024] [0;32mI (1627814) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:51:26 2024] [0;32mI (1656074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:51:26 2024] [0;32mI (1656074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:51:56 2024] [0;32mI (1686074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:51:56 2024] [0;32mI (1686074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:51:57 2024] [0;32mI (1687614) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:51:57 2024] [0;32mI (1687614) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.47,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377516",
+	"cpu_temp":	35.7,
+	"rssi":	-30,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:51:58 2024] [0;32mI (1688024) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:52:26 2024] [0;32mI (1716074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:52:26 2024] [0;32mI (1716074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:52:56 2024] [0;32mI (1746074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:52:56 2024] [0;32mI (1746074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:52:57 2024] [0;32mI (1747634) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:52:57 2024] [0;32mI (1747634) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.49,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377576",
+	"cpu_temp":	35.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:52:57 2024] [0;32mI (1747934) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:53:26 2024] [0;32mI (1776074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:53:26 2024] [0;32mI (1776074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:53:56 2024] [0;32mI (1806074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:53:56 2024] [0;32mI (1806074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:53:57 2024] [0;32mI (1807654) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:53:57 2024] [0;32mI (1807654) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.5,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377636",
+	"cpu_temp":	35.7,
+	"rssi":	-42,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:53:58 2024] [0;32mI (1808154) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:54:56 2024] [0;32mI (1866074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:54:56 2024] [0;32mI (1866074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:54:59 2024] [0;32mI (1869294) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:55:26 2024] [0;32mI (1896074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:55:26 2024] [0;32mI (1896074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:55:56 2024] [0;32mI (1926074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:55:56 2024] [0;32mI (1926074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:55:57 2024] [0;32mI (1927694) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:55:57 2024] [0;32mI (1927694) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.54,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377756",
+	"cpu_temp":	35.7,
+	"rssi":	-27,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:55:57 2024] [0;32mI (1927864) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:56:26 2024] [0;32mI (1956074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:56:26 2024] [0;32mI (1956074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:56:56 2024] [0;32mI (1986074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:56:56 2024] [0;32mI (1986074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:56:57 2024] [0;32mI (1987724) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:56:57 2024] [0;32mI (1987724) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.55,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377816",
+	"cpu_temp":	35.7,
+	"rssi":	-29,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:56:58 2024] [0;32mI (1988184) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:57:26 2024] [0;32mI (2016074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:57:26 2024] [0;32mI (2016074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:57:56 2024] [0;32mI (2046074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:57:56 2024] [0;32mI (2046074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:57:57 2024] [0;32mI (2047744) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:57:57 2024] [0;32mI (2047744) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.57,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377876",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:57:57 2024] [0;32mI (2047884) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:58:26 2024] [0;32mI (2076074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:58:26 2024] [0;32mI (2076074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:58:56 2024] [0;32mI (2106074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:58:57 2024] [0;32mI (2107764) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:58:57 2024] [0;32mI (2107764) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.59,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377936",
+	"cpu_temp":	35.7,
+	"rssi":	-40,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:58:58 2024] [0;32mI (2108014) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 08:59:26 2024] [0;32mI (2136074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:59:56 2024] [0;32mI (2166074) Wifi: Checking for wifi status...[0m
+[Tue Oct  8 08:59:56 2024] [0;32mI (2166074) Wifi: Wifi is still connected[0m
+[Tue Oct  8 08:59:57 2024] [0;32mI (2167794) CPU_TEMP: : 35.70 °C
+[0m
+[Tue Oct  8 08:59:57 2024] [0;32mI (2167794) MQTT: Message sent: {
+	"mac":	"16:85:7F:7B:A5:16",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"dtp",
+	"continous_operation":	0.6,
+	"ip_address":	"192.168.137.26",
+	"bootnum":	3,
+	"rtc":	"1728377996",
+	"cpu_temp":	35.7,
+	"rssi":	-28,
+	"rtc_src":	1
+}[0m
+[Tue Oct  8 08:59:57 2024] [0;32mI (2167904) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct  8 09:00:26 2024] [0;32mI (2196074) Wifi: Checking for wifi status...[0m

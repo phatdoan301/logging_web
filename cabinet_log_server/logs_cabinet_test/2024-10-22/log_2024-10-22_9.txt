@@ -1,0 +1,442 @@
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.221) MQTT: Wifi connected, starting MQTT task[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.227) MQTT: Event group for MQTT created successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.240) MQTT: broker_uri=mqtt://35.240.204.122:1883[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.253) MQTT: Other event id:7[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.246) MQTT: id=cabinet_0924_35[0m
+[Tue Oct 22 09:59:27 2024] <ba-add>idx:0 (ifx:0, 10:5d:dc:6b:0f:98), tid:1, ssn:1, winSize:64
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.673) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Oct 22 09:59:27 2024] I (11315) wifi:
+[Tue Oct 22 09:59:27 2024] 
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.746) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.831) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.837) MQTT: Extracted requestId: 267[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.834) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:10.846) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/267[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.118) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.129) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.132) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=0-2-0-0-0-0-0,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=0-2-0-0-0-0-0;"}}
+[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.133) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.140) MQTT: Extracted requestId: 268[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.147) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.156) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/268[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.161) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.177) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.186) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.203) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.211) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.219) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.194) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.227) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.236) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.244) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.259) MQTT: Received feedback from relay control task: 0, 1[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.269) NVS: Store timer of [1] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.279) MQTT: Message sent: {
+	"mac":	"10:5D:DC:6B:0F:98",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Tepbac.com",
+	"continous_operation":	0,
+	"ip_address":	"192.168.3.136",
+	"bootnum":	75,
+	"rtc":	11,
+	"cpu_temp":	0,
+	"rssi":	-61,
+	"rtc_src":	1
+}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.279) MQTT: Sync data sent: {"d01":1}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.288) MQTT: Received feedback from relay control task: 1, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.322) MQTT: Sync data sent: {"d02":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.329) NVS: Store timer of [2] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.336) MQTT: Received feedback from relay control task: 2, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.346) MQTT: Sync data sent: {"d03":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.355) MQTT: Received feedback from relay control task: 3, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.359) NVS: Store timer of [3] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.365) MQTT: Sync data sent: {"d04":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.381) MQTT: Received feedback from relay control task: 4, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.390) MQTT: Sync data sent: {"d05":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.398) MQTT: Received feedback from relay control task: 5, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.403) MQTT: Sync data sent: {"d06":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.410) MQTT: Received feedback from relay control task: 6, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.420) MQTT: Sync data sent: {"d07":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.406) NVS: Store timer of [4] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.436) MQTT: Received feedback from relay control task: 7, 0[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.442) NVS: Store timer of [1] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.447) MQTT: Sync data sent: {"d08":0}[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.467) NVS: Store timer of [2] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.478) NVS: Store timer of [3] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.502) NVS: Store timer of [4] successfully[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.548) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.558) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.567) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.575) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.583) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.604) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.620) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.628) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.612) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:11.693) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.014) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.018) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.021) MQTT: Extracted requestId: 269[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.031) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/269[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.188) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.246) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.249) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.254) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.263) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.271) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.280) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.288) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.297) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.305) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.314) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.322) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:12.330) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] <ba-add>idx:1 (ifx:0, 10:5d:dc:6b:0f:98), tid:0, ssn:0, winSize:64
+[Tue Oct 22 09:59:27 2024] I (13845) wifi:
+[Tue Oct 22 09:59:27 2024] 
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.347) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.383) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.391) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.399) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.408) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.416) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.425) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.433) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.352) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.357) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.366) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:27 2024] [0;32mI (00:00:13.374) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.472) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.481) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.489) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.498) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.506) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.515) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.445) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.450) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.455) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.464) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.523) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:28 2024] [0;32mI (00:00:14.531) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.545) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.550) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.555) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.564) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.572) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.581) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.589) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.598) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.606) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.615) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.623) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:29 2024] [0;32mI (00:00:15.631) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.642) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.645) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.650) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.659) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.668) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.677) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.684) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.693) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.701) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.710) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.718) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:30 2024] [0;32mI (00:00:16.726) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.739) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.745) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.750) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.758) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.767) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.775) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.783) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.792) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.800) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.809) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.817) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:31 2024] [0;32mI (00:00:17.825) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.835) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.837) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.842) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.851) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.859) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.867) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.876) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.885) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.893) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.901) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.910) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:18.917) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:32 2024] [0;32mI (00:00:19.135) Wifi: Connected to wifi: Tepbac.com[0m
+[Tue Oct 22 09:59:32 2024] [0;33mW (00:00:19.138) Wifi: Wifi initialized[0m
+[Tue Oct 22 09:59:32 2024] [0;33mW (00:00:19.141) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.934) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.939) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.944) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.953) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.961) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.970) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.978) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.986) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:19.995) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:20.003) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:20.012) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:33 2024] [0;32mI (00:00:20.019) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.038) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.041) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.046) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.055) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.064) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.072) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.081) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.089) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.097) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.107) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.114) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:34 2024] [0;32mI (00:00:21.122) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:34 2024] [0;33mW (00:00:21.168) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.138) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.140) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.145) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.154) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.162) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.171) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.179) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.188) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.196) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.205) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.213) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:35 2024] [0;32mI (00:00:22.221) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:36 2024] [0;33mW (00:00:23.189) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.239) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.241) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.246) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.255) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.264) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.272) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.280) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.289) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.297) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.306) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.314) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:36 2024] [0;32mI (00:00:23.322) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:37 2024] [0;33mW (09:59:37.037) Timestamp: The current date/time in Vietnam is: Tue Oct 22 09:59:37 2024[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.040) Timestamp: System time set successfully[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.047) Wifi: Checking for wifi status...[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.052) Wifi: Wifi is still connected[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.584) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.589) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.594) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.606) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.611) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.619) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.628) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.636) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.644) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.654) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.661) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:37 2024] [0;32mI (09:59:37.669) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.682) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.687) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.692) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.700) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.709) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.719) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.726) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.734) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.744) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:38 2024] [0;32mI (09:59:38.751) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:39 2024] [0;32mI (09:59:38.759) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:39 2024] [0;32mI (09:59:38.767) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:39 2024] [0;32mI (09:59:39.780) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:39 2024] [0;32mI (09:59:39.783) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:39 2024] [0;32mI (09:59:39.788) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.797) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.805) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.814) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.822) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.831) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.839) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.847) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.856) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:39.864) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.880) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.886) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.891) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.900) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.908) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.916) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:40 2024] [0;32mI (09:59:40.925) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:40.933) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:40.942) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:40.950) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:40.958) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:40.966) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:41.981) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:41 2024] [0;32mI (09:59:41.985) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:41.990) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:41.999) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.007) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.016) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.025) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.033) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.041) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.050) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.059) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:42 2024] [0;32mI (09:59:42.068) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.078) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.080) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.085) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.094) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.102) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.113) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.120) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.128) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.136) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.145) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.153) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:43 2024] [0;32mI (09:59:43.161) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.174) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.179) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.184) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.193) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.201) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.210) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.218) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.227) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.236) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.244) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.252) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:44 2024] [0;32mI (09:59:44.260) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.272) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.277) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.282) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.291) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.299) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.308) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.316) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.325) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.333) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.342) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.350) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:45 2024] [0;32mI (09:59:45.358) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.371) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.377) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.382) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.390) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.399) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.407) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.416) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.424) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.432) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.441) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.450) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:46 2024] [0;32mI (09:59:46.457) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.470) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.474) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.479) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.489) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.496) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.505) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.513) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.522) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.530) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.539) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:47 2024] [0;32mI (09:59:47.555) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.565) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.570) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.575) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.584) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.592) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.601) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.609) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.619) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.626) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.635) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.643) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:48 2024] [0;32mI (09:59:48.651) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.660) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.664) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.669) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.678) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.687) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.695) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.703) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.712) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.720) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.729) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:49 2024] [0;32mI (09:59:49.737) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:50 2024] [0;32mI (09:59:49.745) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:51 2024] [0;32mI (09:59:51.859) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:51 2024] [0;32mI (09:59:51.864) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:51 2024] [0;32mI (09:59:51.874) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:51 2024] [0;32mI (09:59:51.882) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:51 2024] [0;32mI (09:59:51.890) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:51.898) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:51.907) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:51.915) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:52.949) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:52.954) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:52 2024] [0;32mI (09:59:52.960) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:52.985) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:52.993) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:53.002) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:53.010) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:53.019) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:53.027) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:53.035) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:54.047) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:54.052) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:54.058) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:53 2024] [0;32mI (09:59:54.066) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.083) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.091) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.100) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.108) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.117) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.125) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:54.133) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:55.144) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:55.148) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:54 2024] [0;32mI (09:59:55.153) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.161) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.170) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.178) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.187) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.195) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.204) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:55 2024] [0;32mI (09:59:55.212) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.242) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.247) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.252) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.269) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.277) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.286) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.295) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.303) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.311) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.320) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:56 2024] [0;32mI (09:59:56.327) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.338) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.343) CABINET_CONTROLLER_LOG: | Relay | Expected Status | Actual Status |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.348) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.357) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.365) CABINET_CONTROLLER_LOG: |   2   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.382) CABINET_CONTROLLER_LOG: |   4   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.390) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.407) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:57 2024] [0;32mI (09:59:57.416) CABINET_CONTROLLER_LOG: |   8   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:58 2024] [0;32mI (09:59:57.424) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:58 2024] [0;32mI (09:59:58.479) CABINET_CONTROLLER_LOG: |   5   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:58 2024] [0;32mI (09:59:58.488) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:58 2024] [0;32mI (09:59:58.496) CABINET_CONTROLLER_LOG: |   7   |       OFF       |       OFF      |[0m
+[Tue Oct 22 09:59:59 2024] [0;32mI (09:59:58.512) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:59 2024] [0;32mI (09:59:59.519) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:59 2024] [0;32mI (09:59:59.528) CABINET_CONTROLLER_LOG: -------------------------------------[0m
+[Tue Oct 22 09:59:59 2024] [0;32mI (09:59:59.538) CABINET_CONTROLLER_LOG: |   1   |       ON        |       ON       |[0m
+[Tue Oct 22 09:59:59 2024] [0;32mI (09:59:59.554) CABINET_CONTROLLER_LOG: |   3   |       OFF       |       OFF      |[0m
+[Tue Oct 22 10:00:00 2024] [0;32mI (09:59:59.579) CABINET_CONTROLLER_LOG: |   6   |       OFF       |       OFF      |[0m

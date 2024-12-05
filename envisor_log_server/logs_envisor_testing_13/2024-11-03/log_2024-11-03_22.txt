@@ -1,0 +1,615 @@
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.098) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:01:19 2024] [0;31mE (15:00:12.101) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.104) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.144) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.146) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.149) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.157) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.162) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:01:19 2024] [0;32mI (15:00:12.168) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (15:00:19.018) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:01:24 2024] [0;33mW (15:00:19.021) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:01:24 2024] I (13242) wifi:
+[Sun Nov  3 22:01:24 2024] 
+[Sun Nov  3 22:01:24 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:01:24 2024] [0;32mI (15:00:19.027) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (15:00:19.035) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (15:00:19.045) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:01:24 2024] [0;33mW (22:00:19.051) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:00:19 2024[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (22:00:19.059) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (22:00:19.065) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:01:24 2024] [0;32mI (22:00:19.071) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:01:25 2024] [0;31mE (22:00:20.058) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:01:25 2024] [0;31mE (22:00:20.062) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Sun Nov  3 22:01:25 2024] [0;32mI (22:00:20.067) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:01:27 2024] [0;32mI (22:00:22.210) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:23.971) MQTT: Other event id:7[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.185) MQTT: MQTT_EVENT_CONNECTED[0m
+[Sun Nov  3 22:01:29 2024] [0;33mW (22:00:24.187) MAIN: Finish led task[0m
+[Sun Nov  3 22:01:29 2024] [0;33mW (22:00:24.191) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.197) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-49
+}[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.207) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.209) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:01:29 2024] I (18412) wifi:
+[Sun Nov  3 22:01:29 2024] 
+[Sun Nov  3 22:01:29 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:3, winSize:64
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.255) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.314) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.325) MQTT: MQTT_RECEIVED DATA[0m
+[Sun Nov  3 22:01:29 2024] [0;32mI (22:00:24.328) MQTT: Extracted requestId: 574[0m
+[Sun Nov  3 22:01:30 2024] [0;32mI (22:00:24.333) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/574[0m
+[Sun Nov  3 22:01:30 2024] [0;32mI (22:00:24.494) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:30 2024] [0;31mE (22:00:25.207) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:01:30 2024] [0;31mE (22:00:25.210) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:01:30 2024] [0;32mI (22:00:25.213) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:01:30 2024] [0;33mW (22:00:25.216) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:01:30 2024] [0;32mI (22:00:25.231) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.717
+}[0m
+[Sun Nov  3 22:01:30 2024] [0;32mI (22:00:25.312) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:31 2024] [0;32mI (22:00:25.925) MQTT: MQTT_RECEIVED DATA[0m
+[Sun Nov  3 22:01:31 2024] [0;32mI (22:00:25.928) MQTT: Extracted requestId: 575[0m
+[Sun Nov  3 22:01:31 2024] [0;32mI (22:00:25.934) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/575[0m
+[Sun Nov  3 22:01:31 2024] [0;32mI (22:00:26.028) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:41 2024] [0;33mW (22:00:35.615) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:01:41 2024] [0;32mI (22:00:35.622) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:01:41 2024] [0;32mI (22:00:35.760) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:51 2024] [0;32mI (22:00:46.076) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:01:51 2024] [0;33mW (22:00:46.080) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:01:51 2024] [0;32mI (22:00:46.085) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:01:51 2024] [0;32mI (22:00:46.205) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:01:55 2024] [0;32mI (22:00:50.181) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:01:55 2024] [0;32mI (22:00:50.184) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:02:05 2024] [0;32mI (15:00:59.970) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:02:07 2024] [0;32mI (15:01:01.967) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:02:30 2024] [0;32mI (15:01:24.553) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.549) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:02:32 2024] [0;31mE (15:01:26.553) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.555) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.595) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.597) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.600) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.608) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.613) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:02:32 2024] [0;32mI (15:01:26.620) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (15:01:33.489) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:02:39 2024] [0;33mW (15:01:33.493) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:02:39 2024] I (13252) wifi:
+[Sun Nov  3 22:02:39 2024] 
+[Sun Nov  3 22:02:39 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:02:39 2024] [0;32mI (15:01:33.498) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (15:01:33.506) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (15:01:33.517) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:02:39 2024] [0;33mW (22:01:33.523) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:01:33 2024[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (22:01:33.530) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (22:01:33.536) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:02:39 2024] [0;32mI (22:01:33.542) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:02:40 2024] [0;31mE (22:01:34.530) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:02:40 2024] [0;31mE (22:01:34.533) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Sun Nov  3 22:02:40 2024] [0;32mI (22:01:34.538) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:02:42 2024] [0;32mI (22:01:36.664) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:02:47 2024] [0;32mI (00:00:03.707) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:02:49 2024] [0;32mI (00:00:05.704) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:03:16 2024] [0;32mI (00:00:32.409) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.405) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:03:18 2024] [0;31mE (00:00:34.408) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.411) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.451) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.454) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.457) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.465) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.470) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:03:18 2024] [0;32mI (00:00:34.477) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:03:25 2024] [0;32mI (00:00:41.345) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:03:25 2024] [0;33mW (00:00:41.349) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:03:25 2024] I (13252) wifi:
+[Sun Nov  3 22:03:25 2024] 
+[Sun Nov  3 22:03:25 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:03:25 2024] [0;32mI (00:00:41.355) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:03:32 2024] [0;32mI (00:00:48.608) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:03:34 2024] [0;32mI (00:00:50.605) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:03:38 2024] [0;32mI (00:00:54.750) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.746) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:03:40 2024] [0;31mE (00:00:56.750) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.752) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.791) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.794) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.797) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:03:40 2024] [0;32mI (00:00:56.805) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:04:00 2024] [0;32mI (00:01:16.461) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:04:02 2024] [0;32mI (00:01:18.458) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:04:06 2024] [0;32mI (00:01:22.610) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:04:08 2024] [0;32mI (00:01:24.606) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:04:18 2024] [0;32mI (00:01:34.914) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:04:24 2024] [0;32mI (00:01:41.049) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.045) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:04:26 2024] [0;31mE (00:01:43.048) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.051) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.091) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.094) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.097) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.105) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.110) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:04:26 2024] [0;32mI (00:01:43.116) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:04:33 2024] I (13252) wifi:
+[Sun Nov  3 22:04:33 2024] 
+[Sun Nov  3 22:04:33 2024] [0;32mI (00:01:49.985) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:04:33 2024] [0;33mW (00:01:49.988) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:04:33 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:04:33 2024] [0;32mI (00:01:49.993) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:04:33 2024] [0;32mI (00:01:50.001) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:04:33 2024] [0;32mI (00:01:50.012) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:04:33 2024] [0;33mW (00:01:50.017) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Sun Nov  3 22:04:35 2024] [0;33mW (00:01:52.062) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Sun Nov  3 22:04:37 2024] [0;32mI (00:01:53.165) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:04:37 2024] [0;33mW (00:01:54.096) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Sun Nov  3 22:04:38 2024] I (17922) wifi:
+[Sun Nov  3 22:04:38 2024] 
+[Sun Nov  3 22:04:38 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Sun Nov  3 22:04:38 2024] [0;33mW (22:04:38.555) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:04:38 2024[0m
+[Sun Nov  3 22:04:38 2024] [0;32mI (22:04:38.559) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:04:38 2024] [0;32mI (22:04:38.565) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:04:38 2024] [0;32mI (22:04:38.570) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:04:38 2024] [0;32mI (22:04:38.753) MQTT: Other event id:7[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.016) MQTT: MQTT_EVENT_CONNECTED[0m
+[Sun Nov  3 22:04:39 2024] [0;33mW (22:04:39.019) MAIN: Finish led task[0m
+[Sun Nov  3 22:04:39 2024] [0;33mW (22:04:39.023) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.028) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.033) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.083) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.139) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.209) MQTT: MQTT_RECEIVED DATA[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.212) MQTT: Extracted requestId: 580[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.218) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/580[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.324) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:04:39 2024] [0;31mE (22:04:39.554) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:04:39 2024] [0;31mE (22:04:39.557) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.562) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:04:39 2024] [0;32mI (22:04:39.567) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:04:40 2024] [0;31mE (22:04:40.573) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:04:40 2024] [0;31mE (22:04:40.577) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:04:40 2024] [0;32mI (22:04:40.580) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:04:40 2024] [0;33mW (22:04:40.583) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:04:40 2024] [0;32mI (22:04:40.598) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.705
+}[0m
+[Sun Nov  3 22:04:40 2024] [0;32mI (22:04:40.657) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:04:51 2024] [0;33mW (22:04:51.242) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:04:51 2024] [0;32mI (22:04:51.250) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:04:51 2024] [0;32mI (22:04:51.406) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:05:01 2024] [0;32mI (22:05:01.907) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:05:01 2024] [0;33mW (22:05:01.911) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:05:01 2024] [0;32mI (22:05:01.918) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:05:02 2024] [0;32mI (22:05:02.057) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:05:10 2024] [0;32mI (22:05:10.469) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:05:10 2024] [0;32mI (22:05:10.472) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:05:16 2024] [0;32mI (15:05:16.540) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:05:18 2024] [0;32mI (15:05:18.537) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:05:35 2024] [0;32mI (15:05:35.087) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.083) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:05:37 2024] [0;31mE (15:05:37.087) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.089) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.128) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.131) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.134) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.142) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.147) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:05:37 2024] [0;32mI (15:05:37.153) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (15:05:44.013) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:05:44 2024] [0;33mW (15:05:44.017) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:05:44 2024] I (13242) wifi:
+[Sun Nov  3 22:05:44 2024] 
+[Sun Nov  3 22:05:44 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:05:44 2024] [0;32mI (15:05:44.022) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (15:05:44.030) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (15:05:44.041) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:05:44 2024] [0;33mW (22:05:44.047) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:05:44 2024[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (22:05:44.055) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (22:05:44.060) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:05:44 2024] [0;32mI (22:05:44.066) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:05:45 2024] [0;31mE (22:05:45.054) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:05:45 2024] [0;31mE (22:05:45.057) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Sun Nov  3 22:05:45 2024] [0;32mI (22:05:45.063) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:05:47 2024] [0;32mI (22:05:47.211) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:05:52 2024] [0;32mI (00:00:03.707) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:05:54 2024] [0;32mI (00:00:05.704) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:05:54 2024] [0;31mE (00:00:05.707) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:05:54 2024] [0;32mI (00:00:05.709) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:06:07 2024] [0;32mI (00:00:19.092) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.088) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:06:09 2024] [0;31mE (00:00:21.092) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.094) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.134) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.136) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.138) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.147) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.152) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:06:09 2024] [0;32mI (00:00:21.158) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:06:16 2024] [0;32mI (00:00:28.028) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:06:16 2024] [0;33mW (00:00:28.032) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:06:16 2024] I (13252) wifi:
+[Sun Nov  3 22:06:16 2024] 
+[Sun Nov  3 22:06:16 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:06:16 2024] [0;32mI (00:00:28.038) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:06:16 2024] [0;32mI (00:00:28.045) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:06:16 2024] [0;32mI (00:00:28.056) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:06:23 2024] [0;32mI (00:00:35.268) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.265) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:06:25 2024] [0;31mE (00:00:37.268) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.270) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.311) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.313) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.316) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.324) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.329) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:06:25 2024] [0;32mI (00:00:37.336) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:06:32 2024] [0;32mI (00:00:44.195) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:06:32 2024] [0;33mW (00:00:44.198) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:06:32 2024] I (13242) wifi:
+[Sun Nov  3 22:06:32 2024] 
+[Sun Nov  3 22:06:32 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:06:32 2024] [0;32mI (00:00:44.204) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:06:32 2024] [0;32mI (00:00:44.211) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:06:32 2024] [0;32mI (00:00:44.222) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:06:32 2024] [0;33mW (00:00:44.227) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Sun Nov  3 22:06:34 2024] [0;33mW (00:00:46.273) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Sun Nov  3 22:06:35 2024] [0;32mI (00:00:47.396) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:06:36 2024] [0;33mW (00:00:48.309) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Sun Nov  3 22:06:37 2024] [0;32mI (00:00:49.182) MQTT: Other event id:7[0m
+[Sun Nov  3 22:06:37 2024] I (18142) wifi:
+[Sun Nov  3 22:06:37 2024] 
+[Sun Nov  3 22:06:37 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:0, winSize:64
+[Sun Nov  3 22:06:37 2024] [0;33mW (22:06:37.651) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:06:37 2024[0m
+[Sun Nov  3 22:06:37 2024] [0;32mI (22:06:37.655) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:06:37 2024] [0;32mI (22:06:37.660) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:06:37 2024] [0;32mI (22:06:37.666) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:06:42 2024] [0;32mI (15:06:41.949) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:06:44 2024] [0;32mI (15:06:43.946) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:07:00 2024] [0;32mI (15:07:00.395) CLEANER: clean 200 is running[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.391) CLEANER: revoooo: 1[0m
+[Sun Nov  3 22:07:02 2024] [0;31mE (15:07:02.394) CLEAN200: Current device is CLEAN200[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.397) CLEAN200: Write data to sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B
+[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.437) CLEAN200: pass UART DATA event[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.440) CLEAN200: Length of Received response from sensor: 8 
+[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.443) CLEAN200: Received data from sensor: 0x24 0x06 0x13 0x01 0x00 0x01 0x1A 0x7B [0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.450) CLEAN200: Write data successfully!
+[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.456) CLEAN200: Write data chemins successfully[0m
+[Sun Nov  3 22:07:02 2024] [0;32mI (15:07:02.462) CLEAN200: set [1] auto revolution successful[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (15:07:09.321) Wifi: Connected to wifi: Aruba_Wifi[0m
+[Sun Nov  3 22:07:09 2024] [0;33mW (15:07:09.324) Wifi: Wifi initialized[0m
+[Sun Nov  3 22:07:09 2024] I (13252) wifi:
+[Sun Nov  3 22:07:09 2024] 
+[Sun Nov  3 22:07:09 2024] Set ps type: 1, coexist: 0
+[Sun Nov  3 22:07:09 2024] [0;32mI (15:07:09.330) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (15:07:09.338) sleep: Code start at 0x42000020, total 964479, data start at 0x3c0f0020, total 318588 Bytes[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (15:07:09.348) Wifi: Power save mode enabled[0m
+[Sun Nov  3 22:07:09 2024] [0;33mW (22:07:09.354) Timestamp: The current date/time in Vietnam is: Sun Nov  3 22:07:09 2024[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (22:07:09.362) Timestamp: System time set successfully[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (22:07:09.368) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:07:09 2024] [0;32mI (22:07:09.374) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:07:10 2024] [0;31mE (22:07:10.361) i2cdev: Could not read from device [0x68 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:07:10 2024] [0;31mE (22:07:10.364) I2C_PERIPH: Failed to get time from ds1307, compare time failed[0m
+[Sun Nov  3 22:07:10 2024] [0;32mI (22:07:10.370) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:07:12 2024] [0;32mI (22:07:12.525) CLEANER: clean 200 is finished[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.305) MQTT: Other event id:7[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.588) MQTT: MQTT_EVENT_CONNECTED[0m
+[Sun Nov  3 22:07:14 2024] [0;33mW (22:07:14.590) MAIN: Finish led task[0m
+[Sun Nov  3 22:07:14 2024] [0;33mW (22:07:14.594) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.600) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.611) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.613) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:07:14 2024] I (18472) wifi:
+[Sun Nov  3 22:07:14 2024] 
+[Sun Nov  3 22:07:14 2024] <ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:3, winSize:64
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.660) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.719) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.818) MQTT: MQTT_RECEIVED DATA[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.820) MQTT: Extracted requestId: 587[0m
+[Sun Nov  3 22:07:14 2024] [0;32mI (22:07:14.826) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/587[0m
+[Sun Nov  3 22:07:15 2024] [0;32mI (22:07:15.000) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:15 2024] [0;31mE (22:07:15.611) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:07:15 2024] [0;31mE (22:07:15.614) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:07:15 2024] [0;32mI (22:07:15.617) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:07:15 2024] [0;33mW (22:07:15.620) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:15 2024] [0;32mI (22:07:15.635) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.717
+}[0m
+[Sun Nov  3 22:07:15 2024] [0;32mI (22:07:15.715) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:26 2024] [0;33mW (22:07:26.087) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:26 2024] [0;32mI (22:07:26.094) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:07:26 2024] [0;32mI (22:07:26.264) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:36 2024] [0;32mI (22:07:36.421) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:07:36 2024] [0;33mW (22:07:36.425) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:36 2024] [0;32mI (22:07:36.432) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-46
+}[0m
+[Sun Nov  3 22:07:36 2024] [0;32mI (22:07:36.506) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:40 2024] [0;32mI (22:07:40.454) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:07:40 2024] [0;32mI (22:07:40.457) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:07:46 2024] [0;32mI (22:07:46.883) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:07:46 2024] [0;33mW (22:07:46.887) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:46 2024] [0;32mI (22:07:46.894) MQTT: Message sent: {
+	"uptime":	0.01,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:07:47 2024] [0;32mI (22:07:47.055) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:07:57 2024] [0;32mI (22:07:57.335) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:07:57 2024] [0;33mW (22:07:57.339) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:07:57 2024] [0;32mI (22:07:57.345) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:07:57 2024] [0;32mI (22:07:57.503) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:07 2024] [0;32mI (22:08:07.797) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:08:07 2024] [0;33mW (22:08:07.801) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:07 2024] [0;32mI (22:08:07.808) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:08:07 2024] [0;32mI (22:08:07.949) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:11 2024] [0;32mI (22:08:11.692) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:08:11 2024] [0;32mI (22:08:11.695) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:08:18 2024] [0;32mI (22:08:18.148) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:08:18 2024] [0;33mW (22:08:18.152) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:18 2024] [0;32mI (22:08:18.157) MQTT: Message sent: {
+	"uptime":	0.02,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:08:18 2024] [0;32mI (22:08:18.295) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:28 2024] [0;32mI (22:08:28.611) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:08:28 2024] [0;33mW (22:08:28.615) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:28 2024] [0;32mI (22:08:28.621) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:08:28 2024] [0;32mI (22:08:28.628) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:08:28 2024] [0;32mI (22:08:28.630) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:08:28 2024] [0;32mI (22:08:28.743) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:29 2024] [0;31mE (22:08:29.628) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:08:29 2024] [0;31mE (22:08:29.631) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:08:29 2024] [0;32mI (22:08:29.634) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:08:29 2024] [0;33mW (22:08:29.638) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:29 2024] [0;32mI (22:08:29.652) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.729
+}[0m
+[Sun Nov  3 22:08:29 2024] [0;32mI (22:08:29.767) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:40 2024] [0;33mW (22:08:40.125) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:40 2024] [0;32mI (22:08:40.131) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:08:40 2024] [0;32mI (22:08:40.214) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:08:42 2024] [0;32mI (22:08:42.943) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:08:42 2024] [0;32mI (22:08:42.946) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:08:50 2024] [0;32mI (22:08:50.580) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:08:50 2024] [0;33mW (22:08:50.584) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:08:50 2024] [0;32mI (22:08:50.590) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:08:50 2024] [0;32mI (22:08:50.659) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:00 2024] [0;32mI (22:09:00.936) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:00 2024] [0;33mW (22:09:00.940) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:00 2024] [0;32mI (22:09:00.945) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:09:01 2024] [0;32mI (22:09:01.108) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:11 2024] [0;32mI (22:09:11.395) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:11 2024] [0;33mW (22:09:11.399) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:11 2024] [0;32mI (22:09:11.405) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:09:11 2024] [0;32mI (22:09:11.468) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:14 2024] [0;32mI (22:09:14.256) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:09:14 2024] [0;32mI (22:09:14.259) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:09:21 2024] [0;32mI (22:09:21.865) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:21 2024] [0;33mW (22:09:21.869) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:21 2024] [0;32mI (22:09:21.875) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:09:22 2024] [0;32mI (22:09:22.005) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:32 2024] [0;32mI (22:09:32.409) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:32 2024] [0;33mW (22:09:32.413) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:32 2024] [0;32mI (22:09:32.419) MQTT: Message sent: {
+	"uptime":	0.04,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:09:32 2024] [0;32mI (22:09:32.553) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:43 2024] [0;32mI (22:09:43.048) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:43 2024] [0;33mW (22:09:43.051) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:43 2024] [0;32mI (22:09:43.057) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:09:43 2024] [0;32mI (22:09:43.068) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:09:43 2024] [0;32mI (22:09:43.070) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:09:43 2024] [0;32mI (22:09:43.121) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:44 2024] [0;31mE (22:09:44.068) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:09:44 2024] [0;31mE (22:09:44.071) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:09:44 2024] [0;32mI (22:09:44.074) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:09:44 2024] [0;33mW (22:09:44.077) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:44 2024] [0;32mI (22:09:44.092) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.733
+}[0m
+[Sun Nov  3 22:09:44 2024] [0;32mI (22:09:44.228) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:09:45 2024] [0;32mI (22:09:45.849) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:09:45 2024] [0;32mI (22:09:45.852) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:09:54 2024] [0;33mW (22:09:54.497) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:09:54 2024] [0;32mI (22:09:54.505) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:09:54 2024] [0;32mI (22:09:54.675) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:04 2024] [0;32mI (22:10:04.951) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:04 2024] [0;33mW (22:10:04.955) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:04 2024] [0;32mI (22:10:04.961) MQTT: Message sent: {
+	"uptime":	0.05,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:10:05 2024] [0;32mI (22:10:05.123) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:15 2024] [0;32mI (22:10:15.495) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:15 2024] [0;33mW (22:10:15.499) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:15 2024] [0;32mI (22:10:15.505) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:10:15 2024] [0;32mI (22:10:15.671) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:17 2024] [0;32mI (22:10:17.173) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:10:17 2024] [0;32mI (22:10:17.176) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:10:26 2024] [0;32mI (22:10:26.061) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:26 2024] [0;33mW (22:10:26.065) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:26 2024] [0;32mI (22:10:26.071) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:10:26 2024] [0;32mI (22:10:26.220) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:36 2024] [0;32mI (22:10:36.555) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:36 2024] [0;33mW (22:10:36.558) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:36 2024] [0;32mI (22:10:36.564) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:10:36 2024] [0;32mI (22:10:36.667) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:47 2024] [0;32mI (22:10:47.178) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:47 2024] [0;33mW (22:10:47.182) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:47 2024] [0;32mI (22:10:47.188) MQTT: Message sent: {
+	"uptime":	0.06,
+	"rssi":	-49
+}[0m
+[Sun Nov  3 22:10:47 2024] [0;32mI (22:10:47.320) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:48 2024] [0;32mI (22:10:48.822) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:10:48 2024] [0;32mI (22:10:48.825) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:10:57 2024] [0;32mI (22:10:57.713) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:57 2024] [0;33mW (22:10:57.716) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:57 2024] [0;32mI (22:10:57.722) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:10:57 2024] [0;32mI (22:10:57.733) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:10:57 2024] [0;32mI (22:10:57.735) I2C_PERIPH: Waiting for reading BH1750[0m
+[Sun Nov  3 22:10:57 2024] [0;32mI (22:10:57.786) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:10:58 2024] [0;31mE (22:10:58.733) i2cdev: Could not read from device [0x23 at 0]: 263 (ESP_ERR_TIMEOUT)[0m
+[Sun Nov  3 22:10:58 2024] [0;31mE (22:10:58.736) I2C_PERIPH: Failed to read from BH1750[0m
+[Sun Nov  3 22:10:58 2024] [0;32mI (22:10:58.740) I2C_PERIPH: Waiting for i2c bit[0m
+[Sun Nov  3 22:10:58 2024] [0;33mW (22:10:58.742) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:10:58 2024] [0;32mI (22:10:58.757) MQTT: Message sent: {
+	"lux":	15,
+	"volt":	3.735
+}[0m
+[Sun Nov  3 22:10:58 2024] [0;32mI (22:10:58.893) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:09 2024] [0;33mW (22:11:09.239) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:11:09 2024] [0;32mI (22:11:09.246) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:11:09 2024] [0;32mI (22:11:09.340) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:19 2024] [0;32mI (22:11:19.787) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:11:19 2024] [0;33mW (22:11:19.791) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:11:19 2024] [0;32mI (22:11:19.797) MQTT: Message sent: {
+	"uptime":	0.07,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:11:19 2024] [0;32mI (22:11:19.888) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:20 2024] [0;32mI (22:11:20.351) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:11:20 2024] [0;32mI (22:11:20.354) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:11:30 2024] [0;32mI (22:11:30.281) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:11:30 2024] [0;33mW (22:11:30.284) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:11:30 2024] [0;32mI (22:11:30.290) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:11:30 2024] [0;32mI (22:11:30.440) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:40 2024] [0;32mI (22:11:40.839) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:11:40 2024] [0;33mW (22:11:40.843) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:11:40 2024] [0;32mI (22:11:40.849) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:11:40 2024] [0;32mI (22:11:40.991) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:51 2024] [0;32mI (22:11:51.284) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:11:51 2024] [0;33mW (22:11:51.288) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:11:51 2024] [0;32mI (22:11:51.295) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-47
+}[0m
+[Sun Nov  3 22:11:51 2024] [0;32mI (22:11:51.436) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:11:51 2024] [0;32mI (22:11:51.801) Wifi: Checking for wifi status...[0m
+[Sun Nov  3 22:11:51 2024] [0;32mI (22:11:51.804) Wifi: Wifi is still connected[0m
+[Sun Nov  3 22:11:59 2024] [0;32mI (22:11:59.589) SENSORS_TASK: turn on ph[0m
+[Sun Nov  3 22:11:59 2024] [0;32mI (22:11:59.591) SENSORS_TASK: Delay 4s[0m
+[Sun Nov  3 22:12:01 2024] [0;32mI (22:12:01.756) MQTT: CPU frequency: 80[0m
+[Sun Nov  3 22:12:01 2024] [0;33mW (22:12:01.760) MQTT: Broker connected , ready publish............[0m
+[Sun Nov  3 22:12:01 2024] [0;32mI (22:12:01.766) MQTT: Message sent: {
+	"uptime":	0.08,
+	"rssi":	-52
+}[0m
+[Sun Nov  3 22:12:01 2024] [0;32mI (22:12:01.886) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Sun Nov  3 22:12:03 2024] [0;33mW (22:12:03.702) SENSORS_TASK: Into sensors task![0m
+[Sun Nov  3 22:12:04 2024] [0;31mE (22:12:04.799) RDO206A: Current device is RDO206A[0m
+[Sun Nov  3 22:12:04 2024] [0;32mI (22:12:04.802) RDO206A: Write data to sensor: 0x05 0x06 0x11 0x00 0x00 0x01 0x4C 0xB2
+[0m
+[Sun Nov  3 22:12:04 2024] [0;32mI (22:12:04.837) RDO206A: pass UART DATA event[0m
+[Sun Nov  3 22:12:04 2024] [0;32mI (22:12:04.840) RDO206A: Length of Received response from sensor: 8 
+[0m
+[Mon Nov  4 01:39:47 2024] [0;32mI (00:00:09.811) CLEANER: clean 200 is running[0m

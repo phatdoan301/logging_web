@@ -1,0 +1,2166 @@
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.201) MQTT: No broker information stored, initializing with default broker[0m
+[Fri Nov 15 12:39:04 2024] I (13864) wifi:
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.211) Wifi: Connected to wifi: My Chi[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.2174c:c6:4c:a1:0d:4c), tid:0, ssn:3, winSize:64
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.217) MQTT: broker uri: mqtt://35.240.204.122:1883id: cabinet_0924_30[0m
+[Fri Nov 15 12:39:04 2024] 
+[Fri Nov 15 12:39:04 2024] [0;33mW (00:00:13.224) Wifi: Wifi initialized[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.237) MQTT: broker_uri=mqtt://35.240.204.122:1883[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.243) MQTT: id=cabinet_0924_30[0m
+[Fri Nov 15 12:39:04 2024] [0;33mW (00:00:13.248) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.255) MQTT: Saving configurations to NVS:Broker URI: mqtt://35.240.204.122:1883
+ID: cabinet_0924_30[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.257) MQTT: Other event id:7[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.559) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.740) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.749) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.753) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.755) MQTT: Extracted requestId: 240[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.762) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/240[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.949) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.958) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.960) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=0-2-0-0-0-0-0,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=0-2-0-0-0-0-0;"}}
+[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.968) MQTT: Extracted requestId: 241[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:13.975) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/241[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.228) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.284) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.294) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.302) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.314) MQTT: Message sent: {
+	"mac":	"4C:C6:4C:A1:0D:4C",
+	"firmw
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.314) MQTT: Message sent: {
+	"mac":	"4C:C6:4C:A1:0D:4C",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"My Chi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.100.91",
+	"bootnum":	18,
+	"rtc":	14,
+	"cpu_temp":	0,
+	"rssi":	-73,
+	"rtc_src":	1,
+	"startup_info":	"Normal power on"
+}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.320) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.331) NVS: Store timer of [2] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.359) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.369) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.391) NVS: Store timer of [3] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.392) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.408) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.411) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.418) NVS: Store timer of [4] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.421) MQTT: Received feedback from relay control task: 4, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.435) MQTT: Sync data sent: {"d05":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.443) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.451) MQTT: Received feedback from relay control task: 5, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.461) NVS: Store timer of [2] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.463) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.466) MQTT: Sync data sent: {"d06":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.483) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.490) NVS: Store timer of [3] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.497) MQTT: Received feedback from relay control task: 6, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.508) MQTT: Sync data sent: {"d07":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.520) MQTT: Received feedback from relay control task: 7, 0[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.525) MQTT: Sync data sent: {"d08":0}[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.535) NVS: Store timer of [4] successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.547) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.559) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.616) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.624) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.633) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.687) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.708) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.711) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.713) MQTT: Extracted requestId: 242[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.724) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/242[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:14.804) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;33mW (00:00:15.265) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:15.612) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:15.616) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:15.620) MQTT: Extracted requestId: 243[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:15.628) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/243[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (00:00:15.823) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:04 2024] [0;33mW (00:00:17.292) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov 15 12:39:04 2024] [0;33mW (12:39:01.588) Timestamp: The current date/time in Vietnam is: Fri Nov 15 12:39:01 2024[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (12:39:01.592) Timestamp: System time set successfully[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (12:39:01.597) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:39:04 2024] [0;32mI (12:39:01.603) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:39:28 2024] [0;32mI (12:39:29.041) MQTT: Message sent: {
+	"continous_operation":	0.01,
+	"rtc":	"1731649169",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:39:28 2024] [0;32mI (12:39:29.187) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:31 2024] [0;32mI (12:39:32.047) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:39:31 2024] [0;32mI (12:39:32.050) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:39:32 2024] [0;32mI (12:39:34.080) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:32 2024] [0;32mI (12:39:34.084) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:39:32 2024] [0;32mI (12:39:34.088) MQTT: Extracted requestId: 244[0m
+[Fri Nov 15 12:39:32 2024] [0;31mE (12:39:34.091) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.099) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/244[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.108) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.116) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:39:33 2024] [0;33mW (12:39:34.124) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.137) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:39:33 2024] [0;33mW (12:39:34.141) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:39:33 2024] [0;33mW (12:39:34.144) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.182) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.247) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.252) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:39:33 2024] [0;31mE (12:39:34.257) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.257) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.270) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:39:33 2024] [0;32mI (12:39:34.388) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:34 2024] [0;33mW (12:39:35.116) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:39:34 2024] [0;33mW (12:39:35.124) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:34 2024] [0;33mW (12:39:35.129) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:34 2024] [0;33mW (12:39:35.135) CABINET: Into led task[0m
+[Fri Nov 15 12:39:34 2024] [0;33mW (12:39:36.153) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:36 2024] [0;33mW (12:39:37.177) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:36 2024] [0;33mW (12:39:38.196) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:37 2024] [0;33mW (12:39:39.218) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:38 2024] [0;33mW (12:39:40.243) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:39 2024] [0;33mW (12:39:41.263) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:40 2024] [0;33mW (12:39:42.285) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:41 2024] [0;33mW (12:39:43.311) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:42 2024] [0;33mW (12:39:44.336) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:43 2024] [0;33mW (12:39:45.356) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:44 2024] [0;33mW (12:39:46.381) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:45 2024] [0;33mW (12:39:47.406) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:46 2024] [0;33mW (12:39:48.431) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:47 2024] [0;33mW (12:39:49.456) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:48 2024] [0;33mW (12:39:50.482) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:49 2024] [0;33mW (12:39:51.504) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.386) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.390) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.394) MQTT: Extracted requestId: 245[0m
+[Fri Nov 15 12:39:50 2024] [0;31mE (12:39:52.397) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.406) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/245[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.409) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.422) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:39:50 2024] [0;33mW (12:39:52.430) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.442) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:39:50 2024] [0;33mW (12:39:52.445) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:39:50 2024] [0;33mW (12:39:52.450) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.487) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:50 2024] [0;33mW (12:39:52.522) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.551) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.554) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:39:50 2024] [0;31mE (12:39:52.558) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.558) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:39:50 2024] [0;32mI (12:39:52.563) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:39:51 2024] [0;32mI (12:39:52.799) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:51 2024] [0;33mW (12:39:53.540) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:39:51 2024] [0;33mW (12:39:53.544) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:51 2024] [0;33mW (12:39:53.553) CABINET: Finish led task[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.197) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.201) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.206) MQTT: Extracted requestId: 246[0m
+[Fri Nov 15 12:39:56 2024] [0;31mE (12:39:58.208) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.218) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/246[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.221) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.233) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.242) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.251) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.255) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.261) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.301) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.361) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.366) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.371) MQTTal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.371) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.383) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.613) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:39:56 2024] [0;32mI (12:39:58.613) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.617) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.625) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:56 2024] [0;33mW (12:39:58.634) CABINET: Into led task[0m
+[Fri Nov 15 12:39:58 2024] [0;32mI (12:39:59.528) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:39:58 2024] [0;33mW (12:40:00.665) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:39:59 2024] [0;32mI (12:40:01.604) CABINET: 2024-11-15 12:39:58
+[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.614) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.616) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.621) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.627) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.630) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.635) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.644) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:00 2024] [0;33mW (12:40:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.658) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.663) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.667) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.674) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.677) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.686) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.696) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.705) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:40:01 2024] [0;33mW (12:40:01.718) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:01 2024] [0;32mI (12:40:02.414) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:40:01 2024] [0;32mI (12:40:02.417) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:40:01 2024] [0;32mI (12:40:02.590) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.598) MQTT: Extracted requestId: 247[0m
+[Fri Nov 15 12:40:04 2024] [0;31mE (12:40:02.601) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.610) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/247[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.613) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.627) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:02.635) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.646) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:02.648) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF9[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:02.655) CURRENT_RELAY: status: 11111001 (0xF9)[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:02.726) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.755) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.758) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:40:04 2024] [0;31mE (12:40:02.761) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.761) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:40:04 2024] [0;32mI (12:40:02.776) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:03.748) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:03.754) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:40:04 2024] [0;33mW (12:40:06.825) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:05 2024] [0;32mI (12:40:07.020) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:05 2024] [0;33mW (12:40:07.847) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:06 2024] [0;33mW (12:40:08.874) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:06 2024] [0;32mI (12:40:09.136) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:40:06 2024] [0;32mI (12:40:09.139) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:40:06 2024] [0;32mI (12:40:09.143) MQTT: Extracted requestId: 248[0m
+[Fri Nov 15 12:40:06 2024] [0;31mE (12:40:09.146) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:06 2024] [0;32mI (12:40:09.153) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/248[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.158) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.171) CABINET_CONTROLLER_LOG: Successfully read value: 0xF9 from PCF8574[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.179) CABINET_CONTROLLER_LOG: status: 11111001 (0xF9)[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.196) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.200) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.203) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.307) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.312) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.315) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.315) MQTT: Received feedback from relay control task: 1, 0[0m
+ TATE_OFF[0m
+[Fri Nov 15 12:40:07 2024] [0;32mI (12:40:09.321) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.893) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.898) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:40:07 2024] [0;33mW (12:40:09.907) CABINET: Finish led task[0m
+[Fri Nov 15 12:40:09 2024] [0;32mI (12:40:11.344) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:09 2024] [0;32mI (12:40:11.561) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:09 2024] [0;32mI (12:40:11.583) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.036) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.040) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.043) MQTT: Extracted requestId: 249[0m
+[Fri Nov 15 12:40:10 2024] [0;31mE (12:40:13.046) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.055) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/249[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.058) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.072) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:40:10 2024] [0;33mW (12:40:13.080) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.093) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:40:10 2024] [0;33mW (12:40:13.096) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:40:10 2024] [0;33mW (12:40:13.100) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.138) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.202) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.207) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:40:10 2024] [0;31mE (12:40:13.209) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.209) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:40:10 2024] [0;32mI (12:40:13.224) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:40:11 2024] [0;33mW (12:40:13.953) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:40:11 2024] [0;33mW (12:40:13.959) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:40:11 2024] [0;32mI (12:40:14.297) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.827) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.831) MQTT: DATA={"method":"command","params":{"cmd":"control d04=1;"}}
+[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.834) MQTT: Extracted requestId: 250[0m
+[Fri Nov 15 12:40:12 2024] [0;31mE (12:40:14.843) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.845) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/250[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.850) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.863) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:40:12 2024] [0;33mW (12:40:14.871) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.883) NVS: Store successfully state of device[4]: 0[0m
+[Fri Nov 15 12:40:12 2024] [0;33mW (12:40:14.886) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:40:12 2024] [0;33mW (12:40:14.891) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.928) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.992) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:14.997) CABINET_CONTROLLER_LOG: Relay 4 is NOW: OFF [0m
+[Fri Nov 15 12:40:12 2024] [0;31mE (12:40:15.000) Signal sended queue: relay_index: 3, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:15.000) MQTT: Received feedback from relay control task: 3, 1[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:15.014) MQTT: Sync data sent: {"d04":1}[0m
+[Fri Nov 15 12:40:12 2024] [0;32mI (12:40:15.239) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:13 2024] [0;33mW (12:40:15.984) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:13 2024] [0;33mW (12:40:15.990) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:26 2024] [0;32mI (12:40:29.836) MQTT: Message sent: {
+	"continous_operation":	0.03,
+	"rtc":	"1731649229",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:40:27 2024] [0;32mI (12:40:30.011) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:29 2024] [0;32mI (12:40:32.819) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:40:29 2024] [0;32mI (12:40:32.823) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:40:41 2024] [0;31mE (12:40:44.764) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.766) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.768) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:40:41 2024] [0;33mW (12:40:44.776) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.795) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:40:41 2024] [0;33mW (12:40:44.799) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF3[0m
+[Fri Nov 15 12:40:41 2024] [0;33mW (12:40:44.802) CURRENT_RELAY: status: 11110011 (0xF3)[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.905) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.909) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.913) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.913) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:44.927) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:40:41 2024] [0;32mI (12:40:45.106) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:42 2024] [0;33mW (12:40:45.425) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF3[0m
+[Fri Nov 15 12:40:42 2024] [0;33mW (12:40:45.431) FEEDBACK_RELAY: status: 11110011 (0xF3)[0m
+[Fri Nov 15 12:40:42 2024] [0;31mE (12:40:45.922) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:45.926) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:45.930) CABINET_CONTROLLER_LOG: Successfully read value: 0xF3 from PCF8574[0m
+[Fri Nov 15 12:40:42 2024] [0;33mW (12:40:45.936) CABINET_CONTROLLER_LOG: status: 11110011 (0xF3)[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:45.954) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:40:42 2024] [0;33mW (12:40:45.956) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:40:42 2024] [0;33mW (12:40:45.958) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:46.064) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:46.069) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:46.072) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:40:42 2024] [0;31mE (12:40:46.072) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:46.078) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:40:42 2024] [0;32mI (12:40:46.253) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:43 2024] [0;33mW (12:40:46.445) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:43 2024] [0;33mW (12:40:46.448) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:46 2024] [0;31mE (12:40:49.664) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.667) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.669) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:49.676) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.691) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:49.696) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF5[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:49.699) CURRENT_RELAY: status: 11110101 (0xF5)[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.801) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.806) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:40:46 2024] [0;31mE (12:40:49.808) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.808) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.823) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:40:46 2024] [0;32mI (12:40:49.986) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:50.506) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:50.510) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:50.513) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:46 2024] [0;33mW (12:40:50.522) CABINET: Into led task[0m
+[Fri Nov 15 12:40:47 2024] [0;33mW (12:40:51.542) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:48 2024] [0;33mW (12:40:52.567) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:49 2024] [0;31mE (12:40:53.084) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.087) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.088) CABINET_CONTROLLER_LOG: Successfully read value: 0xF5 from PCF8574[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.096) CABINET_CONTROLLER_LOG: status: 11110101 (0xF5)[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.115) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.120) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.123) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.225) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.228) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:40:49 2024] [0;31mE (12:40:53.234) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.234) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.246) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:40:49 2024] [0;32mI (12:40:53.449) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.588) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.592) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:49 2024] [0;33mW (12:40:53.600) CABINET: Finish led task[0m
+[Fri Nov 15 12:40:52 2024] [0;31mE (12:40:56.434) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.436) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.438) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.446) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.457) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.462) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF5[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.465) CURRENT_RELAY: status: 11110101 (0xF5)[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.567) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.572) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:40:52 2024] [0;31mE (12:40:56.576) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.576) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.589) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.637) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.641) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.645) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:52 2024] [0;33mW (12:40:56.652) CABINET: Into led task[0m
+[Fri Nov 15 12:40:52 2024] [0;32mI (12:40:56.672) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:53 2024] [0;33mW (12:40:57.672) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:54 2024] [0;33mW (12:40:58.698) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:55 2024] [0;33mW (12:40:59.722) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:56 2024] [0;32mI (12:41:00.268) MQTT: Message sent: {
+	"continous_operation":	0.04,
+	"rtc":	"1731649260",
+	"cpu_temp":	0,
+	"rssi":	-70
+}[0m
+[Fri Nov 15 12:40:56 2024] [0;32mI (12:41:00.430) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:56 2024] [0;33mW (12:41:00.733) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:57 2024] [0;32mI (12:41:01.604) CABINET: 2024-11-15 12:40:56
+[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.610) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.612) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.614) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.616) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.620) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.627) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.629) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.634) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.643) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.653) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.658) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.662) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.667) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.673) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.676) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.686) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.695) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.705) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.710) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:40:57 2024] [0;33mW (12:41:01.757) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:40:58 2024] [0;31mE (12:41:02.064) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.067) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.068) CABINET_CONTROLLER_LOG: Successfully read value: 0xF5 from PCF8574[0m
+[Fri Nov 15 12:40:58 2024] [0;33mW (12:41:02.076) CABINET_CONTROLLER_LOG: status: 11110101 (0xF5)[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.089) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:40:58 2024] [0;33mW (12:41:02.093) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.198) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.203) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:40:58 2024] [0;31mE (12:41:02.205) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.205) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.221) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:40:58 2024] [0;32mI (12:41:02.431) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:40:58 2024] [0;33mW (12:41:02.772) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:40:58 2024] [0;33mW (12:41:02.775) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:40:58 2024] [0;33mW (12:41:02.783) CABINET: Finish led task[0m
+[Fri Nov 15 12:40:59 2024] [0;32mI (12:41:03.226) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:40:59 2024] [0;32mI (12:41:03.229) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.380) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.383) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.386) MQTT: Extracted requestId: 251[0m
+[Fri Nov 15 12:41:10 2024] [0;31mE (12:41:14.395) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.398) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/251[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.402) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.415) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:41:10 2024] [0;33mW (12:41:14.424) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.431) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:41:10 2024] [0;33mW (12:41:14.437) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:41:10 2024] [0;33mW (12:41:14.443) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.469) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.541) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.547) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.550) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.550) MQTT: Received feedback from relay control task: 2, 0[0m
+ TATE_OFF[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.564) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:41:10 2024] [0;32mI (12:41:14.690) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:10 2024] [0;33mW (12:41:14.924) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:41:10 2024] [0;33mW (12:41:14.930) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.232) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.235) MQTT: DATA={"method":"command","params":{"cmd":"control d04=0;"}}
+[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.238) MQTT: Extracted requestId: 252[0m
+[Fri Nov 15 12:41:12 2024] [0;31mE (12:41:17.247) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.249) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/252[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.261) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.267) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:41:12 2024] [0;33mW (12:41:17.275) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.286) NVS: Store successfully state of device[4]: 1[0m
+[Fri Nov 15 12:41:12 2024] [0;33mW (12:41:17.290) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:41:12 2024] [0;33mW (12:41:17.295) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.324) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.395) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.400) CABINET_CONTROLLER_LOG: Relay 4 is NOW: ON [0m
+[Fri Nov 15 12:41:12 2024] [0;31mE (12:41:17.404) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 15 12:41:12 2024] [0;31mE (12:41:17.404) Signal sended queue: relay_index: 3, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:41:12 2024] [0;32mI (12:41:17.409) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 12:41:13 2024] [0;32mI (12:41:17.541) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:13 2024] [0;33mW (12:41:17.971) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:41:13 2024] [0;33mW (12:41:17.977) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.272) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.275) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.278) MQTT: Extracted requestId: 253[0m
+[Fri Nov 15 12:41:18 2024] [0;31mE (12:41:23.287) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.289) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/253[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.294) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.307) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:41:18 2024] [0;33mW (12:41:23.316) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.331) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:41:18 2024] [0;33mW (12:41:23.334) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:41:18 2024] [0;33mW (12:41:23.337) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.367) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.441) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.444) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:41:18 2024] [0;31mE (12:41:23.447) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.447) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:41:18 2024] [0;32mI (12:41:23.462) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:41:19 2024] [0;32mI (12:41:23.687) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:19 2024] [0;33mW (12:41:24.069) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:41:19 2024] [0;33mW (12:41:24.074) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:19 2024] [0;33mW (12:41:24.079) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:19 2024] [0;33mW (12:41:24.086) CABINET: Into led task[0m
+[Fri Nov 15 12:41:20 2024] [0;33mW (12:41:25.102) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:21 2024] [0;33mW (12:41:26.125) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:22 2024] [0;33mW (12:41:27.147) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:23 2024] [0;33mW (12:41:28.174) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:24 2024] [0;33mW (12:41:29.195) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:25 2024] [0;33mW (12:41:30.219) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:25 2024] [0;32mI (12:41:30.652) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1731649290",
+	"cpu_temp":	0,
+	"rssi":	-71
+}[0m
+[Fri Nov 15 12:41:25 2024] [0;32mI (12:41:30.772) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:26 2024] [0;33mW (12:41:31.242) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.406) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.410) MQTT: DATA={"method":"command","params":{"cmd":"control d03=1;"}}
+[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.413) MQTT: Extracted requestId: 254[0m
+[Fri Nov 15 12:41:26 2024] [0;31mE (12:41:31.416) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.424) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/254[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.429) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.442) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:41:26 2024] [0;33mW (12:41:31.450) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.464) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:41:26 2024] [0;33mW (12:41:31.466) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF9[0m
+[Fri Nov 15 12:41:26 2024] [0;33mW (12:41:31.470) CURRENT_RELAY: status: 11111001 (0xF9)[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.564) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.573) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.577) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:41:26 2024] [0;31mE (12:41:31.580) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.580) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.594) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:41:26 2024] [0;32mI (12:41:31.819) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:27 2024] [0;33mW (12:41:32.259) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:41:27 2024] [0;33mW (12:41:32.265) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:41:27 2024] [0;33mW (12:41:32.270) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:28 2024] [0;33mW (12:41:33.294) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:28 2024] [0;32mI (12:41:33.606) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:41:28 2024] [0;32mI (12:41:33.610) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:41:29 2024] [0;33mW (12:41:34.316) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:30 2024] [0;33mW (12:41:35.342) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:31 2024] [0;33mW (12:41:36.364) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:32 2024] [0;33mW (12:41:37.385) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.851) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.855) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.858) MQTT: Extracted requestId: 255[0m
+[Fri Nov 15 12:41:32 2024] [0;31mE (12:41:37.862) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.871) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/255[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.874) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.887) CABINET_CONTROLLER_LOG: Successfully read value: 0xF9 from PCF8574[0m
+[Fri Nov 15 12:41:32 2024] [0;33mW (12:41:37.895) CABINET_CONTROLLER_LOG: status: 11111001 (0xF9)[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.911) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:41:32 2024] [0;33mW (12:41:37.914) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:41:32 2024] [0;33mW (12:41:37.918) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:37.943) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:38.021) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:38.026) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:38.030) MQTT: Received feedback from relay control task: 1, 0[0m
+ TATE_OFF[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:38.030) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:41:32 2024] [0;32mI (12:41:38.044) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:41:33 2024] [0;32mI (12:41:38.267) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:33 2024] [0;33mW (12:41:38.404) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:41:33 2024] [0;33mW (12:41:38.408) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:41:33 2024] [0;33mW (12:41:38.416) CABINET: Finish led task[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.456) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.458) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.462) MQTT: Extracted requestId: 256[0m
+[Fri Nov 15 12:41:36 2024] [0;31mE (12:41:41.465) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.474) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/256[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.477) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.490) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:41:36 2024] [0;33mW (12:41:41.499) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.509) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:41:36 2024] [0;33mW (12:41:41.512) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:41:36 2024] [0;33mW (12:41:41.518) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.547) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.619) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.624) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:41:36 2024] [0;31mE (12:41:41.628) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.628) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.641) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:41:36 2024] [0;32mI (12:41:41.767) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:37 2024] [0;33mW (12:41:42.476) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:41:37 2024] [0;33mW (12:41:42.482) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:55 2024] [0;32mI (12:42:01.071) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1731649321",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:41:55 2024] [0;32mI (12:42:01.186) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:55 2024] [0;32mI (12:42:01.604) CABINET: 2024-11-15 12:41:55
+[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.610) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.612) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.613) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.616) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.620) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.627) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.629) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.634) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.643) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.653) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.658) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.662) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.667) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.673) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.676) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.685) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.695) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.705) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:41:55 2024] [0;33mW (12:42:01.710) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:41:56 2024] [0;31mE (12:42:02.874) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:56 2024] [0;32mI (12:42:02.877) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:56 2024] [0;32mI (12:42:02.879) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:41:56 2024] [0;33mW (12:42:02.886) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:56 2024] [0;32mI (12:42:02.897) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:41:56 2024] [0;33mW (12:42:02.901) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:41:56 2024] [0;33mW (12:42:02.905) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.006) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.011) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.014) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.014) MQTT: Received feedback from relay control task: 1, 1[0m
+ TATE_ON[0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.020) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:41:57 2024] [0;32mI (12:42:03.195) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:57 2024] [0;33mW (12:42:03.786) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:41:57 2024] [0;33mW (12:42:03.790) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:57 2024] [0;33mW (12:42:03.796) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:57 2024] [0;33mW (12:42:03.802) CABINET: Into led task[0m
+[Fri Nov 15 12:41:58 2024] [0;32mI (12:42:04.017) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:41:58 2024] [0;32mI (12:42:04.022) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:41:58 2024] [0;33mW (12:42:04.815) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:41:58 2024] [0;31mE (12:42:04.974) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:41:58 2024] [0;32mI (12:42:04.977) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:58 2024] [0;32mI (12:42:04.979) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:04.986) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.006) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:05.010) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:05.013) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.115) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.120) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:41:59 2024] [0;31mE (12:42:05.124) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.124) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.138) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:41:59 2024] [0;32mI (12:42:05.291) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:05.829) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:05.835) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:41:59 2024] [0;33mW (12:42:05.843) CABINET: Finish led task[0m
+[Fri Nov 15 12:42:01 2024] [0;31mE (12:42:07.264) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.266) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.268) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:42:01 2024] [0;33mW (12:42:07.276) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.286) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:42:01 2024] [0;33mW (12:42:07.290) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:42:01 2024] [0;33mW (12:42:07.295) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.396) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.398) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:42:01 2024] [0;31mE (12:42:07.401) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.401) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.416) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:42:01 2024] [0;32mI (12:42:07.599) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:01 2024] [0;33mW (12:42:07.860) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:42:01 2024] [0;33mW (12:42:07.865) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:42:05 2024] [0;31mE (12:42:11.154) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.157) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.159) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:42:05 2024] [0;33mW (12:42:11.166) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.185) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:42:05 2024] [0;33mW (12:42:11.187) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:42:05 2024] [0;33mW (12:42:11.189) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.295) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.301) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:42:05 2024] [0;31mE (12:42:11.305) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.305) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.319) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:42:05 2024] [0;32mI (12:42:11.513) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:05 2024] [0;33mW (12:42:11.919) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:05 2024] [0;33mW (12:42:11.924) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.765) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.769) MQTT: DATA={"method":"command","params":{"cmd":"control d01=1;"}}
+[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.772) MQTT: Extracted requestId: 257[0m
+[Fri Nov 15 12:42:16 2024] [0;31mE (12:42:22.775) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.783) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/257[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.787) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.801) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:22.809) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.822) NVS: Store successfully state of device[1]: 0[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:22.825) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFE[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:22.829) CURRENT_RELAY: status: 11111110 (0xFE)[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.867) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.931) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.936) CABINET_CONTROLLER_LOG: Relay 1 is NOW: OFF [0m
+[Fri Nov 15 12:42:16 2024] [0;31mE (12:42:22.938) Signal sended queue: relay_index: 0, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.938) MQTT: Received feedback from relay control task: 0, 1[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:22.954) MQTT: Sync data sent: {"d01":1}[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:23.082) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:23.087) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:23.089) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:16 2024] [0;33mW (12:42:23.098) CABINET: Into led task[0m
+[Fri Nov 15 12:42:16 2024] [0;32mI (12:42:23.116) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:17 2024] [0;33mW (12:42:24.115) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:18 2024] [0;33mW (12:42:25.142) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:19 2024] [0;33mW (12:42:26.168) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:20 2024] [0;33mW (12:42:27.194) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:21 2024] [0;33mW (12:42:28.219) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:22 2024] [0;33mW (12:42:29.244) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:23 2024] [0;33mW (12:42:30.269) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:24 2024] [0;33mW (12:42:31.294) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:24 2024] [0;32mI (12:42:31.475) MQTT: Message sent: {
+	"continous_operation":	0.06,
+	"rtc":	"1731649351",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:42:24 2024] [0;32mI (12:42:31.658) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:25 2024] [0;33mW (12:42:32.315) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:26 2024] [0;33mW (12:42:33.337) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.670) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.673) MQTT: DATA={"method":"command","params":{"cmd":"control d01=0;"}}
+[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.676) MQTT: Extracted requestId: 258[0m
+[Fri Nov 15 12:42:26 2024] [0;31mE (12:42:33.685) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.688) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/258[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.692) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.705) CABINET_CONTROLLER_LOG: Successfully read value: 0xFE from PCF8574[0m
+[Fri Nov 15 12:42:26 2024] [0;33mW (12:42:33.714) CABINET_CONTROLLER_LOG: status: 11111110 (0xFE)[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.732) NVS: Store successfully state of device[1]: 1[0m
+[Fri Nov 15 12:42:26 2024] [0;33mW (12:42:33.736) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:42:26 2024] [0;33mW (12:42:33.739) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.760) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.842) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.848) CABINET_CONTROLLER_LOG: Relay 1 is NOW: ON [0m
+[Fri Nov 15 12:42:26 2024] [0;31mE (12:42:33.851) Signal sended queue: relay_index: 0, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.851) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 15 12:42:26 2024] [0;32mI (12:42:33.865) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 15 12:42:27 2024] [0;32mI (12:42:33.980) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:27 2024] [0;33mW (12:42:34.357) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:27 2024] [0;33mW (12:42:34.362) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:27 2024] [0;33mW (12:42:34.371) CABINET: Finish led task[0m
+[Fri Nov 15 12:42:27 2024] [0;32mI (12:42:34.406) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:42:27 2024] [0;32mI (12:42:34.409) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:42:35 2024] [0;32mI (12:42:43.216) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:35 2024] [0;32mI (12:42:43.220) MQTT: DATA={"method":"command","params":{"cmd":"control d04=1;"}}
+[0m
+[Fri Nov 15 12:42:35 2024] [0;32mI (12:42:43.224) MQTT: Extracted requestId: 259[0m
+[Fri Nov 15 12:42:35 2024] [0;31mE (12:42:43.227) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:35 2024] [0;32mI (12:42:43.235) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/259[0m
+[Fri Nov 15 12:42:35 2024] [0;32mI (12:42:43.239) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.252) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:42:36 2024] [0;33mW (12:42:43.260) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.271) NVS: Store successfully state of device[4]: 0[0m
+[Fri Nov 15 12:42:36 2024] [0;33mW (12:42:43.274) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:42:36 2024] [0;33mW (12:42:43.280) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.312) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.380) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.384) CABINET_CONTROLLER_LOG: Relay 4 is NOW: OFF [0m
+[Fri Nov 15 12:42:36 2024] [0;31mE (12:42:43.386) Signal sended queue: relay_index: 3, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.386) MQTT: Received feedback from relay control task: 3, 1[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.402) MQTT: Sync data sent: {"d04":1}[0m
+[Fri Nov 15 12:42:36 2024] [0;33mW (12:42:43.500) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:42:36 2024] [0;33mW (12:42:43.504) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:36 2024] [0;32mI (12:42:43.539) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.315) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.319) MQTT: DATA={"method":"command","params":{"cmd":"control d04=0;"}}
+[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.322) MQTT: Extracted requestId: 260[0m
+[Fri Nov 15 12:42:42 2024] [0;31mE (12:42:50.326) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.334) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/260[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.338) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.351) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:42:42 2024] [0;33mW (12:42:50.359) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.378) NVS: Store successfully state of device[4]: 1[0m
+[Fri Nov 15 12:42:42 2024] [0;33mW (12:42:50.381) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:42:42 2024] [0;33mW (12:42:50.383) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:42 2024] [0;32mI (12:42:50.407) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:43 2024] [0;32mI (12:42:50.488) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:43 2024] [0;32mI (12:42:50.491) CABINET_CONTROLLER_LOG: Relay 4 is NOW: ON [0m
+[Fri Nov 15 12:42:43 2024] [0;31mE (12:42:50.493) Signal sended queue: relay_index: 3, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:42:43 2024] [0;32mI (12:42:50.494) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 15 12:42:43 2024] [0;32mI (12:42:50.509) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 12:42:43 2024] [0;33mW (12:42:50.598) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:43 2024] [0;33mW (12:42:50.602) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:43 2024] [0;32mI (12:42:50.614) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.590) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.595) MQTT: DATA={"method":"command","params":{"cmd":"control d04=1;"}}
+[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.598) MQTT: Extracted requestId: 261[0m
+[Fri Nov 15 12:42:46 2024] [0;31mE (12:42:53.601) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.609) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/261[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.613) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.627) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:42:46 2024] [0;33mW (12:42:53.635) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.647) NVS: Store successfully state of device[4]: 0[0m
+[Fri Nov 15 12:42:46 2024] [0;33mW (12:42:53.649) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Fri Nov 15 12:42:46 2024] [0;33mW (12:42:53.655) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.686) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.755) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.759) CABINET_CONTROLLER_LOG: Relay 4 is NOW: OFF [0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.761) MQTT: Received feedback from relay control task: 3, 1[0m
+ TATE_ON[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.761) MQTT: Received feedback from relay control task: 3, 1[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:53.776) MQTT: Sync data sent: {"d04":1}[0m
+[Fri Nov 15 12:42:46 2024] [0;32mI (12:42:54.006) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:47 2024] [0;33mW (12:42:54.655) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Fri Nov 15 12:42:47 2024] [0;33mW (12:42:54.660) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.318) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.322) MQTT: DATA={"method":"command","params":{"cmd":"control d04=0;"}}
+[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.325) MQTT: Extracted requestId: 262[0m
+[Fri Nov 15 12:42:51 2024] [0;31mE (12:42:59.328) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.337) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/262[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.341) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.354) CABINET_CONTROLLER_LOG: Successfully read value: 0xF7 from PCF8574[0m
+[Fri Nov 15 12:42:51 2024] [0;33mW (12:42:59.362) CABINET_CONTROLLER_LOG: status: 11110111 (0xF7)[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.376) NVS: Store successfully state of device[4]: 1[0m
+[Fri Nov 15 12:42:51 2024] [0;33mW (12:42:59.379) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:42:51 2024] [0;33mW (12:42:59.382) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.408) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.485) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.490) CABINET_CONTROLLER_LOG: Relay 4 is NOW: ON [0m
+[Fri Nov 15 12:42:51 2024] [0;31mE (12:42:59.494) Signal sended queue: relay_index: 3, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.494) MQTT: Received feedback from relay control task: 3, 0[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.508) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 12:42:51 2024] [0;32mI (12:42:59.641) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:51 2024] [0;33mW (12:42:59.736) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:51 2024] [0;33mW (12:42:59.740) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:53 2024] [0;32mI (12:43:01.604) CABINET: 2024-11-15 12:42:53
+[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.610) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.612) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.613) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.616) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.620) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.627) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.629) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.634) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.643) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.653) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.658) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.662) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.667) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.674) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.676) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.685) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.695) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.705) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:42:53 2024] [0;33mW (12:43:01.709) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:42:54 2024] [0;32mI (12:43:01.882) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1731649381",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:42:54 2024] [0;32mI (12:43:02.063) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:55 2024] [0;31mE (12:43:02.944) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:02.947) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:02.949) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:02.956) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:02.976) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:02.978) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:02.980) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.088) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.093) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.098) MQTT: Received feedback from relay control task: 1: RELAY_STATE_ON[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.098) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.111) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:42:55 2024] [0;32mI (12:43:03.218) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:03.792) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:03.798) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:03.802) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:42:55 2024] [0;33mW (12:43:03.810) CABINET: Into led task[0m
+[Fri Nov 15 12:42:56 2024] [0;31mE (12:43:04.114) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.119) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.121) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.129) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.146) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.148) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.150) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.255) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.263) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:42:56 2024] [0;31mE (12:43:04.266) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.266) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.280) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.476) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.800) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:42:56 2024] [0;32mI (12:43:04.804) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.821) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.825) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:42:56 2024] [0;33mW (12:43:04.833) CABINET: Finish led task[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.639) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.642) MQTT: DATA={"method":"command","params":{"cmd":"control d03=1;"}}
+[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.645) MQTT: Extracted requestId: 263[0m
+[Fri Nov 15 12:43:18 2024] [0;31mE (12:43:27.654) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.657) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/263[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.661) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.674) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:43:18 2024] [0;33mW (12:43:27.683) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.693) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:43:18 2024] [0;33mW (12:43:27.697) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:43:18 2024] [0;33mW (12:43:27.702) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:43:18 2024] [0;32mI (12:43:27.729) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:19 2024] [0;32mI (12:43:27.803) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:19 2024] [0;32mI (12:43:27.808) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:43:19 2024] [0;32mI (12:43:27.812) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:43:19 2024] [0;31mE (12:43:27.812) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:43:19 2024] [0;32mI (12:43:27.818) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:43:19 2024] [0;32mI (12:43:28.054) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:19 2024] [0;33mW (12:43:28.164) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:43:19 2024] [0;33mW (12:43:28.170) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:43:23 2024] [0;32mI (12:43:32.309) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1731649412",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:43:23 2024] [0;32mI (12:43:32.499) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:26 2024] [0;32mI (12:43:35.226) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:43:26 2024] [0;32mI (12:43:35.230) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.304) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.307) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.310) MQTT: Extracted requestId: 264[0m
+[Fri Nov 15 12:43:27 2024] [0;31mE (12:43:36.319) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.322) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/264[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.326) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.339) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:43:27 2024] [0;33mW (12:43:36.348) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.367) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:43:27 2024] [0;33mW (12:43:36.370) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:43:27 2024] [0;33mW (12:43:36.374) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.397) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.477) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.482) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.486) MQTT: Received feedback from relay control task: 2: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.486) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.500) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:43:27 2024] [0;32mI (12:43:36.613) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:28 2024] [0;33mW (12:43:37.283) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:43:28 2024] [0;33mW (12:43:37.289) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.043) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.047) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.051) MQTT: Extracted requestId: 265[0m
+[Fri Nov 15 12:43:39 2024] [0;31mE (12:43:49.054) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.062) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/265[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.066) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.079) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.087) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.105) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.109) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.111) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.146) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.215) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.220) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:43:39 2024] [0;31mE (12:43:49.222) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.222) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.237) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:43:39 2024] [0;32mI (12:43:49.353) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.466) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.472) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.477) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:43:39 2024] [0;33mW (12:43:49.484) CABINET: Into led task[0m
+[Fri Nov 15 12:43:40 2024] [0;33mW (12:43:50.502) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:43:41 2024] [0;33mW (12:43:51.525) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.320) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.325) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.329) MQTT: Extracted requestId: 266[0m
+[Fri Nov 15 12:43:42 2024] [0;31mE (12:43:52.331) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.340) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/266[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.344) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.357) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.365) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.375) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.379) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.385) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.415) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.485) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.490) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:43:42 2024] [0;31mE (12:43:52.494) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.494) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:43:42 2024] [0;32mI (12:43:52.507) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.545) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.548) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:42 2024] [0;33mW (12:43:52.557) CABINET: Finish led task[0m
+[Fri Nov 15 12:43:43 2024] [0;32mI (12:43:52.596) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:51 2024] [0;32mI (12:44:01.604) CABINET: 2024-11-15 12:43:51
+[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.610) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.612) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.613) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.615) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.620) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.626) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.629) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.634) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.643) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.652) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.657) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.662) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.666) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.673) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.676) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.685) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.695) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.704) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:43:51 2024] [0;33mW (12:44:01.709) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:43:52 2024] [0;32mI (12:44:02.727) MQTT: Message sent: {
+	"continous_operation":	0.09,
+	"rtc":	"1731649442",
+	"cpu_temp":	0,
+	"rssi":	-71
+}[0m
+[Fri Nov 15 12:43:52 2024] [0;32mI (12:44:02.914) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:43:55 2024] [0;32mI (12:44:05.629) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:43:59 2024] [0;31mE (12:44:09.914) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:09.917) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:09.919) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:43:59 2024] [0;33mW (12:44:09.926) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:09.945) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:43:59 2024] [0;33mW (12:44:09.950) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:43:59 2024] [0;33mW (12:44:09.954) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:10.055) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:10.060) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:10.064) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:10.064) MQTT: Received feedback from relay control task: 1, 1[0m
+ TATE_ON[0m
+[Fri Nov 15 12:43:59 2024] [0;32mI (12:44:10.069) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:44:00 2024] [0;32mI (12:44:10.225) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:00 2024] [0;33mW (12:44:10.832) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:00 2024] [0;33mW (12:44:10.837) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:00 2024] [0;33mW (12:44:10.840) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:00 2024] [0;33mW (12:44:10.848) CABINET: Into led task[0m
+[Fri Nov 15 12:44:01 2024] [0;33mW (12:44:11.867) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:02 2024] [0;33mW (12:44:12.892) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:03 2024] [0;33mW (12:44:13.917) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:04 2024] [0;33mW (12:44:14.941) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:04 2024] [0;31mE (12:44:15.254) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:04 2024] [0;32mI (12:44:15.257) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:04 2024] [0;32mI (12:44:15.259) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:44:04 2024] [0;33mW (12:44:15.266) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:44:04 2024] [0;32mI (12:44:15.286) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:44:04 2024] [0;33mW (12:44:15.291) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:44:04 2024] [0;33mW (12:44:15.294) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:05 2024] [0;32mI (12:44:15.396) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:05 2024] [0;32mI (12:44:15.401) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:44:05 2024] [0;31mE (12:44:15.405) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:44:05 2024] [0;32mI (12:44:15.405) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:44:05 2024] [0;32mI (12:44:15.417) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:44:05 2024] [0;32mI (12:44:15.620) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:05 2024] [0;33mW (12:44:15.958) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:05 2024] [0;33mW (12:44:15.963) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:05 2024] [0;33mW (12:44:15.973) CABINET: Finish led task[0m
+[Fri Nov 15 12:44:22 2024] [0;32mI (12:44:33.148) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1731649473",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:44:22 2024] [0;32mI (12:44:33.225) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:24 2024] [0;32mI (12:44:36.045) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:44:24 2024] [0;32mI (12:44:36.050) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:44:30 2024] [0;32mI (12:44:40.719) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:30 2024] [0;32mI (12:44:40.723) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:44:30 2024] [0;32mI (12:44:40.726) MQTT: Received feedback from relay control task: 1, 1[0m
+ TATE_ON[0m
+[Fri Nov 15 12:44:30 2024] [0;32mI (12:44:40.726) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:44:30 2024] [0;32mI (12:44:40.740) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:44:30 2024] [0;33mW (12:44:41.310) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:30 2024] [0;33mW (12:44:41.316) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:30 2024] [0;33mW (12:44:41.321) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:30 2024] [0;33mW (12:44:41.328) CABINET: Into led task[0m
+[Fri Nov 15 12:44:31 2024] [0;33mW (12:44:42.345) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:31 2024] [0;32mI (12:44:42.961) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:31 2024] [0;32mI (12:44:43.173) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:32 2024] [0;33mW (12:44:43.367) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:33 2024] [0;33mW (12:44:44.388) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:34 2024] [0;33mW (12:44:45.414) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.604) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.608) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.612) MQTT: Extracted requestId: 268[0m
+[Fri Nov 15 12:44:34 2024] [0;31mE (12:44:45.614) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.623) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/268[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.627) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.640) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:44:34 2024] [0;33mW (12:44:45.648) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.665) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:44:34 2024] [0;33mW (12:44:45.669) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:44:34 2024] [0;33mW (12:44:45.672) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.696) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.775) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.780) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.783) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:44:34 2024] [0;31mE (12:44:45.783) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:45.789) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:44:34 2024] [0;32mI (12:44:46.023) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.430) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.436) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.444) CABINET: Finish led task[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.862) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.866) MQTT: DATA={"method":"command","params":{"cmd":"control d03=1;"}}
+[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.870) MQTT: Extracted requestId: 269[0m
+[Fri Nov 15 12:44:35 2024] [0;31mE (12:44:46.873) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.881) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/269[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.885) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.898) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.906) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.926) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.929) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:44:35 2024] [0;33mW (12:44:46.933) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:46.955) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:47.036) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:47.041) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:44:35 2024] [0;31mE (12:44:47.045) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:47.045) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:47.058) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:44:35 2024] [0;32mI (12:44:47.277) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:36 2024] [0;33mW (12:44:47.449) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:44:36 2024] [0;33mW (12:44:47.452) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.100) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.104) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.106) MQTT: Extracted requestId: 270[0m
+[Fri Nov 15 12:44:39 2024] [0;31mE (12:44:51.115) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.118) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/270[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.122) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.136) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:44:39 2024] [0;33mW (12:44:51.144) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.155) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:44:39 2024] [0;33mW (12:44:51.158) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:44:39 2024] [0;33mW (12:44:51.164) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.199) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.264) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.269) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:44:39 2024] [0;31mE (12:44:51.272) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.272) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.286) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:44:39 2024] [0;32mI (12:44:51.420) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:39 2024] [0;33mW (12:44:51.514) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:39 2024] [0;33mW (12:44:51.520) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.234) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.238) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.241) MQTT: Extracted requestId: 271[0m
+[Fri Nov 15 12:44:43 2024] [0;31mE (12:44:55.244) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.254) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/271[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.257) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.269) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.278) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.297) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.301) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.304) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.334) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.406) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.411) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.415) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.415) MQTT: Received feedback from relay control task: 1, 1[0m
+ TATE_ON[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.420) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:44:43 2024] [0;32mI (12:44:55.554) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.577) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.580) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.583) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:43 2024] [0;33mW (12:44:55.592) CABINET: Into led task[0m
+[Fri Nov 15 12:44:44 2024] [0;33mW (12:44:56.610) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.237) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.241) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.244) MQTT: Extracted requestId: 272[0m
+[Fri Nov 15 12:44:45 2024] [0;31mE (12:44:57.253) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.255) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/272[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.260) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.273) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.281) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.298) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.302) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.305) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.339) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.408) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.413) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:44:45 2024] [0;31mE (12:44:57.416) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.416) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.422) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:44:45 2024] [0;32mI (12:44:57.550) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.619) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.624) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:44:45 2024] [0;33mW (12:44:57.634) CABINET: Finish led task[0m
+[Fri Nov 15 12:44:49 2024] [0;32mI (12:45:01.604) CABINET: 2024-11-15 12:44:49
+[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.610) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.612) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.613) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.616) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.620) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.627) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.629) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.634) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.639) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.643) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.650) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.653) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.658) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.662) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.667) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.673) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.676) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.681) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.685) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.690) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.695) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.700) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.705) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:44:49 2024] [0;33mW (12:45:01.709) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:44:51 2024] [0;32mI (12:45:03.532) MQTT: Message sent: {
+	"continous_operation":	0.11,
+	"rtc":	"1731649503",
+	"cpu_temp":	0,
+	"rssi":	-70
+}[0m
+[Fri Nov 15 12:44:51 2024] [0;32mI (12:45:03.683) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:44:54 2024] [0;32mI (12:45:06.419) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:44:54 2024] [0;32mI (12:45:06.425) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:45:20 2024] [0;32mI (12:45:33.954) MQTT: Message sent: {
+	"continous_operation":	0.11,
+	"rtc":	"1731649533",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:45:21 2024] [0;32mI (12:45:34.107) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:23 2024] [0;32mI (12:45:36.834) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:45:23 2024] [0;32mI (12:45:36.838) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.541) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.545) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.548) MQTT: Extracted requestId: 273[0m
+[Fri Nov 15 12:45:28 2024] [0;31mE (12:45:41.552) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.560) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/273[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.564) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.577) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:45:28 2024] [0;33mW (12:45:41.585) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.595) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:45:28 2024] [0;33mW (12:45:41.599) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:45:28 2024] [0;33mW (12:45:41.605) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.643) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.705) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.710) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:45:28 2024] [0;31mE (12:45:41.713) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.713) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.727) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:45:28 2024] [0;32mI (12:45:41.853) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:29 2024] [0;33mW (12:45:42.268) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:45:29 2024] [0;33mW (12:45:42.273) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:29 2024] [0;33mW (12:45:42.278) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:45:29 2024] [0;33mW (12:45:42.284) CABINET: Into led task[0m
+[Fri Nov 15 12:45:30 2024] [0;33mW (12:45:43.303) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: ON, Feedback: OFF[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.346) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.349) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.353) MQTT: Extracted requestId: 274[0m
+[Fri Nov 15 12:45:30 2024] [0;31mE (12:45:43.356) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.364) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/274[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.368) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.381) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:45:30 2024] [0;33mW (12:45:43.390) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.404) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:45:30 2024] [0;33mW (12:45:43.407) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:45:30 2024] [0;33mW (12:45:43.410) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.436) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.513) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.518) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.522) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:45:30 2024] [0;31mE (12:45:43.522) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.527) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:45:30 2024] [0;32mI (12:45:43.641) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:31 2024] [0;33mW (12:45:44.323) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:45:31 2024] [0;33mW (12:45:44.328) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:31 2024] [0;33mW (12:45:44.337) CABINET: Finish led task[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.542) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.546) MQTT: DATA={"method":"command","params":{"cmd":"control d03=1;"}}
+[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.550) MQTT: Extracted requestId: 275[0m
+[Fri Nov 15 12:45:32 2024] [0;31mE (12:45:45.553) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.561) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/275[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.565) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.578) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:45:32 2024] [0;33mW (12:45:45.586) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.599) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:45:32 2024] [0;33mW (12:45:45.602) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:45:32 2024] [0;33mW (12:45:45.606) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.633) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.709) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.714) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:45:32 2024] [0;31mE (12:45:45.716) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.716) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.731) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:45:32 2024] [0;32mI (12:45:45.849) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:33 2024] [0;33mW (12:45:46.356) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:45:33 2024] [0;33mW (12:45:46.361) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.954) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.958) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.962) MQTT: Extracted requestId: 276[0m
+[Fri Nov 15 12:45:34 2024] [0;31mE (12:45:47.964) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.972) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/276[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.977) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:47.990) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:45:34 2024] [0;33mW (12:45:47.998) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.015) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:45:34 2024] [0;33mW (12:45:48.019) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:45:34 2024] [0;33mW (12:45:48.022) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.049) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.125) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.130) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:45:34 2024] [0;31mE (12:45:48.133) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.134) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.147) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:45:34 2024] [0;32mI (12:45:48.368) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:45:34 2024] [0;33mW (12:45:48.386) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:45:34 2024] [0;33mW (12:45:48.389) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.173) Wifi: Logging to UDP server at 13.55.39.26:6004[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.179) MQTT: id=cabinet_0924_30[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.186) Wifi: Connected to wifi: My Chi[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.192) MQTT: Saving configurations to NVS:Broker URI: mqtt://35.240.204.122:1883
+ID: cabinet_0924_30[0m
+[Fri Nov 15 12:46:21 2024] [0;33mW (00:00:10.196) Wifi: Wifi initialized[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.195) MQTT: Other event id:7[0m
+[Fri Nov 15 12:46:21 2024] [0;33mW (00:00:10.211) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.657) MQTT: MQTT_EVENT_CONNECTED[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.811) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.820) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.822) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.824) MQTT: Extracted requestId: 278[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.831) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/278[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.970) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.980) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.982) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=0-2-0-0-0-0-0,d02=0-2-0-0-0-0-0,d03=0-2-0-0-0-0-0,d04=0-2-0-0-0-0-0;"}}
+[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.989) MQTT: Extracted requestId: 279[0m
+[Fri Nov 15 12:46:21 2024] [0;32mI (00:00:10.997) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/279[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.209) MQTT: Received feedback from relay control task: 0, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.213) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.216) MQTT: Sync data sent: {"d01":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.224) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.235) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.237) MQTT: Message sent: {
+	"mac":	"4C:C6:4C:A1:0D:4C",
+	"firmware_version":	"1.0.0",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"My Chi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.100.91",
+	"bootnum":	19,
+	"rtc":	11,
+	"cpu_temp":	0,
+	"rssi":	-74,
+	"rtc_src":	1,
+	"startup_info":	"Normal power on"
+}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.243) NVS: Store timer of [2] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.248) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.293) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.298) NVS: Store timer of [3] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.301) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.316) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.333) NVS: Store timer of [4] successfully[0m
+  task: 3, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.333) NVS: Store timer of [4] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.337) MQTT: Sync data sent: {"d04":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.347) MQTT: Received feedback from relay control task: 4, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.359) MQTT: Sync data sent: {"d05":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.369) MQTT: Received feedback from relay control task: 5, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.373) NVS: Store timer of [1] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.379) MQTT: Sync data sent: {"d06":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.387) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.397) NVS: Store timer of [2] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.405) MQTT: Received feedback from relay control task: 6, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.414) NVS: Store timer of [3] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.417) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.420) MQTT: Sync data sent: {"d07":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.433) MQTT: Received feedback from relay control task: 7, 0[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.444) MQTT: Sync data sent: {"d08":0}[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.465) NVS: Store timer of [4] successfully[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.473) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.482) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.493) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.533) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.541) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.599) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.797) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.801) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.803) MQTT: Extracted requestId: 280[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:11.812) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/280[0m
+[Fri Nov 15 12:46:22 2024] [0;32mI (00:00:12.007) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:23 2024] [0;33mW (00:00:12.230) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Fri Nov 15 12:46:25 2024] [0;33mW (00:00:14.262) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Fri Nov 15 12:46:25 2024] [0;33mW (12:46:25.114) Timestamp: The current date/time in Vietnam is: Fri Nov 15 12:46:25 2024[0m
+[Fri Nov 15 12:46:25 2024] [0;32mI (12:46:25.118) Timestamp: System time set successfully[0m
+[Fri Nov 15 12:46:25 2024] [0;32mI (12:46:25.123) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:46:25 2024] [0;32mI (12:46:25.129) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.652) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.657) MQTT: DATA={"method":"command","params":{"cmd":"control d03=1;"}}
+[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.661) MQTT: Extracted requestId: 281[0m
+[Fri Nov 15 12:46:36 2024] [0;31mE (12:46:36.663) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.672) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/281[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.676) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.689) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:46:36 2024] [0;33mW (12:46:36.697) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.710) NVS: Store successfully state of device[3]: 0[0m
+[Fri Nov 15 12:46:36 2024] [0;33mW (12:46:36.713) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFB[0m
+[Fri Nov 15 12:46:36 2024] [0;33mW (12:46:36.717) CURRENT_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.747) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.819) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.823) CABINET_CONTROLLER_LOG: Relay 3 is NOW: OFF [0m
+[Fri Nov 15 12:46:36 2024] [0;31mE (12:46:36.825) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.825) MQTT: Received feedback from relay control task: 2, 1[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:36.832) MQTT: Sync data sent: {"d03":1}[0m
+[Fri Nov 15 12:46:36 2024] [0;32mI (12:46:37.066) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:36 2024] [0;33mW (12:46:37.333) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFB[0m
+[Fri Nov 15 12:46:36 2024] [0;33mW (12:46:37.337) FEEDBACK_RELAY: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.350) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.353) MQTT: DATA={"method":"command","params":{"cmd":"control d03=0;"}}
+[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.355) MQTT: Extracted requestId: 282[0m
+[Fri Nov 15 12:46:39 2024] [0;31mE (12:46:40.365) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.367) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/282[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.371) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.385) CABINET_CONTROLLER_LOG: Successfully read value: 0xFB from PCF8574[0m
+[Fri Nov 15 12:46:39 2024] [0;33mW (12:46:40.393) CABINET_CONTROLLER_LOG: status: 11111011 (0xFB)[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.404) NVS: Store successfully state of device[3]: 1[0m
+[Fri Nov 15 12:46:39 2024] [0;33mW (12:46:40.408) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:46:39 2024] [0;33mW (12:46:40.413) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:39 2024] [0;32mI (12:46:40.437) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:40 2024] [0;32mI (12:46:40.513) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:40 2024] [0;32mI (12:46:40.518) CABINET_CONTROLLER_LOG: Relay 3 is NOW: ON [0m
+[Fri Nov 15 12:46:40 2024] [0;31mE (12:46:40.522) Signal sended queue: relay_index: 2, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:46:40 2024] [0;32mI (12:46:40.522) MQTT: Received feedback from relay control task: 2, 0[0m
+[Fri Nov 15 12:46:40 2024] [0;32mI (12:46:40.536) MQTT: Sync data sent: {"d03":0}[0m
+[Fri Nov 15 12:46:40 2024] [0;32mI (12:46:40.764) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:40 2024] [0;33mW (12:46:41.391) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:46:40 2024] [0;33mW (12:46:41.396) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.673) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.677) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.680) MQTT: Extracted requestId: 283[0m
+[Fri Nov 15 12:46:42 2024] [0;31mE (12:46:42.689) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.691) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/283[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.696) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.709) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:46:42 2024] [0;33mW (12:46:42.717) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.731) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:46:42 2024] [0;33mW (12:46:42.734) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:46:42 2024] [0;33mW (12:46:42.737) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.768) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.840) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.845) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:46:42 2024] [0;31mE (12:46:42.848) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.848) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:42.854) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:46:42 2024] [0;32mI (12:46:43.088) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:42 2024] [0;33mW (12:46:43.425) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFD[0m
+[Fri Nov 15 12:46:42 2024] [0;33mW (12:46:43.431) FEEDBACK_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:45.886) CABINET_CONTROLLER_LOG: Successfully read value: 0xFD from PCF8574[0m
+[Fri Nov 15 12:46:47 2024] [0;33mW (12:46:45.894) CABINET_CONTROLLER_LOG: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:45.904) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:46:47 2024] [0;33mW (12:46:45.908) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:46:47 2024] [0;33mW (12:46:45.914) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:46.013) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:46.017) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:46:47 2024] [0;31mE (12:46:46.019) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_OFF[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:46.019) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:48.041) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:47 2024] [0;32mI (12:46:48.106) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:51 2024] [0;32mI (12:46:52.513) MQTT: Message sent: {
+	"continous_operation":	0.01,
+	"rtc":	"1731649612",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:46:51 2024] [0;32mI (12:46:52.702) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:46:54 2024] [0;32mI (12:46:55.528) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:46:54 2024] [0;32mI (12:46:55.533) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.902) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.907) MQTT: DATA={"method":"command","params":{"cmd":"control d02=1;"}}
+[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.911) MQTT: Extracted requestId: 285[0m
+[Fri Nov 15 12:47:18 2024] [0;31mE (12:47:19.913) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.921) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/285[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.926) CABINET_CONTROLLER_LOG: Read from PCF8574 SUCCESS[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.938) CABINET_CONTROLLER_LOG: Successfully read value: 0xFF from PCF8574[0m
+[Fri Nov 15 12:47:18 2024] [0;33mW (12:47:19.947) CABINET_CONTROLLER_LOG: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:19.961) NVS: Store successfully state of device[2]: 0[0m
+[Fri Nov 15 12:47:18 2024] [0;33mW (12:47:19.964) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFD[0m
+[Fri Nov 15 12:47:18 2024] [0;33mW (12:47:19.966) CURRENT_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.059) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.070) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.075) CABINET_CONTROLLER_LOG: Relay 2 is NOW: OFF [0m
+[Fri Nov 15 12:47:18 2024] [0;31mE (12:47:20.077) Signal sended queue: relay_index: 1, desired_state: RELAY_STATE_ON[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.077) MQTT: Received feedback from relay control task: 1, 1[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.092) MQTT: Sync data sent: {"d02":1}[0m
+[Fri Nov 15 12:47:18 2024] [0;32mI (12:47:20.316) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:19 2024] [0;33mW (12:47:20.959) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFD[0m
+[Fri Nov 15 12:47:19 2024] [0;33mW (12:47:20.964) FEEDBACK_RELAY: status: 11111101 (0xFD)[0m
+[Fri Nov 15 12:47:20 2024] [0;32mI (12:47:22.753) MQTT: MQTT_RECEIVED DATA[0m
+[Fri Nov 15 12:47:20 2024] [0;32mI (12:47:22.757) MQTT: DATA={"method":"command","params":{"cmd":"control d02=0;"}}
+[0m
+[Fri Nov 15 12:47:20 2024] [0;32mI (12:47:22.760) MQTT: Extracted requestId: 286[0m
+[Fri Nov 15 12:47:20 2024] [0;31mE (12:47:22.763) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Fri Nov 15 12:47:20 2024] [0;32mI (12:47:22.771) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/286[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.817) NVS: Store successfully state of device[2]: 1[0m
+[Fri Nov 15 12:47:22 2024] [0;33mW (12:47:22.820) CABINET_CONTROLLER_LOG: Status relays HEX: 0xFF[0m
+[Fri Nov 15 12:47:22 2024] [0;33mW (12:47:22.824) CURRENT_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.845) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.926) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.930) CABINET_CONTROLLER_LOG: Relay 2 is NOW: ON [0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.933) MQTT: Received feedback from relay control task: 1, 0[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.933) MQTT: Received feedback from relay control task: 1, 0[0m
+ TATE_OFF[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.939) MQTT: Sync data sent: {"d02":0}[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:22.946) MQTT: Message sent: {
+	"continous_operation":	0.02,
+	"rtc":	"1731649642",
+	"cpu_temp":	0,
+	"rssi":	-74
+}[0m
+[Fri Nov 15 12:47:22 2024] [0;33mW (12:47:22.996) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xFF[0m
+[Fri Nov 15 12:47:22 2024] [0;33mW (12:47:23.000) FEEDBACK_RELAY: status: 11111111 (0xFF)[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:24.330) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:22 2024] [0;32mI (12:47:24.341) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:23 2024] [0;32mI (12:47:25.130) CABINET: 2024-11-15 12:47:22
+[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.139) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.143) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.146) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.149) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.156) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.161) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.170) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.189) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.200) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.212) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:47:23 2024] [0;33mW (12:47:25.236) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:47:23 2024] [0;32mI (12:47:25.947) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:47:23 2024] [0;32mI (12:47:25.952) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:47:50 2024] [0;32mI (12:47:53.415) MQTT: Message sent: {
+	"continous_operation":	0.03,
+	"rtc":	"1731649673",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:47:50 2024] [0;32mI (12:47:53.543) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:47:53 2024] [0;32mI (12:47:56.400) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:47:53 2024] [0;32mI (12:47:56.405) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:48:19 2024] [0;32mI (12:48:23.870) MQTT: Message sent: {
+	"continous_operation":	0.04,
+	"rtc":	"1731649703",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:48:19 2024] [0;32mI (12:48:24.038) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:48:20 2024] [0;32mI (12:48:25.130) CABINET: 2024-11-15 12:48:20
+[0m
+[Fri Nov 15 12:48:20 2024] [0;33mW (12:48:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:48:20 2024] [0;33mW (12:48:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:48:20 2024] [0;33mW (12:48:25.140) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:48:20 2024] [0;33mW (12:48:25.142) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:48:20 2024] [0;33mW (12:48:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:48:21 2024] [0;33mW (12:48:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:48:22 2024] [0;32mI (12:48:26.840) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:48:22 2024] [0;32mI (12:48:26.844) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:48:49 2024] [0;32mI (12:48:54.330) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1731649734",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:48:49 2024] [0;32mI (12:48:54.463) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:48:51 2024] [0;32mI (12:48:57.280) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:48:51 2024] [0;32mI (12:48:57.285) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:49:18 2024] [0;32mI (12:49:24.772) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1731649764",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:49:18 2024] [0;32mI (12:49:24.922) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:49:18 2024] [0;32mI (12:49:25.130) CABINET: 2024-11-15 12:49:18
+[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.135) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.139) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.141) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.143) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.148) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.154) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.157) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.162) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.167) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.171) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.178) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.180) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.185) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.190) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.194) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.201) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.204) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.209) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.213) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.218) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.223) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.228) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.232) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:49:18 2024] [0;33mW (12:49:25.237) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:49:21 2024] [0;32mI (12:49:27.718) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:49:21 2024] [0;32mI (12:49:27.721) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:49:47 2024] [0;32mI (12:49:55.221) MQTT: Message sent: {
+	"continous_operation":	0.06,
+	"rtc":	"1731649795",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:49:47 2024] [0;32mI (12:49:55.391) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:49:50 2024] [0;32mI (12:49:58.158) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:49:50 2024] [0;32mI (12:49:58.160) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:50:16 2024] [0;32mI (12:50:25.130) CABINET: 2024-11-15 12:50:16
+[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:50:16 2024] [0;33mW (12:50:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:50:17 2024] [0;32mI (12:50:25.662) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1731649825",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:50:17 2024] [0;32mI (12:50:25.855) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:50:20 2024] [0;32mI (12:50:28.590) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:50:20 2024] [0;32mI (12:50:28.593) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:50:46 2024] [0;32mI (12:50:56.111) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1731649856",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:50:46 2024] [0;32mI (12:50:56.245) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:50:49 2024] [0;32mI (12:50:59.034) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:50:49 2024] [0;32mI (12:50:59.038) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:51:14 2024] [0;32mI (12:51:25.130) CABINET: 2024-11-15 12:51:14
+[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.135) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.137) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.164) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.178) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.206) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.215) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.225) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:51:14 2024] [0;33mW (12:51:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:51:15 2024] [0;32mI (12:51:26.561) MQTT: Message sent: {
+	"continous_operation":	0.09,
+	"rtc":	"1731649886",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:51:16 2024] [0;32mI (12:51:26.923) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:51:18 2024] [0;32mI (12:51:29.458) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:51:18 2024] [0;32mI (12:51:29.463) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:51:45 2024] [0;32mI (12:51:56.973) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1731649916",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:51:45 2024] [0;32mI (12:51:57.117) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:51:48 2024] [0;32mI (12:51:59.871) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:51:48 2024] [0;32mI (12:51:59.876) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:52:12 2024] [0;32mI (12:52:25.130) CABINET: 2024-11-15 12:52:12
+[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.142) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:52:12 2024] [0;33mW (12:52:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:52:14 2024] [0;32mI (12:52:27.417) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1731649947",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:52:14 2024] [0;32mI (12:52:27.587) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:52:17 2024] [0;32mI (12:52:30.309) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:52:17 2024] [0;32mI (12:52:30.315) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:52:44 2024] [0;32mI (12:52:57.869) MQTT: Message sent: {
+	"continous_operation":	0.11,
+	"rtc":	"1731649977",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:52:44 2024] [0;32mI (12:52:58.071) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:52:46 2024] [0;32mI (12:53:00.741) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:52:46 2024] [0;32mI (12:53:00.747) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:53:10 2024] [0;32mI (12:53:25.130) CABINET: 2024-11-15 12:53:10
+[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.142) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.212) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:53:10 2024] [0;33mW (12:53:25.236) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:53:13 2024] [0;32mI (12:53:28.311) MQTT: Message sent: {
+	"continous_operation":	0.12,
+	"rtc":	"1731650008",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:53:13 2024] [0;32mI (12:53:28.521) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:53:16 2024] [0;32mI (12:53:31.178) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:53:16 2024] [0;32mI (12:53:31.182) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:53:42 2024] [0;32mI (12:53:58.773) MQTT: Message sent: {
+	"continous_operation":	0.13,
+	"rtc":	"1731650038",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:53:42 2024] [0;32mI (12:53:58.927) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:53:45 2024] [0;32mI (12:54:01.636) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:53:45 2024] [0;32mI (12:54:01.642) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:54:08 2024] [0;32mI (12:54:25.130) CABINET: 2024-11-15 12:54:07
+[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:54:08 2024] [0;33mW (12:54:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:54:12 2024] [0;32mI (12:54:29.235) MQTT: Message sent: {
+	"continous_operation":	0.14,
+	"rtc":	"1731650069",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:54:12 2024] [0;32mI (12:54:29.430) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:54:14 2024] [0;32mI (12:54:32.088) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:54:14 2024] [0;32mI (12:54:32.093) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:54:41 2024] [0;32mI (12:54:59.704) MQTT: Message sent: {
+	"continous_operation":	0.15,
+	"rtc":	"1731650099",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:54:41 2024] [0;32mI (12:54:59.835) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:54:44 2024] [0;32mI (12:55:02.533) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:54:44 2024] [0;32mI (12:55:02.538) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:55:05 2024] [0;32mI (12:55:25.130) CABINET: 2024-11-15 12:55:05
+[0m
+[Fri Nov 15 12:55:05 2024] [0;33mW (12:55:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.178) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:55:06 2024] [0;33mW (12:55:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:55:10 2024] [0;32mI (12:55:30.146) MQTT: Message sent: {
+	"continous_operation":	0.16,
+	"rtc":	"1731650130",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:55:10 2024] [0;32mI (12:55:30.279) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:55:13 2024] [0;32mI (12:55:32.974) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:55:13 2024] [0;32mI (12:55:32.978) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:55:40 2024] [0;32mI (12:56:00.605) MQTT: Message sent: {
+	"continous_operation":	0.16,
+	"rtc":	"1731650160",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:55:40 2024] [0;32mI (12:56:00.778) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:55:42 2024] [0;32mI (12:56:03.420) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:55:42 2024] [0;32mI (12:56:03.422) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:56:03 2024] [0;32mI (12:56:25.130) CABINET: 2024-11-15 12:56:03
+[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.178) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:56:03 2024] [0;33mW (12:56:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:56:09 2024] [0;32mI (12:56:31.025) MQTT: Message sent: {
+	"continous_operation":	0.17,
+	"rtc":	"1731650191",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:56:09 2024] [0;32mI (12:56:31.214) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:56:12 2024] [0;32mI (12:56:33.838) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:56:12 2024] [0;32mI (12:56:33.844) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:56:38 2024] [0;32mI (12:57:01.475) MQTT: Message sent: {
+	"continous_operation":	0.18,
+	"rtc":	"1731650221",
+	"cpu_temp":	0,
+	"rssi":	-74
+}[0m
+[Fri Nov 15 12:56:39 2024] [0;32mI (12:57:01.636) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:56:41 2024] [0;32mI (12:57:04.278) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:56:41 2024] [0;32mI (12:57:04.284) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:57:01 2024] [0;32mI (12:57:25.130) CABINET: 2024-11-15 12:57:01
+[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.142) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:57:01 2024] [0;33mW (12:57:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:57:08 2024] [0;32mI (12:57:31.932) MQTT: Message sent: {
+	"continous_operation":	0.19,
+	"rtc":	"1731650251",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:57:08 2024] [0;32mI (12:57:32.097) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:57:10 2024] [0;32mI (12:57:34.720) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:57:10 2024] [0;32mI (12:57:34.725) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:57:37 2024] [0;32mI (12:58:02.403) MQTT: Message sent: {
+	"continous_operation":	0.2,
+	"rtc":	"1731650282",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:57:37 2024] [0;32mI (12:58:02.547) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:57:40 2024] [0;32mI (12:58:05.179) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:57:40 2024] [0;32mI (12:58:05.185) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:57:59 2024] [0;32mI (12:58:25.130) CABINET: 2024-11-15 12:57:59
+[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.192) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.230) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:57:59 2024] [0;33mW (12:58:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:58:06 2024] [0;32mI (12:58:32.846) MQTT: Message sent: {
+	"continous_operation":	0.21,
+	"rtc":	"1731650312",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:58:07 2024] [0;32mI (12:58:33.017) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:58:09 2024] [0;32mI (12:58:35.618) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:58:09 2024] [0;32mI (12:58:35.624) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:58:36 2024] [0;32mI (12:59:03.300) MQTT: Message sent: {
+	"continous_operation":	0.21,
+	"rtc":	"1731650343",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:58:36 2024] [0;32mI (12:59:03.489) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:58:38 2024] [0;32mI (12:59:06.064) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:58:38 2024] [0;32mI (12:59:06.067) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:58:57 2024] [0;32mI (12:59:25.130) CABINET: 2024-11-15 12:58:57
+[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.139) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.141) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.152) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.183) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:58:57 2024] [0;33mW (12:59:25.235) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 12:59:05 2024] [0;32mI (12:59:33.767) MQTT: Message sent: {
+	"continous_operation":	0.22,
+	"rtc":	"1731650373",
+	"cpu_temp":	0,
+	"rssi":	-72
+}[0m
+[Fri Nov 15 12:59:05 2024] [0;32mI (12:59:33.892) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:59:08 2024] [0;32mI (12:59:36.512) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:59:08 2024] [0;32mI (12:59:36.518) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:59:34 2024] [0;32mI (13:00:04.215) MQTT: Message sent: {
+	"continous_operation":	0.23,
+	"rtc":	"1731650404",
+	"cpu_temp":	0,
+	"rssi":	-73
+}[0m
+[Fri Nov 15 12:59:35 2024] [0;32mI (13:00:04.397) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Fri Nov 15 12:59:37 2024] [0;32mI (13:00:06.949) Wifi: Checking for wifi status...[0m
+[Fri Nov 15 12:59:37 2024] [0;32mI (13:00:06.954) Wifi: Wifi is still connected[0m
+[Fri Nov 15 12:59:55 2024] [0;32mI (13:00:25.130) CABINET: 2024-11-15 12:59:54
+[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.136) CABINET: TIMER OF DEVICE 1[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.138) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.140) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.142) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.146) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.153) CABINET: TIMER OF DEVICE 2[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.155) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.160) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.165) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.169) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.176) CABINET: TIMER OF DEVICE 3[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.179) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.184) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.188) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.193) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.199) CABINET: TIMER OF DEVICE 4[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.202) CABINET: Index of timer: 0 [0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.207) CABINET: Start timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.211) CABINET: Stop timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.216) CABINET: Mode timer: 0[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.221) CABINET: TIMER OF DEVICE 5[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.226) CABINET: TIMER OF DEVICE 6[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.231) CABINET: TIMER OF DEVICE 7[0m
+[Fri Nov 15 12:59:55 2024] [0;33mW (13:00:25.236) CABINET: TIMER OF DEVICE 8[0m
+[Fri Nov 15 13:00:04 2024] [0;32mI (13:00:34.658) MQTT: Message sent: {
+	"continous_operation":	0.24,
+	"rtc":	"1731650434",
+	"cpu_temp":	0,
+	"rssi":	-71
+}[0m

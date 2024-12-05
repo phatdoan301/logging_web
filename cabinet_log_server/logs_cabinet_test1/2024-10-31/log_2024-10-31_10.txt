@@ -1,0 +1,3553 @@
+[Thu Oct 31 10:28:11 2024] [0;32mI (03:28:11.092) Wifi: Logging to server at 13.55.39.26:6006[0m
+[Thu Oct 31 10:28:11 2024] [0;32mI (03:28:11.095) Wifi: Connected to wifi: Aruba_Wifi[0m
+[0;32mI (03:28:11.095) MQTT: Wifi connected, starting MQTT task[0m
+[0;33mW (03:28:11.097) Wifi: Wifi initialized[0m
+[0;32mI (03:28:11.102) MQTT: Event group for MQTT created successfully[0m
+[0;33mW (10:28:11.110) Timestamp: The current date/time in Vietnam is: Thu Oct 31 10:28:11 2024[0m
+[0;32mI (10:28:11.122) Timestamp: System time set successfully[0m
+[0;32mI (10:28:11.132) Wifi: Checking for wifi status...[0m
+[0;32mI (10:28:11.135) CABINET: Sync time from server to ds1307[0m
+[0;32mI (10:28:11.135) MQTT: broker_uri=mqtt://35.240.204.122:1883[0m
+[0;32mI (10:28:11.147) MQTT: id=cabinet_1223_03[0m
+[0;32mI (10:28:11.153) Wifi: Wifi is still connected[0m
+[0;32mI (10:28:11.160) MQTT: Other event id:7[0m
+[Thu Oct 31 10:28:11 2024] I (11618) wifi:<ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+I (11628) wifi:<ba-del>idx:1, tid:1
+I (11628) wifi:<ba-add>idx:1 (ifx:0, a8:bd:27:93:c8:41), tid:1, ssn:1, winSize:64
+[0;32mI (10:28:11.404) MQTT: MQTT_EVENT_CONNECTED[0m
+[Thu Oct 31 10:28:12 2024] [0;32mI (10:28:11.482) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Thu Oct 31 10:28:12 2024] [0;32mI (10:28:12.165) MQTT: Received feedback from relay control task: 0, 1[0m
+[Thu Oct 31 10:28:12 2024] [0;32mI (10:28:12.167) MQTT: Sync data sent: {"d01":1}[0m
+[0;32mI (10:28:12.171) MQTT: Received feedback from relay control task: 1, 0[0m
+[0;32mI (10:28:12.175) MQTT: Sync data sent: {"d02":0}[0m
+[0;32mI (10:28:12.182) MQTT: Message sent: {
+	"mac":	"A8:BD:27:93:C8:41",
+	"firmware_version":	"1.0.3",
+	"firmware_lastest_update":	"1728012367",
+	"internet":	"Aruba_Wifi",
+	"continous_operation":	0,
+	"ip_address":	"192.168.1.6",
+	"bootnum":	25,
+	"rtc":	"1730345292",
+	"cpu_temp":	0,
+	"rssi":	-56,
+	"rtc_src":	1,
+	"startup_info":	"Software reset due to exception/panic"
+}[0m
+[0;32mI (10:28:12.184) MQTT: Received feedback from relay control task: 2, 0[0m
+[0;32mI (10:28:12.221) MQTT: Sync data sent: {"d03":0}[0m
+[0;32mI (10:28:12.228) MQTT: Received feedback from relay control task: 3, 0[0m
+[0;32mI (10:28:12.234) MQTT: Sync data sent: {"d04":0}[0m
+[0;32mI (10:28:12.241) MQTT: Received feedback from relay control task: 4, 0[0m
+[0;32mI (10:28:12.246) MQTT: Sync data sent: {"d05":0}[0m
+[0;32mI (10:28:12.
+[Thu Oct 31 10:28:12 2024] 253) MQTT: Received feedback from relay control task: 5, 0[0m
+[0;32mI (10:28:12.259) MQTT: Sync data sent: {"d06":0}[0m
+[0;32mI (10:28:12.265) MQTT: Received feedback from relay control task: 6, 0[0m
+[0;32mI (10:28:12.271) MQTT: Sync data sent: {"d07":0}[0m
+[0;32mI (10:28:12.278) MQTT: Received feedback from relay control task: 7, 0[0m
+[0;32mI (10:28:12.283) MQTT: Sync data sent: {"d08":0}[0m
+[Thu Oct 31 10:28:12 2024] [0;32mI (10:28:12.448) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:28:17 2024] [0;32mI (10:28:16.690) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 10:28:17 2024] [0;32mI (10:28:16.692) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:28:16.693) MQTT: Extracted requestId: 11688[0m
+[0;32mI (10:28:16.705) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11688[0m
+[0;32mI (10:28:16.773) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:28:22 2024] [0;32mI (10:28:22.734) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 10:28:23 2024] [0;32mI (10:28:22.736) MQTT: Extracted requestId: 11689[0m
+[0;32mI (10:28:22.736) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:28:22.741) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11689[0m
+[0;32mI (10:28:22.806) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:28:23 2024] [0;32mI (10:28:23.784) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 10:28:24 2024] [0;32mI (10:28:23.786) MQTT: Extracted requestId: 11690[0m
+[0;32mI (10:28:23.787) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:28:23.791) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11690[0m
+[0;32mI (10:28:23.891) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:28:41 2024] [0;32mI (10:28:41.602) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:28:41 2024] [0;32mI (10:28:41.603) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:28:42 2024] [0;32mI (10:28:42.676) MQTT: Message sent: {
+	"continous_operation":	0.01,
+	"rtc":	"1730345322",
+	"cpu_temp":	0,
+	"rssi":	-60
+}[0m
+[Thu Oct 31 10:28:42 2024] [0;32mI (10:28:42.825) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:29:09 2024] [0;32mI (10:29:11.144) CABINET: 2024-10-31 10:29:09
+[0m
+[Thu Oct 31 10:29:09 2024] [0;33mW (10:29:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:29:11.150) CABINET: Index of timer: 1 [0m
+[0;33mW (10:29:11.151) CABINET: Start timer: 100[0m
+[0;33mW (10:29:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:29:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:29:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:29:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:29:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:29:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:29:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:29:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:29:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:29:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:29:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:29:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:29:09 2024] [0;33mW (10:29:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:29:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:29:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:29:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:29:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:29:11.263) CABINET: Start
+[Thu Oct 31 10:29:09 2024] timer: 1900[0m
+[0;33mW (10:29:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:29:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:29:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:29:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:29:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:29:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:29:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:29:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:29:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:29:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:29:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:29:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:29:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:29:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:29:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:29:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:29:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:29:11.352) CABINET: Start timer:
+[Thu Oct 31 10:29:09 2024] 0[0m
+[0;33mW (10:29:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:29:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:29:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:29:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:29:11.376) CABINET: Start timer: 0[0m
+[0;33mW (10:29:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:29:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (10:29:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:29:09 2024] EVICE 6[0m
+[0;33mW (10:29:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:29:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:29:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:29:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:29:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:29:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:29:10 2024] [0;32mI (10:29:12.070) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:29:10 2024] [0;32mI (10:29:12.071) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:29:11 2024] [0;32mI (10:29:13.151) MQTT: Message sent: {
+	"continous_operation":	0.02,
+	"rtc":	"1730345353",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 10:29:11 2024] [0;32mI (10:29:13.265) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:29:39 2024] [0;32mI (10:29:42.518) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:29:39 2024] [0;32mI (10:29:42.519) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:29:40 2024] [0;32mI (10:29:43.609) MQTT: Message sent: {
+	"continous_operation":	0.03,
+	"rtc":	"1730345383",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 10:29:40 2024] [0;32mI (10:29:43.725) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:30:07 2024] [0;32mI (10:30:11.144) CABINET: 2024-10-31 10:30:07
+[0m
+[Thu Oct 31 10:30:07 2024] [0;33mW (10:30:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:30:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:30:11.149) CABINET: Start timer: 100[0m
+[0;33mW (10:30:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:30:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:30:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:30:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:30:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:30:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:30:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:30:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:30:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:30:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:30:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:30:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:30:07 2024] [0;33mW (10:30:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:30:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:30:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:30:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:30:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:30:11.262) CABINET: Start
+[Thu Oct 31 10:30:07 2024] timer: 1900[0m
+[0;33mW (10:30:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:30:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:30:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:30:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:30:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:30:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:30:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:30:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:30:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:30:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:30:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:30:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:30:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:30:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:30:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:30:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:30:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:30:11.352) CABINET: Start timer:
+[Thu Oct 31 10:30:07 2024] 0[0m
+[0;33mW (10:30:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:30:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:30:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:30:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:30:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:30:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:30:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:30:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:30:07 2024] EVICE 6[0m
+[0;33mW (10:30:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:30:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:30:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:30:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:30:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:30:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:30:09 2024] [0;32mI (10:30:12.950) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:30:09 2024] [0;32mI (10:30:12.951) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:30:10 2024] [0;32mI (10:30:14.056) MQTT: Message sent: {
+	"continous_operation":	0.04,
+	"rtc":	"1730345414",
+	"cpu_temp":	0,
+	"rssi":	-63
+}[0m
+[Thu Oct 31 10:30:10 2024] [0;32mI (10:30:14.124) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:30:38 2024] [0;32mI (10:30:43.385) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:30:38 2024] [0;32mI (10:30:43.386) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:30:39 2024] [0;32mI (10:30:44.498) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1730345444",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:30:39 2024] [0;32mI (10:30:44.644) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:31:05 2024] [0;32mI (10:31:11.144) CABINET: 2024-10-31 10:31:05
+[0m
+[Thu Oct 31 10:31:05 2024] [0;33mW (10:31:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:31:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:31:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:31:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:31:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:31:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:31:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:31:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:31:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:31:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:31:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:31:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (10:31:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:31:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:31:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:31:05 2024] [0;33mW (10:31:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:31:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:31:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:31:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:31:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.257) CABINET: Index of timer: 6 [0m
+[0;33mW (10:31:11.262) CABINET: Start
+[Thu Oct 31 10:31:05 2024] timer: 1900[0m
+[0;33mW (10:31:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:31:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (10:31:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:31:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:31:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:31:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:31:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:31:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:31:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:31:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:31:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:31:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:31:11.330) CABINET: Start timer: 0[0m
+[0;33mW (10:31:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:31:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:31:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:31:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:31:11.352) CABINET: Start timer:
+[Thu Oct 31 10:31:05 2024] 0[0m
+[0;33mW (10:31:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:31:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:31:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:31:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:31:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:31:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:31:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:31:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:31:05 2024] EVICE 6[0m
+[0;33mW (10:31:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:31:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:31:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:31:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:31:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:31:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:31:07 2024] [0;32mI (10:31:13.824) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:31:07 2024] [0;32mI (10:31:13.826) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:31:08 2024] [0;32mI (10:31:14.946) MQTT: Message sent: {
+	"continous_operation":	0.05,
+	"rtc":	"1730345474",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Thu Oct 31 10:31:09 2024] [0;32mI (10:31:15.028) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:31:37 2024] [0;32mI (10:31:44.269) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:31:37 2024] [0;32mI (10:31:44.271) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:31:38 2024] [0;32mI (10:31:45.404) MQTT: Message sent: {
+	"continous_operation":	0.06,
+	"rtc":	"1730345505",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:31:38 2024] [0;32mI (10:31:45.521) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:32:02 2024] [0;32mI (10:32:11.144) CABINET: 2024-10-31 10:32:03
+[0m
+[Thu Oct 31 10:32:05 2024] [0;33mW (10:32:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:32:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:32:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:32:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:32:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:32:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:32:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:32:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:32:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:32:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:32:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.203) CABINET: Index of timer: 4 [0m
+[0;33mW (10:32:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:32:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:32:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.222) CABINET: Index of timer: 8 [0m
+[0;33mW (10:32:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:32:05 2024] [0;33mW (10:32:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:32:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (10:32:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:32:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:32:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:32:11.265) CABINET: Start
+[Thu Oct 31 10:32:05 2024] timer: 1900[0m
+[0;33mW (10:32:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:32:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:32:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:32:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:32:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:32:11.300) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:32:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:32:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:32:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:32:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:32:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:32:11.326) CABINET: Index of timer: 0 [0m
+[0;33mW (10:32:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:32:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (10:32:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (10:32:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:32:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:32:11.355) CABINET: Start timer:
+[Thu Oct 31 10:32:05 2024] 0[0m
+[0;33mW (10:32:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:32:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:32:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:32:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:32:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:32:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:32:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:32:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:32:05 2024] EVICE 6[0m
+[0;33mW (10:32:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:32:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:32:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:32:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:32:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:32:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:32:06 2024] [0;32mI (10:32:14.703) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:32:06 2024] [0;32mI (10:32:14.705) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:32:07 2024] [0;32mI (10:32:15.843) MQTT: Message sent: {
+	"continous_operation":	0.07,
+	"rtc":	"1730345535",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[Thu Oct 31 10:32:07 2024] [0;32mI (10:32:15.914) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:32:35 2024] [0;32mI (10:32:45.156) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:32:35 2024] [0;32mI (10:32:45.158) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:32:36 2024] [0;32mI (10:32:46.309) MQTT: Message sent: {
+	"continous_operation":	0.08,
+	"rtc":	"1730345566",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 10:32:37 2024] [0;32mI (10:32:46.402) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:33:00 2024] [0;32mI (10:33:11.144) CABINET: 2024-10-31 10:33:01
+[0m
+[Thu Oct 31 10:33:01 2024] [0;33mW (10:33:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:33:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:33:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:33:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:33:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:33:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:33:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:33:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:33:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:33:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:33:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:33:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:33:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:33:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:33:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:33:01 2024] [0;33mW (10:33:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:33:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:33:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:33:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:33:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:33:11.263) CABINET: Start
+[Thu Oct 31 10:33:01 2024] timer: 1900[0m
+[0;33mW (10:33:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:33:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:33:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:33:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:33:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:33:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:33:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:33:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:33:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:33:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:33:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:33:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:33:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:33:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:33:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:33:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:33:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:33:11.352) CABINET: Start timer:
+[Thu Oct 31 10:33:01 2024] 0[0m
+[0;33mW (10:33:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:33:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:33:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:33:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:33:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:33:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:33:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:33:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:33:01 2024] EVICE 6[0m
+[0;33mW (10:33:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:33:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:33:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:33:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:33:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:33:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:33:05 2024] [0;32mI (10:33:15.591) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:33:05 2024] [0;32mI (10:33:15.593) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:33:06 2024] [0;32mI (10:33:16.754) MQTT: Message sent: {
+	"continous_operation":	0.09,
+	"rtc":	"1730345596",
+	"cpu_temp":	0,
+	"rssi":	-59
+}[0m
+[Thu Oct 31 10:33:06 2024] [0;32mI (10:33:16.936) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:33:34 2024] [0;32mI (10:33:46.057) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:33:34 2024] [0;32mI (10:33:46.059) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:33:35 2024] [0;32mI (10:33:47.229) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1730345627",
+	"cpu_temp":	0,
+	"rssi":	-60
+}[0m
+[Thu Oct 31 10:33:36 2024] [0;32mI (10:33:47.354) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:34:03 2024] [0;32mI (10:34:11.144) CABINET: 2024-10-31 10:33:59
+[0m
+[Thu Oct 31 10:34:05 2024] [0;33mW (10:34:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:34:11.150) CABINET: Index of timer: 1 [0m
+[0;33mW (10:34:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:34:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:34:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:34:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:34:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:34:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:34:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:34:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:34:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:34:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:34:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:34:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:34:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:34:05 2024] [0;33mW (10:34:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:34:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:34:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:34:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:34:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:34:11.263) CABINET: Start
+[Thu Oct 31 10:34:12 2024] timer: 1900[0m
+[0;33mW (10:34:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:34:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:34:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:34:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:34:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:34:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:34:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:34:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:34:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:34:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:34:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:34:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:34:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:34:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:34:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:34:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:34:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:34:11.352) CABINET: Start timer:
+[Thu Oct 31 10:34:12 2024] 0[0m
+[0;33mW (10:34:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:34:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:34:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:34:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:34:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:34:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:34:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:34:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:34:12 2024] EVICE 6[0m
+[0;33mW (10:34:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:34:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:34:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:34:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:34:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:34:11.417) CABINET: TIMER OF DEVICE 8[0m
+[0;32mI (10:34:16.485) Wifi: Checking for wifi status...[0m
+[0;32mI (10:34:16.487) Wifi: Wifi is still connected[0m
+[0;32mI (10:34:17.654) MQTT: Message sent: {
+	"continous_operation":	0.1,
+	"rtc":	"1730345657",
+	"cpu_temp":	0,
+	"rssi":	-66
+}[0m
+[0;32mI (10:34:23.730) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:34:33 2024] [0;32mI (10:34:46.887) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:34:33 2024] [0;32mI (10:34:46.889) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:34:34 2024] [0;32mI (10:34:48.077) MQTT: Message sent: {
+	"continous_operation":	0.11,
+	"rtc":	"1730345688",
+	"cpu_temp":	0,
+	"rssi":	-62
+}[0m
+[Thu Oct 31 10:34:34 2024] [0;32mI (10:34:48.565) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:34:56 2024] [0;32mI (10:35:11.144) CABINET: 2024-10-31 10:34:57
+[0m
+[Thu Oct 31 10:34:56 2024] [0;33mW (10:35:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:35:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:35:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:35:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:35:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:35:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:35:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:35:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:35:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:35:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:35:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:35:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:35:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:35:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:35:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:34:56 2024] [0;33mW (10:35:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:35:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:35:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:35:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:35:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:35:11.263) CABINET: Start
+[Thu Oct 31 10:34:56 2024] timer: 1900[0m
+[0;33mW (10:35:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:35:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:35:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:35:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:35:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:35:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:35:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:35:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:35:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:35:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:35:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:35:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:35:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:35:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:35:11.339) CABINET: Mode timer: 0[0m
+[0;33mW (10:35:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:35:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:35:11.352) CABINET: Start timer:
+[Thu Oct 31 10:34:56 2024] 0[0m
+[0;33mW (10:35:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:35:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:35:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:35:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:35:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:35:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:35:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:35:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:34:57 2024] EVICE 6[0m
+[0;33mW (10:35:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:35:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:35:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:35:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:35:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:35:11.418) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:35:02 2024] [0;32mI (10:35:17.338) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:35:02 2024] [0;32mI (10:35:17.340) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:35:03 2024] [0;32mI (10:35:18.538) MQTT: Message sent: {
+	"continous_operation":	0.12,
+	"rtc":	"1730345718",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Thu Oct 31 10:35:03 2024] [0;32mI (10:35:18.606) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:35:32 2024] [0;32mI (10:35:47.790) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:35:32 2024] [0;32mI (10:35:47.791) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:35:33 2024] [0;32mI (10:35:49.007) MQTT: Message sent: {
+	"continous_operation":	0.13,
+	"rtc":	"1730345748",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 10:35:33 2024] [0;32mI (10:35:49.136) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:35:54 2024] [0;32mI (10:36:11.144) CABINET: 2024-10-31 10:35:55
+[0m
+[Thu Oct 31 10:35:54 2024] [0;33mW (10:36:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:36:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:36:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:36:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:36:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:36:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:36:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:36:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:36:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:36:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:36:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:36:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:36:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:36:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:36:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:35:54 2024] [0;33mW (10:36:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:36:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:36:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:36:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:36:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:36:11.263) CABINET: Start
+[Thu Oct 31 10:35:54 2024] timer: 1900[0m
+[0;33mW (10:36:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:36:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:36:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:36:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:36:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:36:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:36:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:36:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:36:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:36:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:36:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:36:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:36:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:36:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:36:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:36:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:36:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:36:11.352) CABINET: Start timer:
+[Thu Oct 31 10:35:54 2024] 0[0m
+[0;33mW (10:36:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:36:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:36:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:36:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:36:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:36:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:36:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:36:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:35:55 2024] EVICE 6[0m
+[0;33mW (10:36:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:36:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:36:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:36:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:36:11.414) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:36:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:36:01 2024] [0;32mI (10:36:18.211) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:36:01 2024] [0;32mI (10:36:18.212) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:36:02 2024] [0;32mI (10:36:19.437) MQTT: Message sent: {
+	"continous_operation":	0.14,
+	"rtc":	"1730345779",
+	"cpu_temp":	0,
+	"rssi":	-59
+}[0m
+[Thu Oct 31 10:36:02 2024] [0;32mI (10:36:19.559) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:36:30 2024] [0;32mI (10:36:48.643) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:36:30 2024] [0;32mI (10:36:48.645) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:36:31 2024] [0;32mI (10:36:49.877) MQTT: Message sent: {
+	"continous_operation":	0.15,
+	"rtc":	"1730345809",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:36:32 2024] [0;32mI (10:36:50.032) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:36:52 2024] [0;32mI (10:37:11.144) CABINET: 2024-10-31 10:36:52
+[0m
+[Thu Oct 31 10:36:52 2024] [0;33mW (10:37:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:37:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:37:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:37:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:37:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:37:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:37:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:37:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:37:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:37:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:37:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:37:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (10:37:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:37:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:37:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:36:52 2024] [0;33mW (10:37:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:37:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.238) CABINET: Index of timer: 5 [0m
+[0;33mW (10:37:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:37:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:37:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.257) CABINET: Index of timer: 6 [0m
+[0;33mW (10:37:11.262) CABINET: Start
+[Thu Oct 31 10:36:52 2024] timer: 1900[0m
+[0;33mW (10:37:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:37:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (10:37:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:37:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:37:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:37:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:37:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:37:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:37:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:37:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:37:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:37:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:37:11.328) CABINET: Start timer: 0[0m
+[0;33mW (10:37:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:37:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:37:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:37:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:37:11.352) CABINET: Start timer:
+[Thu Oct 31 10:36:52 2024] 0[0m
+[0;33mW (10:37:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:37:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:37:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:37:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:37:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:37:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:37:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:37:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:36:52 2024] EVICE 6[0m
+[0;33mW (10:37:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:37:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:37:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:37:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:37:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:37:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:37:00 2024] [0;32mI (10:37:19.073) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:37:00 2024] [0;32mI (10:37:19.074) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:37:01 2024] [0;32mI (10:37:20.312) MQTT: Message sent: {
+	"continous_operation":	0.16,
+	"rtc":	"1730345840",
+	"cpu_temp":	0,
+	"rssi":	-61
+}[0m
+[Thu Oct 31 10:37:01 2024] [0;32mI (10:37:20.375) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:37:29 2024] [0;32mI (10:37:49.502) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:37:29 2024] [0;32mI (10:37:49.503) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:37:30 2024] [0;32mI (10:37:50.757) MQTT: Message sent: {
+	"continous_operation":	0.16,
+	"rtc":	"1730345870",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:37:30 2024] [0;32mI (10:37:50.934) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:37:50 2024] [0;32mI (10:38:11.144) CABINET: 2024-10-31 10:37:50
+[0m
+[Thu Oct 31 10:37:50 2024] [0;33mW (10:38:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:38:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:38:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:38:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:38:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:38:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:38:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:38:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:38:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:38:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:38:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:38:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:38:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:38:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:38:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:37:50 2024] [0;33mW (10:38:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:38:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:38:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:38:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:38:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:38:11.263) CABINET: Start
+[Thu Oct 31 10:37:50 2024] timer: 1900[0m
+[0;33mW (10:38:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:38:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:38:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:38:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:38:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:38:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:38:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:38:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:38:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:38:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:38:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:38:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:38:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:38:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:38:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:38:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:38:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:38:11.352) CABINET: Start timer:
+[Thu Oct 31 10:37:50 2024] 0[0m
+[0;33mW (10:38:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:38:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:38:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:38:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:38:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:38:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:38:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:38:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:37:50 2024] EVICE 6[0m
+[0;33mW (10:38:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:38:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:38:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:38:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:38:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:38:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:37:58 2024] [0;32mI (10:38:19.939) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:37:59 2024] [0;32mI (10:38:19.940) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:38:00 2024] [0;32mI (10:38:21.204) MQTT: Message sent: {
+	"continous_operation":	0.17,
+	"rtc":	"1730345901",
+	"cpu_temp":	0,
+	"rssi":	-49
+}[0m
+[Thu Oct 31 10:38:00 2024] [0;32mI (10:38:21.265) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:38:28 2024] [0;32mI (10:38:50.373) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:38:28 2024] [0;32mI (10:38:50.374) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:38:29 2024] [0;32mI (10:38:51.648) MQTT: Message sent: {
+	"continous_operation":	0.18,
+	"rtc":	"1730345931",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:38:29 2024] [0;32mI (10:38:51.830) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:38:48 2024] [0;32mI (10:39:11.144) CABINET: 2024-10-31 10:38:48
+[0m
+[Thu Oct 31 10:38:48 2024] [0;33mW (10:39:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:39:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:39:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:39:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:39:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:39:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:39:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:39:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:39:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:39:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:39:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.203) CABINET: Index of timer: 4 [0m
+[0;33mW (10:39:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:39:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:39:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.222) CABINET: Index of timer: 8 [0m
+[0;33mW (10:39:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:38:48 2024] [0;33mW (10:39:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:39:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (10:39:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:39:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:39:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:39:11.265) CABINET: Start
+[Thu Oct 31 10:38:48 2024] timer: 1900[0m
+[0;33mW (10:39:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:39:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:39:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:39:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:39:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:39:11.300) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:39:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:39:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:39:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:39:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:39:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:39:11.326) CABINET: Index of timer: 0 [0m
+[0;33mW (10:39:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:39:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (10:39:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (10:39:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:39:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:39:11.355) CABINET: Start timer:
+[Thu Oct 31 10:38:48 2024] 0[0m
+[0;33mW (10:39:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:39:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:39:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:39:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:39:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:39:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:39:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:39:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:38:48 2024] EVICE 6[0m
+[0;33mW (10:39:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:39:11.402) CABINET: Start timer: 0[0m
+[0;33mW (10:39:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:39:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:39:11.416) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:39:11.421) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:38:57 2024] [0;32mI (10:39:20.804) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:38:57 2024] [0;32mI (10:39:20.806) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:38:58 2024] [0;32mI (10:39:22.090) MQTT: Message sent: {
+	"continous_operation":	0.19,
+	"rtc":	"1730345962",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 10:38:59 2024] [0;32mI (10:39:22.276) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:39:26 2024] [0;32mI (10:39:51.261) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:39:27 2024] [0;32mI (10:39:51.263) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:39:28 2024] [0;32mI (10:39:52.556) MQTT: Message sent: {
+	"continous_operation":	0.2,
+	"rtc":	"1730345992",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Thu Oct 31 10:39:28 2024] [0;32mI (10:39:52.617) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:39:46 2024] [0;32mI (10:40:11.144) CABINET: 2024-10-31 10:39:46
+[0m
+[Thu Oct 31 10:39:46 2024] [0;33mW (10:40:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:40:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:40:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:40:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:40:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:40:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:40:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:40:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:40:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:40:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:40:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:40:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (10:40:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:40:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.219) CABINET: Index of timer: 8 [0m
+[0;33mW (10:40:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:39:46 2024] [0;33mW (10:40:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:40:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.238) CABINET: Index of timer: 5 [0m
+[0;33mW (10:40:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:40:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:40:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.257) CABINET: Index of timer: 6 [0m
+[0;33mW (10:40:11.262) CABINET: Start
+[Thu Oct 31 10:39:46 2024] timer: 1900[0m
+[0;33mW (10:40:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:40:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (10:40:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:40:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:40:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:40:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:40:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:40:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:40:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:40:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:40:11.320) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:40:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:40:11.328) CABINET: Start timer: 0[0m
+[0;33mW (10:40:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:40:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:40:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:40:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:40:11.352) CABINET: Start timer:
+[Thu Oct 31 10:39:46 2024] 0[0m
+[0;33mW (10:40:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:40:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:40:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:40:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:40:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:40:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:40:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:40:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:39:46 2024] EVICE 6[0m
+[0;33mW (10:40:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:40:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:40:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:40:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:40:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:40:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:39:56 2024] [0;32mI (10:40:21.685) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:39:56 2024] [0;32mI (10:40:21.687) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:39:57 2024] [0;32mI (10:40:22.983) MQTT: Message sent: {
+	"continous_operation":	0.21,
+	"rtc":	"1730346022",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Thu Oct 31 10:39:57 2024] [0;32mI (10:40:23.137) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:40:25 2024] [0;32mI (10:40:52.117) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:40:25 2024] [0;32mI (10:40:52.119) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:40:26 2024] [0;32mI (10:40:53.423) MQTT: Message sent: {
+	"continous_operation":	0.21,
+	"rtc":	"1730346053",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 10:40:27 2024] [0;32mI (10:40:53.602) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:40:44 2024] [0;32mI (10:41:11.144) CABINET: 2024-10-31 10:40:44
+[0m
+[Thu Oct 31 10:40:44 2024] [0;33mW (10:41:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:41:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:41:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:41:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:41:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:41:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:41:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:41:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:41:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:41:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:41:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:41:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:41:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:41:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:41:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:40:44 2024] [0;33mW (10:41:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:41:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:41:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:41:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:41:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:41:11.263) CABINET: Start
+[Thu Oct 31 10:40:44 2024] timer: 1900[0m
+[0;33mW (10:41:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:41:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:41:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:41:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:41:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:41:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:41:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:41:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:41:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:41:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:41:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:41:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:41:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:41:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:41:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:41:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:41:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:41:11.352) CABINET: Start timer:
+[Thu Oct 31 10:40:44 2024] 0[0m
+[0;33mW (10:41:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:41:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:41:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:41:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:41:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:41:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:41:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (10:41:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:40:44 2024] EVICE 6[0m
+[0;33mW (10:41:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:41:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:41:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:41:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:41:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:41:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:40:55 2024] [0;32mI (10:41:22.547) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:40:55 2024] [0;32mI (10:41:22.549) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:40:56 2024] [0;32mI (10:41:23.862) MQTT: Message sent: {
+	"continous_operation":	0.22,
+	"rtc":	"1730346083",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 10:40:56 2024] [0;32mI (10:41:23.936) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:41:24 2024] [0;32mI (10:41:52.997) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:41:24 2024] [0;32mI (10:41:52.998) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:41:25 2024] [0;32mI (10:41:54.314) MQTT: Message sent: {
+	"continous_operation":	0.23,
+	"rtc":	"1730346114",
+	"cpu_temp":	0,
+	"rssi":	-56
+}[0m
+[Thu Oct 31 10:41:25 2024] [0;32mI (10:41:54.517) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:41:41 2024] [0;32mI (10:42:11.144) CABINET: 2024-10-31 10:41:42
+[0m
+[Thu Oct 31 10:41:42 2024] [0;33mW (10:42:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:42:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:42:11.151) CABINET: Start timer: 100[0m
+[0;33mW (10:42:11.156) CABINET: Stop timer: 120[0m
+[0;33mW (10:42:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.165) CABINET: Index of timer: 2 [0m
+[0;33mW (10:42:11.170) CABINET: Start timer: 400[0m
+[0;33mW (10:42:11.175) CABINET: Stop timer: 420[0m
+[0;33mW (10:42:11.179) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.184) CABINET: Index of timer: 3 [0m
+[0;33mW (10:42:11.189) CABINET: Start timer: 700[0m
+[0;33mW (10:42:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:42:11.198) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.203) CABINET: Index of timer: 4 [0m
+[0;33mW (10:42:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:42:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:42:11.217) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.222) CABINET: Index of timer: 8 [0m
+[0;33mW (10:42:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:41:42 2024] [0;33mW (10:42:11.231) CABINET: Stop timer: 1320[0m
+[0;33mW (10:42:11.236) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (10:42:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:42:11.250) CABINET: Stop timer: 1721[0m
+[0;33mW (10:42:11.255) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:42:11.265) CABINET: Start
+[Thu Oct 31 10:41:42 2024] timer: 1900[0m
+[0;33mW (10:42:11.269) CABINET: Stop timer: 1920[0m
+[0;33mW (10:42:11.274) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:42:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:42:11.288) CABINET: Stop timer: 2220[0m
+[0;33mW (10:42:11.293) CABINET: Mode timer: 1[0m
+[0;33mW (10:42:11.300) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:42:11.302) CABINET: Index of timer: 0 [0m
+[0;33mW (10:42:11.307) CABINET: Start timer: 0[0m
+[0;33mW (10:42:11.312) CABINET: Stop timer: 0[0m
+[0;33mW (10:42:11.316) CABINET: Mode timer: 0[0m
+[0;33mW (10:42:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:42:11.326) CABINET: Index of timer: 0 [0m
+[0;33mW (10:42:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:42:11.335) CABINET: Stop timer: 0[0m
+[0;33mW (10:42:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (10:42:11.346) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:42:11.349) CABINET: Index of timer: 0 [0m
+[0;33mW (10:42:11.354) CABINET: Start timer:
+[Thu Oct 31 10:41:42 2024] 0[0m
+[0;33mW (10:42:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:42:11.363) CABINET: Mode timer: 0[0m
+[0;33mW (10:42:11.369) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:42:11.372) CABINET: Index of timer: 0 [0m
+[0;33mW (10:42:11.377) CABINET: Start timer: 0[0m
+[0;33mW (10:42:11.382) CABINET: Stop timer: 0[0m
+[0;33mW (10:42:11.386) CABINET: Mode timer: 0[0m
+[0;33mW (10:42:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:41:42 2024] EVICE 6[0m
+[0;33mW (10:42:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:42:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:42:11.405) CABINET: Stop timer: 0[0m
+[0;33mW (10:42:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:42:11.414) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:42:11.419) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:41:53 2024] [0;32mI (10:42:23.412) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:41:53 2024] [0;32mI (10:42:23.414) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:41:55 2024] [0;32mI (10:42:24.749) MQTT: Message sent: {
+	"continous_operation":	0.24,
+	"rtc":	"1730346144",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 10:41:55 2024] [0;32mI (10:42:24.829) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:42:23 2024] [0;32mI (10:42:53.824) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:42:23 2024] [0;32mI (10:42:53.825) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:42:24 2024] [0;32mI (10:42:55.166) MQTT: Message sent: {
+	"continous_operation":	0.25,
+	"rtc":	"1730346175",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:42:24 2024] [0;32mI (10:42:55.232) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:42:39 2024] [0;32mI (10:43:11.144) CABINET: 2024-10-31 10:42:40
+[0m
+[Thu Oct 31 10:42:40 2024] [0;33mW (10:43:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:43:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:43:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:43:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:43:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:43:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:43:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:43:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:43:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:43:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:43:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:43:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:43:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:43:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:43:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:42:40 2024] [0;33mW (10:43:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:43:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:43:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:43:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:43:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:43:11.262) CABINET: Start
+[Thu Oct 31 10:42:40 2024] timer: 1900[0m
+[0;33mW (10:43:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:43:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:43:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:43:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:43:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:43:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:43:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:43:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:43:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:43:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:43:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:43:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:43:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:43:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:43:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:43:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:43:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:43:11.352) CABINET: Start timer:
+[Thu Oct 31 10:42:40 2024] 0[0m
+[0;33mW (10:43:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:43:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:43:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:43:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:43:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:43:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:43:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:43:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:42:40 2024] EVICE 6[0m
+[0;33mW (10:43:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:43:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:43:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:43:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:43:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:43:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:42:52 2024] [0;32mI (10:43:24.236) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:42:52 2024] [0;32mI (10:43:24.238) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:42:53 2024] [0;32mI (10:43:25.594) MQTT: Message sent: {
+	"continous_operation":	0.26,
+	"rtc":	"1730346205",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 10:42:54 2024] [0;32mI (10:43:25.687) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:43:21 2024] [0;32mI (10:43:54.665) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:43:22 2024] [0;32mI (10:43:54.666) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:43:23 2024] [0;32mI (10:43:56.030) MQTT: Message sent: {
+	"continous_operation":	0.27,
+	"rtc":	"1730346236",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:43:23 2024] [0;32mI (10:43:56.104) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:43:37 2024] [0;32mI (10:44:11.144) CABINET: 2024-10-31 10:43:38
+[0m
+[Thu Oct 31 10:43:37 2024] [0;33mW (10:44:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:44:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:44:11.149) CABINET: Start timer: 100[0m
+[0;33mW (10:44:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:44:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:44:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:44:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:44:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:44:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:44:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:44:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:44:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:44:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:44:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:44:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:43:37 2024] [0;33mW (10:44:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:44:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:44:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:44:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:44:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:44:11.262) CABINET: Start
+[Thu Oct 31 10:43:38 2024] timer: 1900[0m
+[0;33mW (10:44:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:44:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:44:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:44:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:44:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:44:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:44:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:44:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:44:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:44:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:44:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:44:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:44:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:44:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:44:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:44:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:44:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:44:11.352) CABINET: Start timer:
+[Thu Oct 31 10:43:38 2024] 0[0m
+[0;33mW (10:44:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:44:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:44:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:44:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:44:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:44:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:44:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:44:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:43:39 2024] EVICE 6[0m
+[0;33mW (10:44:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:44:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:44:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:44:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:44:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:44:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:43:51 2024] [0;32mI (10:44:25.092) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:43:51 2024] [0;32mI (10:44:25.094) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:43:52 2024] [0;32mI (10:44:26.471) MQTT: Message sent: {
+	"continous_operation":	0.27,
+	"rtc":	"1730346266",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:43:52 2024] [0;32mI (10:44:26.548) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:44:31 2024] [0;32mI (10:44:55.523) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:44:31 2024] [0;32mI (10:44:55.524) Wifi: Wifi is still connected[0m
+[0;32mI (10:44:56.906) MQTT: Message sent: {
+	"continous_operation":	0.28,
+	"rtc":	"1730346296",
+	"cpu_temp":	0,
+	"rssi":	-59
+}[0m
+[0;31mE (10:44:57.939) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF[0m
+[0;31mE (10:44:57.941) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;31mE (10:44:57.948) MQTT: MQTT_EVENT_ERROR[0m
+[0;31mE (10:44:57.953) MQTT: Connection accepted[0m
+[0;31mE (10:44:57.957) MQTT: TCP transport error[0m
+[0;31mE (10:44:57.962) MQTT: Last esp error code: 0x8008, ESP_ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (10:44:57.970) MQTT: Error tls: 0
+[0m
+[0;31mE (10:44:57.975) MQTT: Error sock: 0
+[0m
+[0;31mE (10:44:57.979) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2[0m
+[0;32mI (10:44:57.990) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (10:44:57.990) CABINET: Into led task[0m
+[0;31mE (10:44:57.993) MQTT: Last esp error code: 0x8008, ESP
+[Thu Oct 31 10:44:31 2024] _ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (10:44:58.005) MQTT: Error tls: 0
+[0m
+[0;31mE (10:44:58.010) MQTT: Error sock: 0
+[0m
+[0;32mI (10:44:58.014) MQTT: Disconnect reason: TCP Transport layer error[0m
+[0;32mI (10:44:58.021) MQTT: Other event id:7[0m
+[0;32mI (10:44:58.254) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;33mW (10:44:58.254) CABINET: Finish led task[0m
+[0;32mI (10:44:58.561) MQTT: MQTT_EVENT_SUBSCRIB
+[Thu Oct 31 10:44:32 2024] ED[0m
+[0;32mI (10:44:58.571) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (10:44:58.572) MQTT: Extracted requestId: 11691[0m
+[0;32mI (10:44:58.572) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:44:58.576) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11691[0m
+[0;32mI (10:44:58.770) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (10:44:58.977) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (10:44:59.253) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (10:44:59.255) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:44:59.255) MQTT: Extracted requestId: 11692[0m
+[0;32mI (10:44:59.262) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11692[0m
+[0;32mI (10:44:59.387) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (10:45:01.420) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (10:45:01.421) MQTT: Extracted requestId: 11693[0m
+[0;32mI (10:45:01.421) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (10:45:01.425) MQTT: Sent ACK to topic: v
+[Thu Oct 31 10:44:32 2024] 1/devices/me/rpc/response/11693[0m
+[0;32mI (10:45:02.833) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:44:37 2024] [0;32mI (10:45:11.144) CABINET: 2024-10-31 10:44:36
+[0m
+[Thu Oct 31 10:44:37 2024] [0;33mW (10:45:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:45:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:45:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:45:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:45:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:45:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:45:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:45:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:45:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:45:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:45:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:45:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:45:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:45:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:45:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:44:37 2024] [0;33mW (10:45:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:45:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:45:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:45:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:45:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:45:11.263) CABINET: Start
+[Thu Oct 31 10:44:37 2024] timer: 1900[0m
+[0;33mW (10:45:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:45:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:45:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:45:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:45:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:45:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:45:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:45:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:45:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:45:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:45:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:45:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:45:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:45:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:45:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:45:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:45:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:45:11.352) CABINET: Start timer:
+[Thu Oct 31 10:44:37 2024] 0[0m
+[0;33mW (10:45:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:45:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:45:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:45:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:45:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:45:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:45:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:45:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:44:37 2024] EVICE 6[0m
+[0;33mW (10:45:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:45:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:45:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:45:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:45:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:45:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:44:50 2024] [0;32mI (10:45:25.876) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:44:50 2024] [0;32mI (10:45:25.877) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:44:51 2024] [0;32mI (10:45:27.270) MQTT: Message sent: {
+	"continous_operation":	0.29,
+	"rtc":	"1730346327",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 10:44:51 2024] [0;32mI (10:45:27.355) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:45:19 2024] [0;32mI (10:45:56.308) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:45:19 2024] [0;32mI (10:45:56.309) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:45:20 2024] [0;32mI (10:45:57.711) MQTT: Message sent: {
+	"continous_operation":	0.3,
+	"rtc":	"1730346357",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Thu Oct 31 10:45:21 2024] [0;32mI (10:45:57.793) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:45:33 2024] [0;32mI (10:46:11.144) CABINET: 2024-10-31 10:45:34
+[0m
+[Thu Oct 31 10:45:34 2024] [0;33mW (10:46:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:46:11.152) CABINET: Index of timer: 1 [0m
+[0;33mW (10:46:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:46:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:46:11.162) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:46:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:46:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:46:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:46:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:46:11.195) CABINET: Stop timer: 720[0m
+[0;33mW (10:46:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.204) CABINET: Index of timer: 4 [0m
+[0;33mW (10:46:11.209) CABINET: Start timer: 1000[0m
+[0;33mW (10:46:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:46:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.223) CABINET: Index of timer: 8 [0m
+[0;33mW (10:46:11.228) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:45:34 2024] [0;33mW (10:46:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:46:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.242) CABINET: Index of timer: 5 [0m
+[0;33mW (10:46:11.247) CABINET: Start timer: 1720[0m
+[0;33mW (10:46:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:46:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.261) CABINET: Index of timer: 6 [0m
+[0;33mW (10:46:11.265) CABINET: Start
+[Thu Oct 31 10:45:34 2024] timer: 1900[0m
+[0;33mW (10:46:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:46:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.280) CABINET: Index of timer: 7 [0m
+[0;33mW (10:46:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:46:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:46:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:46:11.301) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:46:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:46:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:46:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:46:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:46:11.324) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:46:11.327) CABINET: Index of timer: 0 [0m
+[0;33mW (10:46:11.332) CABINET: Start timer: 0[0m
+[0;33mW (10:46:11.337) CABINET: Stop timer: 0[0m
+[0;33mW (10:46:11.341) CABINET: Mode timer: 0[0m
+[0;33mW (10:46:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:46:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:46:11.355) CABINET: Start timer:
+[Thu Oct 31 10:45:34 2024] 0[0m
+[0;33mW (10:46:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:46:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:46:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:46:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:46:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:46:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:46:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:46:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:45:34 2024] EVICE 6[0m
+[0;33mW (10:46:11.397) CABINET: Index of timer: 0 [0m
+[0;33mW (10:46:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:46:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:46:11.411) CABINET: Mode timer: 0[0m
+[0;33mW (10:46:11.416) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:46:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:45:48 2024] [0;32mI (10:46:26.727) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:45:49 2024] [0;32mI (10:46:26.729) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:45:50 2024] [0;32mI (10:46:28.136) MQTT: Message sent: {
+	"continous_operation":	0.31,
+	"rtc":	"1730346388",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 10:45:50 2024] [0;32mI (10:46:28.223) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:46:18 2024] [0;32mI (10:46:57.146) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:46:18 2024] [0;32mI (10:46:57.148) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:46:19 2024] [0;32mI (10:46:58.574) MQTT: Message sent: {
+	"continous_operation":	0.32,
+	"rtc":	"1730346418",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:46:19 2024] [0;32mI (10:46:58.679) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:46:31 2024] [0;32mI (10:47:11.144) CABINET: 2024-10-31 10:46:32
+[0m
+[Thu Oct 31 10:46:31 2024] [0;33mW (10:47:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:47:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:47:11.149) CABINET: Start timer: 100[0m
+[0;33mW (10:47:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:47:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:47:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:47:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:47:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:47:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:47:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:47:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:47:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:47:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:47:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:47:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:46:31 2024] [0;33mW (10:47:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:47:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:47:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:47:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:47:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:47:11.262) CABINET: Start
+[Thu Oct 31 10:46:32 2024] timer: 1900[0m
+[0;33mW (10:47:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:47:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:47:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:47:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (10:47:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:47:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:47:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:47:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:47:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:47:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:47:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:47:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:47:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:47:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:47:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:47:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:47:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:47:11.352) CABINET: Start timer:
+[Thu Oct 31 10:46:32 2024] 0[0m
+[0;33mW (10:47:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:47:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:47:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:47:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:47:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:47:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:47:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:47:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:46:32 2024] EVICE 6[0m
+[0;33mW (10:47:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:47:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:47:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:47:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:47:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:47:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:46:47 2024] [0;32mI (10:47:27.552) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:46:48 2024] [0;32mI (10:47:27.553) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:46:49 2024] [0;32mI (10:47:28.989) MQTT: Message sent: {
+	"continous_operation":	0.32,
+	"rtc":	"1730346448",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:46:49 2024] [0;32mI (10:47:29.172) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:47:21 2024] [0;32mI (10:47:57.966) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:47:21 2024] [0;32mI (10:47:57.968) Wifi: Wifi is still connected[0m
+[0;32mI (10:47:59.397) MQTT: Message sent: {
+	"continous_operation":	0.33,
+	"rtc":	"1730346479",
+	"cpu_temp":	0,
+	"rssi":	-65
+}[0m
+[0;32mI (10:48:00.803) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:47:29 2024] [0;32mI (10:48:11.144) CABINET: 2024-10-31 10:47:30
+[0m
+[Thu Oct 31 10:47:30 2024] [0;33mW (10:48:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:48:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:48:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:48:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:48:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:48:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:48:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:48:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:48:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:48:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:48:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:48:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:48:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:48:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:48:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:47:30 2024] [0;33mW (10:48:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:48:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:48:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:48:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:48:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:48:11.263) CABINET: Start
+[Thu Oct 31 10:47:30 2024] timer: 1900[0m
+[0;33mW (10:48:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:48:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:48:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:48:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:48:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:48:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:48:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:48:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:48:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:48:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:48:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:48:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:48:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:48:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:48:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:48:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:48:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:48:11.352) CABINET: Start timer:
+[Thu Oct 31 10:47:30 2024] 0[0m
+[0;33mW (10:48:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:48:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:48:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:48:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:48:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:48:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:48:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:48:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:47:30 2024] EVICE 6[0m
+[0;33mW (10:48:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:48:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:48:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:48:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:48:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:48:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:47:46 2024] [0;32mI (10:48:28.373) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:47:46 2024] [0;32mI (10:48:28.375) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:47:47 2024] [0;32mI (10:48:29.833) MQTT: Message sent: {
+	"continous_operation":	0.34,
+	"rtc":	"1730346509",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:47:48 2024] [0;32mI (10:48:29.987) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:48:15 2024] [0;32mI (10:48:58.815) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:48:16 2024] [0;32mI (10:48:58.818) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:48:17 2024] [0;32mI (10:49:00.286) MQTT: Message sent: {
+	"continous_operation":	0.35,
+	"rtc":	"1730346540",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Thu Oct 31 10:48:17 2024] [0;32mI (10:49:00.462) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:48:27 2024] [0;32mI (10:49:11.144) CABINET: 2024-10-31 10:48:28
+[0m
+[Thu Oct 31 10:48:27 2024] [0;33mW (10:49:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:49:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:49:11.149) CABINET: Start timer: 100[0m
+[0;33mW (10:49:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:49:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:49:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:49:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:49:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:49:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:49:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (10:49:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:49:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (10:49:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (10:49:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:49:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:48:27 2024] [0;33mW (10:49:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:49:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:49:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (10:49:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:49:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:49:11.262) CABINET: Start
+[Thu Oct 31 10:48:28 2024] timer: 1900[0m
+[0;33mW (10:49:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:49:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (10:49:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (10:49:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:49:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:49:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:49:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:49:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:49:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:49:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:49:11.320) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:49:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:49:11.328) CABINET: Start timer: 0[0m
+[0;33mW (10:49:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:49:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:49:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:49:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:49:11.352) CABINET: Start timer:
+[Thu Oct 31 10:48:28 2024] 0[0m
+[0;33mW (10:49:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (10:49:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:49:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:49:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:49:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:49:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:49:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:49:11.390) CABINET: TIMER OF D
+[Thu Oct 31 10:48:28 2024] EVICE 6[0m
+[0;33mW (10:49:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (10:49:11.398) CABINET: Start timer: 0[0m
+[0;33mW (10:49:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:49:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (10:49:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:49:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:48:45 2024] [0;32mI (10:49:29.227) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:48:45 2024] [0;32mI (10:49:29.228) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:48:46 2024] [0;32mI (10:49:30.705) MQTT: Message sent: {
+	"continous_operation":	0.36,
+	"rtc":	"1730346570",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 10:48:46 2024] [0;32mI (10:49:30.879) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:49:14 2024] [0;32mI (10:49:59.660) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:49:14 2024] [0;32mI (10:49:59.662) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:49:16 2024] [0;32mI (10:50:01.140) MQTT: Message sent: {
+	"continous_operation":	0.37,
+	"rtc":	"1730346601",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:49:16 2024] [0;32mI (10:50:01.325) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:49:25 2024] [0;32mI (10:50:11.144) CABINET: 2024-10-31 10:49:26
+[0m
+[Thu Oct 31 10:49:28 2024] [0;33mW (10:50:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:50:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:50:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:50:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:50:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:50:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:50:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:50:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:50:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:50:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:50:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:50:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:50:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:50:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:50:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:49:28 2024] [0;33mW (10:50:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:50:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:50:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:50:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:50:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:50:11.263) CABINET: Start
+[Thu Oct 31 10:49:28 2024] timer: 1900[0m
+[0;33mW (10:50:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:50:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:50:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:50:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:50:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:50:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:50:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:50:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:50:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:50:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:50:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:50:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:50:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:50:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:50:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:50:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:50:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:50:11.352) CABINET: Start timer:
+[Thu Oct 31 10:49:28 2024] 0[0m
+[0;33mW (10:50:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:50:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:50:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:50:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:50:11.376) CABINET: Start timer: 0[0m
+[0;33mW (10:50:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:50:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:50:11.392) CABINET: TIMER OF D
+[Thu Oct 31 10:49:29 2024] EVICE 6[0m
+[0;33mW (10:50:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:50:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:50:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:50:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:50:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:50:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:49:44 2024] [0;32mI (10:50:30.008) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:49:44 2024] [0;32mI (10:50:30.010) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:49:45 2024] [0;32mI (10:50:31.508) MQTT: Message sent: {
+	"continous_operation":	0.38,
+	"rtc":	"1730346631",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:49:45 2024] [0;32mI (10:50:31.691) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:50:13 2024] [0;32mI (10:51:00.453) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:50:13 2024] [0;32mI (10:51:00.455) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:50:14 2024] [0;32mI (10:51:01.962) MQTT: Message sent: {
+	"continous_operation":	0.38,
+	"rtc":	"1730346661",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 10:50:15 2024] [0;32mI (10:51:02.155) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:50:23 2024] [0;32mI (10:51:11.144) CABINET: 2024-10-31 10:50:24
+[0m
+[Thu Oct 31 10:50:23 2024] [0;33mW (10:51:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:51:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:51:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:51:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:51:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:51:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:51:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:51:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:51:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:51:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:51:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.203) CABINET: Index of timer: 4 [0m
+[0;33mW (10:51:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:51:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:51:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.222) CABINET: Index of timer: 8 [0m
+[0;33mW (10:51:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:50:23 2024] [0;33mW (10:51:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:51:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (10:51:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:51:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:51:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:51:11.265) CABINET: Start
+[Thu Oct 31 10:50:24 2024] timer: 1900[0m
+[0;33mW (10:51:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:51:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:51:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:51:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:51:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:51:11.301) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:51:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:51:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:51:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:51:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:51:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:51:11.326) CABINET: Index of timer: 0 [0m
+[0;33mW (10:51:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:51:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (10:51:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (10:51:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:51:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:51:11.355) CABINET: Start timer:
+[Thu Oct 31 10:50:24 2024] 0[0m
+[0;33mW (10:51:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:51:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:51:11.371) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:51:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:51:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:51:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:51:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:51:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:50:24 2024] EVICE 6[0m
+[0;33mW (10:51:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:51:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:51:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:51:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:51:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:51:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:50:42 2024] [0;32mI (10:51:30.888) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:50:43 2024] [0;32mI (10:51:30.890) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:50:44 2024] [0;32mI (10:51:32.406) MQTT: Message sent: {
+	"continous_operation":	0.39,
+	"rtc":	"1730346692",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:50:44 2024] [0;32mI (10:51:32.594) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:51:12 2024] [0;32mI (10:52:01.329) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:51:12 2024] [0;32mI (10:52:01.331) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:51:13 2024] [0;32mI (10:52:02.857) MQTT: Message sent: {
+	"continous_operation":	0.4,
+	"rtc":	"1730346722",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:51:13 2024] [0;32mI (10:52:03.058) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:51:21 2024] [0;32mI (10:52:11.144) CABINET: 2024-10-31 10:51:22
+[0m
+[Thu Oct 31 10:51:21 2024] [0;33mW (10:52:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:52:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:52:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:52:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:52:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:52:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:52:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:52:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:52:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:52:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:52:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:52:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:52:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:52:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:52:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:51:21 2024] [0;33mW (10:52:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (10:52:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:52:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:52:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (10:52:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:52:11.263) CABINET: Start
+[Thu Oct 31 10:51:21 2024] timer: 1900[0m
+[0;33mW (10:52:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (10:52:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:52:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:52:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:52:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:52:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:52:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (10:52:11.305) CABINET: Start timer: 0[0m
+[0;33mW (10:52:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:52:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (10:52:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:52:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:52:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:52:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:52:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:52:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:52:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:52:11.352) CABINET: Start timer:
+[Thu Oct 31 10:51:21 2024] 0[0m
+[0;33mW (10:52:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:52:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:52:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:52:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:52:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:52:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:52:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:52:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:51:22 2024] EVICE 6[0m
+[0;33mW (10:52:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:52:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:52:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:52:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:52:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:52:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:51:41 2024] [0;32mI (10:52:31.748) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:51:41 2024] [0;32mI (10:52:31.750) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:51:43 2024] [0;32mI (10:52:33.285) MQTT: Message sent: {
+	"continous_operation":	0.41,
+	"rtc":	"1730346753",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 10:51:43 2024] [0;32mI (10:52:33.396) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:52:11 2024] [0;32mI (10:53:02.155) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:52:11 2024] [0;32mI (10:53:02.157) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:52:12 2024] [0;32mI (10:53:03.706) MQTT: Message sent: {
+	"continous_operation":	0.42,
+	"rtc":	"1730346783",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:52:12 2024] [0;32mI (10:53:03.861) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:52:19 2024] [0;32mI (10:53:11.144) CABINET: 2024-10-31 10:52:20
+[0m
+[Thu Oct 31 10:52:22 2024] [0;33mW (10:53:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:53:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:53:11.151) CABINET: Start timer: 100[0m
+[0;33mW (10:53:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:53:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:53:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:53:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:53:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:53:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:53:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:53:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:53:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:53:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:53:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:53:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:52:22 2024] [0;33mW (10:53:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:53:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:53:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:53:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:53:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:53:11.263) CABINET: Start
+[Thu Oct 31 10:52:22 2024] timer: 1900[0m
+[0;33mW (10:53:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:53:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:53:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:53:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:53:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:53:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:53:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:53:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:53:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:53:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:53:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:53:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:53:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:53:11.334) CABINET: Stop timer: 0[0m
+[0;33mW (10:53:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:53:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:53:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:53:11.352) CABINET: Start timer:
+[Thu Oct 31 10:52:22 2024] 0[0m
+[0;33mW (10:53:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:53:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:53:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:53:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:53:11.376) CABINET: Start timer: 0[0m
+[0;33mW (10:53:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:53:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (10:53:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:52:22 2024] EVICE 6[0m
+[0;33mW (10:53:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:53:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:53:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:53:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:53:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:53:11.418) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:52:40 2024] [0;32mI (10:53:32.552) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:52:40 2024] [0;32mI (10:53:32.554) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:52:41 2024] [0;32mI (10:53:34.113) MQTT: Message sent: {
+	"continous_operation":	0.43,
+	"rtc":	"1730346814",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:52:42 2024] [0;32mI (10:53:34.211) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:53:09 2024] [0;32mI (10:54:02.970) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:53:10 2024] [0;32mI (10:54:02.972) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:53:11 2024] [0;32mI (10:54:04.543) MQTT: Message sent: {
+	"continous_operation":	0.43,
+	"rtc":	"1730346844",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:53:11 2024] [0;32mI (10:54:04.731) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:53:17 2024] [0;32mI (10:54:11.144) CABINET: 2024-10-31 10:53:18
+[0m
+[Thu Oct 31 10:53:17 2024] [0;33mW (10:54:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:54:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:54:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:54:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:54:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:54:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:54:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:54:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:54:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:54:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:54:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.204) CABINET: Index of timer: 4 [0m
+[0;33mW (10:54:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:54:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:54:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.223) CABINET: Index of timer: 8 [0m
+[0;33mW (10:54:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:53:17 2024] [0;33mW (10:54:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:54:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (10:54:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:54:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:54:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:54:11.265) CABINET: Start
+[Thu Oct 31 10:53:18 2024] timer: 1900[0m
+[0;33mW (10:54:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:54:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:54:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:54:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:54:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:54:11.301) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:54:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:54:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:54:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:54:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:54:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:54:11.327) CABINET: Index of timer: 0 [0m
+[0;33mW (10:54:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:54:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (10:54:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (10:54:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:54:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:54:11.355) CABINET: Start timer:
+[Thu Oct 31 10:53:18 2024] 0[0m
+[0;33mW (10:54:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:54:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:54:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:54:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:54:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:54:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:54:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:54:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:53:18 2024] EVICE 6[0m
+[0;33mW (10:54:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:54:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:54:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:54:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:54:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:54:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:53:39 2024] [0;32mI (10:54:33.375) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:53:39 2024] [0;32mI (10:54:33.377) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:53:40 2024] [0;32mI (10:54:34.955) MQTT: Message sent: {
+	"continous_operation":	0.44,
+	"rtc":	"1730346874",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:53:40 2024] [0;32mI (10:54:35.107) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:54:08 2024] [0;32mI (10:55:03.808) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:54:08 2024] [0;32mI (10:55:03.809) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:54:10 2024] [0;32mI (10:55:05.398) MQTT: Message sent: {
+	"continous_operation":	0.45,
+	"rtc":	"1730346905",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:54:10 2024] [0;32mI (10:55:05.569) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:54:15 2024] [0;32mI (10:55:11.144) CABINET: 2024-10-31 10:54:16
+[0m
+[Thu Oct 31 10:54:15 2024] [0;33mW (10:55:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:55:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:55:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:55:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (10:55:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (10:55:11.171) CABINET: Start timer: 400[0m
+[0;33mW (10:55:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (10:55:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (10:55:11.190) CABINET: Start timer: 700[0m
+[0;33mW (10:55:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (10:55:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.204) CABINET: Index of timer: 4 [0m
+[0;33mW (10:55:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (10:55:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (10:55:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.223) CABINET: Index of timer: 8 [0m
+[0;33mW (10:55:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:54:15 2024] [0;33mW (10:55:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (10:55:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.242) CABINET: Index of timer: 5 [0m
+[0;33mW (10:55:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (10:55:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (10:55:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (10:55:11.265) CABINET: Start
+[Thu Oct 31 10:54:15 2024] timer: 1900[0m
+[0;33mW (10:55:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (10:55:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (10:55:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (10:55:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (10:55:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (10:55:11.301) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:55:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (10:55:11.308) CABINET: Start timer: 0[0m
+[0;33mW (10:55:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (10:55:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (10:55:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:55:11.327) CABINET: Index of timer: 0 [0m
+[0;33mW (10:55:11.331) CABINET: Start timer: 0[0m
+[0;33mW (10:55:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (10:55:11.342) CABINET: Mode timer: 0[0m
+[0;33mW (10:55:11.347) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:55:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (10:55:11.355) CABINET: Start timer:
+[Thu Oct 31 10:54:15 2024] 0[0m
+[0;33mW (10:55:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (10:55:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (10:55:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:55:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (10:55:11.378) CABINET: Start timer: 0[0m
+[0;33mW (10:55:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (10:55:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (10:55:11.393) CABINET: TIMER OF D
+[Thu Oct 31 10:54:16 2024] EVICE 6[0m
+[0;33mW (10:55:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (10:55:11.401) CABINET: Start timer: 0[0m
+[0;33mW (10:55:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (10:55:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (10:55:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:55:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:54:39 2024] [0;32mI (10:55:34.230) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:54:39 2024] [0;32mI (10:55:34.232) Wifi: Wifi is still connected[0m
+[0;32mI (10:55:35.834) MQTT: Message sent: {
+	"continous_operation":	0.46,
+	"rtc":	"1730346935",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 10:54:39 2024] [0;32mI (10:55:35.904) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:55:09 2024] [0;32mI (10:56:04.650) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:55:09 2024] [0;32mI (10:56:04.652) Wifi: Wifi is still connected[0m
+[0;32mI (10:56:06.258) MQTT: Message sent: {
+	"continous_operation":	0.47,
+	"rtc":	"1730346966",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[0;32mI (10:56:06.550) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:55:13 2024] [0;32mI (10:56:11.144) CABINET: 2024-10-31 10:55:14
+[0m
+[Thu Oct 31 10:55:13 2024] [0;33mW (10:56:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:56:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:56:11.152) CABINET: Start timer: 100[0m
+[0;33mW (10:56:11.155) CABINET: Stop timer: 120[0m
+[0;33mW (10:56:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.164) CABINET: Index of timer: 2 [0m
+[0;33mW (10:56:11.169) CABINET: Start timer: 400[0m
+[0;33mW (10:56:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:56:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.183) CABINET: Index of timer: 3 [0m
+[0;33mW (10:56:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:56:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:56:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:56:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:56:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:56:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:56:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:55:13 2024] [0;33mW (10:56:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:56:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:56:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:56:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:56:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:56:11.263) CABINET: Start
+[Thu Oct 31 10:55:14 2024] timer: 1900[0m
+[0;33mW (10:56:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:56:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:56:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:56:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:56:11.292) CABINET: Mode timer: 1[0m
+[0;33mW (10:56:11.299) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:56:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:56:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:56:11.311) CABINET: Stop timer: 0[0m
+[0;33mW (10:56:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:56:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:56:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:56:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:56:11.334) CABINET: Stop timer: 0[0m
+[0;33mW (10:56:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:56:11.346) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:56:11.348) CABINET: Index of timer: 0 [0m
+[0;33mW (10:56:11.353) CABINET: Start timer:
+[Thu Oct 31 10:55:14 2024] 0[0m
+[0;33mW (10:56:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:56:11.362) CABINET: Mode timer: 0[0m
+[0;33mW (10:56:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:56:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:56:11.376) CABINET: Start timer: 0[0m
+[0;33mW (10:56:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:56:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (10:56:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:55:14 2024] EVICE 6[0m
+[0;33mW (10:56:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:56:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:56:11.404) CABINET: Stop timer: 0[0m
+[0;33mW (10:56:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:56:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:56:11.418) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:55:20 2024] [0;33mW (10:56:18.659) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: OFF, Feedback: ON[0m
+[Thu Oct 31 10:55:21 2024] [0;33mW (10:56:18.661) CABINET: Into led task[0m
+[0;33mW (10:56:18.664) CABINET: Finish led task[0m
+[0;33mW (10:56:18.670) CABINET: Into led task[0m
+[Thu Oct 31 10:55:21 2024] [0;33mW (10:56:19.682) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: OFF, Feedback: ON[0m
+[Thu Oct 31 10:55:22 2024] [0;33mW (10:56:20.696) CABINET_CONTROLLER_LOG: Warning: Relay 2 status mismatch! Current: OFF, Feedback: ON[0m
+[Thu Oct 31 10:55:23 2024] [0;33mW (10:56:21.713) CABINET: Finish led task[0m
+[Thu Oct 31 10:55:36 2024] [0;32mI (10:56:35.052) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:55:36 2024] [0;32mI (10:56:35.054) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:55:38 2024] [0;32mI (10:56:36.667) MQTT: Message sent: {
+	"continous_operation":	0.48,
+	"rtc":	"1730346996",
+	"cpu_temp":	0,
+	"rssi":	-60
+}[0m
+[Thu Oct 31 10:55:38 2024] [0;32mI (10:56:36.733) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:55:47 2024] [0;33mW (10:56:46.038) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Thu Oct 31 10:55:47 2024] [0;33mW (10:56:46.040) CABINET: Into led task[0m
+[Thu Oct 31 10:55:48 2024] [0;33mW (10:56:47.049) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Thu Oct 31 10:55:49 2024] [0;33mW (10:56:48.062) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Thu Oct 31 10:55:50 2024] [0;33mW (10:56:49.076) CABINET_CONTROLLER_LOG: Warning: Relay 1 status mismatch! Current: ON, Feedback: OFF[0m
+[Thu Oct 31 10:55:51 2024] [0;33mW (10:56:50.093) CABINET: Finish led task[0m
+[Thu Oct 31 10:56:06 2024] [0;32mI (10:57:05.455) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:56:06 2024] [0;32mI (10:57:05.456) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:56:07 2024] [0;32mI (10:57:07.084) MQTT: Message sent: {
+	"continous_operation":	0.49,
+	"rtc":	"1730347027",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 10:56:07 2024] [0;32mI (10:57:07.148) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:56:11 2024] [0;32mI (10:57:11.144) CABINET: 2024-10-31 10:56:12
+[0m
+[Thu Oct 31 10:56:11 2024] [0;33mW (10:57:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:57:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (10:57:11.151) CABINET: Start timer: 100[0m
+[0;33mW (10:57:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:57:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.164) CABINET: Index of timer: 2 [0m
+[0;33mW (10:57:11.169) CABINET: Start timer: 400[0m
+[0;33mW (10:57:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:57:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:57:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:57:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:57:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:57:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:57:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:57:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:57:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:56:11 2024] [0;33mW (10:57:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:57:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:57:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:57:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:57:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:57:11.263) CABINET: Start
+[Thu Oct 31 10:56:11 2024] timer: 1900[0m
+[0;33mW (10:57:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:57:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:57:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:57:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:57:11.292) CABINET: Mode timer: 1[0m
+[0;33mW (10:57:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:57:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:57:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:57:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:57:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:57:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:57:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:57:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:57:11.334) CABINET: Stop timer: 0[0m
+[0;33mW (10:57:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:57:11.345) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:57:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:57:11.352) CABINET: Start timer:
+[Thu Oct 31 10:56:11 2024] 0[0m
+[0;33mW (10:57:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:57:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:57:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:57:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:57:11.376) CABINET: Start timer: 0[0m
+[0;33mW (10:57:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:57:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (10:57:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:56:12 2024] EVICE 6[0m
+[0;33mW (10:57:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:57:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:57:11.404) CABINET: Stop timer: 0[0m
+[0;33mW (10:57:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:57:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:57:11.418) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:56:35 2024] [0;32mI (10:57:35.870) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:56:35 2024] [0;32mI (10:57:35.872) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:56:37 2024] [0;32mI (10:57:37.506) MQTT: Message sent: {
+	"continous_operation":	0.49,
+	"rtc":	"1730347057",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 10:56:37 2024] [0;32mI (10:57:37.706) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:57:05 2024] [0;32mI (10:58:06.262) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:57:05 2024] [0;32mI (10:58:06.264) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:57:06 2024] [0;32mI (10:58:07.914) MQTT: Message sent: {
+	"continous_operation":	0.5,
+	"rtc":	"1730347087",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 10:57:06 2024] [0;32mI (10:58:08.026) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:57:09 2024] [0;32mI (10:58:11.144) CABINET: 2024-10-31 10:57:10
+[0m
+[Thu Oct 31 10:57:09 2024] [0;33mW (10:58:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:58:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (10:58:11.150) CABINET: Start timer: 100[0m
+[0;33mW (10:58:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:58:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:58:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:58:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:58:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:58:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:58:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:58:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:58:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:58:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:58:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:58:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:57:09 2024] [0;33mW (10:58:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:58:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:58:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:58:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:58:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:58:11.263) CABINET: Start
+[Thu Oct 31 10:57:10 2024] timer: 1900[0m
+[0;33mW (10:58:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:58:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:58:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:58:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:58:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:58:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:58:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:58:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:58:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:58:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:58:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:58:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:58:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:58:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:58:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:58:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:58:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:58:11.352) CABINET: Start timer:
+[Thu Oct 31 10:57:10 2024] 0[0m
+[0;33mW (10:58:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:58:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:58:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:58:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (10:58:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:58:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:58:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:58:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:57:10 2024] EVICE 6[0m
+[0;33mW (10:58:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:58:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:58:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:58:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:58:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:58:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:57:34 2024] [0;32mI (10:58:36.677) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:57:34 2024] [0;32mI (10:58:36.679) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:57:36 2024] [0;32mI (10:58:38.338) MQTT: Message sent: {
+	"continous_operation":	0.51,
+	"rtc":	"1730347118",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Thu Oct 31 10:57:36 2024] [0;32mI (10:58:38.457) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:58:03 2024] [0;32mI (10:59:07.088) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:58:05 2024] [0;32mI (10:59:07.090) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:58:05 2024] [0;32mI (10:59:08.760) MQTT: Message sent: {
+	"continous_operation":	0.52,
+	"rtc":	"1730347148",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[0;32mI (10:59:08.961) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:58:07 2024] [0;32mI (10:59:11.144) CABINET: 2024-10-31 10:58:08
+[0m
+[Thu Oct 31 10:58:09 2024] [0;33mW (10:59:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (10:59:11.150) CABINET: Index of timer: 1 [0m
+[0;33mW (10:59:11.151) CABINET: Start timer: 100[0m
+[0;33mW (10:59:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (10:59:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (10:59:11.168) CABINET: Start timer: 400[0m
+[0;33mW (10:59:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (10:59:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (10:59:11.187) CABINET: Start timer: 700[0m
+[0;33mW (10:59:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (10:59:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (10:59:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (10:59:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (10:59:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (10:59:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 10:58:09 2024] [0;33mW (10:59:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (10:59:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (10:59:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (10:59:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (10:59:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (10:59:11.263) CABINET: Start
+[Thu Oct 31 10:58:10 2024] timer: 1900[0m
+[0;33mW (10:59:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (10:59:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (10:59:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (10:59:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (10:59:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (10:59:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (10:59:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (10:59:11.306) CABINET: Start timer: 0[0m
+[0;33mW (10:59:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (10:59:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (10:59:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (10:59:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (10:59:11.329) CABINET: Start timer: 0[0m
+[0;33mW (10:59:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (10:59:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (10:59:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (10:59:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (10:59:11.352) CABINET: Start timer:
+[Thu Oct 31 10:58:10 2024] 0[0m
+[0;33mW (10:59:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (10:59:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (10:59:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (10:59:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (10:59:11.375) CABINET: Start timer: 0[0m
+[0;33mW (10:59:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (10:59:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (10:59:11.391) CABINET: TIMER OF D
+[Thu Oct 31 10:58:10 2024] EVICE 6[0m
+[0;33mW (10:59:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (10:59:11.399) CABINET: Start timer: 0[0m
+[0;33mW (10:59:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (10:59:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (10:59:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (10:59:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 10:58:33 2024] [0;32mI (10:59:37.469) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:58:33 2024] [0;32mI (10:59:37.470) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:58:34 2024] [0;32mI (10:59:39.148) MQTT: Message sent: {
+	"continous_operation":	0.53,
+	"rtc":	"1730347179",
+	"cpu_temp":	0,
+	"rssi":	-56
+}[0m
+[Thu Oct 31 10:58:35 2024] [0;32mI (10:59:39.282) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:59:08 2024] [0;32mI (11:00:07.887) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:59:10 2024] [0;32mI (11:00:07.889) Wifi: Wifi is still connected[0m
+[0;32mI (11:00:09.579) MQTT: Message sent: {
+	"continous_operation":	0.54,
+	"rtc":	"1730347209",
+	"cpu_temp":	0,
+	"rssi":	-68
+}[0m
+[0;31mE (11:00:10.343) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF[0m
+[0;31mE (11:00:10.345) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;31mE (11:00:10.353) MQTT: MQTT_EVENT_ERROR[0m
+[0;31mE (11:00:10.357) MQTT: Connection accepted[0m
+[0;31mE (11:00:10.362) MQTT: TCP transport error[0m
+[0;31mE (11:00:10.367) MQTT: Last esp error code: 0x8008, ESP_ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (11:00:10.375) MQTT: Error tls: 0
+[0m
+[0;31mE (11:00:10.379) MQTT: Error sock: 0
+[0m
+[0;31mE (11:00:10.384) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2[0m
+[0;32mI (11:00:10.395) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (11:00:10.397) CABINET: Into led task[0m
+[0;31mE (11:00:10.397) MQTT: Last esp error code: 0x8008, ESP
+[Thu Oct 31 10:59:10 2024] _ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (11:00:10.410) MQTT: Error tls: 0
+[0m
+[0;31mE (11:00:10.414) MQTT: Error sock: 0
+[0m
+[0;32mI (11:00:10.419) MQTT: Disconnect reason: TCP Transport layer error[0m
+[0;32mI (11:00:10.426) MQTT: Other event id:7[0m
+[0;32mI (11:00:10.709) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;33mW (11:00:10.710) CABINET: Finish led task[0m
+[0;32mI (11:00:10.780) MQTT: MQTT_EVENT_SUBSCRIB
+[Thu Oct 31 10:59:11 2024] ED[0m
+[0;32mI (11:00:10.793) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:00:10.795) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:00:10.795) MQTT: Extracted requestId: 11694[0m
+[0;32mI (11:00:10.798) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11694[0m
+[0;32mI (11:00:10.851) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (11:00:10.956) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (11:00:11.144) CABINET: 2024-10-31 10:59:06
+[0m
+[0;33mW (11:00:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:00:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (11:00:11.151) CABINET: Start timer: 100[0m
+[0;33mW (11:00:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (11:00:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.164) CABINET: Index of timer: 2 [0m
+[0;33mW (11:00:11.168) CABINET: Start timer: 400[0m
+[0;33mW (11:00:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (11:00:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (11:0
+[Thu Oct 31 10:59:11 2024] 0:11.187) CABINET: Start timer: 700[0m
+[0;33mW (11:00:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (11:00:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (11:00:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (11:00:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (11:00:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (11:00:11.225) CABINET: Start timer: 1300[0m
+[0;33mW (11:00:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (11:00:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (11:00:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (11:00:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (11:00:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (11:00:11.263) CABINET: Start timer: 1900[0m
+[0;33mW (11:00:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (11:00:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:
+[Thu Oct 31 10:59:11 2024] 11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (11:00:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (11:00:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (11:00:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (11:00:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:00:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (11:00:11.306) CABINET: Start timer: 0[0m
+[0;33mW (11:00:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (11:00:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (11:00:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:00:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (11:00:11.329) CABINET: Start timer: 0[0m
+[0;33mW (11:00:11.334) CABINET: Stop timer: 0[0m
+[0;33mW (11:00:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (11:00:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:00:11.347) CABINET: Index of timer
+[Thu Oct 31 10:59:11 2024] : 0 [0m
+[0;33mW (11:00:11.352) CABINET: Start timer: 0[0m
+[0;33mW (11:00:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (11:00:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (11:00:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:00:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (11:00:11.376) CABINET: Start timer: 0[0m
+[0;33mW (11:00:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (11:00:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (11:00:11.391) CABINET: TIMER OF DEVICE 6[0m
+[0;33mW (11:00:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (11:00:11.399) CABINET: Start timer: 0[0m
+[0;33mW (11:00:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (11:00:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (11:00:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:00:11.418) CABINET: TIMER OF DEVICE 8[0m
+[0;32mI (11:00:12.418) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:00:12.419) MQTT: Extracted requestId: 11695[0m
+[0;32mI (11:00:12.419) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (1
+[Thu Oct 31 10:59:11 2024] 1:00:12.425) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11695[0m
+[0;32mI (11:00:12.728) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;32mI (11:00:13.530) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:00:13.532) MQTT: Extracted requestId: 11696[0m
+[0;32mI (11:00:13.532) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:00:13.536) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/
+[Thu Oct 31 10:59:11 2024] 11696[0m
+[0;32mI (11:00:13.844) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 10:59:32 2024] [0;32mI (11:00:38.245) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 10:59:32 2024] [0;32mI (11:00:38.249) Wifi: Wifi is still connected[0m
+[Thu Oct 31 10:59:33 2024] [0;32mI (11:00:39.943) MQTT: Message sent: {
+	"continous_operation":	0.54,
+	"rtc":	"1730347239",
+	"cpu_temp":	0,
+	"rssi":	-60
+}[0m
+[Thu Oct 31 10:59:34 2024] [0;32mI (11:00:40.052) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:00:01 2024] [0;32mI (11:01:08.615) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:00:01 2024] [0;32mI (11:01:08.617) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:00:03 2024] [0;32mI (11:01:10.320) MQTT: Message sent: {
+	"continous_operation":	0.55,
+	"rtc":	"1730347270",
+	"cpu_temp":	0,
+	"rssi":	-56
+}[0m
+[Thu Oct 31 11:00:03 2024] [0;32mI (11:01:10.487) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:00:04 2024] [0;32mI (11:01:11.146) CABINET: 2024-10-31 11:00:05
+[0m
+[Thu Oct 31 11:00:04 2024] [0;33mW (11:01:11.153) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:01:11.154) CABINET: Index of timer: 1 [0m
+[0;33mW (11:01:11.155) CABINET: Start timer: 100[0m
+[0;33mW (11:01:11.158) CABINET: Stop timer: 120[0m
+[0;33mW (11:01:11.163) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.167) CABINET: Index of timer: 2 [0m
+[0;33mW (11:01:11.172) CABINET: Start timer: 400[0m
+[0;33mW (11:01:11.177) CABINET: Stop timer: 420[0m
+[0;33mW (11:01:11.182) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.186) CABINET: Index of timer: 3 [0m
+[0;33mW (11:01:11.191) CABINET: Start timer: 700[0m
+[0;33mW (11:01:11.196) CABINET: Stop timer: 720[0m
+[0;33mW (11:01:11.201) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.205) CABINET: Index of timer: 4 [0m
+[0;33mW (11:01:11.210) CABINET: Start timer: 1000[0m
+[0;33mW (11:01:11.215) CABINET: Stop timer: 1020[0m
+[0;33mW (11:01:11.220) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.224) CABINET: Index of timer: 8 [0m
+[0;33mW (11:01:11.229) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:00:04 2024] [0;33mW (11:01:11.234) CABINET: Stop timer: 1320[0m
+[0;33mW (11:01:11.238) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.243) CABINET: Index of timer: 5 [0m
+[0;33mW (11:01:11.248) CABINET: Start timer: 1720[0m
+[0;33mW (11:01:11.253) CABINET: Stop timer: 1721[0m
+[0;33mW (11:01:11.257) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.262) CABINET: Index of timer: 6 [0m
+[0;33mW (11:01:11.267) CABINET: Start
+[Thu Oct 31 11:00:09 2024] timer: 1900[0m
+[0;33mW (11:01:11.272) CABINET: Stop timer: 1920[0m
+[0;33mW (11:01:11.276) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.281) CABINET: Index of timer: 7 [0m
+[0;33mW (11:01:11.286) CABINET: Start timer: 2200[0m
+[0;33mW (11:01:11.291) CABINET: Stop timer: 2220[0m
+[0;33mW (11:01:11.295) CABINET: Mode timer: 1[0m
+[0;33mW (11:01:11.302) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:01:11.305) CABINET: Index of timer: 0 [0m
+[0;33mW (11:01:11.310) CABINET: Start timer: 0[0m
+[0;33mW (11:01:11.314) CABINET: Stop timer: 0[0m
+[0;33mW (11:01:11.319) CABINET: Mode timer: 0[0m
+[0;33mW (11:01:11.325) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:01:11.328) CABINET: Index of timer: 0 [0m
+[0;33mW (11:01:11.333) CABINET: Start timer: 0[0m
+[0;33mW (11:01:11.338) CABINET: Stop timer: 0[0m
+[0;33mW (11:01:11.342) CABINET: Mode timer: 0[0m
+[0;33mW (11:01:11.349) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:01:11.351) CABINET: Index of timer: 0 [0m
+[0;33mW (11:01:11.356) CABINET: Start timer:
+[Thu Oct 31 11:00:09 2024] 0[0m
+[0;33mW (11:01:11.361) CABINET: Stop timer: 0[0m
+[0;33mW (11:01:11.365) CABINET: Mode timer: 0[0m
+[0;33mW (11:01:11.372) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:01:11.375) CABINET: Index of timer: 0 [0m
+[0;33mW (11:01:11.380) CABINET: Start timer: 0[0m
+[0;33mW (11:01:11.384) CABINET: Stop timer: 0[0m
+[0;33mW (11:01:11.389) CABINET: Mode timer: 0[0m
+[0;33mW (11:01:11.395) CABINET: TIMER OF D
+[Thu Oct 31 11:00:09 2024] EVICE 6[0m
+[0;33mW (11:01:11.398) CABINET: Index of timer: 0 [0m
+[0;33mW (11:01:11.403) CABINET: Start timer: 0[0m
+[0;33mW (11:01:11.407) CABINET: Stop timer: 0[0m
+[0;33mW (11:01:11.412) CABINET: Mode timer: 0[0m
+[0;33mW (11:01:11.417) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:01:11.422) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:00:31 2024] [0;32mI (11:01:39.015) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:00:31 2024] [0;32mI (11:01:39.017) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:00:32 2024] [0;32mI (11:01:40.732) MQTT: Message sent: {
+	"continous_operation":	0.56,
+	"rtc":	"1730347300",
+	"cpu_temp":	0,
+	"rssi":	-58
+}[0m
+[Thu Oct 31 11:00:32 2024] [0;32mI (11:01:40.988) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:01:00 2024] [0;32mI (11:02:09.402) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:01:00 2024] [0;32mI (11:02:09.403) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:01:02 2024] [0;32mI (11:02:11.133) MQTT: Message sent: {
+	"continous_operation":	0.57,
+	"rtc":	"1730347331",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 11:01:02 2024] [0;32mI (11:02:11.144) CABINET: 2024-10-31 11:01:03
+[0m
+[0;33mW (11:02:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:02:11.150) CABINET: Index of timer: 1 [0m
+[0;33mW (11:02:11.150) CABINET: Start timer: 100[0m
+[0;33mW (11:02:11.155) CABINET: Stop timer: 120[0m
+[0;33mW (11:02:11.160) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.164) CABINET: Index of timer: 2 [0m
+[0;33mW (11:02:11.169) CABINET: Start timer: 400[0m
+[0;33mW (11:02:11.174) CABINET: Stop timer: 420[0m
+[0;33mW (11:02:11.179) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.183) CABINET: Index of timer: 3 [0m
+[0;33mW (11:02:11.188) CABINET: Start timer: 700[0m
+[0;33mW (11:02:11.193) CABINET: Stop timer: 720[0m
+[0;33mW (11:02:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.202) CABINET: Index of timer: 4 [0m
+[0;33mW (11:02:11.207) CABINET: Start timer: 1000[0m
+[0;33mW (11:02:11.212) CABINET: Stop timer: 1020[0m
+[0;33mW (11:02:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.221) CABINET: Index of timer: 8 [
+[Thu Oct 31 11:01:02 2024] 0m
+[0;33mW (11:02:11.226) CABINET: Start timer: 1300[0m
+[0;33mW (11:02:11.231) CABINET: Stop timer: 1320[0m
+[0;33mW (11:02:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.240) CABINET: Index of timer: 5 [0m
+[0;33mW (11:02:11.245) CABINET: Start timer: 1720[0m
+[0;33mW (11:02:11.250) CABINET: Stop timer: 1721[0m
+[0;33mW (11:02:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.259) CABINET: Inde
+[Thu Oct 31 11:01:02 2024] x of timer: 6 [0m
+[0;33mW (11:02:11.264) CABINET: Start timer: 1900[0m
+[0;33mW (11:02:11.269) CABINET: Stop timer: 1920[0m
+[0;33mW (11:02:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.278) CABINET: Index of timer: 7 [0m
+[0;33mW (11:02:11.283) CABINET: Start timer: 2200[0m
+[0;33mW (11:02:11.288) CABINET: Stop timer: 2220[0m
+[0;33mW (11:02:11.292) CABINET: Mode timer: 1[0m
+[0;33mW (11:02:11.300) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:02:11.302) CABINET: Index of timer: 0 [0m
+[0;32mI (11:02:11.305) MQTT: MQTT_EVENT_PUBLISHED[0m
+[0;33mW (11:02:11.307) CABINET: Start timer: 0[0m
+[0;33mW (11:02:11.316) CABINET: Stop timer: 0[0m
+[0;33mW (11:02:11.320) CABINET: Mode timer: 0[0m
+[0;33mW (11:02:11.327) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:02:11.330) CABINET: Index of timer: 0 [0m
+[0;33mW (11:02:11.335) CABINET: Start timer: 0[0m
+[0;33mW (11:02:11.339) CABINET: Stop timer: 0[0m
+[0;33mW (11:02:11.344) CABINET: Mode timer: 0[0m
+[0;33mW (11:02:11.350) CABINET: TIMER OF DE
+[Thu Oct 31 11:01:02 2024] VICE 4[0m
+[0;33mW (11:02:11.353) CABINET: Index of timer: 0 [0m
+[0;33mW (11:02:11.358) CABINET: Start timer: 0[0m
+[0;33mW (11:02:11.363) CABINET: Stop timer: 0[0m
+[0;33mW (11:02:11.367) CABINET: Mode timer: 0[0m
+[0;33mW (11:02:11.373) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:02:11.376) CABINET: Index of timer: 0 [0m
+[0;33mW (11:02:11.381) CABINET: Start timer: 0[0m
+[0;33mW (11:02:11.386) CABINET:
+[Thu Oct 31 11:01:02 2024] Stop timer: 0[0m
+[0;33mW (11:02:11.390) CABINET: Mode timer: 0[0m
+[0;33mW (11:02:11.397) CABINET: TIMER OF DEVICE 6[0m
+[0;33mW (11:02:11.400) CABINET: Index of timer: 0 [0m
+[0;33mW (11:02:11.405) CABINET: Start timer: 0[0m
+[0;33mW (11:02:11.409) CABINET: Stop timer: 0[0m
+[0;33mW (11:02:11.414) CABINET: Mode timer: 0[0m
+[0;33mW (11:02:11.418) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:02:11.424) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:01:29 2024] [0;32mI (11:02:39.807) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:01:30 2024] [0;32mI (11:02:39.809) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:01:31 2024] [0;32mI (11:02:41.548) MQTT: Message sent: {
+	"continous_operation":	0.58,
+	"rtc":	"1730347361",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Thu Oct 31 11:01:31 2024] [0;32mI (11:02:41.705) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:01:59 2024] [0;32mI (11:03:10.219) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:01:59 2024] [0;32mI (11:03:10.220) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:02:00 2024] [0;32mI (11:03:11.145) CABINET: 2024-10-31 11:02:01
+[0m
+[Thu Oct 31 11:02:00 2024] [0;33mW (11:03:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:03:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (11:03:11.152) CABINET: Start timer: 100[0m
+[0;33mW (11:03:11.156) CABINET: Stop timer: 120[0m
+[0;33mW (11:03:11.161) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.165) CABINET: Index of timer: 2 [0m
+[0;33mW (11:03:11.170) CABINET: Start timer: 400[0m
+[0;33mW (11:03:11.175) CABINET: Stop timer: 420[0m
+[0;33mW (11:03:11.179) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.184) CABINET: Index of timer: 3 [0m
+[0;33mW (11:03:11.189) CABINET: Start timer: 700[0m
+[0;33mW (11:03:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (11:03:11.198) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.203) CABINET: Index of timer: 4 [0m
+[0;33mW (11:03:11.208) CABINET: Start timer: 1000[0m
+[0;33mW (11:03:11.212) CABINET: Stop timer: 1020[0m
+[0;33mW (11:03:11.217) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.222) CABINET: Index of timer: 8 [0m
+[0;33mW (11:03:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:02:00 2024] [0;33mW (11:03:11.231) CABINET: Stop timer: 1320[0m
+[0;33mW (11:03:11.236) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.241) CABINET: Index of timer: 5 [0m
+[0;33mW (11:03:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (11:03:11.250) CABINET: Stop timer: 1721[0m
+[0;33mW (11:03:11.255) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.260) CABINET: Index of timer: 6 [0m
+[0;33mW (11:03:11.265) CABINET: Start
+[Thu Oct 31 11:02:00 2024] timer: 1900[0m
+[0;33mW (11:03:11.269) CABINET: Stop timer: 1920[0m
+[0;33mW (11:03:11.274) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.279) CABINET: Index of timer: 7 [0m
+[0;33mW (11:03:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (11:03:11.288) CABINET: Stop timer: 2220[0m
+[0;33mW (11:03:11.293) CABINET: Mode timer: 1[0m
+[0;33mW (11:03:11.301) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:03:11.302) CABINET: Index of timer: 0 [0m
+[0;33mW (11:03:11.307) CABINET: Start timer: 0[0m
+[0;33mW (11:03:11.312) CABINET: Stop timer: 0[0m
+[0;33mW (11:03:11.316) CABINET: Mode timer: 0[0m
+[0;33mW (11:03:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:03:11.326) CABINET: Index of timer: 0 [0m
+[0;33mW (11:03:11.331) CABINET: Start timer: 0[0m
+[0;33mW (11:03:11.335) CABINET: Stop timer: 0[0m
+[0;33mW (11:03:11.340) CABINET: Mode timer: 0[0m
+[0;33mW (11:03:11.346) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:03:11.349) CABINET: Index of timer: 0 [0m
+[0;33mW (11:03:11.354) CABINET: Start timer:
+[Thu Oct 31 11:02:00 2024] 0[0m
+[0;33mW (11:03:11.360) CABINET: Stop timer: 0[0m
+[0;33mW (11:03:11.363) CABINET: Mode timer: 0[0m
+[0;33mW (11:03:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:03:11.372) CABINET: Index of timer: 0 [0m
+[0;33mW (11:03:11.377) CABINET: Start timer: 0[0m
+[0;33mW (11:03:11.382) CABINET: Stop timer: 0[0m
+[0;33mW (11:03:11.386) CABINET: Mode timer: 0[0m
+[0;33mW (11:03:11.393) CABINET: TIMER OF D
+[Thu Oct 31 11:02:00 2024] EVICE 6[0m
+[0;33mW (11:03:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (11:03:11.401) CABINET: Start timer: 0[0m
+[0;33mW (11:03:11.405) CABINET: Stop timer: 0[0m
+[0;33mW (11:03:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (11:03:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:03:11.419) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:02:00 2024] [0;32mI (11:03:11.965) MQTT: Message sent: {
+	"continous_operation":	0.59,
+	"rtc":	"1730347391",
+	"cpu_temp":	0,
+	"rssi":	-54
+}[0m
+[Thu Oct 31 11:02:01 2024] [0;32mI (11:03:12.102) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:02:28 2024] [0;32mI (11:03:40.628) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:02:28 2024] [0;32mI (11:03:40.630) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:02:30 2024] [0;32mI (11:03:42.383) MQTT: Message sent: {
+	"continous_operation":	0.59,
+	"rtc":	"1730347422",
+	"cpu_temp":	0,
+	"rssi":	-56
+}[0m
+[Thu Oct 31 11:02:30 2024] [0;32mI (11:03:42.500) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:02:58 2024] [0;32mI (11:04:11.040) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:02:58 2024] [0;32mI (11:04:11.041) Wifi: Wifi is still connected[0m
+[0;32mI (11:04:11.144) CABINET: 2024-10-31 11:02:59
+[0m
+[0;33mW (11:04:11.147) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:04:11.148) CABINET: Index of timer: 1 [0m
+[0;33mW (11:04:11.149) CABINET: Start timer: 100[0m
+[0;33mW (11:04:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (11:04:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (11:04:11.168) CABINET: Start timer: 400[0m
+[0;33mW (11:04:11.172) CABINET: Stop timer: 420[0m
+[0;33mW (11:04:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (11:04:11.186) CABINET: Start timer: 700[0m
+[0;33mW (11:04:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (11:04:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.200) CABINET: Index of timer: 4 [0m
+[0;33mW (11:04:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (11:04:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (11:04:11.215) CABINET: Mode timer: 1
+[Thu Oct 31 11:02:58 2024] [0m
+[0;33mW (11:04:11.219) CABINET: Index of timer: 8 [0m
+[0;33mW (11:04:11.224) CABINET: Start timer: 1300[0m
+[0;33mW (11:04:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (11:04:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.238) CABINET: Index of timer: 5 [0m
+[0;33mW (11:04:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (11:04:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (11:04:11.253) CABINE
+[Thu Oct 31 11:02:58 2024] T: Mode timer: 1[0m
+[0;33mW (11:04:11.257) CABINET: Index of timer: 6 [0m
+[0;33mW (11:04:11.262) CABINET: Start timer: 1900[0m
+[0;33mW (11:04:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (11:04:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (11:04:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (11:04:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (11:04:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (11:04:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:04:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (11:04:11.305) CABINET: Start timer: 0[0m
+[0;33mW (11:04:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (11:04:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (11:04:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:04:11.323) CABINET: Index of timer: 0 [0m
+[0;33mW (11:04:11.328) CABINET: Start timer: 0[0m
+[0;33mW (11:04:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (11:04:11.337) CABINET: Mode timer: 0[0m
+[0;33mW (11:04:11.344) CABINET: TIMER OF
+[Thu Oct 31 11:02:58 2024] DEVICE 4[0m
+[0;33mW (11:04:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (11:04:11.352) CABINET: Start timer: 0[0m
+[0;33mW (11:04:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (11:04:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (11:04:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:04:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (11:04:11.375) CABINET: Start timer: 0[0m
+[0;33mW (11:04:11.379) CABIN
+[Thu Oct 31 11:03:04 2024] ET: Stop timer: 0[0m
+[0;33mW (11:04:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (11:04:11.390) CABINET: TIMER OF DEVICE 6[0m
+[0;33mW (11:04:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (11:04:11.398) CABINET: Start timer: 0[0m
+[0;33mW (11:04:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (11:04:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (11:04:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:04:11.417) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:03:06 2024] [0;32mI (11:04:12.794) MQTT: Message sent: {
+	"continous_operation":	0.6,
+	"rtc":	"1730347452",
+	"cpu_temp":	0,
+	"rssi":	-66
+}[0m
+[0;31mE (11:04:15.483) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF[0m
+[0;31mE (11:04:15.484) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;31mE (11:04:15.492) MQTT: MQTT_EVENT_ERROR[0m
+[0;31mE (11:04:15.496) MQTT: Connection accepted[0m
+[0;31mE (11:04:15.501) MQTT: TCP transport error[0m
+[0;31mE (11:04:15.506) MQTT: Last esp error code: 0x8008, ESP_ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (11:04:15.514) MQTT: Error tls: 0
+[0m
+[0;31mE (11:04:15.518) MQTT: Error sock: 0
+[0m
+[0;31mE (11:04:15.523) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2[0m
+[0;32mI (11:04:15.534) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (11:04:15.535) CABINET: Into led task[0m
+[0;31mE (11:04:15.536) MQTT: Last esp error code: 0x8008, ESP_ERR_ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (11:04:15.549) MQT
+[Thu Oct 31 11:03:06 2024] T: Error tls: 0
+[0m
+[0;31mE (11:04:15.553) MQTT: Error sock: 0
+[0m
+[0;32mI (11:04:15.558) MQTT: Disconnect reason: TCP Transport layer error[0m
+[0;32mI (11:04:15.566) MQTT: Other event id:7[0m
+[Thu Oct 31 11:03:06 2024] [0;32mI (11:04:19.850) MQTT: MQTT_EVENT_CONNECTED[0m
+[Thu Oct 31 11:03:06 2024] [0;33mW (11:04:19.850) CABINET: Finish led task[0m
+[0;32mI (11:04:19.953) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[0;32mI (11:04:19.964) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:04:19.966) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:04:19.966) MQTT: Extracted requestId: 11697[0m
+[0;32mI (11:04:19.975) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11697[0m
+[Thu Oct 31 11:03:07 2024] [0;32mI (11:04:20.036) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:03:07 2024] [0;32mI (11:04:20.170) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:03:07 2024] [0;32mI (11:04:20.478) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:04:20.479) MQTT: Extracted requestId: 11698[0m
+[0;32mI (11:04:20.479) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:04:20.482) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11698[0m
+[Thu Oct 31 11:03:07 2024] [0;32mI (11:04:20.678) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:03:08 2024] [0;32mI (11:04:21.725) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 11:03:08 2024] [0;32mI (11:04:21.728) MQTT: Extracted requestId: 11699[0m
+[0;32mI (11:04:21.729) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:04:21.732) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11699[0m
+[Thu Oct 31 11:03:08 2024] [0;32mI (11:04:21.929) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:03:27 2024] [0;32mI (11:04:41.365) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:03:27 2024] [0;32mI (11:04:41.367) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:03:29 2024] [0;32mI (11:04:43.146) MQTT: Message sent: {
+	"continous_operation":	0.61,
+	"rtc":	"1730347483",
+	"cpu_temp":	0,
+	"rssi":	-56
+}[0m
+[Thu Oct 31 11:03:29 2024] [0;32mI (11:04:43.285) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:03:56 2024] [0;32mI (11:05:11.144) CABINET: 2024-10-31 11:03:57
+[0m
+[Thu Oct 31 11:03:56 2024] [0;33mW (11:05:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:05:11.152) CABINET: Index of timer: 1 [0m
+[0;33mW (11:05:11.153) CABINET: Start timer: 100[0m
+[0;33mW (11:05:11.157) CABINET: Stop timer: 120[0m
+[0;33mW (11:05:11.162) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.166) CABINET: Index of timer: 2 [0m
+[0;33mW (11:05:11.171) CABINET: Start timer: 400[0m
+[0;33mW (11:05:11.176) CABINET: Stop timer: 420[0m
+[0;33mW (11:05:11.180) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.185) CABINET: Index of timer: 3 [0m
+[0;33mW (11:05:11.190) CABINET: Start timer: 700[0m
+[0;33mW (11:05:11.194) CABINET: Stop timer: 720[0m
+[0;33mW (11:05:11.199) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.204) CABINET: Index of timer: 4 [0m
+[0;33mW (11:05:11.209) CABINET: Start timer: 1000[0m
+[0;33mW (11:05:11.213) CABINET: Stop timer: 1020[0m
+[0;33mW (11:05:11.218) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.223) CABINET: Index of timer: 8 [0m
+[0;33mW (11:05:11.227) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:03:56 2024] [0;33mW (11:05:11.232) CABINET: Stop timer: 1320[0m
+[0;33mW (11:05:11.237) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.242) CABINET: Index of timer: 5 [0m
+[0;33mW (11:05:11.246) CABINET: Start timer: 1720[0m
+[0;33mW (11:05:11.251) CABINET: Stop timer: 1721[0m
+[0;33mW (11:05:11.256) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.261) CABINET: Index of timer: 6 [0m
+[0;33mW (11:05:11.265) CABINET: Start
+[Thu Oct 31 11:03:56 2024] timer: 1900[0m
+[0;33mW (11:05:11.270) CABINET: Stop timer: 1920[0m
+[0;33mW (11:05:11.275) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.280) CABINET: Index of timer: 7 [0m
+[0;33mW (11:05:11.284) CABINET: Start timer: 2200[0m
+[0;33mW (11:05:11.289) CABINET: Stop timer: 2220[0m
+[0;33mW (11:05:11.294) CABINET: Mode timer: 1[0m
+[0;33mW (11:05:11.300) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:05:11.303) CABINET: Index of timer: 0 [0m
+[0;33mW (11:05:11.308) CABINET: Start timer: 0[0m
+[0;33mW (11:05:11.313) CABINET: Stop timer: 0[0m
+[0;33mW (11:05:11.317) CABINET: Mode timer: 0[0m
+[0;33mW (11:05:11.324) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:05:11.327) CABINET: Index of timer: 0 [0m
+[0;33mW (11:05:11.332) CABINET: Start timer: 0[0m
+[0;33mW (11:05:11.336) CABINET: Stop timer: 0[0m
+[0;33mW (11:05:11.341) CABINET: Mode timer: 0[0m
+[0;33mW (11:05:11.348) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:05:11.350) CABINET: Index of timer: 0 [0m
+[0;33mW (11:05:11.355) CABINET: Start timer:
+[Thu Oct 31 11:03:56 2024] 0[0m
+[0;33mW (11:05:11.359) CABINET: Stop timer: 0[0m
+[0;33mW (11:05:11.364) CABINET: Mode timer: 0[0m
+[0;33mW (11:05:11.370) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:05:11.373) CABINET: Index of timer: 0 [0m
+[0;33mW (11:05:11.378) CABINET: Start timer: 0[0m
+[0;33mW (11:05:11.383) CABINET: Stop timer: 0[0m
+[0;33mW (11:05:11.387) CABINET: Mode timer: 0[0m
+[0;33mW (11:05:11.393) CABINET: TIMER OF D
+[Thu Oct 31 11:03:56 2024] EVICE 6[0m
+[0;33mW (11:05:11.396) CABINET: Index of timer: 0 [0m
+[0;33mW (11:05:11.401) CABINET: Start timer: 0[0m
+[0;33mW (11:05:11.406) CABINET: Stop timer: 0[0m
+[0;33mW (11:05:11.410) CABINET: Mode timer: 0[0m
+[0;33mW (11:05:11.415) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:05:11.420) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:03:57 2024] [0;32mI (11:05:11.746) Wifi: Checking for wifi status...[0m
+[0;32mI (11:05:11.747) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:03:58 2024] [0;32mI (11:05:13.543) MQTT: Message sent: {
+	"continous_operation":	0.62,
+	"rtc":	"1730347513",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Thu Oct 31 11:03:59 2024] [0;32mI (11:05:13.610) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:04:26 2024] [0;32mI (11:05:42.131) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:04:26 2024] [0;32mI (11:05:42.132) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:04:28 2024] [0;32mI (11:05:43.933) MQTT: Message sent: {
+	"continous_operation":	0.63,
+	"rtc":	"1730347543",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Thu Oct 31 11:04:28 2024] [0;32mI (11:05:43.995) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:04:54 2024] [0;32mI (11:06:11.144) CABINET: 2024-10-31 11:04:55
+[0m
+[Thu Oct 31 11:04:54 2024] [0;33mW (11:06:11.149) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:06:11.150) CABINET: Index of timer: 1 [0m
+[0;33mW (11:06:11.151) CABINET: Start timer: 100[0m
+[0;33mW (11:06:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (11:06:11.159) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.164) CABINET: Index of timer: 2 [0m
+[0;33mW (11:06:11.168) CABINET: Start timer: 400[0m
+[0;33mW (11:06:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (11:06:11.178) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (11:06:11.187) CABINET: Start timer: 700[0m
+[0;33mW (11:06:11.192) CABINET: Stop timer: 720[0m
+[0;33mW (11:06:11.197) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (11:06:11.206) CABINET: Start timer: 1000[0m
+[0;33mW (11:06:11.211) CABINET: Stop timer: 1020[0m
+[0;33mW (11:06:11.216) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.220) CABINET: Index of timer: 8 [0m
+[0;33mW (11:06:11.225) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:04:54 2024] [0;33mW (11:06:11.230) CABINET: Stop timer: 1320[0m
+[0;33mW (11:06:11.235) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.239) CABINET: Index of timer: 5 [0m
+[0;33mW (11:06:11.244) CABINET: Start timer: 1720[0m
+[0;33mW (11:06:11.249) CABINET: Stop timer: 1721[0m
+[0;33mW (11:06:11.254) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.258) CABINET: Index of timer: 6 [0m
+[0;33mW (11:06:11.263) CABINET: Start
+[Thu Oct 31 11:04:54 2024] timer: 1900[0m
+[0;33mW (11:06:11.268) CABINET: Stop timer: 1920[0m
+[0;33mW (11:06:11.273) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.277) CABINET: Index of timer: 7 [0m
+[0;33mW (11:06:11.282) CABINET: Start timer: 2200[0m
+[0;33mW (11:06:11.287) CABINET: Stop timer: 2220[0m
+[0;33mW (11:06:11.292) CABINET: Mode timer: 1[0m
+[0;33mW (11:06:11.298) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:06:11.301) CABINET: Index of timer: 0 [0m
+[0;33mW (11:06:11.306) CABINET: Start timer: 0[0m
+[0;33mW (11:06:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (11:06:11.315) CABINET: Mode timer: 0[0m
+[0;33mW (11:06:11.321) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:06:11.324) CABINET: Index of timer: 0 [0m
+[0;33mW (11:06:11.329) CABINET: Start timer: 0[0m
+[0;33mW (11:06:11.334) CABINET: Stop timer: 0[0m
+[0;33mW (11:06:11.338) CABINET: Mode timer: 0[0m
+[0;33mW (11:06:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:06:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (11:06:11.352) CABINET: Start timer:
+[Thu Oct 31 11:04:54 2024] 0[0m
+[0;33mW (11:06:11.357) CABINET: Stop timer: 0[0m
+[0;33mW (11:06:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (11:06:11.368) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:06:11.371) CABINET: Index of timer: 0 [0m
+[0;33mW (11:06:11.376) CABINET: Start timer: 0[0m
+[0;33mW (11:06:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (11:06:11.385) CABINET: Mode timer: 0[0m
+[0;33mW (11:06:11.391) CABINET: TIMER OF D
+[Thu Oct 31 11:04:54 2024] EVICE 6[0m
+[0;33mW (11:06:11.394) CABINET: Index of timer: 0 [0m
+[0;33mW (11:06:11.399) CABINET: Start timer: 0[0m
+[0;33mW (11:06:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (11:06:11.408) CABINET: Mode timer: 0[0m
+[0;33mW (11:06:11.413) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:06:11.418) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:04:55 2024] [0;32mI (11:06:12.540) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:04:56 2024] [0;32mI (11:06:12.542) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:04:57 2024] [0;32mI (11:06:14.351) MQTT: Message sent: {
+	"continous_operation":	0.64,
+	"rtc":	"1730347574",
+	"cpu_temp":	0,
+	"rssi":	-49
+}[0m
+[Thu Oct 31 11:04:57 2024] [0;32mI (11:06:14.526) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:05:25 2024] [0;32mI (11:06:42.901) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:05:25 2024] [0;32mI (11:06:42.903) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:05:27 2024] [0;32mI (11:06:44.728) MQTT: Message sent: {
+	"continous_operation":	0.65,
+	"rtc":	"1730347604",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Thu Oct 31 11:05:27 2024] [0;32mI (11:06:44.800) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:05:52 2024] [0;32mI (11:07:11.145) CABINET: 2024-10-31 11:05:53
+[0m
+[Thu Oct 31 11:05:52 2024] [0;33mW (11:07:11.150) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:07:11.151) CABINET: Index of timer: 1 [0m
+[0;33mW (11:07:11.152) CABINET: Start timer: 100[0m
+[0;33mW (11:07:11.155) CABINET: Stop timer: 120[0m
+[0;33mW (11:07:11.160) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.165) CABINET: Index of timer: 2 [0m
+[0;33mW (11:07:11.169) CABINET: Start timer: 400[0m
+[0;33mW (11:07:11.174) CABINET: Stop timer: 420[0m
+[0;33mW (11:07:11.179) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.183) CABINET: Index of timer: 3 [0m
+[0;33mW (11:07:11.188) CABINET: Start timer: 700[0m
+[0;33mW (11:07:11.193) CABINET: Stop timer: 720[0m
+[0;33mW (11:07:11.198) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.202) CABINET: Index of timer: 4 [0m
+[0;33mW (11:07:11.207) CABINET: Start timer: 1000[0m
+[0;33mW (11:07:11.212) CABINET: Stop timer: 1020[0m
+[0;33mW (11:07:11.217) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.221) CABINET: Index of timer: 8 [0m
+[0;33mW (11:07:11.226) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:05:52 2024] [0;33mW (11:07:11.231) CABINET: Stop timer: 1320[0m
+[0;33mW (11:07:11.236) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.240) CABINET: Index of timer: 5 [0m
+[0;33mW (11:07:11.245) CABINET: Start timer: 1720[0m
+[0;33mW (11:07:11.250) CABINET: Stop timer: 1721[0m
+[0;33mW (11:07:11.255) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.259) CABINET: Index of timer: 6 [0m
+[0;33mW (11:07:11.264) CABINET: Start
+[Thu Oct 31 11:05:52 2024] timer: 1900[0m
+[0;33mW (11:07:11.269) CABINET: Stop timer: 1920[0m
+[0;33mW (11:07:11.274) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.278) CABINET: Index of timer: 7 [0m
+[0;33mW (11:07:11.283) CABINET: Start timer: 2200[0m
+[0;33mW (11:07:11.288) CABINET: Stop timer: 2220[0m
+[0;33mW (11:07:11.293) CABINET: Mode timer: 1[0m
+[0;33mW (11:07:11.299) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:07:11.302) CABINET: Index of timer: 0 [0m
+[0;33mW (11:07:11.307) CABINET: Start timer: 0[0m
+[0;33mW (11:07:11.311) CABINET: Stop timer: 0[0m
+[0;33mW (11:07:11.316) CABINET: Mode timer: 0[0m
+[0;33mW (11:07:11.323) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:07:11.325) CABINET: Index of timer: 0 [0m
+[0;33mW (11:07:11.330) CABINET: Start timer: 0[0m
+[0;33mW (11:07:11.335) CABINET: Stop timer: 0[0m
+[0;33mW (11:07:11.339) CABINET: Mode timer: 0[0m
+[0;33mW (11:07:11.345) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:07:11.348) CABINET: Index of timer: 0 [0m
+[0;33mW (11:07:11.353) CABINET: Start timer:
+[Thu Oct 31 11:05:52 2024] 0[0m
+[0;33mW (11:07:11.358) CABINET: Stop timer: 0[0m
+[0;33mW (11:07:11.362) CABINET: Mode timer: 0[0m
+[0;33mW (11:07:11.369) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:07:11.372) CABINET: Index of timer: 0 [0m
+[0;33mW (11:07:11.377) CABINET: Start timer: 0[0m
+[0;33mW (11:07:11.381) CABINET: Stop timer: 0[0m
+[0;33mW (11:07:11.386) CABINET: Mode timer: 0[0m
+[0;33mW (11:07:11.392) CABINET: TIMER OF D
+[Thu Oct 31 11:05:53 2024] EVICE 6[0m
+[0;33mW (11:07:11.395) CABINET: Index of timer: 0 [0m
+[0;33mW (11:07:11.400) CABINET: Start timer: 0[0m
+[0;33mW (11:07:11.404) CABINET: Stop timer: 0[0m
+[0;33mW (11:07:11.409) CABINET: Mode timer: 0[0m
+[0;33mW (11:07:11.414) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:07:11.419) CABINET: TIMER OF DEVICE 8[0m
+[Thu Oct 31 11:05:54 2024] [0;32mI (11:07:13.278) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:05:54 2024] [0;32mI (11:07:13.280) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:05:56 2024] [0;32mI (11:07:15.107) MQTT: Message sent: {
+	"continous_operation":	0.65,
+	"rtc":	"1730347635",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Thu Oct 31 11:05:56 2024] [0;32mI (11:07:15.272) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:06:24 2024] [0;32mI (11:07:43.707) Wifi: Checking for wifi status...[0m
+[Thu Oct 31 11:06:24 2024] [0;32mI (11:07:43.709) Wifi: Wifi is still connected[0m
+[Thu Oct 31 11:06:25 2024] [0;32mI (11:07:45.546) MQTT: Message sent: {
+	"continous_operation":	0.66,
+	"rtc":	"1730347665",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Thu Oct 31 11:06:26 2024] [0;32mI (11:07:45.703) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:06:50 2024] [0;32mI (11:08:11.144) CABINET: 2024-10-31 11:06:51
+[0m
+[Thu Oct 31 11:06:50 2024] [0;33mW (11:08:11.148) CABINET: TIMER OF DEVICE 1[0m
+[0;33mW (11:08:11.149) CABINET: Index of timer: 1 [0m
+[0;33mW (11:08:11.149) CABINET: Start timer: 100[0m
+[0;33mW (11:08:11.154) CABINET: Stop timer: 120[0m
+[0;33mW (11:08:11.158) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.163) CABINET: Index of timer: 2 [0m
+[0;33mW (11:08:11.168) CABINET: Start timer: 400[0m
+[0;33mW (11:08:11.173) CABINET: Stop timer: 420[0m
+[0;33mW (11:08:11.177) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.182) CABINET: Index of timer: 3 [0m
+[0;33mW (11:08:11.187) CABINET: Start timer: 700[0m
+[0;33mW (11:08:11.191) CABINET: Stop timer: 720[0m
+[0;33mW (11:08:11.196) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.201) CABINET: Index of timer: 4 [0m
+[0;33mW (11:08:11.205) CABINET: Start timer: 1000[0m
+[0;33mW (11:08:11.210) CABINET: Stop timer: 1020[0m
+[0;33mW (11:08:11.215) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.219) CABINET: Index of timer: 8 [0m
+[0;33mW (11:08:11.224) CABINET: Start timer: 1300[0m
+[Thu Oct 31 11:06:50 2024] [0;33mW (11:08:11.229) CABINET: Stop timer: 1320[0m
+[0;33mW (11:08:11.234) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.238) CABINET: Index of timer: 5 [0m
+[0;33mW (11:08:11.243) CABINET: Start timer: 1720[0m
+[0;33mW (11:08:11.248) CABINET: Stop timer: 1721[0m
+[0;33mW (11:08:11.253) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.257) CABINET: Index of timer: 6 [0m
+[0;33mW (11:08:11.262) CABINET: Start
+[Thu Oct 31 11:06:56 2024] timer: 1900[0m
+[0;33mW (11:08:11.267) CABINET: Stop timer: 1920[0m
+[0;33mW (11:08:11.272) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.276) CABINET: Index of timer: 7 [0m
+[0;33mW (11:08:11.281) CABINET: Start timer: 2200[0m
+[0;33mW (11:08:11.286) CABINET: Stop timer: 2220[0m
+[0;33mW (11:08:11.291) CABINET: Mode timer: 1[0m
+[0;33mW (11:08:11.297) CABINET: TIMER OF DEVICE 2[0m
+[0;33mW (11:08:11.300) CABINET: Index of timer: 0 [0m
+[0;33mW (11:08:11.305) CABINET: Start timer: 0[0m
+[0;33mW (11:08:11.310) CABINET: Stop timer: 0[0m
+[0;33mW (11:08:11.314) CABINET: Mode timer: 0[0m
+[0;33mW (11:08:11.320) CABINET: TIMER OF DEVICE 3[0m
+[0;33mW (11:08:11.323) CABINET: Index of timer: 0 [0m
+[0;33mW (11:08:11.328) CABINET: Start timer: 0[0m
+[0;33mW (11:08:11.333) CABINET: Stop timer: 0[0m
+[0;33mW (11:08:11.337) CABINET: Mode timer: 0[0m
+[0;33mW (11:08:11.344) CABINET: TIMER OF DEVICE 4[0m
+[0;33mW (11:08:11.347) CABINET: Index of timer: 0 [0m
+[0;33mW (11:08:11.352) CABINET: Start timer:
+[Thu Oct 31 11:06:56 2024] 0[0m
+[0;33mW (11:08:11.356) CABINET: Stop timer: 0[0m
+[0;33mW (11:08:11.361) CABINET: Mode timer: 0[0m
+[0;33mW (11:08:11.367) CABINET: TIMER OF DEVICE 5[0m
+[0;33mW (11:08:11.370) CABINET: Index of timer: 0 [0m
+[0;33mW (11:08:11.375) CABINET: Start timer: 0[0m
+[0;33mW (11:08:11.380) CABINET: Stop timer: 0[0m
+[0;33mW (11:08:11.384) CABINET: Mode timer: 0[0m
+[0;33mW (11:08:11.390) CABINET: TIMER OF D
+[Thu Oct 31 11:06:56 2024] EVICE 6[0m
+[0;33mW (11:08:11.393) CABINET: Index of timer: 0 [0m
+[0;33mW (11:08:11.398) CABINET: Start timer: 0[0m
+[0;33mW (11:08:11.403) CABINET: Stop timer: 0[0m
+[0;33mW (11:08:11.407) CABINET: Mode timer: 0[0m
+[0;33mW (11:08:11.412) CABINET: TIMER OF DEVICE 7[0m
+[0;33mW (11:08:11.417) CABINET: TIMER OF DEVICE 8[0m
+[0;32mI (11:08:14.097) Wifi: Checking for wifi status...[0m
+[0;32mI (11:08:14.099) Wifi: Wifi is still connected[0m
+[0;32mI (11:08:15.947) MQTT: Message sent: {
+	"continous_operation":	0.67,
+	"rtc":	"1730347695",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[0;31mE (11:08:16.738) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF[0m
+[0;31mE (11:08:16.740) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;31mE (11:08:16.748) MQTT: MQTT_EVENT_ERROR[0m
+[0;31mE (11:08:16.752) MQTT: Connection accepted[0m
+[0;31mE (11:08:16.757) MQTT: TCP transport error[0m
+[0;31mE (11:08:16.761) MQTT: Last esp error code: 0x8008, ESP_ERR
+[Thu Oct 31 11:06:56 2024] _ESP_TLS_TCP_CLOSED_FIN[0m
+[0;31mE (11:08:16.770) MQTT: Error tls: 0
+[0m
+[0;31mE (11:08:16.774) MQTT: Error sock: 0
+[0m
+[0;31mE (11:08:16.778) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2[0m
+[0;33mW (11:08:16.792) CABINET: Into led task[0m
+[0;32mI (11:08:16.792) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;31mE (11:08:16.796) MQTT: Last esp error code: 0x8008, ESP_ERR_ESP_TLS_TCP_CLOSE
+[Thu Oct 31 11:06:56 2024] D_FIN[0m
+[0;31mE (11:08:16.805) MQTT: Error tls: 0
+[0m
+[0;31mE (11:08:16.809) MQTT: Error sock: 0
+[0m
+[0;32mI (11:08:16.813) MQTT: Disconnect reason: TCP Transport layer error[0m
+[0;32mI (11:08:16.821) MQTT: Other event id:7[0m
+[0;32mI (11:08:17.304) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;33mW (11:08:17.304) CABINET: Finish led task[0m
+[0;32mI (11:08:17.413) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[0;32mI (11:08:17.423) MQTT: MQTT_RECEIVED DATA[0m
+[0;32mI (11:08:17.424) MQTT: Extracted requestId: 11700[0m
+[0;32mI (11:08:17.424) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:08:17.428) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11700[0m
+[0;32mI (11:08:17.516) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:06:57 2024] [0;32mI (11:08:17.584) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:06:57 2024] [0;32mI (11:08:18.041) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 11:06:57 2024] [0;32mI (11:08:18.042) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:08:18.044) MQTT: Extracted requestId: 11701[0m
+[0;32mI (11:08:18.054) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11701[0m
+[Thu Oct 31 11:06:57 2024] [0;32mI (11:08:18.243) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Thu Oct 31 11:06:58 2024] [0;32mI (11:08:19.305) MQTT: MQTT_RECEIVED DATA[0m
+[Thu Oct 31 11:06:58 2024] [0;32mI (11:08:19.307) MQTT: Extracted requestId: 11702[0m
+[0;32mI (11:08:19.308) MQTT: Received data: {"method":"command","params":{"cmd":"online"}}[0m
+[0;32mI (11:08:19.312) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/11702[0m
+[0;32mI (11:08:19.399) MQTT: MQTT_EVENT_PUBLISHED[0m

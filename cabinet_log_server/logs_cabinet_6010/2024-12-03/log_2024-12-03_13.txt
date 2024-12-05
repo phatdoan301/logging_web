@@ -1,0 +1,1060 @@
+[Tue Dec  3 13:24:00 2024] [0;32mI (13:24:38.404) CABINET: 2024-12-03 13:23:59
+[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:24:00 2024] [0;33mW (13:24:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:24:15 2024] [0;32mI (13:24:53.076) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:24:15 2024] [0;32mI (13:24:53.079) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:24:27 2024] [0;32mI (13:25:06.146) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:24:44 2024] [0;32mI (13:25:23.445) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:24:44 2024] [0;32mI (13:25:23.450) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:24:58 2024] [0;33mW (13:25:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:24:58 2024] [0;33mW (13:25:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:24:59 2024] [0;33mW (13:25:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:25:05 2024] [0;31mE (13:25:45.841) mqtt_client: No PING_RESP, disconnected[0m
+[Tue Dec  3 13:25:05 2024] [0;33mW (13:25:45.847) CABINET: Into led task[0m
+[Tue Dec  3 13:25:05 2024] [0;32mI (13:25:45.850) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Tue Dec  3 13:25:05 2024] [0;33mW (13:25:45.853) MQTT: MQTT DISCONNECTED USE WIFI[0m
+[Tue Dec  3 13:25:05 2024] [0;32mI (13:25:45.856) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[Tue Dec  3 13:25:05 2024] [0;32mI (13:25:45.860) MQTT: Disconnect reason: No error[0m
+[Tue Dec  3 13:25:13 2024] [0;32mI (13:25:53.861) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.763) MQTT: MQTT_EVENT_CONNECTED[0m
+[Tue Dec  3 13:25:16 2024] [0;33mW (13:25:56.766) CABINET: Finish led task[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.865) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.876) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.878) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.880) MQTT: Extracted requestId: 4943[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:56.889) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/4943[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.099) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.288) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.297) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.299) MQTT: DATA={"method":"command","params":{"cmd":"timer d01=2-1-1345-1350-1.3-1-1504-1505-1.1-1-1757-1758-1,d02=1-1-1737-1739-1.2-1-1740-1745-1,d03=1-1-1405-1409-1,d04=0-2-0-0-0-0-0;"}}
+[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.312) MQTT: Extracted requestId: 4944[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.333) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/4944[0m
+[Tue Dec  3 13:25:16 2024] [0;32mI (13:25:57.357) NVS: Store timer of [1] successfully[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.375) NVS: Store timer of [2] successfully[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.387) NVS: Store timer of [3] successfully[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.421) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.427) NVS: Store timer of [4] successfully[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.713) MQTT: Message sent: {
+	"continous_operation":	2.36,
+	"rtc":	"1733207116",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.910) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.914) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.917) MQTT: Extracted requestId: 4945[0m
+[Tue Dec  3 13:25:17 2024] [0;32mI (13:25:57.925) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/4945[0m
+[Tue Dec  3 13:25:19 2024] [0;32mI (13:25:59.706) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:23 2024] [0;32mI (13:26:04.374) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:28 2024] [0;32mI (13:26:09.433) MQTT: MQTT_RECEIVED DATA[0m
+[Tue Dec  3 13:25:28 2024] [0;32mI (13:26:09.436) MQTT: DATA={"method":"command","params":{"cmd":"online"}}
+[0m
+[Tue Dec  3 13:25:28 2024] [0;32mI (13:26:09.439) MQTT: Extracted requestId: 4946[0m
+[Tue Dec  3 13:25:28 2024] [0;32mI (13:26:09.449) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/4946[0m
+[Tue Dec  3 13:25:28 2024] [0;32mI (13:26:09.598) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:42 2024] [0;32mI (13:26:24.201) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:25:42 2024] [0;32mI (13:26:24.206) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:25:46 2024] [0;32mI (13:26:28.102) MQTT: Message sent: {
+	"continous_operation":	2.37,
+	"rtc":	"1733207145",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:25:46 2024] [0;32mI (13:26:28.249) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:25:56 2024] [0;32mI (13:26:38.404) CABINET: 2024-12-03 13:25:55
+[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:25:56 2024] [0;33mW (13:26:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:26:12 2024] [0;32mI (13:26:54.634) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:26:12 2024] [0;32mI (13:26:54.639) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:26:16 2024] [0;32mI (13:26:58.525) MQTT: Message sent: {
+	"continous_operation":	2.38,
+	"rtc":	"1733207174",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:26:16 2024] [0;32mI (13:26:58.758) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:26:45 2024] [0;32mI (13:27:28.947) MQTT: Message sent: {
+	"continous_operation":	2.38,
+	"rtc":	"1733207204",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Tue Dec  3 13:26:46 2024] [0;32mI (13:27:30.293) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:27:19 2024] [0;32mI (13:28:03.884) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:27:40 2024] [0;32mI (13:28:25.759) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:27:40 2024] [0;32mI (13:28:25.765) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:27:44 2024] [0;32mI (13:28:29.695) MQTT: Message sent: {
+	"continous_operation":	2.4,
+	"rtc":	"1733207263",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:27:44 2024] [0;32mI (13:28:29.775) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:27:53 2024] [0;33mW (13:28:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:28:09 2024] [0;32mI (13:28:56.175) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:28:09 2024] [0;32mI (13:28:56.180) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:28:13 2024] [0;32mI (13:29:00.116) MQTT: Message sent: {
+	"continous_operation":	2.41,
+	"rtc":	"1733207292",
+	"cpu_temp":	0,
+	"rssi":	-46
+}[0m
+[Tue Dec  3 13:28:13 2024] [0;32mI (13:29:00.201) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:28:39 2024] [0;32mI (13:29:26.587) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:28:39 2024] [0;32mI (13:29:26.592) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:28:43 2024] [0;32mI (13:29:30.541) MQTT: Message sent: {
+	"continous_operation":	2.42,
+	"rtc":	"1733207321",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:28:43 2024] [0;32mI (13:29:30.643) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:28:50 2024] [0;32mI (13:29:38.405) CABINET: 2024-12-03 13:28:49
+[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:28:50 2024] [0;33mW (13:29:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:29:08 2024] [0;32mI (13:29:57.005) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:29:08 2024] [0;32mI (13:29:57.010) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:29:12 2024] [0;32mI (13:30:00.972) MQTT: Message sent: {
+	"continous_operation":	2.43,
+	"rtc":	"1733207351",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:29:12 2024] [0;32mI (13:30:01.132) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:29:38 2024] [0;32mI (13:30:27.415) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:29:38 2024] [0;32mI (13:30:27.421) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:29:41 2024] [0;32mI (13:30:31.389) MQTT: Message sent: {
+	"continous_operation":	2.44,
+	"rtc":	"1733207380",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:29:41 2024] [0;32mI (13:30:31.589) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:29:48 2024] [0;32mI (13:30:38.405) CABINET: 2024-12-03 13:29:47
+[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.423) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.428) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.433) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:29:48 2024] [0;33mW (13:30:38.439) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:30:07 2024] [0;32mI (13:30:57.806) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:30:07 2024] [0;32mI (13:30:57.810) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:30:11 2024] [0;32mI (13:31:01.796) MQTT: Message sent: {
+	"continous_operation":	2.44,
+	"rtc":	"1733207409",
+	"cpu_temp":	0,
+	"rssi":	-47
+}[0m
+[Tue Dec  3 13:30:11 2024] [0;32mI (13:31:02.011) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:30:36 2024] [0;32mI (13:31:28.227) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:30:36 2024] [0;32mI (13:31:28.232) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:30:40 2024] [0;32mI (13:31:32.229) MQTT: Message sent: {
+	"continous_operation":	2.45,
+	"rtc":	"1733207439",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:30:40 2024] [0;32mI (13:31:32.393) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:30:46 2024] [0;32mI (13:31:38.405) CABINET: 2024-12-03 13:30:45
+[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:30:46 2024] [0;33mW (13:31:38.439) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:31:05 2024] [0;32mI (13:31:58.633) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:31:05 2024] [0;32mI (13:31:58.638) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:31:09 2024] [0;32mI (13:32:02.640) MQTT: Message sent: {
+	"continous_operation":	2.46,
+	"rtc":	"1733207468",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:31:10 2024] [0;32mI (13:32:02.817) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:31:35 2024] [0;32mI (13:32:29.013) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:31:35 2024] [0;32mI (13:32:29.017) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:31:39 2024] [0;32mI (13:32:33.015) MQTT: Message sent: {
+	"continous_operation":	2.47,
+	"rtc":	"1733207498",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:31:39 2024] [0;32mI (13:32:33.230) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:31:44 2024] [0;32mI (13:32:38.404) CABINET: 2024-12-03 13:31:43
+[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.416) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.421) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.426) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.431) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:31:44 2024] [0;33mW (13:32:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:32:04 2024] [0;32mI (13:32:59.355) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:32:04 2024] [0;32mI (13:32:59.360) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:32:08 2024] [0;32mI (13:33:03.366) MQTT: Message sent: {
+	"continous_operation":	2.48,
+	"rtc":	"1733207527",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Tue Dec  3 13:32:08 2024] [0;32mI (13:33:03.593) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:32:34 2024] [0;32mI (13:33:29.683) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:32:34 2024] [0;32mI (13:33:29.688) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:32:38 2024] [0;32mI (13:33:33.707) MQTT: Message sent: {
+	"continous_operation":	2.49,
+	"rtc":	"1733207557",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Tue Dec  3 13:32:38 2024] [0;32mI (13:33:34.036) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:32:42 2024] [0;32mI (13:33:38.405) CABINET: 2024-12-03 13:32:41
+[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:32:42 2024] [0;33mW (13:33:38.439) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:33:03 2024] [0;32mI (13:34:00.011) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:33:03 2024] [0;32mI (13:34:00.016) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:33:07 2024] [0;32mI (13:34:04.050) MQTT: Message sent: {
+	"continous_operation":	2.49,
+	"rtc":	"1733207586",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Tue Dec  3 13:33:07 2024] [0;32mI (13:34:04.155) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:33:33 2024] [0;32mI (13:34:30.341) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:33:33 2024] [0;32mI (13:34:30.346) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:33:37 2024] [0;32mI (13:34:34.392) MQTT: Message sent: {
+	"continous_operation":	2.5,
+	"rtc":	"1733207616",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Tue Dec  3 13:33:37 2024] [0;32mI (13:34:34.739) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:33:41 2024] [0;32mI (13:34:38.405) CABINET: 2024-12-03 13:33:39
+[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.418) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.423) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.428) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.433) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:33:41 2024] [0;33mW (13:34:38.439) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:34:02 2024] [0;32mI (13:35:00.665) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:34:02 2024] [0;32mI (13:35:00.671) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:34:06 2024] [0;32mI (13:35:04.718) MQTT: Message sent: {
+	"continous_operation":	2.51,
+	"rtc":	"1733207645",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Tue Dec  3 13:34:06 2024] [0;32mI (13:35:04.980) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:34:32 2024] [0;32mI (13:35:31.003) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:34:32 2024] [0;32mI (13:35:31.006) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:34:36 2024] [0;32mI (13:35:35.055) MQTT: Message sent: {
+	"continous_operation":	2.52,
+	"rtc":	"1733207675",
+	"cpu_temp":	0,
+	"rssi":	-47
+}[0m
+[Tue Dec  3 13:34:36 2024] [0;32mI (13:35:35.210) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:34:39 2024] [0;32mI (13:35:38.405) CABINET: 2024-12-03 13:34:38
+[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.436) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:34:39 2024] [0;33mW (13:35:38.440) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:35:01 2024] [0;32mI (13:36:01.357) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:35:01 2024] [0;32mI (13:36:01.361) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:35:05 2024] [0;32mI (13:36:05.421) MQTT: Message sent: {
+	"continous_operation":	2.53,
+	"rtc":	"1733207704",
+	"cpu_temp":	0,
+	"rssi":	-53
+}[0m
+[Tue Dec  3 13:35:05 2024] [0;32mI (13:36:05.598) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:35:31 2024] [0;32mI (13:36:31.681) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:35:31 2024] [0;32mI (13:36:31.685) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:35:35 2024] [0;32mI (13:36:35.740) MQTT: Message sent: {
+	"continous_operation":	2.54,
+	"rtc":	"1733207733",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Tue Dec  3 13:35:35 2024] [0;32mI (13:36:35.930) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:35:37 2024] [0;32mI (13:36:38.404) CABINET: 2024-12-03 13:35:36
+[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.416) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.421) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.426) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.431) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:35:37 2024] [0;33mW (13:36:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:36:00 2024] [0;32mI (13:37:01.983) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:36:00 2024] [0;32mI (13:37:01.986) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:36:04 2024] [0;32mI (13:37:06.073) MQTT: Message sent: {
+	"continous_operation":	2.55,
+	"rtc":	"1733207763",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Tue Dec  3 13:36:04 2024] [0;32mI (13:37:06.311) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:36:30 2024] [0;32mI (13:37:32.291) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:36:30 2024] [0;32mI (13:37:32.295) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:36:34 2024] [0;32mI (13:37:36.377) MQTT: Message sent: {
+	"continous_operation":	2.55,
+	"rtc":	"1733207793",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Tue Dec  3 13:36:34 2024] [0;32mI (13:37:36.842) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:36:36 2024] [0;32mI (13:37:38.405) CABINET: 2024-12-03 13:36:35
+[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:36:36 2024] [0;33mW (13:37:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:36:59 2024] [0;32mI (13:38:02.610) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:36:59 2024] [0;32mI (13:38:02.615) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:37:03 2024] [0;32mI (13:38:06.709) MQTT: Message sent: {
+	"continous_operation":	2.56,
+	"rtc":	"1733207822",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Tue Dec  3 13:37:04 2024] [0;32mI (13:38:06.878) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:37:29 2024] [0;32mI (13:38:32.923) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:37:29 2024] [0;32mI (13:38:32.927) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:37:33 2024] [0;32mI (13:38:37.032) MQTT: Message sent: {
+	"continous_operation":	2.57,
+	"rtc":	"1733207852",
+	"cpu_temp":	0,
+	"rssi":	-49
+}[0m
+[Tue Dec  3 13:37:33 2024] [0;32mI (13:38:37.300) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:37:34 2024] [0;32mI (13:38:38.405) CABINET: 2024-12-03 13:37:33
+[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.428) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.433) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:37:34 2024] [0;33mW (13:38:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:37:58 2024] [0;32mI (13:39:03.245) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:37:58 2024] [0;32mI (13:39:03.248) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:38:02 2024] [0;32mI (13:39:07.368) MQTT: Message sent: {
+	"continous_operation":	2.58,
+	"rtc":	"1733207881",
+	"cpu_temp":	0,
+	"rssi":	-50
+}[0m
+[Tue Dec  3 13:38:02 2024] [0;32mI (13:39:07.507) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:38:28 2024] [0;32mI (13:39:33.555) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:38:28 2024] [0;32mI (13:39:33.559) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:38:32 2024] [0;32mI (13:39:37.693) MQTT: Message sent: {
+	"continous_operation":	2.59,
+	"rtc":	"1733207911",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Tue Dec  3 13:38:32 2024] [0;32mI (13:39:37.916) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:38:33 2024] [0;32mI (13:39:38.404) CABINET: 2024-12-03 13:38:31
+[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.416) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.421) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.426) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.431) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.433) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:38:33 2024] [0;33mW (13:39:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:38:58 2024] [0;32mI (13:40:03.862) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:38:58 2024] [0;32mI (13:40:03.867) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:39:01 2024] [0;32mI (13:40:08.009) MQTT: Message sent: {
+	"continous_operation":	2.6,
+	"rtc":	"1733207940",
+	"cpu_temp":	0,
+	"rssi":	-52
+}[0m
+[Tue Dec  3 13:39:02 2024] [0;32mI (13:40:08.218) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:39:27 2024] [0;32mI (13:40:34.200) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:39:27 2024] [0;32mI (13:40:34.205) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:39:31 2024] [0;32mI (13:40:38.363) MQTT: Message sent: {
+	"continous_operation":	2.6,
+	"rtc":	"1733207970",
+	"cpu_temp":	0,
+	"rssi":	-47
+}[0m
+[Tue Dec  3 13:39:31 2024] [0;32mI (13:40:38.403) CABINET: 2024-12-03 13:39:30
+[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.408) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.414) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.419) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.424) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.426) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.429) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.431) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:39:31 2024] [0;33mW (13:40:38.436) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:39:31 2024] [0;32mI (13:40:38.528) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:39:56 2024] [0;32mI (13:41:04.555) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:39:56 2024] [0;32mI (13:41:04.559) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:40:00 2024] [0;32mI (13:41:08.721) MQTT: Message sent: {
+	"continous_operation":	2.61,
+	"rtc":	"1733207999",
+	"cpu_temp":	0,
+	"rssi":	-55
+}[0m
+[Tue Dec  3 13:40:00 2024] [0;32mI (13:41:09.008) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:40:26 2024] [0;32mI (13:41:34.862) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:40:26 2024] [0;32mI (13:41:34.866) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:40:29 2024] [0;32mI (13:41:38.404) CABINET: 2024-12-03 13:40:28
+[0m
+[Tue Dec  3 13:40:29 2024] [0;33mW (13:41:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:40:29 2024] [0;33mW (13:41:38.418) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:40:29 2024] [0;33mW (13:41:38.424) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:40:30 2024] [0;33mW (13:41:38.430) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:40:30 2024] [0;33mW (13:41:38.432) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:40:30 2024] [0;33mW (13:41:38.435) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:40:30 2024] [0;33mW (13:41:38.437) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:40:30 2024] [0;33mW (13:41:38.441) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:40:30 2024] [0;32mI (13:41:39.031) MQTT: Message sent: {
+	"continous_operation":	2.62,
+	"rtc":	"1733208029",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Tue Dec  3 13:40:30 2024] [0;32mI (13:41:39.277) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:40:55 2024] [0;32mI (13:42:05.188) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:40:55 2024] [0;32mI (13:42:05.192) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:40:59 2024] [0;32mI (13:42:09.376) MQTT: Message sent: {
+	"continous_operation":	2.63,
+	"rtc":	"1733208058",
+	"cpu_temp":	0,
+	"rssi":	-57
+}[0m
+[Tue Dec  3 13:41:25 2024] [0;32mI (13:42:35.520) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:41:25 2024] [0;32mI (13:42:35.524) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:41:27 2024] [0;32mI (13:42:38.405) CABINET: 2024-12-03 13:41:26
+[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.420) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.425) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.430) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.433) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.435) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.438) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:41:28 2024] [0;33mW (13:42:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:41:29 2024] [0;32mI (13:42:39.706) MQTT: Message sent: {
+	"continous_operation":	2.64,
+	"rtc":	"1733208088",
+	"cpu_temp":	0,
+	"rssi":	-47
+}[0m
+[Tue Dec  3 13:41:29 2024] [0;32mI (13:42:39.922) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:41:54 2024] [0;32mI (13:43:05.891) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:41:54 2024] [0;32mI (13:43:05.896) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:41:58 2024] [0;32mI (13:43:10.107) MQTT: Message sent: {
+	"continous_operation":	2.65,
+	"rtc":	"1733208117",
+	"cpu_temp":	0,
+	"rssi":	-46
+}[0m
+[Tue Dec  3 13:41:58 2024] [0;32mI (13:43:10.345) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:42:23 2024] [0;32mI (13:43:36.268) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:42:23 2024] [0;32mI (13:43:36.272) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:42:26 2024] [0;32mI (13:43:38.405) CABINET: 2024-12-03 13:42:24
+[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.420) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.425) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.430) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.433) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.436) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.438) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:42:26 2024] [0;33mW (13:43:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:42:28 2024] [0;32mI (13:43:40.488) MQTT: Message sent: {
+	"continous_operation":	2.65,
+	"rtc":	"1733208146",
+	"cpu_temp":	0,
+	"rssi":	-46
+}[0m
+[Tue Dec  3 13:42:28 2024] [0;32mI (13:43:40.724) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:42:53 2024] [0;32mI (13:44:06.622) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:42:53 2024] [0;32mI (13:44:06.626) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:42:57 2024] [0;32mI (13:44:10.862) MQTT: Message sent: {
+	"continous_operation":	2.66,
+	"rtc":	"1733208176",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:42:58 2024] [0;32mI (13:44:11.109) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:43:22 2024] [0;32mI (13:44:37.005) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:43:22 2024] [0;32mI (13:44:37.009) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:43:24 2024] [0;32mI (13:44:38.405) CABINET: 2024-12-03 13:43:22
+[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.420) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.425) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.432) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.436) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.439) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.441) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:43:24 2024] [0;33mW (13:44:38.444) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:43:26 2024] [0;32mI (13:44:41.256) MQTT: Message sent: {
+	"continous_operation":	2.67,
+	"rtc":	"1733208205",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:43:27 2024] [0;32mI (13:44:41.368) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:43:52 2024] [0;32mI (13:45:07.363) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:43:52 2024] [0;32mI (13:45:07.366) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:43:56 2024] [0;32mI (13:45:11.627) MQTT: Message sent: {
+	"continous_operation":	2.68,
+	"rtc":	"1733208235",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:43:56 2024] [0;32mI (13:45:11.867) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:44:21 2024] [0;32mI (13:45:37.761) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:44:21 2024] [0;32mI (13:45:37.766) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:44:22 2024] [0;32mI (13:45:38.405) CABINET: 2024-12-03 13:44:21
+[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.413) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.421) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.426) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.431) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.434) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.436) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.439) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:44:22 2024] [0;33mW (13:45:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:44:25 2024] [0;32mI (13:45:42.033) MQTT: Message sent: {
+	"continous_operation":	2.69,
+	"rtc":	"1733208264",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:44:25 2024] [0;32mI (13:45:42.281) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:44:51 2024] [0;32mI (13:46:08.134) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:44:51 2024] [0;32mI (13:46:08.139) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:44:55 2024] [0;32mI (13:46:12.420) MQTT: Message sent: {
+	"continous_operation":	2.7,
+	"rtc":	"1733208293",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:44:55 2024] [0;32mI (13:46:12.665) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:45:20 2024] [0;32mI (13:46:38.404) CABINET: 2024-12-03 13:45:19
+[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:45:20 2024] [0;32mI (13:46:38.422) NVS: Store successfully timer flag of device[1]: 1[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.425) CABINET: Relay state changed[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.431) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.436) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.441) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.444) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.447) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.452) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:45:20 2024] [0;33mW (13:46:38.457) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:45:20 2024] [0;32mI (13:46:38.500) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:45:20 2024] [0;32mI (13:46:38.503) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:45:24 2024] [0;32mI (13:46:42.790) MQTT: Message sent: {
+	"continous_operation":	2.71,
+	"rtc":	"1733208323",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:45:24 2024] [0;32mI (13:46:43.075) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:45:49 2024] [0;32mI (13:47:08.880) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:45:49 2024] [0;32mI (13:47:08.885) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:45:53 2024] [0;32mI (13:47:13.188) MQTT: Message sent: {
+	"continous_operation":	2.71,
+	"rtc":	"1733208352",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:45:54 2024] [0;32mI (13:47:13.342) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:46:18 2024] [0;32mI (13:47:38.405) CABINET: 2024-12-03 13:46:17
+[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:46:18 2024] [0;32mI (13:47:38.415) NVS: Store successfully timer flag of device[1]: 1[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.417) CABINET: Relay state changed[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.425) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.431) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.436) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.439) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.443) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.447) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:46:18 2024] [0;33mW (13:47:38.452) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:46:19 2024] [0;32mI (13:47:39.265) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:46:19 2024] [0;32mI (13:47:39.269) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:46:23 2024] [0;32mI (13:47:43.577) MQTT: Message sent: {
+	"continous_operation":	2.72,
+	"rtc":	"1733208382",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:46:23 2024] [0;32mI (13:47:43.745) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:46:48 2024] [0;32mI (13:48:09.635) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:46:48 2024] [0;32mI (13:48:09.639) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:46:52 2024] [0;32mI (13:48:13.967) MQTT: Message sent: {
+	"continous_operation":	2.73,
+	"rtc":	"1733208411",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:46:52 2024] [0;32mI (13:48:14.091) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:47:16 2024] [0;32mI (13:48:38.404) CABINET: 2024-12-03 13:47:15
+[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:47:16 2024] [0;32mI (13:48:38.414) NVS: Store successfully timer flag of device[1]: 1[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.416) CABINET: Relay state changed[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.425) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.430) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.435) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.438) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.442) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.447) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:47:16 2024] [0;33mW (13:48:38.452) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:47:18 2024] [0;32mI (13:48:40.003) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:47:18 2024] [0;32mI (13:48:40.006) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:47:22 2024] [0;32mI (13:48:44.338) MQTT: Message sent: {
+	"continous_operation":	2.74,
+	"rtc":	"1733208441",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:47:22 2024] [0;32mI (13:48:44.770) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:47:47 2024] [0;32mI (13:49:10.391) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:47:47 2024] [0;32mI (13:49:10.396) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:47:51 2024] [0;32mI (13:49:14.741) MQTT: Message sent: {
+	"continous_operation":	2.75,
+	"rtc":	"1733208470",
+	"cpu_temp":	0,
+	"rssi":	-46
+}[0m
+[Tue Dec  3 13:47:51 2024] [0;32mI (13:49:14.820) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:48:14 2024] [0;32mI (13:49:38.404) CABINET: 2024-12-03 13:48:13
+[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:48:14 2024] [0;32mI (13:49:38.415) NVS: Store successfully timer flag of device[1]: 1[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.417) CABINET: Relay state changed[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.425) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.430) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.435) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.438) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.442) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.447) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:48:14 2024] [0;33mW (13:49:38.452) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:48:16 2024] [0;32mI (13:49:40.780) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:48:16 2024] [0;32mI (13:49:40.785) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:48:20 2024] [0;32mI (13:49:45.139) MQTT: Message sent: {
+	"continous_operation":	2.76,
+	"rtc":	"1733208499",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:48:21 2024] [0;32mI (13:49:45.293) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:48:46 2024] [0;32mI (13:50:11.179) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:48:46 2024] [0;32mI (13:50:11.184) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:48:50 2024] [0;32mI (13:50:15.546) MQTT: Message sent: {
+	"continous_operation":	2.76,
+	"rtc":	"1733208529",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:48:50 2024] [0;32mI (13:50:15.632) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:49:12 2024] [0;32mI (13:50:38.404) CABINET: 2024-12-03 13:49:11
+[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:49:12 2024] [0;32mI (13:50:38.415) NVS: Store successfully timer flag of device[1]: 1[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.417) CABINET: Relay state changed[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.425) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.431) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.436) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.438) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.443) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.447) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:49:12 2024] [0;33mW (13:50:38.452) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:49:15 2024] [0;32mI (13:50:41.539) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:49:15 2024] [0;32mI (13:50:41.544) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:49:19 2024] [0;32mI (13:50:45.911) MQTT: Message sent: {
+	"continous_operation":	2.77,
+	"rtc":	"1733208558",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Tue Dec  3 13:49:20 2024] [0;32mI (13:50:46.115) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:49:44 2024] [0;32mI (13:51:11.912) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:49:44 2024] [0;32mI (13:51:11.917) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:49:49 2024] [0;32mI (13:51:16.290) MQTT: Message sent: {
+	"continous_operation":	2.78,
+	"rtc":	"1733208588",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:49:49 2024] [0;32mI (13:51:16.483) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.405) CABINET: 2024-12-03 13:50:09
+[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.421) NVS: Store successfully timer flag of device[1]: 0[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.426) CABINET: Relay state changed[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.430) CABINET: Turn off relay 0[0m
+[Tue Dec  3 13:50:10 2024] [0;31mE (13:51:38.433) CABINET_CONTROLLER_LOG: Into controll relay[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.436) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.447) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.453) CABINET: TIMER OF DEVICE 4[0m
+ m PCF8574 SUCCESS[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.453) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.457) CABINET_CONTROLLER_LOG: Successfully read value: 0xF6 from PCF8574[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.461) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.469) CABINET_CONTROLLER_LOG: status: 11110110 (0xF6)[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.474) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.491) NVS: Store successfully state of device[1]: 1[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.492) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.494) CABINET_CONTROLLER_LOG: Status relays HEX: 0xF7[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.497) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:50:10 2024] [0;33mW (13:51:38.503) CURRENT_RELAY: status: 11110111 (0xF7)[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.610) CABINET_CONTROLLER_LOG: Write to PCF8574 SUCCESS[0m
+[Tue Dec  3 13:50:10 2024] [0;32mI (13:51:38.613) CABINET_CONTROLLER_LOG: Relay 1 is NOW: ON [0m
+[Tue Dec  3 13:50:10 2024] [0;31mE (13:51:38.615) Signal sended queue: relay_index: 0, desired_state: RELAY_STATE_OFF[0m
+[Tue Dec  3 13:50:11 2024] [0;32mI (13:51:38.615) MQTT: Received feedback from relay control task: 0, 0[0m
+[Tue Dec  3 13:50:11 2024] [0;32mI (13:51:38.631) MQTT: Sync data sent: {"d01":0}[0m
+[Tue Dec  3 13:50:11 2024] [0;33mW (13:51:38.650) CABINET_CONTROLLER_LOG: Status feedback HEX: 0xF7[0m
+[Tue Dec  3 13:50:11 2024] [0;33mW (13:51:38.653) FEEDBACK_RELAY: status: 11110111 (0xF7)[0m
+[Tue Dec  3 13:50:11 2024] [0;32mI (13:51:38.967) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:50:14 2024] [0;32mI (13:51:42.279) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:50:14 2024] [0;32mI (13:51:42.282) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:50:18 2024] [0;32mI (13:51:46.677) MQTT: Message sent: {
+	"continous_operation":	2.79,
+	"rtc":	"1733208617",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:50:18 2024] [0;32mI (13:51:46.917) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:50:43 2024] [0;32mI (13:52:12.655) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:50:43 2024] [0;32mI (13:52:12.660) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:50:48 2024] [0;32mI (13:52:17.067) MQTT: Message sent: {
+	"continous_operation":	2.8,
+	"rtc":	"1733208646",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:50:48 2024] [0;32mI (13:52:17.262) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:51:08 2024] [0;32mI (13:52:38.404) CABINET: 2024-12-03 13:51:07
+[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.420) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.427) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.432) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.435) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.438) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.440) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:51:08 2024] [0;33mW (13:52:38.445) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:51:13 2024] [0;32mI (13:52:43.019) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:51:13 2024] [0;32mI (13:52:43.023) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:51:17 2024] [0;32mI (13:52:47.437) MQTT: Message sent: {
+	"continous_operation":	2.81,
+	"rtc":	"1733208676",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:51:17 2024] [0;32mI (13:52:47.608) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:51:42 2024] [0;32mI (13:53:13.403) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:51:42 2024] [0;32mI (13:53:13.407) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:51:46 2024] [0;32mI (13:53:17.830) MQTT: Message sent: {
+	"continous_operation":	2.81,
+	"rtc":	"1733208705",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:51:46 2024] [0;32mI (13:53:17.905) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:52:06 2024] [0;32mI (13:53:38.405) CABINET: 2024-12-03 13:52:05
+[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.421) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.427) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.432) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.434) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.437) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.439) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:52:06 2024] [0;33mW (13:53:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:52:12 2024] [0;32mI (13:53:43.783) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:52:12 2024] [0;32mI (13:53:43.788) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:52:16 2024] [0;32mI (13:53:48.219) MQTT: Message sent: {
+	"continous_operation":	2.82,
+	"rtc":	"1733208735",
+	"cpu_temp":	0,
+	"rssi":	-39
+}[0m
+[Tue Dec  3 13:52:16 2024] [0;32mI (13:53:48.290) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:52:41 2024] [0;32mI (13:54:14.151) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:52:41 2024] [0;32mI (13:54:14.155) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:52:45 2024] [0;32mI (13:54:18.600) MQTT: Message sent: {
+	"continous_operation":	2.83,
+	"rtc":	"1733208764",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:52:45 2024] [0;32mI (13:54:18.697) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:53:04 2024] [0;32mI (13:54:38.405) CABINET: 2024-12-03 13:53:03
+[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.420) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.426) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.431) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.434) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.436) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.439) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:53:04 2024] [0;33mW (13:54:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:53:10 2024] [0;32mI (13:54:44.525) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:53:10 2024] [0;32mI (13:54:44.530) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:53:15 2024] [0;32mI (13:54:48.982) MQTT: Message sent: {
+	"continous_operation":	2.84,
+	"rtc":	"1733208793",
+	"cpu_temp":	0,
+	"rssi":	-48
+}[0m
+[Tue Dec  3 13:53:15 2024] [0;32mI (13:54:49.173) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:53:40 2024] [0;32mI (13:55:14.895) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:53:40 2024] [0;32mI (13:55:14.899) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:53:44 2024] [0;32mI (13:55:19.366) MQTT: Message sent: {
+	"continous_operation":	2.85,
+	"rtc":	"1733208823",
+	"cpu_temp":	0,
+	"rssi":	-45
+}[0m
+[Tue Dec  3 13:53:44 2024] [0;32mI (13:55:19.455) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:54:02 2024] [0;32mI (13:55:38.405) CABINET: 2024-12-03 13:54:01
+[0m
+[Tue Dec  3 13:54:02 2024] [0;33mW (13:55:38.414) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:54:02 2024] [0;33mW (13:55:38.421) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:54:02 2024] [0;33mW (13:55:38.427) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:54:02 2024] [0;33mW (13:55:38.432) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:54:02 2024] [0;33mW (13:55:38.434) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:54:03 2024] [0;33mW (13:55:38.437) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:54:03 2024] [0;33mW (13:55:38.440) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:54:03 2024] [0;33mW (13:55:38.443) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:54:09 2024] [0;32mI (13:55:45.268) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:54:09 2024] [0;32mI (13:55:45.272) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:54:13 2024] [0;32mI (13:55:49.746) MQTT: Message sent: {
+	"continous_operation":	2.86,
+	"rtc":	"1733208852",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:54:14 2024] [0;32mI (13:55:49.837) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:54:39 2024] [0;32mI (13:56:15.629) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:54:39 2024] [0;32mI (13:56:15.633) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:54:43 2024] [0;32mI (13:56:20.117) MQTT: Message sent: {
+	"continous_operation":	2.87,
+	"rtc":	"1733208882",
+	"cpu_temp":	0,
+	"rssi":	-51
+}[0m
+[Tue Dec  3 13:54:43 2024] [0;32mI (13:56:20.337) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:55:01 2024] [0;32mI (13:56:38.404) CABINET: 2024-12-03 13:54:59
+[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:55:01 2024] [0;33mW (13:56:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:55:08 2024] [0;32mI (13:56:45.994) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:55:08 2024] [0;32mI (13:56:45.997) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:55:12 2024] [0;32mI (13:56:50.493) MQTT: Message sent: {
+	"continous_operation":	2.87,
+	"rtc":	"1733208911",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:55:12 2024] [0;32mI (13:56:50.613) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:55:37 2024] [0;32mI (13:57:16.381) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:55:37 2024] [0;32mI (13:57:16.386) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:55:42 2024] [0;32mI (13:57:20.882) MQTT: Message sent: {
+	"continous_operation":	2.88,
+	"rtc":	"1733208940",
+	"cpu_temp":	0,
+	"rssi":	-46
+}[0m
+[Tue Dec  3 13:55:42 2024] [0;32mI (13:57:21.078) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:55:59 2024] [0;32mI (13:57:38.405) CABINET: 2024-12-03 13:55:57
+[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:55:59 2024] [0;33mW (13:57:38.439) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:56:07 2024] [0;32mI (13:57:46.761) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:56:07 2024] [0;32mI (13:57:46.766) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:56:11 2024] [0;32mI (13:57:51.280) MQTT: Message sent: {
+	"continous_operation":	2.89,
+	"rtc":	"1733208970",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:56:11 2024] [0;32mI (13:57:51.489) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:56:36 2024] [0;32mI (13:58:17.131) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:56:36 2024] [0;32mI (13:58:17.136) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:56:40 2024] [0;32mI (13:58:21.655) MQTT: Message sent: {
+	"continous_operation":	2.9,
+	"rtc":	"1733208999",
+	"cpu_temp":	0,
+	"rssi":	-43
+}[0m
+[Tue Dec  3 13:56:41 2024] [0;32mI (13:58:21.728) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:56:57 2024] [0;32mI (13:58:38.404) CABINET: 2024-12-03 13:56:55
+[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:56:57 2024] [0;33mW (13:58:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:57:05 2024] [0;32mI (13:58:47.500) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:57:05 2024] [0;32mI (13:58:47.503) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:57:10 2024] [0;32mI (13:58:52.036) MQTT: Message sent: {
+	"continous_operation":	2.91,
+	"rtc":	"1733209029",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:57:10 2024] [0;32mI (13:58:52.185) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:57:35 2024] [0;32mI (13:59:17.876) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:57:35 2024] [0;32mI (13:59:17.881) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:57:39 2024] [0;32mI (13:59:22.428) MQTT: Message sent: {
+	"continous_operation":	2.92,
+	"rtc":	"1733209058",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:57:39 2024] [0;32mI (13:59:22.549) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:57:55 2024] [0;32mI (13:59:38.404) CABINET: 2024-12-03 13:57:54
+[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.430) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.435) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:57:55 2024] [0;33mW (13:59:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:58:04 2024] [0;32mI (13:59:48.253) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:58:04 2024] [0;32mI (13:59:48.256) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:58:09 2024] [0;32mI (13:59:52.804) MQTT: Message sent: {
+	"continous_operation":	2.92,
+	"rtc":	"1733209087",
+	"cpu_temp":	0,
+	"rssi":	-39
+}[0m
+[Tue Dec  3 13:58:09 2024] [0;32mI (13:59:52.934) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:58:34 2024] [0;32mI (14:00:18.615) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:58:34 2024] [0;32mI (14:00:18.619) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:58:38 2024] [0;32mI (14:00:23.177) MQTT: Message sent: {
+	"continous_operation":	2.93,
+	"rtc":	"1733209117",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:58:38 2024] [0;32mI (14:00:23.292) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:58:53 2024] [0;32mI (14:00:38.405) CABINET: 2024-12-03 13:58:52
+[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.412) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:58:53 2024] [0;33mW (14:00:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 13:59:03 2024] [0;32mI (14:00:48.965) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:59:03 2024] [0;32mI (14:00:48.970) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:59:08 2024] [0;32mI (14:00:53.537) MQTT: Message sent: {
+	"continous_operation":	2.94,
+	"rtc":	"1733209146",
+	"cpu_temp":	0,
+	"rssi":	-44
+}[0m
+[Tue Dec  3 13:59:08 2024] [0;32mI (14:00:53.652) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:59:32 2024] [0;32mI (14:01:19.344) Wifi: Checking for wifi status...[0m
+[Tue Dec  3 13:59:32 2024] [0;32mI (14:01:19.350) Wifi: Wifi is still connected[0m
+[Tue Dec  3 13:59:37 2024] [0;32mI (14:01:23.933) MQTT: Message sent: {
+	"continous_operation":	2.95,
+	"rtc":	"1733209176",
+	"cpu_temp":	0,
+	"rssi":	-42
+}[0m
+[Tue Dec  3 13:59:37 2024] [0;32mI (14:01:24.079) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Tue Dec  3 13:59:51 2024] [0;32mI (14:01:38.404) CABINET: 2024-12-03 13:59:50
+[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.411) CABINET: TIMER OF DEVICE 1[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.417) CABINET: TIMER OF DEVICE 2[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.422) CABINET: TIMER OF DEVICE 3[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.427) CABINET: TIMER OF DEVICE 4[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.429) CABINET: TIMER OF DEVICE 5[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.432) CABINET: TIMER OF DEVICE 6[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.434) CABINET: TIMER OF DEVICE 7[0m
+[Tue Dec  3 13:59:51 2024] [0;33mW (14:01:38.438) CABINET: TIMER OF DEVICE 8[0m
+[Tue Dec  3 14:00:02 2024] [0;32mI (14:01:49.727) Wifi: Checking for wifi status...[0m

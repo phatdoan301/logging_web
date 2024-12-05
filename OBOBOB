@@ -1,0 +1,241 @@
+[1mdiff --git a/envisor_log_server/credentials.json b/envisor_log_server/credentials.json[m
+[1mindex 31f4876..eff669d 100644[m
+[1m--- a/envisor_log_server/credentials.json[m
+[1m+++ b/envisor_log_server/credentials.json[m
+[36m@@ -1 +1 @@[m
+[31m-{"access_token": "ya29.a0AcM612weTcoxv-DWVnLWWfA47LALowWqEwX-bI-h-Dq3XaJAPnw_x8L2ZNtcNbxfFo7PqBsMJjyrlz3rcptPoQhv7ePai627jt902TKDvP_q1ZQE5m_xBsyplYTAO7wARXJ52Av82axWfRbFIkl81me4u-Pp9fzwfSo08Y0NW8EaCgYKAbsSARESFQHGX2Mij_pFbpVQ6ED7ChDf0vWhXA0178", "client_id": "318841079876-joo33h674cgaubehoer4fbobfsklu0n3.apps.googleusercontent.com", "client_secret": "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", "refresh_token": "1//0e2raqAXtdWj_CgYIARAAGA4SNwF-L9IrefqsTEqroSKtPNz_TnTQ2lEoMysGIHNsLG-wHLhRDfIXBek2_KBgrrS2F6M0xy_Ylvc", "token_expiry": "2024-10-06T12:00:02Z", "token_uri": "https://accounts.google.com/o/oauth2/token", "user_agent": null, "revoke_uri": "https://oauth2.googleapis.com/revoke", "id_token": null, "id_token_jwt": null, "token_response": {"access_token": "ya29.a0AcM612weTcoxv-DWVnLWWfA47LALowWqEwX-bI-h-Dq3XaJAPnw_x8L2ZNtcNbxfFo7PqBsMJjyrlz3rcptPoQhv7ePai627jt902TKDvP_q1ZQE5m_xBsyplYTAO7wARXJ52Av82axWfRbFIkl81me4u-Pp9fzwfSo08Y0NW8EaCgYKAbsSARESFQHGX2Mij_pFbpVQ6ED7ChDf0vWhXA0178", "expires_in": 3599, "scope": "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive.metadata https://www.googleapis.com/auth/drive.install", "token_type": "Bearer"}, "scopes": ["https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive.install", "https://www.googleapis.com/auth/drive.metadata"], "token_info_uri": "https://oauth2.googleapis.com/tokeninfo", "invalid": false, "_class": "OAuth2Credentials", "_module": "oauth2client.client"}[m
+\ No newline at end of file[m
+[32m+[m[32m{"access_token": "ya29.a0AeDClZA34Eo88BvEmEo7CP43t-GxucBewVqujCDmeKzbjO2GmlFXx4HPBTWGO9ItQsP05_VXSxF6UER0dh1D9uHmdsF7xWgxYWk66-BdnMlQq8DmAjG1naz2uDn5suwR7HWYPIIld6OJjblPN9UpLIypjZedzU7QtWdhKUCACCYaCgYKAcUSARESFQHGX2MiyT7GjJAcitpa0tB_AwcYIA0178", "client_id": "318841079876-joo33h674cgaubehoer4fbobfsklu0n3.apps.googleusercontent.com", "client_secret": "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", "refresh_token": "1//0e2raqAXtdWj_CgYIARAAGA4SNwF-L9IrefqsTEqroSKtPNz_TnTQ2lEoMysGIHNsLG-wHLhRDfIXBek2_KBgrrS2F6M0xy_Ylvc", "token_expiry": "2024-12-05T04:16:45Z", "token_uri": "https://accounts.google.com/o/oauth2/token", "user_agent": null, "revoke_uri": "https://oauth2.googleapis.com/revoke", "id_token": null, "id_token_jwt": null, "token_response": {"access_token": "ya29.a0AeDClZA34Eo88BvEmEo7CP43t-GxucBewVqujCDmeKzbjO2GmlFXx4HPBTWGO9ItQsP05_VXSxF6UER0dh1D9uHmdsF7xWgxYWk66-BdnMlQq8DmAjG1naz2uDn5suwR7HWYPIIld6OJjblPN9UpLIypjZedzU7QtWdhKUCACCYaCgYKAcUSARESFQHGX2MiyT7GjJAcitpa0tB_AwcYIA0178", "expires_in": 3599, "scope": "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive.metadata https://www.googleapis.com/auth/drive.install", "token_type": "Bearer"}, "scopes": ["https://www.googleapis.com/auth/drive.metadata", "https://www.googleapis.com/auth/drive.install", "https://www.googleapis.com/auth/drive.file"], "token_info_uri": "https://oauth2.googleapis.com/tokeninfo", "invalid": false, "_class": "OAuth2Credentials", "_module": "oauth2client.client"}[m
+\ No newline at end of file[m
+[1mdiff --git a/envisor_log_server/log_server_start.sh b/envisor_log_server/log_server_start.sh[m
+[1mold mode 100644[m
+[1mnew mode 100755[m
+[1mindex ff1c51f..9da8ab7[m
+[1m--- a/envisor_log_server/log_server_start.sh[m
+[1m+++ b/envisor_log_server/log_server_start.sh[m
+[36m@@ -3,3 +3,4 @@[m [mfor n in {6..13}[m
+ do[m
+     nohup python3 logging_envisor_testing_$n.py > envisor_testing_$n.out 2>&1 &[m
+ done[m
+[32m+[m[32mecho "Create server succesfully"[m
+[1mdiff --git a/index.html b/index.html[m
+[1mdeleted file mode 100644[m
+[1mindex bea073a..0000000[m
+[1m--- a/index.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,51 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="en">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Serial Monitor 06</title>[m
+[31m-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css" />[m
+[31m-    <style>[m
+[31m-        body, html {[m
+[31m-            height: 100%;[m
+[31m-            width: 99%;[m
+[31m-            margin: 5px;[m
+[31m-            display: flex;[m
+[31m-            flex-direction: column;[m
+[31m-        }[m
+[31m-        #terminal {[m
+[31m-            width: 99%;[m
+[31m-            height: 100%;[m
+[31m-            border: 1px solid #ccc;[m
+[31m-            padding: 10px;[m
+[31m-            background: #000;[m
+[31m-        }[m
+[31m-    </style>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-    <h1>WebSocket Serial Monitor</h1>[m
+[31m-    <div id="terminal"></div>[m
+[31m-    <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>[m
+[31m-    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.min.js"></script>[m
+[31m-    <script>[m
+[31m-        const terminal = new Terminal({convertEol: true});[m
+[31m-[m
+[31m-        terminal.open(document.getElementById('terminal'));[m
+[31m-        terminal.writeln('WebSocket Serial Monitor initialized.');[m
+[31m-[m
+[31m-        const fitAddon = new FitAddon.FitAddon();[m
+[31m-        terminal.loadAddon(fitAddon);[m
+[31m-        fitAddon.fit();[m
+[31m-[m
+[31m-        window.addEventListener('resize', () => {[m
+[31m-            fitAddon.fit();[m
+[31m-        });[m
+[31m-[m
+[31m-        // Replace 'ws://your-websocket-server' with your WebSocket server address[m
+[31m-        const socket = new WebSocket('ws://34.150.93.172:8006');[m
+[31m-        socket.onmessage = function(event) {[m
+[31m-            terminal.write(event.data + "\r\n");[m
+[31m-        };[m
+[31m-    </script>[m
+[31m-</body>[m
+[31m-</html>[m
+[1mdiff --git a/logging_envisor_testing_6.py b/logging_envisor_testing_6.py[m
+[1mdeleted file mode 100644[m
+[1mindex c1a7046..0000000[m
+[1m--- a/logging_envisor_testing_6.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,158 +0,0 @@[m
+[31m-#!/usr/bin/env python3[m
+[31m-import asyncio[m
+[31m-import websockets[m
+[31m-import socket[m
+[31m-from pydrive2.auth import GoogleAuth[m
+[31m-from pydrive2.drive import GoogleDrive[m
+[31m-from datetime import datetime, timedelta[m
+[31m-import time[m
+[31m-import os[m
+[31m-[m
+[31m-# WebSocket clients[m
+[31m-CONNECTIONS = set()[m
+[31m-[m
+[31m-# UDP server configuration[m
+[31m-UDP_IP = "0.0.0.0"[m
+[31m-UDP_PORT = 5006[m
+[31m-WS_PORT = 8006[m
+[31m-base_log_dir = "logs_envisor_testing_06"[m
+[31m-drive_dir = '1CKfrJlCzmKZob8DHjN4ca3Hvdi_R32tm'[m
+[31m-os.makedirs(base_log_dir, exist_ok=True)[m
+[31m-uploaded_files = [][m
+[31m-[m
+[31m-def get_time():[m
+[31m-    try:[m
+[31m-        time_string = time.asctime()[m
+[31m-        return time_string.replace(" ", "_")[m
+[31m-    except Exception as e:[m
+[31m-        return f"Failed to get time: {e}"[m
+[31m-[m
+[31m-def upload_to_drive(file_path, folder_id):[m
+[31m-    gauth = GoogleAuth()[m
+[31m-    gauth.LocalWebserverAuth()[m
+[31m-    drive = GoogleDrive(gauth)[m
+[31m-    file_drive = drive.CreateFile({"parents": [{"id": folder_id}], "title": os.path.basename(file_path)})[m
+[31m-    file_drive.SetContentFile(file_path)[m
+[31m-    file_drive.Upload()[m
+[31m-    print(f"Uploaded {file_path} to Google Drive.")[m
+[31m-    uploaded_files.append(file_path)[m
+[31m-[m
+[31m-def create_drive_folder(folder_name, parent_id = drive_dir):[m
+[31m-    folder_id = None[m
+[31m-    gauth = GoogleAuth()[m
+[31m-    gauth.LocalWebserverAuth()[m
+[31m-    drive = GoogleDrive(gauth)[m
+[31m-    query = f"title='{folder_name}' and mimeType='application/vnd.google-apps.folder' and '{parent_id}' in parents and trashed=false"[m
+[31m-    file_list = drive.ListFile({'q': query}).GetList()[m
+[31m-    if file_list:[m
+[31m-        print(f"Folder {folder_name} already exists on Google Drive.")[m
+[31m-        folder_id = file_list[0]['id'][m
+[31m-    else:[m
+[31m-        folder_metadata = {'title': folder_name, 'mimeType': 'application/vnd.google-apps.folder', 'parents': [{'id': parent_id}]}[m
+[31m-        folder = drive.CreateFile(folder_metadata)[m
+[31m-        folder.Upload()[m
+[31m-        print(f"Created folder {folder_name} on Google Drive.")[m
+[31m-        folder_id = folder['id'][m
+[31m-    if folder_id:[m
+[31m-        local_folder_path = os.path.join(base_log_dir, folder_name)[m
+[31m-        os.makedirs(local_folder_path, exist_ok=True)[m
+[31m-        print(f"Created local folder {local_folder_path}.")[m
+[31m-    return folder_id[m
+[31m-[m
+[31m-def list_drive_files(folder_id):[m
+[31m-    gauth = GoogleAuth()[m
+[31m-    gauth.LocalWebserverAuth()[m
+[31m-    drive = GoogleDrive(gauth)[m
+[31m-    query = f"'{folder_id}' in parents and trashed=false"[m
+[31m-    file_list = drive.ListFile({'q': query}).GetList()[m
+[31m-    return [file['title'] for file in file_list][m
+[31m-[m
+[31m-def check_and_upload_unuploaded_files(folder_id, local_folder_path):[m
+[31m-    drive_files = list_drive_files(folder_id)[m
+[31m-    for filename in os.listdir(local_folder_path):[m
+[31m-        if filename not in drive_files:[m
+[31m-            file_path = os.path.join(local_folder_path, filename)[m
+[31m-            upload_to_drive(file_path, folder_id)[m
+[31m-[m
+[31m-async def udp_listener():[m
+[31m-    global log_file, log_file_path, current_hour, current_day, folder_id[m
+[31m-[m
+[31m-    current_day = datetime.now().date()[m
+[31m-    folder_name = str(current_day)[m
+[31m-    folder_id = create_drive_folder(folder_name)[m
+[31m-    local_folder_path = os.path.join(base_log_dir, folder_name)[m
+[31m-    current_hour = datetime.now().hour[m
+[31m-    log_file_path = os.path.join(local_folder_path, f"log_{current_day}_{current_hour}.txt")[m
+[31m-    log_file = open(log_file_path, "a")[m
+[31m-    # Create UDP socket[m
+[31m-    udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)[m
+[31m-    udp_sock.setblocking(False)  # Set socket to non-blocking mode[m
+[31m-    udp_sock.bind((UDP_IP, UDP_PORT))[m
+[31m-    print(f"Listening for UDP packets on {UDP_IP}:{UDP_PORT}")[m
+[31m-[m
+[31m-    loop = asyncio.get_event_loop()[m
+[31m-    while True:[m
+[31m-        try:[m
+[31m-            # Directly use loop.sock_recv_from to receive both data and address[m
+[31m-            data, addr = await loop.sock_recvfrom(udp_sock, 1024)  # Buffer size is 1024 bytes[m
+[31m-            if not data:[m
+[31m-                continue[m
+[31m-            # Decode and strip newline characters[m
+[31m-            message = "[" + get_time().replace("_", " ") + "] " + data.decode().strip()[m
+[31m-            print(f"Received message: {message} from {addr}")[m
+[31m-            log_file.writelines(message + "\n")[m
+[31m-            log_file.flush()[m
+[31m-            # Broadcast received message to all WebSocket clients[m
+[31m-            if CONNECTIONS:[m
+[31m-                await asyncio.gather(*(client.send(message) for client in CONNECTIONS))[m
+[31m-        except BlockingIOError:[m
+[31m-            # Non-blocking sockets raise this when no data is available[m
+[31m-            await asyncio.sleep(0.001)  # Short delay to prevent busy-waiting[m
+[31m-        except Exception as e:[m
+[31m-            print(f"Error receiving UDP data: {e}")[m
+[31m-[m
+[31m-        now = datetime.now()[m
+[31m-        if now.hour != current_hour:[m
+[31m-            log_file.close()[m
+[31m-            if folder_id:[m
+[31m-                upload_to_drive(log_file_path, folder_id)[m
+[31m-            current_hour = now.hour[m
+[31m-            log_file_path = os.path.join(local_folder_path, f"log_{now.date()}_{current_hour}.txt")[m
+[31m-            log_file = open(log_file_path, "a")[m
+[31m-        # Check if the current day has changed[m
+[31m-        if datetime.now().date() != current_day:[m
+[31m-            check_and_upload_unuploaded_files(folder_id,local_folder_path)[m
+[31m-            current_day = datetime.now().date()[m
+[31m-            folder_name = str(current_day)[m
+[31m-            folder_id = create_drive_folder(folder_name)[m
+[31m-            local_folder_path = os.path.join(base_log_dir, folder_name)[m
+[31m-[m
+[31m-async def echo(websocket):[m
+[31m-    if websocket not in CONNECTIONS:[m
+[31m-        CONNECTIONS.add(websocket)[m
+[31m-        notification = f"New client connected. Total clients: {len(CONNECTIONS)}"[m
+[31m-        print(notification)[m
+[31m-        await asyncio.gather(*(client.send(notification) for client in CONNECTIONS))[m
+[31m-    try:[m
+[31m-        async for message in websocket:[m
+[31m-            await asyncio.gather(*(client.send(message) for client in CONNECTIONS))[m
+[31m-    finally:[m
+[31m-        CONNECTIONS.remove(websocket)[m
+[31m-        notification = f"Client disconnected. Total clients: {len(CONNECTIONS)}"[m
+[31m-        print(notification)[m
+[31m-        await asyncio.gather(*(client.send(notification) for client in CONNECTIONS))[m
+[31m-[m
+[31m-async def websocket_server():[m
+[31m-    async with websockets.serve(echo, "0.0.0.0", WS_PORT, ping_timeout=180, ping_interval=60):[m
+[31m-        print("Connected to WebSocket server")[m
+[31m-        await asyncio.Future()  # run forever[m
+[31m-[m
+[31m-async def main():[m
+[31m-    # Run UDP listener and WebSocket server concurrently[m
+[31m-    await asyncio.gather([m
+[31m-        udp_listener(),[m
+[31m-        websocket_server()[m
+[31m-    )[m
+[31m-[m
+[31m-if __name__ == "__main__":[m
+[31m-    asyncio.run(main())[m

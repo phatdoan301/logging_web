@@ -1,0 +1,129 @@
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:37.121) Wifi: Provisioning successful[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.163) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.167) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.170) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+[0m
+[Mon Nov 25 19:05:34 2024] [0;31mE (00:51:40.182) protocomm_nimble: Error setting advertisement data; rc = 30[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.192) wifi_prov_mgr: Provisioning stopped[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.194) Wifi: BLE transport: Disconnected![0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.197) Wifi: BLE transport: Disconnected![0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.203) Wifi: Provisioning ended[0m
+[Mon Nov 25 19:05:34 2024] [0;33mW (00:51:40.208) MAIN: Finish led task[0m
+[Mon Nov 25 19:05:34 2024] 
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.208) wifi_prov_scheme_ble: BTDM memory released[0m
+[Mon Nov 25 19:05:34 2024] [0;33mW (00:51:40.212) MAIN: Into led task[0m
+[Mon Nov 25 19:05:34 2024] [0;33mW (00:51:40.223) Wifi: Wifi initialized[0m
+[Mon Nov 25 19:05:34 2024] I (3101004) wifi:
+[Mon Nov 25 19:05:34 2024] Set ps type: 1, coexist: 0
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.232) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.242) sleep: Code start at 0x42000020, total 923899, data start at 0x3c0f0020, total 301432 Bytes[0m
+[Mon Nov 25 19:05:34 2024] [0;32mI (00:51:40.253) Wifi: Power save mode enabled[0m
+[Mon Nov 25 19:05:34 2024] [0;33mW (00:51:40.257) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Mon Nov 25 19:05:36 2024] [0;33mW (00:51:24.401) Timestamp: Waiting for system time to be set... (1/10)[0m
+[Mon Nov 25 19:05:38 2024] [0;33mW (00:51:26.517) Timestamp: Waiting for system time to be set... (2/10)[0m
+[Mon Nov 25 19:05:39 2024] [0;33mW (19:05:39.212) Timestamp: The current date/time in Vietnam is: Mon Nov 25 19:05:39 2024[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.216) Timestamp: System time set successfully[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.222) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.228) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.400) MQTT: Other event id:7[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.650) MQTT: MQTT_EVENT_CONNECTED[0m
+[Mon Nov 25 19:05:39 2024] [0;33mW (19:05:39.653) MAIN: Finish led task[0m
+[Mon Nov 25 19:05:39 2024] [0;33mW (19:05:39.656) MQTT: Broker connected , ready publish............[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.663) MQTT: Message sent: {
+	"uptime":	0.86,
+	"rssi":	-42
+}[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.666) MQTT: CPU frequency: 80[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.720) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.855) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.906) MQTT: MQTT_RECEIVED DATA[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.909) MQTT: Extracted requestId: 2281[0m
+[Mon Nov 25 19:05:39 2024] [0;32mI (19:05:39.915) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2281[0m
+[Mon Nov 25 19:05:40 2024] [0;32mI (19:05:40.065) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Mon Nov 25 19:05:40 2024] [0;32mI (19:05:40.784) MQTT: MQTT_RECEIVED DATA[0m
+[Mon Nov 25 19:05:40 2024] [0;32mI (19:05:40.786) MQTT: Extracted requestId: 2282[0m
+[Mon Nov 25 19:05:40 2024] [0;32mI (19:05:40.791) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2282[0m
+[Mon Nov 25 19:05:40 2024] [0;32mI (19:05:40.880) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Mon Nov 25 19:06:11 2024] [0;32mI (19:06:11.122) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:06:11 2024] [0;32mI (19:06:11.125) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:06:42 2024] [0;32mI (19:06:42.548) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:06:42 2024] [0;32mI (19:06:42.551) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:07:14 2024] [0;32mI (19:07:14.117) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:07:14 2024] [0;32mI (19:07:14.121) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:09:22 2024] [0;32mI (00:01:55.456) wifi_prov_mgr: STA Got IP[0m
+[Mon Nov 25 19:09:22 2024] [0;32mI (00:01:55.462) Wifi: Provisioning successful[0m
+[Mon Nov 25 19:09:22 2024] 
+[Mon Nov 25 19:09:22 2024] 
+[Mon Nov 25 19:09:22 2024] I (116254) wifi:
+[Mon Nov 25 19:09:22 2024] <ba-del>idx:0, tid:5
+[Mon Nov 25 19:09:22 2024] I (116254) wifi:
+[Mon Nov 25 19:09:22 2024] <ba-add>idx:0 (ifx:0, 3c:52:a1:4a:76:4f), tid:5, ssn:13, winSize:64
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.226) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.230) NimBLE: GAP procedure initiated: stop advertising.
+[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.234) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+[0m
+[Mon Nov 25 19:09:25 2024] [0;31mE (00:01:58.245) protocomm_nimble: Error setting advertisement data; rc = 30[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.255) wifi_prov_mgr: Provisioning stopped[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.257) Wifi: BLE transport: Disconnected![0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.262) Wifi: BLE transport: Disconnected![0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.267) Wifi: Provisioning ended[0m
+[Mon Nov 25 19:09:25 2024] [0;33mW (00:01:58.271) MAIN: Finish led task[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.272) wifi_prov_scheme_ble: BTDM memory released[0m
+[Mon Nov 25 19:09:25 2024] [0;33mW (00:01:58.276) MAIN: Into led task[0m
+[Mon Nov 25 19:09:25 2024] [0;33mW (00:01:58.283) Wifi: Wifi initialized[0m
+[Mon Nov 25 19:09:25 2024] 
+[Mon Nov 25 19:09:25 2024] I (119064) wifi:
+[Mon Nov 25 19:09:25 2024] Set ps type: 1, coexist: 0
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.296) pm: Frequency switching config: CPU_MAX: 80, APB_MAX: 80, APB_MIN: 10, Light sleep: ENABLED[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.305) sleep: Code start at 0x42000020, total 923899, data start at 0x3c0f0020, total 301432 Bytes[0m
+[Mon Nov 25 19:09:25 2024] [0;32mI (00:01:58.316) Wifi: Power save mode enabled[0m
+[Mon Nov 25 19:09:25 2024] [0;33mW (00:01:58.321) Timestamp: Time is not set yet. Initializing and starting SNTP.[0m
+[Mon Nov 25 19:09:26 2024] [0;33mW (19:09:26.484) Timestamp: The current date/time in Vietnam is: Mon Nov 25 19:09:26 2024[0m
+[Mon Nov 25 19:09:26 2024] [0;32mI (19:09:26.488) Timestamp: System time set successfully[0m
+[Mon Nov 25 19:09:26 2024] [0;32mI (19:09:26.493) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:09:26 2024] [0;32mI (19:09:26.499) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:29.967) MQTT: Other event id:7[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.262) MQTT: MQTT_EVENT_CONNECTED[0m
+[Mon Nov 25 19:09:30 2024] [0;33mW (19:09:30.265) MAIN: Finish led task[0m
+[Mon Nov 25 19:09:30 2024] [0;33mW (19:09:30.269) MQTT: Broker connected , ready publish............[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.275) MQTT: Message sent: {
+	"uptime":	0.03,
+	"rssi":	-41
+}[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.284) MQTT: CPU frequency: 80[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.331) MQTT: MQTT_EVENT_SUBSCRIBED[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.392) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.495) MQTT: MQTT_RECEIVED DATA[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.498) MQTT: Extracted requestId: 2284[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.504) MQTT: Sent ACK to topic: v1/devices/me/rpc/response/2284[0m
+[Mon Nov 25 19:09:30 2024] [0;32mI (19:09:30.668) MQTT: MQTT_EVENT_PUBLISHED[0m
+[Mon Nov 25 19:09:58 2024] [0;32mI (19:09:58.451) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:09:58 2024] [0;32mI (19:09:58.454) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:10:30 2024] [0;32mI (19:10:30.501) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:10:30 2024] [0;32mI (19:10:30.504) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:11:02 2024] [0;32mI (19:11:02.405) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:11:02 2024] [0;32mI (19:11:02.408) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:11:34 2024] [0;32mI (19:11:34.322) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:11:34 2024] [0;32mI (19:11:34.325) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:12:06 2024] [0;32mI (19:12:06.075) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:12:06 2024] [0;32mI (19:12:06.078) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:12:37 2024] [0;32mI (19:12:37.725) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:12:37 2024] [0;32mI (19:12:37.728) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:13:09 2024] [0;32mI (19:13:09.257) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:13:09 2024] [0;32mI (19:13:09.260) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:13:40 2024] [0;32mI (19:13:40.807) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:13:40 2024] [0;32mI (19:13:40.810) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:14:12 2024] [0;32mI (19:14:12.139) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:14:12 2024] [0;32mI (19:14:12.142) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:14:43 2024] [0;32mI (19:14:43.582) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:14:43 2024] [0;32mI (19:14:43.585) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:15:15 2024] [0;32mI (19:15:15.351) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:15:15 2024] [0;32mI (19:15:15.354) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:15:46 2024] [0;32mI (19:15:46.898) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:15:46 2024] [0;32mI (19:15:46.901) Wifi: Wifi is still connected[0m
+[Mon Nov 25 19:16:18 2024] [0;32mI (19:16:18.870) Wifi: Checking for wifi status...[0m
+[Mon Nov 25 19:16:18 2024] [0;32mI (19:16:18.873) Wifi: Wifi is still connected[0m
